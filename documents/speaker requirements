@@ -9,10 +9,12 @@ General:
 Basic app abilities:
   *read/reply to posts
   *ability to 
-      -mark topics of interest
-	    -follow people and hashtags
-    	-unfollow people
-    	-like posts
+	 -mark topics of interest
+	-follow/unfollow people 
+	- hashtags
+	- block people from following
+    	-like/unlike posts
+    	
 
 Account creation/Logging in:
       -Cannot do anything until you log in (searching posting etc...)
@@ -22,6 +24,7 @@ Account creation/Logging in:
           	~way to create/register a new account
           	~user MUST have an email (communication path and for account verification)
           	~will have ability to change password but NOT username or email
+          	- able to tell how strong the password is
           	~ONE email can only have ONE username (because of account recovery)
           	~OPTIONAL: user photo
           	~X attempts at logging in will block further attempts for X amount of time
