@@ -7,7 +7,6 @@ class Home extends CI_Controller
 	function __construct()
 	{
 		parent::__construct();
-                $data['errors'] = array();
 		$this->load->helper(array('form', 'url'));
 		$this->load->library('security');
 		$this->load->library('tank_auth');
@@ -35,6 +34,13 @@ class Home extends CI_Controller
 	function yourposts($data = null) {
                 $this->check_login();
 
+                if (isset($data['errors'])) {
+                    $errors = $data['errors'];
+                    $data = array();
+                    $data['errors'] = $errors;
+                } else {
+                    $data = array();
+                }
                 // we want to grab the last 10 posts made by you
                 $user_id = $this->tank_auth->get_user_id();
 
@@ -44,10 +50,10 @@ class Home extends CI_Controller
                         // means a page was sent
                         $page = 1;
                 }
-                
+
                 $data['posts'] = $this->posts->get_posts_by_user_id($user_id, $page);
                 $num_total_posts = $this->posts->get_number_posts_by_user_id($user_id);
-                $data['num_pages'] = ceil(intval($this->posts->get_number_posts_by_user_id($user_id))/10);
+                $data['num_pages'] = ceil(intval($num_total_posts)/10);
                 $data['current_page'] = $page;
                 $data['base_url'] = $this->config->item('base_url');
                 $this->session->set_flashdata('redirect_url', '/home/yourposts/');
@@ -103,6 +109,11 @@ class Home extends CI_Controller
                 if ($this->form_validation->run()) {
                         $post = $this->form_validation->set_value('post');
                         
+                        $parent_id = intval($this->uri->segment(3));
+                        if (empty($parent_id)) {
+                                $parent_id = 0;
+                        }
+                        
                         // In here we must separate the hashtags
                         preg_match_all("/#\w+/", $post, $hashtags);
                         if (!empty($hashtags[0])) {
@@ -116,9 +127,9 @@ class Home extends CI_Controller
                         } else {
                                 if (!$new_hashtags) {
                                         // no hashtags
-                                        $post = $this->posts->add_post($user_id, $post);
+                                        $post = $this->posts->add_post($user_id, $post, $parent_id);
                                 } else {
-                                        $post = $this->posts->add_post($user_id, $post);
+                                        $post = $this->posts->add_post($user_id, $post, $parent_id);
                                         // check if the hashtag(s) already exist in the database
                                         // if they do, add that id to the post hashtag relationship
                                         // otherwise, add the hashtag, then the relationship
@@ -155,9 +166,14 @@ class Home extends CI_Controller
                         }
                 }
                 if (empty($data['errors'])) {
-                    $this->yourposts();
+                        redirect($this->session->flashdata('redirect_url'));
                 } else {
-                    $this->yourposts($data);
+                        if ($parent_id != 0) {
+                            $this->see_replies($parent_id, $data);
+                        } else {
+                            // your posts
+                            $this->yourposts($data);
+                        }
                 }
 
                 
@@ -192,13 +208,17 @@ class Home extends CI_Controller
                 }
         }
         
-        function see_replies() {
+        function see_replies($parent_id = 0, $data = null) {
                 $this->check_login();
                 
-                $post_id = intval($this->uri->segment(3));
+                if ($parent_id == 0) {
+                    $post_id = intval($this->uri->segment(3));
+                } else {
+                    $post_id = intval($parent_id);
+                }
+                
                 $user_id = $this->tank_auth->get_user_id();
                 $is_post = $this->posts->is_post($post_id);
-                $data['errors'] = array();
 
                 // Check for empty or if it's not an integer
                 if (empty($post_id) || !is_int($post_id) || !$is_post) {
@@ -212,24 +232,160 @@ class Home extends CI_Controller
                                 // means a page was sent
                                 $page = 1;
                         }
+                        // grab all of the post information
+                        
+                        $data['parent_post'] = $this->posts->get_parent_post($post_id);
 
-                        $data['posts'] = $this->posts->get_posts_by_user_id($user_id, $page);
-                        $num_total_posts = $this->posts->get_number_posts_by_user_id($user_id);
-                        $data['num_pages'] = ceil(intval($this->posts->get_number_posts_by_user_id($user_id))/10);
+                        $data['posts'] = $this->posts->get_replies_by_post_id($post_id, $page);
+                        $num_total_posts = $this->posts->get_number_replies_by_post_id($user_id);
+                        $data['num_pages'] = ceil(intval($num_total_posts)/10);
                         $data['current_page'] = $page;
                         $data['base_url'] = $this->config->item('base_url');
-                        $this->session->set_flashdata('redirect_url', '/home/yourposts/');
-                        
-                        // If the post is already liked, dislike it
-                        if ($this->posts->is_liked($user_id, $post_id)) {
-                                $this->posts->dislike_post($user_id, $post_id);
-                        } else {
-                                $this->posts->like_post($user_id, $post_id);
-                        }
-                        redirect($redirect_url);
+                        $this->session->set_flashdata('redirect_url', '/home/see_replies/'.$post_id);
                 }
                 
-                $this->load->view('', $data);
+                $this->load->view('home/postsview', $data);
+        }
+        
+        function search() {
+                $this->check_login();
+                $this->load->helper('security');
+                $data['hashtag_results'] = array();
+                $data['user_results'] = array();
+                $data['base_url'] = $this->config->item('base_url');
+                $this->session->set_flashdata('redirect_url', '/home/search/');
+                $user_id = $this->tank_auth->get_user_id();
+                
+                // check for paging
+                if (!isset($_GET['page']) || empty($_GET['page']) || !is_int($_GET['page'])) {
+                        // means a page was sent
+                        $page = 1;
+                } else {
+                        $page = intval($_GET['page']);
+                }
+                
+                // check if the flashdata is set, use that instead
+                $flashdata_errors = $this->session->flashdata('errors');
+                if (!empty($flashdata_errors)) {
+                        $data['errors'] = $flashdata_errors;
+                }
+                
+                // are we going to be searching users or hashtags? I dunno!!!
+                $this->load->library('form_validation');
+                // the multiple variables
+                
+                if (isset($_GET['submit'])) {
+                        $search_terms = xss_clean(trim($_GET['search']));
+                        if (strlen($search_terms) > 200) {
+                                $data['errors'] = array('search_error', 'The length of the search term is too long.');
+                        } else {
+                                $terms[0] = "";
+                                $terms[1] = "";
+                                $terms[2] = "";
+                                $terms = explode(" ", $search_terms);
+
+                                // check for hashtag in the first one
+                                preg_match_all("/#\w+/", $terms[0], $hashtag);
+                                if (!empty($hashtag[0])) {
+                                        // hashtag search
+                                        $clean_hashtag = $this->clean_hashtags($hashtag[0]);
+
+                                        $data['hashtag_results'] = $this->hashtags->search_hashtags($clean_hashtag[0]);
+                                        //$num_results = $this->hashtags->search_hashtags_count($clean_hashtag[0]);
+                                } else {
+                                        // user search
+                                        if (!isset($terms[1])) {
+                                                $data['user_results'] = $this->users->search_users($terms[0]);
+                                        } elseif (!isset($terms[2])) {
+                                                $data['user_results'] = $this->users->search_users($terms[0], $terms[1]);
+                                        } else {
+                                                $data['user_results'] = $this->users->search_users($terms[0], $terms[1], $terms[2]);
+                                        }
+                                }
+
+                                $this->session->set_flashdata('redirect_url', '/home/search?search='.urlencode($search_terms).'&submit=Submit&page='.$page);
+                                //$num_total_posts = $this->posts->get_number_posts_by_user_id($user_id);
+                                //$data['num_pages'] = ceil(intval($num_total_posts)/10);
+                                //$data['current_page'] = $page;
+                                $data['logged_in_user_id'] = $user_id;
+                        }
+                }
+                
+                $this->load->view('home/search_view', $data);
+        }
+        
+        function follow_user() {
+                $this->check_login();
+
+                $follower_id = $this->tank_auth->get_user_id();
+                $followed_id = intval($this->uri->segment(3));
+
+                if (empty($followed_id) || !is_int($followed_id)) {
+                        // error
+                        $data['errors'] = array('follow_error', 'We could not follow this user. Please try again.');
+                } else {
+                        $is_user = $this->users->get_user_by_id($followed_id, 1);
+                        if (is_null($is_user)) {
+                                // error
+                                $data['errors'] = array('follow_error', 'We could not follow this user. Please try again.');
+                        } else {
+                                // add the relationship if not already there
+                                if ($this->users->is_followed($follower_id, $followed_id)) {
+                                        $data['errors'] = array('follow_error', 'You are already following this person.');
+                                } else {
+                                        if (!$this->users->follow_user($follower_id, $followed_id)) {
+                                                // error
+                                                $data['errors'] = array('follow_error', 'We could not follow this user. Please try again.');
+                                        }
+                                }
+                        }
+                }
+                
+                // redirect irregardless if there is an error or not
+                $redirect_url = $this->session->flashdata('redirect_url');
+                $this->session->set_flashdata('errors', $data['errors']);
+                if (!empty($redirect_url)) {
+                        redirect($redirect_url);
+                } else {
+                        redirect('home/yourposts');
+                }
+        }
+        
+        function follow_hashtag() {
+                $this->check_login();
+
+                $follower_id = $this->tank_auth->get_user_id();
+                $hashtag_id = intval($this->uri->segment(3));
+
+                if (empty($hashtag_id) || !is_int($hashtag_id)) {
+                        // error
+                        $data['errors'] = array('follow_error', 'We could not follow this user. Please try again.');
+                } else {
+                        $is_hashtag = $this->hashtags->get_hashtag_name($hashtag_id);
+                        if (is_null($is_hashtag)) {
+                                // error
+                                $data['errors'] = array('follow_error', 'We could not follow this hashtag. Please try again.');
+                        } else {
+                                // add the relationship if not already there
+                                if ($this->hashtags->is_followed($follower_id, $hashtag_id)) {
+                                        $data['errors'] = array('follow_error', 'You are already following this hashtag.');
+                                } else {
+                                        if (!$this->hashtags->follow_hashtag($follower_id, $hashtag_id)) {
+                                                // error
+                                                $data['errors'] = array('follow_error', 'We could not follow this hashtag. Please try again.');
+                                        }
+                                }
+                        }
+                }
+                
+                // redirect irregardless if there is an error or not
+                $redirect_url = $this->session->flashdata('redirect_url');
+                $this->session->set_flashdata('errors', $data['errors']);
+                if (!empty($redirect_url)) {
+                        redirect($redirect_url);
+                } else {
+                        redirect('home/yourposts');
+                }
         }
 
 }

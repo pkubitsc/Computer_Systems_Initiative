@@ -54,14 +54,21 @@ class Posts extends CI_Model
                 return $result['num_posts'];
         }
         
-        function get_posts_by_user_id($user_id, $page = 1) {
+        function get_number_replies_by_post_id($post_id) {
+                $query = "SELECT COUNT(*) AS num_posts FROM Posts WHERE parent_id=".$post_id;
+                $get = $this->db->query($query);
+                $result = $get->row_array();
+                return $result['num_posts'];
+        }
+        
+        function get_replies_by_post_id($parent_id, $page = 1) {
                 
                 $query = "SELECT Posts.*, users.username, user_profiles.profile_image,
                             (SELECT COUNT(*) FROM PostLikes WHERE PostLikes.user_id=Posts.user_id AND PostLikes.post_id=Posts.post_id) AS is_liked
                             FROM Posts
                             JOIN users ON Posts.user_id = users.id
                             JOIN user_profiles ON Posts.user_id = user_profiles.user_id
-                            WHERE Posts.user_id=".$user_id."
+                            WHERE Posts.parent_id=".$parent_id."
                             ORDER BY Posts.created DESC
                             LIMIT ".(($page-1)*10).",10";
                 
@@ -78,6 +85,56 @@ class Posts extends CI_Model
                 
                 //$query = $this->db->query("SELECT * FROM ".$this->table_name." WHERE user_id=".$user_id);
 		return $get->result_array();
+                    
+        }
+        
+        function get_posts_by_user_id($user_id, $page = 1) {
+                $query = "SELECT Posts.*, users.username, user_profiles.profile_image,
+                            (SELECT COUNT(*) FROM PostLikes WHERE PostLikes.user_id=Posts.user_id AND PostLikes.post_id=Posts.post_id) AS is_liked
+                            FROM Posts
+                            JOIN users ON Posts.user_id = users.id
+                            JOIN user_profiles ON Posts.user_id = user_profiles.user_id
+                            WHERE Posts.user_id=".$user_id."
+                            ORDER BY Posts.created DESC
+                            LIMIT ".(($page-1)*10).",10";
+                //$this->db->select('Posts.*, users.username, user_profiles.profile_image', FALSE);
+                //$this->db->join($this->users_table_name, 'Posts.user_id = users.id');
+                //$this->db->join('user_profiles', 'Posts.user_id = user_profiles.user_id');
+                //$this->db->join('PostLikes', 'Posts.user_id = PostLikes.user_id AND Posts.post_id = PostLikes.post_id');
+                //$this->db->where('Posts.user_id', $user_id);
+                //$this->db->limit(10, $page*10);
+                
+                //$query = $this->db->get($this->table_name);
+                
+                $get = $this->db->query($query);
+                
+                //$query = $this->db->query("SELECT * FROM ".$this->table_name." WHERE user_id=".$user_id);
+		return $get->result_array();
+                    
+        }
+        
+        function get_parent_post($post_id) {
+                
+                $query = "SELECT Posts.*, users.username, user_profiles.profile_image,
+                            (SELECT COUNT(*) FROM PostLikes WHERE PostLikes.user_id=Posts.user_id AND PostLikes.post_id=Posts.post_id) AS is_liked
+                            FROM Posts
+                            JOIN users ON Posts.user_id = users.id
+                            JOIN user_profiles ON Posts.user_id = user_profiles.user_id
+                            WHERE Posts.post_id=".$post_id;
+                
+                //$this->db->select('Posts.*, users.username, user_profiles.profile_image', FALSE);
+                //$this->db->join($this->users_table_name, 'Posts.user_id = users.id');
+                //$this->db->join('user_profiles', 'Posts.user_id = user_profiles.user_id');
+                //$this->db->join('PostLikes', 'Posts.user_id = PostLikes.user_id AND Posts.post_id = PostLikes.post_id');
+                //$this->db->where('Posts.user_id', $user_id);
+                //$this->db->limit(10, $page*10);
+                
+                //$query = $this->db->get($this->table_name);
+                
+                $get = $this->db->query($query);
+                
+                //$query = $this->db->query("SELECT * FROM ".$this->table_name." WHERE user_id=".$user_id);
+		return $get->row_array();
                     
         }
         

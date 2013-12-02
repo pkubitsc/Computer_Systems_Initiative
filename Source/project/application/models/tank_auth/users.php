@@ -14,6 +14,7 @@ class Users extends CI_Model
 {
 	private $table_name			= 'users';			// user accounts
 	private $profile_table_name	= 'user_profiles';	// user profiles
+        private $following_table_name = 'Following';
 
 	function __construct()
 	{
@@ -451,10 +452,6 @@ class Users extends CI_Model
                 return null;
         }
         
-        function follow_user($follower_id, $followed_id) {
-            
-        }
-        
         public function search_users($str1 = null, $str2 = null, $str3 = null, $page = 1) {
                 // for each argument passed...
                 // 1 argument = just un, or just fn, or just ln
@@ -485,6 +482,27 @@ class Users extends CI_Model
 		$results = $query->result_array();
                 return $results;
         }
+        
+        function follow_user($follower_id, $followed_id) {
+                $this->db->set('user_id', $follower_id);
+                $this->db->set('following_id', $followed_id);
+                if ($this->db->insert($this->following_table_name)) {
+                        return true;
+                }
+                return false;	
+       }
+       
+       function is_followed($follower_id, $followed_id) {
+       
+                $this->db->where('user_id', $follower_id);
+                $this->db->where('following_id', $followed_id);
+                $query = $this->db->get($this->following_table_name);
+                
+                if ($query->num_rows() > 0) {
+                        return TRUE;
+                }
+                return FALSE;	
+       }
 }
 
 /* End of file users.php */

@@ -59,25 +59,13 @@ $pages = paging($num_pages, $current_page);
 <div id="header-wrapper">
 	<div id="header">
 		<div id="menu">
-			<ul>
 				<ul>
 				  <li><a href="<?php echo $base_url;?>index.php/home/yourposts/">HomePage</a></li>
 				  <li><a href="<?php echo $base_url;?>index.php/auth/change_profile">Profile</a></li>
-				  <li><a href="<?php echo $base_url;?>index.php/search/">Search</a></li>
+				  <li><a href="<?php echo $base_url;?>index.php/home/search">Search</a></li>
 				  <li><a href="<?php echo $base_url;?>index.php/auth/logout">Logout</a></li>
 			</ul>
 		</div>
-		<!-- end #menu -->
-	<!--	<div id="search">
-			<form method="get" action="">
-				<fieldset>
-				<input type="text" name="s" id="search-text" size="15" />
-				<input type="submit" id="search-submit" value="GO" />
-				</fieldset>
-			</form>
-		</div>
-        -->
-		<!-- end #search -->
 	</div>
 </div>
 <!-- end #header -->
@@ -110,8 +98,29 @@ if (isset($errors)) {
 	<div id="page">
 		<div id="page-bgtop">
         </div>
-	<hr />
-		
+	<hr/>
+<!-- ADD POST SECTION -->    
+<div class="container">
+	   <!-- freshdesignweb top bar -->
+      <div class="freshdesignweb-top">
+      <div class="clr"></div>
+      </div><!--/ freshdesignweb top bar -->       
+      <div  class="form">
+      <br/>                  
+		<?php echo form_open('home/addpost/'); ?>
+        <table>
+            <tr>
+                <td><?php echo form_label('Post Something', $post['id']); ?></td>
+                        <td><?php echo form_textarea($post); ?></td>
+                <td style="color: red;"><?php echo form_error($post['name']); ?></td>
+            </tr>
+        </table>
+        <?php echo form_submit('submit', 'Submit'); ?>
+
+      </div>
+<?php echo form_close(); ?>
+</div>	
+<!--
 <?php echo form_open('home/addpost/'); ?>
 <table>
 	<tr>
@@ -124,47 +133,62 @@ if (isset($errors)) {
 <?php echo form_close(); ?>
 
 <br/>
+-->
 <?php echo $pages ?>
 
 <table border="1" width="800">
 <?php foreach ($posts as $user_post) { ?>
-			<div class="post">
-				<h2 class="title">&nbsp;</h2>
-				<h2 class="title"><?php if(file_exists('images/user_images/'.$user_post['profile_image'])) { ?>
+
+	<div class="post">
+		<h2 class="title">&nbsp;</h2>
+			<h2 class="title"><?php if(file_exists('images/user_images/'.$user_post['profile_image'])) { ?>
               <img src="http://localhost/project/images/user_images/<?php echo $user_post['profile_image']; ?>"></img>
               <?php } ?> <?php echo $user_post['username'] ?></h2> &nbsp;&nbsp;&nbsp;
 				<p class="meta">Posted On: <?php echo $user_post['created'] ?></p>
 				<div class="entry">
 					<p><?php echo $user_post['post_content']?></p>
-					<p class="links"><a href="#">Read More</a> &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="#">Comments</a></p>
+                    
+					<p class="links"><a href="#">Read More</a> &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="#">Comments</a> &nbsp;&nbsp;&nbsp;&nbsp; |			&nbsp;&nbsp;&nbsp;&nbsp; <?php if ($user_post['is_liked'] > 0) { ?>
+                    
+                  <a href="http://localhost/project/index.php/home/likepost/<?php echo $user_post['post_id']; ?>"/>Dislike</a>
+                    <?php } else { ?>
+                  <a href="http://localhost/project/index.php/home/likepost/<?php echo $user_post['post_id']; ?>"/>Like</a>
+                    <?php } ?>
+                  &nbsp;&nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;&nbsp; <a href=""/>Reply</a> &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; <a href=""/>See Replies</a></p>
 			    </div>
 		    </div>
+            
+            
+                        
         <tr>
-		<td width="100"><?php echo $user_post['username'] ?></td>
+		<!--<td width="100"><?php echo $user_post['username'] ?></td>
                 <td>Posted On: <?php echo $user_post['created'] ?></td>
-        </tr>
+        </tr> 
         <tr>
                 <td><?php if(file_exists('images/user_images/'.$user_post['profile_image'])) { ?>
                         <img src="http://localhost/project/images/user_images/<?php echo $user_post['profile_image']; ?>"></img>
-                <?php } ?></td>
-		<td><?php echo $user_post['post_content']?></td>
+                <?php } ?></td> 
+		<td><?php echo $user_post['post_content']?></td> 
 	</tr>
         <tr>
 		<td width="100"> </td>
                 <td textalign="center">
-                    <?php if ($user_post['is_liked'] > 0) { ?>
-                        <a href="http://localhost/project/index.php/home/likepost/<?php echo $user_post['post_id']; ?>"/>Dislike</a>
+                -->
+                 <!--   <?php if ($user_post['is_liked'] > 0) { ?> 
+                       <a href="http://localhost/project/index.php/home/likepost/<?php echo $user_post['post_id']; ?>"/>Dislike</a>
                     <?php } else { ?>
                         <a href="http://localhost/project/index.php/home/likepost/<?php echo $user_post['post_id']; ?>"/>Like</a>
                     <?php } ?>
-                    - <a href=""/>Reply</a> - <a href=""/>See Replies</a></td>
+                     <a href=""/>Reply</a> - <a href=""/>See Replies</a></td> -->
         </tr>
-        <tr>
-<?php } ?>
+        <tr> 
+ <?php } ?><!--
 </table>
 
 <br/>
-<?php echo $pages ?>
+<?php echo $pages ?> 
+
+-->
 <div id="footer-bull">
 	<div id="footer">
     	<p>

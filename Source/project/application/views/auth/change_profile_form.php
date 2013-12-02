@@ -24,24 +24,13 @@ $biography = array(
 	<div id="header">
 		<div id="menu">
 			<ul>
-				<ul>
 				  <li><a href="<?php echo $base_url;?>index.php/home/yourposts/">HomePage</a></li>
 				  <li><a href="<?php echo $base_url;?>index.php/auth/change_profile">Profile</a></li>
-				  <li><a href="<?php echo $base_url;?>index.php/search/">Search</a></li>
+				  <li><a href="<?php echo $base_url;?>index.php/home/search">Search</a></li>
 				  <li><a href="<?php echo $base_url;?>index.php/auth/logout">Logout</a></li>
+
 			</ul>
 		</div>
-		<!-- end #menu -->
-	<!--	<div id="search">
-			<form method="get" action="">
-				<fieldset>
-				<input type="text" name="s" id="search-text" size="15" />
-				<input type="submit" id="search-submit" value="GO" />
-				</fieldset>
-			</form>
-		</div>
-        -->
-		<!-- end #search -->
 	</div>
 </div>
 <!-- end #header -->
@@ -107,15 +96,33 @@ if (isset($errors)) {
                             <td><a href="http://localhost/project/index.php/auth/change_password/">Change Password</a></td>
                         </tr>
                         <tr>
-                            <td><?php echo form_label('Biography', $biography['id']); ?></td>
+  <!--                      <td><?php echo form_label('Biography', $biography['id']); ?></td>
                             <td><?php echo $user->biography; ?></td>
                             <td><?php echo form_textarea($biography); ?></td>
                             <td style="color: red;"><?php echo form_error($biography['name']); ?></td>
-                        </tr>
+                        </tr> -->
                     </table>
                 </td>
         </tr>
 </table>
-
-<?php echo form_submit('change', 'Change'); ?>
-<?php echo form_close(); ?>
+<div class="container">
+			<!-- freshdesignweb top bar -->
+            <div class="freshdesignweb-top">
+              <div class="clr"></div>
+            </div><!--/ freshdesignweb top bar -->       
+      <div  class="form">
+            	<br/>
+	      			<?php echo form_open_multipart($this->uri->uri_string());?>
+              		<?php echo form_label('Biography', $biography['id']); ?>
+              	  	<?php echo $user->biography; ?>
+                	<br/><br/><br/><br/>
+                 	<?php echo form_textarea($biography); ?>
+                 	<?php echo form_error($biography['name']); ?>
+                
+        <p>
+        <?php echo form_submit('change', 'Change'); ?>
+        </p>
+        <br/><br/><br/><br/><br/>
+       </div>
+      <?php echo form_close(); ?>
+  </div>
