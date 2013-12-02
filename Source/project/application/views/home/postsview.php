@@ -61,9 +61,9 @@ $pages = paging($num_pages, $current_page);
 		<div id="menu">
 			<ul>
 				<ul>
-				  <li><a href="#">HomePage</a></li>
-				  <li><a href="#">Profile</a></li>
-				  <li><a href="#">Search</a></li>
+				  <li><a href="<?php echo $base_url;?>index.php/home/yourposts/">HomePage</a></li>
+				  <li><a href="<?php echo $base_url;?>index.php/auth/change_profile">Profile</a></li>
+				  <li><a href="<?php echo $base_url;?>index.php/search/">Search</a></li>
 				  <li><a href="<?php echo $base_url;?>index.php/auth/logout">Logout</a></li>
 			</ul>
 		</div>
@@ -165,3 +165,10 @@ if (isset($errors)) {
 
 <br/>
 <?php echo $pages ?>
+<div id="footer-bull">
+	<div id="footer">
+    	<p>
+        Made by Corey, Paul, Mai, Bryce
+        </p>
+	</div>
+</div>

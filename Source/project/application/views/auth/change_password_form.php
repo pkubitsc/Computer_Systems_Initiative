@@ -18,7 +18,57 @@ $confirm_new_password = array(
 	'size' 	=> 30,
 );
 ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Change Password</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="../../../css/changepassword/demo.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="../../css/changepassword/demo.css" media="all" />
+    <link href="../../../css/changepassword/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="../../css/changepassword/style.css" rel="stylesheet" type="text/css" media="screen" />
+
+    </head>
+<body>
+<div class="container">
+			<!-- freshdesignweb top bar -->
+            <div class="freshdesignweb-top">
+              <div class="clr"></div>
+            </div><!--/ freshdesignweb top bar -->
+			<header>
+				<h1>Change Password</h1>
+            </header>       
+      <div  class="form">
+			<?php echo form_open_multipart($this->uri->uri_string());?>
+            
+           	<p class="contact"><label for="old_password"><?php echo form_label('Old Password', $old_password['id']); ?></label></p>
+           	<?php echo form_password($old_password); ?>
+				<?php echo form_error($old_password['name']); ?><?php echo isset($errors[$old_password['name']])?$errors[$old_password['name']]:''; ?>
+
+              	<p class="contact"><label for="new_password"><?php echo form_label('New Password', $new_password['id']); ?></label></p>
+				<?php echo form_password($new_password); ?>
+              	<?php echo form_error($new_password['name']); ?><?php echo isset($errors[$new_password['name']])?$errors[$new_password['name']]:''; ?>
+                
+				<p class="contact"><label for="confirm_password"><?php echo form_label('Confirm New Password', $confirm_new_password['id']); ?></label></p>
+				<?php echo form_password($confirm_new_password); ?>
+				<?php echo form_error($confirm_new_password['name']); ?><?php echo isset($errors[$confirm_new_password['name']])?$errors[$confirm_new_password['name']]:''; ?>       
+        <p>
+        <?php echo form_submit('change', 'Change Password'); ?>
+        </p>
+        <?php echo form_close(); ?>
+   </div>      
+
+</div>
+<br/><br/><br/><br/><br/>
+</body>
+</html>
+
 <?php echo form_open($this->uri->uri_string()); ?>
+<!--
 <table>
 	<tr>
 		<td><?php echo form_label('Old Password', $old_password['id']); ?></td>
@@ -37,4 +87,4 @@ $confirm_new_password = array(
 	</tr>
 </table>
 <?php echo form_submit('change', 'Change Password'); ?>
-<?php echo form_close(); ?>
+<?php echo form_close(); ?> -->

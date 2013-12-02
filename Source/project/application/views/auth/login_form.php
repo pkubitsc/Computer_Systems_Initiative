@@ -54,7 +54,7 @@ $('input[type="text"]').keyup(function(){
 </head>
 
 <body>
-
+    
 <!-- Main Body Starts Here -->
 <div id="main_body">
 

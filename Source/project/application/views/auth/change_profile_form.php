@@ -10,6 +10,72 @@ $biography = array(
 );
 ?>
 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>HALOC Computer Systems Initiative</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../../css/profile/style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<ul>
+				  <li><a href="<?php echo $base_url;?>index.php/home/yourposts/">HomePage</a></li>
+				  <li><a href="<?php echo $base_url;?>index.php/auth/change_profile">Profile</a></li>
+				  <li><a href="<?php echo $base_url;?>index.php/search/">Search</a></li>
+				  <li><a href="<?php echo $base_url;?>index.php/auth/logout">Logout</a></li>
+			</ul>
+		</div>
+		<!-- end #menu -->
+	<!--	<div id="search">
+			<form method="get" action="">
+				<fieldset>
+				<input type="text" name="s" id="search-text" size="15" />
+				<input type="submit" id="search-submit" value="GO" />
+				</fieldset>
+			</form>
+		</div>
+        -->
+		<!-- end #search -->
+	</div>
+</div>
+<!-- end #header -->
+
+<!-- end #header-wrapper -->
+<div id="logo">
+  <h1><a href="#">Haloc </a></h1>
+	<p>Computer systems initiative</p>
+	<p>&nbsp;</p>
+</div>
+<div id="header-wrapper">
+	<div id="header">
+		<div id="menu">
+			<ul>
+             <li><a href="#">Your Hoots</a></li>
+             <li><a href="#">Top Hoots</a></li>
+             <li><a href="#">Followed</a></li>		
+            </ul>
+		</div>
+	</div>
+</div>
+<?php 
+if (isset($errors)) {
+    foreach ($errors as $error_key => $error_value) {
+        echo $error_value."<br/>";
+    }
+}
+?>		
+<div id="wrapper">
+	<div id="page">
+		<div id="page-bgtop">
+        </div>
+	<hr />
+
 <?php echo form_open_multipart($this->uri->uri_string()); ?>
 <table>
         <tr>

@@ -438,6 +438,53 @@ class Users extends CI_Model
                 
                 $this->db->update($this->profile_table_name, $data);
         }
+        
+        function update_biography($biography, $user_id) {
+                $this->db->where('user_id', $user_id);
+                $data = array(
+                        'biography' => $biography
+                );
+                
+                if ($this->db->update($this->profile_table_name, $data)) {
+                        return true;
+                }
+                return null;
+        }
+        
+        function follow_user($follower_id, $followed_id) {
+            
+        }
+        
+        public function search_users($str1 = null, $str2 = null, $str3 = null, $page = 1) {
+                // for each argument passed...
+                // 1 argument = just un, or just fn, or just ln
+                // 2 arguments = fn/ln, ln/fn, un/fn, fn/un, un/ln, ln/un
+                // 3 arguments = all combinations of possible fn, ln, un
+                // if a developer inputs the second string and not the first, etc... be very angry
+                $in_str1 = "soundex('".$str1."')";
+                $in_str2 = "soundex('".$str2."')";
+                $in_str3 = "soundex('".$str3."')";
+                if (is_null($str1) && is_null($str2) && is_null($str3)) {
+                        $in_str = "1";
+                } elseif (!is_null($str1) && is_null($str2) && is_null($str3)) {
+                    $in_str = $in_str1;
+                } elseif (!is_null($str1) && !is_null($str2) && is_null($str3)) {
+                    $in_str = $in_str1.",".$in_str2;
+                } elseif (!is_null($str1) && !is_null($str2) && !is_null($str3)) {
+                    $in_str = $in_str1.",".$in_str2.",".$in_str3;
+                }
+                
+                $stmt = "SELECT users.username, users.id, user_profiles.first_name, user_profiles.last_name, users.created, user_profiles.profile_image
+                    FROM users
+                    JOIN user_profiles ON user_profiles.user_id = users.id
+                    WHERE soundex(users.username) IN (".$in_str.")
+                        OR soundex(user_profiles.first_name) IN (".$in_str.")
+                        OR soundex(user_profiles.last_name) IN (".$in_str.")";
+                $query = $this->db->query($stmt);
+                // 
+		$results = $query->result_array();
+                return $results;
+        }
 }
 
 /* End of file users.php */

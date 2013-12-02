@@ -1,7 +1,7 @@
 .form{
 	background: #f1f1f1;
 	width: 470px;
-	height: 125px;
+	height: 275px;
 	/* [disabled]padding-left: 50px; */
 	/* [disabled]padding-top: 20px; */
 	/* [disabled]padding-bottom: 0px; */
@@ -14,7 +14,7 @@
 .form2{
 	background: #f1f1f1;
 	width: 470px;
-	height: 500px;
+	height: 100px;
 	/* [disabled]padding-left: 50px; */
 	/* [disabled]padding-top: 20px; */
 	/* [disabled]padding-bottom: 0px; */
@@ -38,13 +38,13 @@
 	margin-left: 0px;
 	margin-top: 0px;
 	margin-right: 0px;
-	width: 100px;
+	width: 150px;
 }
 .form p.contact.label.email_username{ width:100px;}
 .form input[type="text"] { width: 400px; }
 .form input[type="email"] { width: 400px; }
 .form input[type="password"] { width: 400px; }
-.form input[type="submit"]{margin-left: 250px; margin-top: -25px;}
+.form input[type="submit"]{margin-left: 250px; margin-top: 15px;}
 .form input.birthday{width:60px;}
 .form input.birthyear{width:100px;}
 .form label { color: #000; font-weight:bold;font-size: 12px;font-family:Arial, Helvetica; }
@@ -55,6 +55,7 @@
 	color: #4b4b4b;
 	font-size: 14px;
 	-webkit-border-radius: 5px;
+	margin-top: 10px;
 	margin-bottom: 10px;
 	padding-bottom: 7px;
 	padding-left: 7px;

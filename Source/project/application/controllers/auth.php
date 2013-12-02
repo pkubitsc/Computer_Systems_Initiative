@@ -30,8 +30,12 @@ class Auth extends CI_Controller
 	function index()
 	{
 		if ($message = $this->session->flashdata('message')) {
-                        //$redirect_url = $this->session->flashdata('redirect_url');
-                        header('Refresh: 10; URL=http://localhost/project/index.php/auth/change_profile');
+                        if ($redirect_url = $this->session->flashdata('redirect_url')) {
+                                header("Refresh: 5; URL=".$this->config->item('base_url')."index.php".$redirect_url);
+                        } else {
+                                header("Refresh: 5; URL=".$this->config->item('base_url')."index.php/auth/login/");
+                        }
+
 			$this->load->view('auth/general_message', array('message' => $message));
 		} else {
 			redirect('/auth/login/');
@@ -89,7 +93,7 @@ class Auth extends CI_Controller
 				} else {
 					$errors = $this->tank_auth->get_error_message();
 					if (isset($errors['banned'])) {								// banned user
-						$this->_show_message($this->lang->line('auth_message_banned').' '.$errors['banned']);
+						$this->_show_message($this->lang->line('auth_message_banned').' '.$errors['banned'], '/auth/login/');
 
 					} elseif (isset($errors['not_activated'])) {				// not activated user
 						redirect('/auth/send_again/');
@@ -120,8 +124,9 @@ class Auth extends CI_Controller
 	function logout()
 	{
 		$this->tank_auth->logout();
+                redirect('/auth/login/');
 
-		$this->_show_message($this->lang->line('auth_message_logged_out'));
+		//$this->_show_message($this->lang->line('auth_message_logged_out'));
 	}
 
 	/**
@@ -139,7 +144,7 @@ class Auth extends CI_Controller
 			redirect('/auth/send_again/');
 
 		} elseif (!$this->config->item('allow_registration', 'tank_auth')) {	// registration is off
-			$this->_show_message($this->lang->line('auth_message_registration_disabled'));
+			$this->_show_message($this->lang->line('auth_message_registration_disabled'), '/auth/login/');
 
 		} else {
 			$use_username = $this->config->item('use_username', 'tank_auth');
@@ -197,7 +202,7 @@ class Auth extends CI_Controller
 
 						unset($data['password']); // Clear password (just for any case)
 
-						$this->_show_message($this->lang->line('auth_message_registration_completed_1'));
+						$this->_show_message($this->lang->line('auth_message_registration_completed_1'), '/auth/login/');
 					} else {
 						if ($this->config->item('email_account_details', 'tank_auth')) {	// send "welcome" email
 
@@ -205,7 +210,7 @@ class Auth extends CI_Controller
 						}
 						unset($data['password']); // Clear password (just for any case)
 
-						$this->_show_message($this->lang->line('auth_message_registration_completed_2').' '.anchor('/auth/login/', 'Login'));
+						$this->_show_message($this->lang->line('auth_message_registration_completed_2').' '.anchor('/auth/login/', 'Login'), '/auth/login/');
 					}
                                         
                                         $this->_show_message($image_errors);
@@ -254,7 +259,7 @@ class Auth extends CI_Controller
 
 					$this->_send_email('activate', $data['email'], $data);
 
-					$this->_show_message(sprintf($this->lang->line('auth_message_activation_email_sent'), $data['email']));
+					$this->_show_message(sprintf($this->lang->line('auth_message_activation_email_sent'), $data['email']), '/auth/login/');
 
 				} else {
 					$errors = $this->tank_auth->get_error_message();
@@ -280,10 +285,10 @@ class Auth extends CI_Controller
 		// Activate user
 		if ($this->tank_auth->activate_user($user_id, $new_email_key)) {		// success
 			$this->tank_auth->logout();
-			$this->_show_message($this->lang->line('auth_message_activation_completed').' '.anchor('/auth/login/', 'Login'));
+			$this->_show_message($this->lang->line('auth_message_activation_completed').' '.anchor('/auth/login/', 'Login'), '/auth/login/');
 
 		} else {																// fail
-			$this->_show_message($this->lang->line('auth_message_activation_failed'));
+			$this->_show_message($this->lang->line('auth_message_activation_failed'), '/auth/login/');
 		}
 	}
 
@@ -314,7 +319,7 @@ class Auth extends CI_Controller
 					// Send email with password activation link
 					$this->_send_email('forgot_password', $data['email'], $data);
 
-					$this->_show_message($this->lang->line('auth_message_new_password_sent'));
+					$this->_show_message($this->lang->line('auth_message_new_password_sent'), '/auth/login/');
 
 				} else {
 					$errors = $this->tank_auth->get_error_message();
@@ -352,10 +357,10 @@ class Auth extends CI_Controller
 				// Send email with new password
 				$this->_send_email('reset_password', $data['email'], $data);
 
-				$this->_show_message($this->lang->line('auth_message_new_password_activated').' '.anchor('/auth/login/', 'Login'));
+				$this->_show_message($this->lang->line('auth_message_new_password_activated').' '.anchor('/auth/login/', 'Login'), '/auth/login/');
 
 			} else {														// fail
-				$this->_show_message($this->lang->line('auth_message_new_password_failed'));
+				$this->_show_message($this->lang->line('auth_message_new_password_failed'), '/auth/login/');
 			}
 		} else {
 			// Try to activate user by password key (if not activated yet)
@@ -364,7 +369,7 @@ class Auth extends CI_Controller
 			}
 
 			if (!$this->tank_auth->can_reset_password($user_id, $new_pass_key)) {
-				$this->_show_message($this->lang->line('auth_message_new_password_failed'));
+				$this->_show_message($this->lang->line('auth_message_new_password_failed'), '/auth/login/');
 			}
 		}
 		$this->load->view('auth/reset_password_form', $data);
@@ -391,7 +396,7 @@ class Auth extends CI_Controller
 				if ($this->tank_auth->change_password(
 						$this->form_validation->set_value('old_password'),
 						$this->form_validation->set_value('new_password'))) {	// success
-					$this->_show_message($this->lang->line('auth_message_password_changed'));
+					$this->_show_message($this->lang->line('auth_message_password_changed'), '/auth/change_profile/');
 
 				} else {														// fail
 					$errors = $this->tank_auth->get_error_message();
@@ -428,7 +433,7 @@ class Auth extends CI_Controller
 					// Send email with new email address and its activation link
 					$this->_send_email('change_email', $data['new_email'], $data);
 
-					$this->_show_message(sprintf($this->lang->line('auth_message_new_email_sent'), $data['new_email']));
+					$this->_show_message(sprintf($this->lang->line('auth_message_new_email_sent'), $data['new_email']), '/auth/change_profile/');
 
 				} else {
 					$errors = $this->tank_auth->get_error_message();
@@ -496,9 +501,12 @@ class Auth extends CI_Controller
 	 * @param	string
 	 * @return	void
 	 */
-	function _show_message($message)
+	function _show_message($message, $redirect_url = null)
 	{
 		$this->session->set_flashdata('message', $message);
+                if (!is_null($redirect_url)) {
+                    $this->session->set_flashdata('redirect_url', $redirect_url);
+                }
 		redirect('/auth/');
 	}
 
@@ -627,50 +635,48 @@ class Auth extends CI_Controller
                         $user_id = $this->tank_auth->get_user_id();
                         $data['user'] = $this->users->get_user_by_id($user_id, 1);
                         
-                        
-                        $this->form_validation->set_rules('email', 'Email', 'trim|required|xss_clean|valid_email');
-			$this->form_validation->set_rules('password', 'Password', 'trim|required|xss_clean|min_length['.$this->config->item('password_min_length', 'tank_auth').']|max_length['.$this->config->item('password_max_length', 'tank_auth').']|alpha_dash');
-                        $this->form_validation->set_rules('password', 'Password', 'trim|required|xss_clean|min_length['.$this->config->item('password_min_length', 'tank_auth').']|max_length['.$this->config->item('password_max_length', 'tank_auth').']|alpha_dash');
-			$this->form_validation->set_rules('biography', 'Biography', 'trim|xss_clean|min_length['.$this->config->item('biography_min_length', 'tank_auth').']|max_length['.$this->config->item('biography_max_length', 'tank_auth').']');
-                        
-			$captcha_registration	= $this->config->item('captcha_registration', 'tank_auth');
-			$use_recaptcha			= $this->config->item('use_recaptcha', 'tank_auth');
-			if ($captcha_registration) {
-				if ($use_recaptcha) {
-					$this->form_validation->set_rules('recaptcha_response_field', 'Confirmation Code', 'trim|xss_clean|required|callback__check_recaptcha');
-				} else {
-					$this->form_validation->set_rules('captcha', 'Confirmation Code', 'trim|xss_clean|required|callback__check_captcha');
-				}
-			}
+                        $this->form_validation->set_rules('biography', 'Biography', 'trim|xss_clean|min_length['.$this->config->item('biography_min_length', 'tank_auth').']|max_length['.$this->config->item('biography_max_length', 'tank_auth').']');
+
 			$data['errors'] = array();
-
-			$email_activation = $this->config->item('email_activation', 'tank_auth');
-
-			if ($this->form_validation->run()) {
-                            
-                            
-                        }
                         
-                        
-                        $this->form_validation->set_rules('password', 'Password', 'trim|required|xss_clean');
-
-                        $data['errors'] = array();
-
                         if ($this->form_validation->run()) {								// validation ok
-                                if ($this->tank_auth->delete_user(
-                                        $this->form_validation->set_value('password'))) {		// success
-                                        $this->_show_message($this->lang->line('auth_message_unregistered'));
-
-                                } else {														// fail
-                                        $errors = $this->tank_auth->get_error_message();
-                                        foreach ($errors as $k => $v)	$data['errors'][$k] = $this->lang->line($v);
+                                // update the biography field
+                                if ($this->users->update_biography($this->form_validation->set_value('biography'), $user_id) == true) {
+                                        redirect('/auth/change_profile/');
                                 }
                         }
-
+                        
+                        $data['base_url'] = $this->config->item('base_url');
                         $this->load->view('auth/change_profile_form', $data);
                 }
         }
 
+        
+        function change_profile_image() {
+                if (!$this->tank_auth->is_logged_in()) {								// not logged in or not activated
+                        redirect('/auth/login/');
+                } else {
+                        // logged in...
+                        $this->load->model('users');
+                        $user_id = $this->tank_auth->get_user_id();
+                        
+                        $data['user'] = $this->users->get_user_by_id($user_id, 1);
+                        
+                        $this->form_validation->set_rules('biography', 'Biography', 'trim|xss_clean|min_length['.$this->config->item('biography_min_length', 'tank_auth').']|max_length['.$this->config->item('biography_max_length', 'tank_auth').']');
+
+			$data['errors'] = array();
+                        
+                        if (!$this->upload->do_upload()) {
+                                $data['errors'] = $this->upload->display_errors();
+                        } else {
+                                // send it to tank_auth library to be resized & uploaded
+                                $this->tank_auth->change_profile_image($data['user_id'], $this->upload->data());
+                                redirect('/auth/change_profile/');
+                        }
+                        
+                        $this->load->view('auth/change_profile_image_form', $data);
+                }
+        }
 }
 
 /* End of file auth.php */
