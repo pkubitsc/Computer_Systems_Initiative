@@ -105,41 +105,50 @@ class Home extends CI_Controller
                         
                         // In here we must separate the hashtags
                         preg_match_all("/#\w+/", $post, $hashtags);
-                        $new_hashtags = $this->clean_hashtags($hashtags[0]);
+                        if (!empty($hashtags[0])) {
+                                $new_hashtags = $this->clean_hashtags($hashtags[0]);
+                        } else {
+                                $new_hashtags = false;
+                        }
                         
                         if (is_null($new_hashtags)) {
                                 $data['errors'] = array('Hashtag Error' => "Hashtags must begin with an alphanumeric character");
                         } else {
-                                $post = $this->posts->add_post($user_id, $post);
-                                // check if the hashtag(s) already exist in the database
-                                // if they do, add that id to the post hashtag relationship
-                                // otherwise, add the hashtag, then the relationship
-                                if (!is_null($post) && !is_null($new_hashtags)) {
-                                        // add hashtags to db
-                                        $hashtags_in_db = $this->hashtags->get_hashtags_by_name($new_hashtags);
+                                if (!$new_hashtags) {
+                                        // no hashtags
+                                        $post = $this->posts->add_post($user_id, $post);
+                                } else {
+                                        $post = $this->posts->add_post($user_id, $post);
+                                        // check if the hashtag(s) already exist in the database
+                                        // if they do, add that id to the post hashtag relationship
+                                        // otherwise, add the hashtag, then the relationship
+                                        if (!is_null($post) && !is_null($new_hashtags)) {
+                                                // add hashtags to db
+                                                $hashtags_in_db = $this->hashtags->get_hashtags_by_name($new_hashtags);
 
-                                        foreach ($new_hashtags AS $hashtag_word) {
-                                            //print_r($hashtag);
-                                                if (!$this->in_array_r($hashtag_word, $hashtags_in_db)) {
-                                                    // add the new hashtag to the db
-                                                    $hashtag = $this->hashtags->add_hashtag($hashtag_word);
-                                                    if (is_null($hashtag)) {
-                                                        $data['errors'] = array('Hashtag Error' => "There was an error adding your hashtag");
-                                                        break;
-                                                    }
-                                                } else {
-                                                    // get hashtag id
-                                                    $hashtag = $this->hashtags->get_hashtag_id($hashtag_word);
-                                                    if (is_null($hashtag)) {
-                                                        $data['errors'] = array('Hashtag Error' => "There was an error adding your hashtag");
-                                                        break;
-                                                    }
-                                                }
+                                                foreach ($new_hashtags AS $hashtag_word) {
+                                                    //print_r($hashtag);
+                                                        if (!$this->in_array_r($hashtag_word, $hashtags_in_db)) {
+                                                            // add the new hashtag to the db
+                                                            $hashtag = $this->hashtags->add_hashtag($hashtag_word);
+                                                            if (is_null($hashtag)) {
+                                                                $data['errors'] = array('Hashtag Error' => "There was an error adding your hashtag");
+                                                                break;
+                                                            }
+                                                        } else {
+                                                            // get hashtag id
+                                                            $hashtag = $this->hashtags->get_hashtag_id($hashtag_word);
+                                                            if (is_null($hashtag)) {
+                                                                $data['errors'] = array('Hashtag Error' => "There was an error adding your hashtag");
+                                                                break;
+                                                            }
+                                                        }
 
-                                                // add hashtag-post relation
-                                                if (is_null($this->hashtags->add_hashtag_post_relation($hashtag['hashtag_id'], $post['post_id']))) {
-                                                    $data['errors'] = array('Hashtag Error' => "There was a problem adding our hashtags to your post.");
-                                                    break;
+                                                        // add hashtag-post relation
+                                                        if (is_null($this->hashtags->add_hashtag_post_relation($hashtag['hashtag_id'], $post['post_id']))) {
+                                                            $data['errors'] = array('Hashtag Error' => "There was a problem adding our hashtags to your post.");
+                                                            break;
+                                                        }
                                                 }
                                         }
                                 }
@@ -172,7 +181,6 @@ class Home extends CI_Controller
                         } else {
                                 redirect($redirect_url);
                         }
-                        // ../../../css/home/style.css
                 } else {
                         // If the post is already liked, dislike it
                         if ($this->posts->is_liked($user_id, $post_id)) {
@@ -182,6 +190,46 @@ class Home extends CI_Controller
                         }
                         redirect($redirect_url);
                 }
+        }
+        
+        function see_replies() {
+                $this->check_login();
+                
+                $post_id = intval($this->uri->segment(3));
+                $user_id = $this->tank_auth->get_user_id();
+                $is_post = $this->posts->is_post($post_id);
+                $data['errors'] = array();
+
+                // Check for empty or if it's not an integer
+                if (empty($post_id) || !is_int($post_id) || !$is_post) {
+                        // Show an error
+                        $data['errors'] = array('post_id_error', 'The supplied ID is not correct.');
+                } else {
+                        // grab the data for the replies
+                        // check for paging
+                        $page = intval($this->uri->segment(4));
+                        if (empty($page) || !is_int($page)) {
+                                // means a page was sent
+                                $page = 1;
+                        }
+
+                        $data['posts'] = $this->posts->get_posts_by_user_id($user_id, $page);
+                        $num_total_posts = $this->posts->get_number_posts_by_user_id($user_id);
+                        $data['num_pages'] = ceil(intval($this->posts->get_number_posts_by_user_id($user_id))/10);
+                        $data['current_page'] = $page;
+                        $data['base_url'] = $this->config->item('base_url');
+                        $this->session->set_flashdata('redirect_url', '/home/yourposts/');
+                        
+                        // If the post is already liked, dislike it
+                        if ($this->posts->is_liked($user_id, $post_id)) {
+                                $this->posts->dislike_post($user_id, $post_id);
+                        } else {
+                                $this->posts->like_post($user_id, $post_id);
+                        }
+                        redirect($redirect_url);
+                }
+                
+                $this->load->view('', $data);
         }
 
 }

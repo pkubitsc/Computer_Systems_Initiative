@@ -143,7 +143,7 @@ $captcha = array(
              <p class= "contract"><label for="biography"><?php echo form_label('Biography', $biography['id']); ?></label>
              <?php echo form_textarea($biography); ?>
              <?php echo form_error($biography['name']); ?>
-              
+             
              <p class="contact"><label for="image"><?php echo form_label('Profile Image', $profile_image['id']); ?></label>
              <input type="file" name="userfile" size="20" />
              <?php echo form_error($profile_image['name']); ?>
