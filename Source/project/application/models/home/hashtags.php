@@ -107,9 +107,13 @@ class Hashtags extends CI_Model
                             JOIN users ON Posts.user_id = users.id
                             JOIN user_profiles ON Posts.user_id = user_profiles.user_id
                             WHERE soundex(Hashtags.hashtag) = soundex('".$str1."')";*/
+<<<<<<< HEAD
                 $stmt = "SELECT Hashtags.* FROM Hashtags WHERE soundex(Hashtags.hashtag) = soundex('".$str1."')
                         ORDER BY hashtag DESC
                         LIMIT ".(($page-1)*10).",10";
+=======
+                $stmt = "SELECT Hashtags.* FROM Hashtags WHERE soundex(Hashtags.hashtag) = soundex('".$str1."')";;
+>>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
                 $query = $this->db->query($stmt);
 		$results = $query->result_array();
                 return $results;
@@ -122,10 +126,17 @@ class Hashtags extends CI_Model
                 // 3 arguments = all combinations of possible fn, ln, un
                 // if a developer inputs the second string and not the first, etc... be very angry
                 
+<<<<<<< HEAD
                 $stmt = "SELECT COUNT(*) AS num_results FROM Hashtags WHERE soundex(hashtag) = soundex('".$str1."')";
                 $query = $this->db->query($stmt);
 		$results = $query->row_array();
                 return $results['num_results'];
+=======
+                $stmt = "SELECT COUNT(Hashtags.*) AS num_results FROM Hashtags WHERE soundex(Hashtags.hashtag) = soundex('".$str1."')";
+                $query = $this->db->query($stmt);
+		$results = $query->row_array();
+                return $results;
+>>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
         }
         
         function follow_hashtag($follower_id, $hashtag_id) {
@@ -136,6 +147,7 @@ class Hashtags extends CI_Model
                 }
                 return false;	
        }
+<<<<<<< HEAD
        
        function unfollow_hashtag($follower_id, $hashtag_id) {
                 $this->db->where('user_id', $follower_id);
@@ -145,6 +157,8 @@ class Hashtags extends CI_Model
                 }
                 return false;	
         }
+=======
+>>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
         
         function is_followed($follower_id, $hashtag_id) {
        
@@ -157,6 +171,7 @@ class Hashtags extends CI_Model
                 }
                 return FALSE;	
        }
+<<<<<<< HEAD
        
        function get_followed_hashtags($follower_id, $page) {
                 $stmt = "SELECT Hashtags.hashtag, Hashtags.hashtag_id
@@ -182,6 +197,8 @@ class Hashtags extends CI_Model
 		$results = $query->row_array();
                 return $results['num_results'];
         }
+=======
+>>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
 }
 
 /* End of file users.php */
