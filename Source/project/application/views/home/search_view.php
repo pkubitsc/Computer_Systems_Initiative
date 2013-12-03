@@ -10,7 +10,6 @@ if (isset($_GET['search'])) {
             'value'	=> $search_var,
             'maxlength'	=> 200
     );
-<<<<<<< HEAD
     
 function paging($pages, $current_page, $search_terms) {
     $str = "Pages ";
@@ -47,8 +46,6 @@ function paging($pages, $current_page, $search_terms) {
     return $str;
 }
 $pages = paging($num_pages, $current_page, $search_terms);
-=======
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -58,11 +55,7 @@ $pages = paging($num_pages, $current_page, $search_terms);
 <title>HALOC Computer Systems Initiative</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<<<<<<< HEAD
 <link href="<?php echo $base_url; ?>css/search/style.css" rel="stylesheet" type="text/css" media="all" />
-=======
-<link href="../../css/search/style.css" rel="stylesheet" type="text/css" media="all" />
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
 </head>
 <body>
 <div id="header-wrapper">
@@ -88,28 +81,10 @@ $pages = paging($num_pages, $current_page, $search_terms);
 <div id="header-wrapper">
 	<div id="header">
 		<div id="menu">
-<<<<<<< HEAD
 
 		</div>
 	</div>
 </div>		
-=======
-			<ul>
-             <li><a href="#">Your Hoots</a></li>
-             <li><a href="#">Top Hoots</a></li>
-             <li><a href="#">Followed</a></li>		
-            </ul>
-		</div>
-	</div>
-</div>
-<?php 
-if (isset($errors)) {
-    foreach ($errors as $error_key => $error_value) {
-        echo $error_value."<br/>";
-    }
-}
-?>		
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
 <div id="wrapper">
 	<div id="page">
 		<div id="page-bgtop">
@@ -121,7 +96,6 @@ if (isset($errors)) {
                 <br/><?php echo $value; ?>
 <?php   }
 } ?>
-<<<<<<< HEAD
 
 <!--SEARCHING TEXTFIELD -->
 <div class="container">
@@ -158,28 +132,6 @@ if (isset($errors)) {
    </div>
 </div> 
 
-=======
-<div class="container">
-			<!-- freshdesignweb top bar -->
-            <div class="freshdesignweb-top">
-              <div class="clr"></div>
-            </div><!--/ freshdesignweb top bar -->       
-      <div  class="form">
-            	<br/>                  
-                  <?php echo form_open('home/search/', array('method' => 'get')); ?>
-					<?php echo form_label('Search', $search['id']); ?>
-                	<?php echo form_input($search); ?>
-					<?php echo form_error($search['name']); ?>     
-                   
-        <p>
-        <?php echo form_submit('submit', 'Submit'); ?>
-        </p>
-        <br/><br/><br/><br/><br/>
-       </div>
-<?php echo form_close(); ?>
-</div>
-
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
 <!--This is the results by # -->
 <div class="container">
 	   <!-- freshdesignweb top bar -->
@@ -187,7 +139,6 @@ if (isset($errors)) {
       <div class="clr"></div>
       </div><!--/ freshdesignweb top bar -->       
       <div  class="form">
-<<<<<<< HEAD
       <br/>   <b>Hashtag Results:</b><br /><br />               
 		<?php if (!empty($hashtag_results)) {
    				foreach ($hashtag_results as $hashtag) { ?>
@@ -215,21 +166,6 @@ if (isset($errors)) {
    </div>
 </div> 
 
-=======
-      <br/>                  
-		<?php if (!empty($hashtag_results)) {
-   				foreach ($hashtag_results as $hashtag) { ?>
-                    Hashtag: <?php echo $hashtag['hashtag'] ?>
-                    <a href="<?php echo $base_url."index.php/home/view_hashtag/".$hashtag['hashtag_id'] ?>">See Posts</a>  
-                    <a href="<?php echo $base_url."index.php/home/follow_hashtag/".$hashtag['hashtag_id'] ?>">Follow</a>
-                <?php }
-		} else {?>
-           No results
-		<?php }?>
-      </div>
-<?php echo form_close(); ?>
-</div>
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
 <!-- This is the results on PEOPLE on the search page -->
 <div class="container">
 	   <!-- freshdesignweb top bar -->
@@ -237,7 +173,6 @@ if (isset($errors)) {
       <div class="clr"></div>
       </div><!--/ freshdesignweb top bar -->       
       <div  class="form">
-<<<<<<< HEAD
       <br/>    <b>User Results:</b><br /><br />  
             
             <?php if (!empty($user_results)) {
@@ -278,80 +213,3 @@ if (isset($errors)) {
         </p>
 	</div>
 </div> 
-=======
-      <br/>      
-             
-<?php if (!empty($user_results)) {
-    foreach ($user_results as $user) {
-        if ($user['id'] != $logged_in_user_id) { ?>
-        		<?php if(file_exists('images/user_images/'.$user['profile_image'])) { ?>
-              		<img src="http://localhost/project/images/user_images/<?php echo $user['profile_image']; ?>"></img>
-              	<?php } ?></td>
-				<?php echo $user['username']?> - <a href="home/view_profile/<?php echo $user['id']; ?>">See Profile/Posts</a> - <a href="<?php echo $base_url."index.php/home/follow_user/".$user['id']; ?>">Follow</a><br />
-              <?php echo $user['first_name']; ?> <?php echo $user['last_name']; ?>
-				<?php } }
-		} else {?>
-            No results
-		<?php }?>
-      </div>
-<?php echo form_close(); ?>
-<br/><br/><br/><br/><br/><br/>
-</div>
-
-
-<!--BELOW IS DUPLICATE CODE THAT IS NOT NECESSARY -->
-
-
-<!-- SEARCHING
-<?php echo form_open('home/search/', array('method' => 'get')); ?>
-<table>
-	<tr>
-		<td><?php echo form_label('Search', $search['id']); ?></td>
-                <td><?php echo form_input($search); ?></td>
-		<td style="color: red;"><?php echo form_error($search['name']); ?></td>
-	</tr>
-</table>
-<?php echo form_submit('submit', 'Submit'); ?>
-<?php echo form_close(); ?>
-<br />
-<br/>  -->
-
-
-<!--
-<p>Hashtag Results:</p>
-<table border="1" width="800">
-<?php if (!empty($hashtag_results)) {
-    foreach ($hashtag_results as $hashtag) { ?>
-
-        <tr>
-		<td width="100">Hashtag: <?php echo $hashtag['hashtag'] ?></td>
-                <td><a href="<?php echo $base_url."index.php/home/view_hashtag/".$hashtag['hashtag_id'] ?>">See Posts</a> - 
-                <a href="<?php echo $base_url."index.php/home/follow_hashtag/".$hashtag['hashtag_id'] ?>">Follow</a></td>
-        </tr>
-<?php }
-} else {?>
-            No results
-<?php }?>
-</table>
-<br/>
-<br/>
--->
-<!--
-<p>User Results:</p>
-<table border="1" width="800">
-<?php if (!empty($user_results)) {
-    foreach ($user_results as $user) {
-        if ($user['id'] != $logged_in_user_id) { ?>
-        <tr>
-                <td><?php if(file_exists('images/user_images/'.$user['profile_image'])) { ?>
-                        <img src="http://localhost/project/images/user_images/<?php echo $user['profile_image']; ?>"></img>
-                <?php } ?></td>
-		<td><?php echo $user['username']?> - <a href="home/view_profile/<?php echo $user['id']; ?>">See Profile/Posts</a> - <a href="<?php echo $base_url."index.php/home/follow_user/".$user['id']; ?>">Follow</a><br />
-                    <?php echo $user['first_name']; ?> <?php echo $user['last_name']; ?></td>
-	</tr>
-<?php } }
-} else {?>
-            No results
-<?php }?>
--->
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2

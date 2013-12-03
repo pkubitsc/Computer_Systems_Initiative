@@ -479,11 +479,7 @@ hr { display: none; }
 .form{
 	background: #f1f1f1;
 	width: 920px;
-<<<<<<< HEAD
 	height: auto;
-=======
-	height: 110px;
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
 	/* [disabled]padding-left: 50px; */
 	/* [disabled]padding-top: 20px; */
 	/* [disabled]padding-bottom: 0px; */

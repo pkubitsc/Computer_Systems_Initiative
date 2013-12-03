@@ -480,11 +480,7 @@ hr { display: none; }
 .form{
 	background: #f1f1f1;
 	width: 970px;
-<<<<<<< HEAD
 	height: 240px;
-=======
-	height: 150px;
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
 	/* [disabled]padding-left: 50px; */
 	/* [disabled]padding-top: 20px; */
 	/* [disabled]padding-bottom: 0px; */
@@ -521,10 +517,7 @@ rm fieldset{
 .form input.birthday{width:60px;}
 .form input.birthyear{width:100px;}
 .form label { color: #000; font-weight:bold;font-size: 12px;font-family:Arial, Helvetica; }
-<<<<<<< HEAD
 .div pagelabel{ color: #000; font-weight:bold;font-size: 12px;font-family:Arial, Helvetica};
-=======
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
 .form label.month {width: 135px;}
 .form input, textarea {
 	border: 1px solid rgba(122, 192, 0, 0.15);
@@ -595,7 +588,6 @@ rm fieldset{
 .form input.buttom:hover	{
 	background-color: #C0C0C0;
 }
-<<<<<<< HEAD
 
 .form2{
 	background: #f1f1f1;
@@ -827,5 +819,3 @@ rm fieldset{
 	color: #58191E;
 }
 	
-=======
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2

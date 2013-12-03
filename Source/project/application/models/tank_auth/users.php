@@ -485,7 +485,6 @@ class Users extends CI_Model
                 return $results;
         }
         
-<<<<<<< HEAD
         public function search_users_count($str1 = null, $str2 = null, $str3 = null) {
                 // for each argument passed...
                 // 1 argument = just un, or just fn, or just ln
@@ -516,8 +515,6 @@ class Users extends CI_Model
                 return $results['num_results'];
         }
         
-=======
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
         function follow_user($follower_id, $followed_id) {
                 $this->db->set('user_id', $follower_id);
                 $this->db->set('following_id', $followed_id);
@@ -527,7 +524,6 @@ class Users extends CI_Model
                 return false;	
        }
        
-<<<<<<< HEAD
        function unfollow_user($follower_id, $followed_id) {
                 $this->db->where('user_id', $follower_id);
                 $this->db->where('following_id', $followed_id);
@@ -537,8 +533,6 @@ class Users extends CI_Model
                 return false;	
        }
        
-=======
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
        function is_followed($follower_id, $followed_id) {
        
                 $this->db->where('user_id', $follower_id);
@@ -550,7 +544,6 @@ class Users extends CI_Model
                 }
                 return FALSE;	
        }
-<<<<<<< HEAD
        
        function get_all_users($page = 1) {
                 $stmt = "SELECT users.username, users.id, user_profiles.first_name, user_profiles.last_name, users.created, user_profiles.profile_image
@@ -589,8 +582,6 @@ class Users extends CI_Model
 		$results = $query->row_array();
                 return $results['num_users'];
        }
-=======
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
 }
 
 /* End of file users.php */
