@@ -134,7 +134,6 @@ class Tank_auth
          * Change the profile image
          */
         function change_profile_image($user_id, $data) {
-                echo "Made it to change profile";
                 // we want to resize the photo, put it in
                 /* Uses two upload library features to assemble the file name (the name, and extension) */
                 $filename = $data['raw_name'].$data['file_ext'];

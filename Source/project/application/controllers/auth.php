@@ -29,14 +29,17 @@ class Auth extends CI_Controller
 
 	function index()
 	{
+                
 		if ($message = $this->session->flashdata('message')) {
+                        $data['base_url'] = $this->config->item('base_url');
+                        $data['message'] = $message;
                         if ($redirect_url = $this->session->flashdata('redirect_url')) {
-                                header("Refresh: 5; URL=".$this->config->item('base_url')."index.php".$redirect_url);
+                                header("Refresh: 10; URL=".$this->config->item('base_url')."index.php".$redirect_url);
                         } else {
-                                header("Refresh: 5; URL=".$this->config->item('base_url')."index.php/auth/login/");
+                                header("Refresh: 10; URL=".$this->config->item('base_url')."index.php/auth/login/");
                         }
 
-			$this->load->view('auth/general_message', array('message' => $message));
+			$this->load->view('auth/general_message', $data);
 		} else {
 			redirect('/auth/login/');
 		}
@@ -112,6 +115,7 @@ class Auth extends CI_Controller
 					$data['captcha_html'] = $this->_create_captcha();
 				}
 			}
+                        $data['base_url'] = $this->config->item('base_url');
 			$this->load->view('auth/login_form', $data);
 		}
 	}
@@ -231,6 +235,7 @@ class Auth extends CI_Controller
 			$data['use_username'] = $use_username;
 			$data['captcha_registration'] = $captcha_registration;
 			$data['use_recaptcha'] = $use_recaptcha;
+                        $data['base_url'] = $this->config->item('base_url');
 			$this->load->view('auth/register_form', $data);
 		}
 	}
@@ -266,6 +271,7 @@ class Auth extends CI_Controller
 					foreach ($errors as $k => $v)	$data['errors'][$k] = $this->lang->line($v);
 				}
 			}
+                        $data['base_url'] = $this->config->item('base_url');
 			$this->load->view('auth/send_again_form', $data);
 		}
 	}
@@ -326,6 +332,7 @@ class Auth extends CI_Controller
 					foreach ($errors as $k => $v)	$data['errors'][$k] = $this->lang->line($v);
 				}
 			}
+                        $data['base_url'] = $this->config->item('base_url');
 			$this->load->view('auth/forgot_password_form', $data);
 		}
 	}
@@ -372,6 +379,7 @@ class Auth extends CI_Controller
 				$this->_show_message($this->lang->line('auth_message_new_password_failed'), '/auth/login/');
 			}
 		}
+                $data['base_url'] = $this->config->item('base_url');
 		$this->load->view('auth/reset_password_form', $data);
 	}
 
@@ -403,6 +411,7 @@ class Auth extends CI_Controller
 					foreach ($errors as $k => $v)	$data['errors'][$k] = $this->lang->line($v);
 				}
 			}
+                        $data['base_url'] = $this->config->item('base_url');
 			$this->load->view('auth/change_password_form', $data);
 		}
 	}
@@ -440,6 +449,7 @@ class Auth extends CI_Controller
 					foreach ($errors as $k => $v)	$data['errors'][$k] = $this->lang->line($v);
 				}
 			}
+                        $data['base_url'] = $this->config->item('base_url');
 			$this->load->view('auth/change_email_form', $data);
 		}
 	}
@@ -491,6 +501,7 @@ class Auth extends CI_Controller
 					foreach ($errors as $k => $v)	$data['errors'][$k] = $this->lang->line($v);
 				}
 			}
+                        $data['base_url'] = $this->config->item('base_url');
 			$this->load->view('auth/unregister_form', $data);
 		}
 	}
@@ -661,19 +672,18 @@ class Auth extends CI_Controller
                         $user_id = $this->tank_auth->get_user_id();
                         
                         $data['user'] = $this->users->get_user_by_id($user_id, 1);
-                        
-                        $this->form_validation->set_rules('biography', 'Biography', 'trim|xss_clean|min_length['.$this->config->item('biography_min_length', 'tank_auth').']|max_length['.$this->config->item('biography_max_length', 'tank_auth').']');
-
 			$data['errors'] = array();
                         
                         if (!$this->upload->do_upload()) {
                                 $data['errors'] = $this->upload->display_errors();
                         } else {
+                                
                                 // send it to tank_auth library to be resized & uploaded
-                                $this->tank_auth->change_profile_image($data['user_id'], $this->upload->data());
+                                $this->tank_auth->change_profile_image($user_id, $this->upload->data());
                                 redirect('/auth/change_profile/');
                         }
-                        
+
+                        $data['base_url'] = $this->config->item('base_url');
                         $this->load->view('auth/change_profile_image_form', $data);
                 }
         }

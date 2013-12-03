@@ -10,6 +10,7 @@ $lang['auth_current_email'] = 'This is your current email';
 $lang['auth_incorrect_captcha'] = 'Your confirmation code does not match the one in the image.';
 $lang['auth_captcha_expired'] = 'Your confirmation code has expired. Please try again.';
 $lang['auth_image_upload_error'] = 'Your confirmation code has expired. Please try again.';
+$land['auth_biography_changed'] = 'Your biography has been changed.';
 
 // Notifications
 $lang['auth_message_logged_out'] = 'You have been successfully logged out.';

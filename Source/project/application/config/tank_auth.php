@@ -65,9 +65,9 @@ $config['biography_max_length'] = 255;
 $config['image_upload_path'] = 'images/user_images/original/';
 $config['image_true_path'] = 'images/user_images/';
 $config['image_allowed_types'] = 'gif|jpg|png|jpeg';
-$config['image_max_size']	= '1000';
-$config['image_max_width'] = '1024';
-$config['image_max_height'] = '768';
+$config['image_max_size']	= '1000000';
+$config['image_max_width'] = '2000';
+$config['image_max_height'] = '2000';
 $config['profile_image_max_width'] = '50';
 $config['profile_image_max_height'] = '50';
 

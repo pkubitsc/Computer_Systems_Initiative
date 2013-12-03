@@ -7182,183 +7182,692 @@ DEBUG - 2013-12-01 21:12:47 --> Language file loaded: language/english/tank_auth
 DEBUG - 2013-12-01 21:12:47 --> File loaded: application/views/auth/change_profile_form.php
 DEBUG - 2013-12-01 21:12:47 --> Final output sent to browser
 DEBUG - 2013-12-01 21:12:47 --> Total execution time: 2.6232
-DEBUG - 2013-12-01 22:51:45 --> Config Class Initialized
-DEBUG - 2013-12-01 22:51:45 --> Hooks Class Initialized
-DEBUG - 2013-12-01 22:51:45 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 22:51:45 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 22:51:45 --> URI Class Initialized
-DEBUG - 2013-12-01 22:51:45 --> Router Class Initialized
-DEBUG - 2013-12-01 22:51:45 --> No URI present. Default controller set.
-DEBUG - 2013-12-01 22:51:45 --> Output Class Initialized
-DEBUG - 2013-12-01 22:51:45 --> Security Class Initialized
-DEBUG - 2013-12-01 22:51:45 --> Input Class Initialized
-DEBUG - 2013-12-01 22:51:45 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 22:51:45 --> Language Class Initialized
-DEBUG - 2013-12-01 22:51:45 --> Loader Class Initialized
-DEBUG - 2013-12-01 22:51:45 --> Database Driver Class Initialized
-ERROR - 2013-12-01 22:51:45 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 22:51:45 --> Session Class Initialized
-DEBUG - 2013-12-01 22:51:45 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 22:51:45 --> Session routines successfully run
-DEBUG - 2013-12-01 22:51:45 --> Controller Class Initialized
-DEBUG - 2013-12-01 22:51:45 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 22:51:45 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 22:51:45 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 22:51:45 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 22:51:45 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 22:51:45 --> Model Class Initialized
-DEBUG - 2013-12-01 22:51:45 --> Model Class Initialized
-DEBUG - 2013-12-01 22:51:45 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 22:51:45 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 22:51:45 --> Upload Class Initialized
-DEBUG - 2013-12-01 22:51:45 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 22:51:45 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:09:07 --> Config Class Initialized
-DEBUG - 2013-12-01 23:09:07 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:09:07 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:09:07 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:09:07 --> URI Class Initialized
-DEBUG - 2013-12-01 23:09:07 --> Router Class Initialized
-DEBUG - 2013-12-01 23:09:07 --> No URI present. Default controller set.
-DEBUG - 2013-12-01 23:09:07 --> Output Class Initialized
-DEBUG - 2013-12-01 23:09:07 --> Security Class Initialized
-DEBUG - 2013-12-01 23:09:07 --> Input Class Initialized
-DEBUG - 2013-12-01 23:09:07 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:09:07 --> Language Class Initialized
-DEBUG - 2013-12-01 23:09:07 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:09:07 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:09:07 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:09:07 --> Session Class Initialized
-DEBUG - 2013-12-01 23:09:07 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:09:07 --> Session routines successfully run
-DEBUG - 2013-12-01 23:09:07 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:09:07 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:09:07 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:09:07 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:09:07 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:09:07 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:09:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:09:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:09:07 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:09:07 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:09:07 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:09:07 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:09:07 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 22:51:07 --> Config Class Initialized
+DEBUG - 2013-12-01 22:51:07 --> Hooks Class Initialized
+DEBUG - 2013-12-01 22:51:07 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 22:51:07 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 22:51:08 --> URI Class Initialized
+DEBUG - 2013-12-01 22:51:08 --> Router Class Initialized
+DEBUG - 2013-12-01 22:51:08 --> Output Class Initialized
+DEBUG - 2013-12-01 22:51:08 --> Security Class Initialized
+DEBUG - 2013-12-01 22:51:08 --> Input Class Initialized
+DEBUG - 2013-12-01 22:51:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 22:51:08 --> Language Class Initialized
+DEBUG - 2013-12-01 22:51:08 --> Loader Class Initialized
+DEBUG - 2013-12-01 22:51:09 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 22:51:09 --> Session Class Initialized
+DEBUG - 2013-12-01 22:51:09 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 22:51:09 --> Session routines successfully run
+DEBUG - 2013-12-01 22:51:09 --> Controller Class Initialized
+DEBUG - 2013-12-01 22:51:10 --> Config Class Initialized
+DEBUG - 2013-12-01 22:51:10 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 22:51:10 --> Hooks Class Initialized
+DEBUG - 2013-12-01 22:51:10 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 22:51:10 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 22:51:10 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 22:51:11 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 22:51:11 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 22:51:11 --> URI Class Initialized
+DEBUG - 2013-12-01 22:51:11 --> Model Class Initialized
+DEBUG - 2013-12-01 22:51:11 --> Router Class Initialized
+DEBUG - 2013-12-01 22:51:11 --> Model Class Initialized
+DEBUG - 2013-12-01 22:51:11 --> Output Class Initialized
+DEBUG - 2013-12-01 22:51:11 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 22:51:11 --> Security Class Initialized
+DEBUG - 2013-12-01 22:51:12 --> Model Class Initialized
+DEBUG - 2013-12-01 22:51:12 --> Input Class Initialized
+DEBUG - 2013-12-01 22:51:12 --> Model Class Initialized
+DEBUG - 2013-12-01 22:51:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 22:51:12 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 22:51:12 --> Language Class Initialized
+DEBUG - 2013-12-01 22:51:12 --> Loader Class Initialized
+DEBUG - 2013-12-01 22:51:13 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 22:51:13 --> Session Class Initialized
+DEBUG - 2013-12-01 22:51:13 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 22:51:13 --> Session routines successfully run
+DEBUG - 2013-12-01 22:51:13 --> Controller Class Initialized
+DEBUG - 2013-12-01 22:51:14 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 22:51:14 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 22:51:14 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 22:51:14 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 22:51:14 --> Model Class Initialized
+DEBUG - 2013-12-01 22:51:14 --> Model Class Initialized
+DEBUG - 2013-12-01 22:51:14 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 22:51:15 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 22:51:15 --> Model Class Initialized
+DEBUG - 2013-12-01 22:51:15 --> Model Class Initialized
+DEBUG - 2013-12-01 22:51:15 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 22:51:15 --> Final output sent to browser
+DEBUG - 2013-12-01 22:51:15 --> Total execution time: 5.5953
+DEBUG - 2013-12-01 22:51:21 --> Config Class Initialized
+DEBUG - 2013-12-01 22:51:21 --> Hooks Class Initialized
+DEBUG - 2013-12-01 22:51:21 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 22:51:21 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 22:51:22 --> URI Class Initialized
+DEBUG - 2013-12-01 22:51:22 --> Router Class Initialized
+DEBUG - 2013-12-01 22:51:22 --> Output Class Initialized
+DEBUG - 2013-12-01 22:51:22 --> Security Class Initialized
+DEBUG - 2013-12-01 22:51:22 --> Input Class Initialized
+DEBUG - 2013-12-01 22:51:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 22:51:22 --> Language Class Initialized
+DEBUG - 2013-12-01 22:51:22 --> Loader Class Initialized
+DEBUG - 2013-12-01 22:51:23 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 22:51:23 --> Session Class Initialized
+DEBUG - 2013-12-01 22:51:23 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 22:51:23 --> Session routines successfully run
+DEBUG - 2013-12-01 22:51:23 --> Controller Class Initialized
+DEBUG - 2013-12-01 22:51:23 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 22:51:24 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 22:51:24 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 22:51:24 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 22:51:24 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 22:51:24 --> Model Class Initialized
+DEBUG - 2013-12-01 22:51:24 --> Model Class Initialized
+DEBUG - 2013-12-01 22:51:24 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 22:51:25 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 22:51:25 --> Upload Class Initialized
+DEBUG - 2013-12-01 22:51:25 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 22:51:25 --> Language file loaded: language/english/tank_auth_lang.php
+ERROR - 2013-12-01 22:51:25 --> Severity: Notice  --> Undefined index: session_id C:\Program Files (x86)\Ampps\www\project\system\libraries\Session.php 272
+ERROR - 2013-12-01 22:51:25 --> Severity: Notice  --> Undefined index: ip_address C:\Program Files (x86)\Ampps\www\project\system\libraries\Session.php 272
+ERROR - 2013-12-01 22:51:25 --> Severity: Notice  --> Undefined index: user_agent C:\Program Files (x86)\Ampps\www\project\system\libraries\Session.php 272
+ERROR - 2013-12-01 22:51:25 --> Severity: Notice  --> Undefined index: last_activity C:\Program Files (x86)\Ampps\www\project\system\libraries\Session.php 272
+ERROR - 2013-12-01 22:51:26 --> Severity: Notice  --> Undefined index: session_id C:\Program Files (x86)\Ampps\www\project\system\libraries\Session.php 288
+ERROR - 2013-12-01 22:51:26 --> Severity: Notice  --> Undefined index: last_activity C:\Program Files (x86)\Ampps\www\project\system\libraries\Session.php 289
+DEBUG - 2013-12-01 22:51:26 --> Config Class Initialized
+DEBUG - 2013-12-01 22:51:26 --> Hooks Class Initialized
+DEBUG - 2013-12-01 22:51:26 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 22:51:26 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 22:51:26 --> URI Class Initialized
+DEBUG - 2013-12-01 22:51:27 --> Router Class Initialized
+DEBUG - 2013-12-01 22:51:27 --> Output Class Initialized
+DEBUG - 2013-12-01 22:51:27 --> Security Class Initialized
+DEBUG - 2013-12-01 22:51:27 --> Input Class Initialized
+DEBUG - 2013-12-01 22:51:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 22:51:27 --> Language Class Initialized
+DEBUG - 2013-12-01 22:51:27 --> Loader Class Initialized
+DEBUG - 2013-12-01 22:51:27 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 22:51:28 --> Session Class Initialized
+DEBUG - 2013-12-01 22:51:28 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 22:51:31 --> Session routines successfully run
+DEBUG - 2013-12-01 22:51:31 --> Controller Class Initialized
+DEBUG - 2013-12-01 22:51:31 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 22:51:32 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 22:51:32 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 22:51:32 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 22:51:32 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 22:51:32 --> Model Class Initialized
+DEBUG - 2013-12-01 22:51:32 --> Model Class Initialized
+DEBUG - 2013-12-01 22:51:33 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 22:51:33 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 22:51:33 --> Upload Class Initialized
+DEBUG - 2013-12-01 22:51:33 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 22:51:33 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 22:51:34 --> Config Class Initialized
+DEBUG - 2013-12-01 22:51:34 --> Hooks Class Initialized
+DEBUG - 2013-12-01 22:51:34 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 22:51:34 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 22:51:34 --> URI Class Initialized
+DEBUG - 2013-12-01 22:51:34 --> Router Class Initialized
+DEBUG - 2013-12-01 22:51:34 --> Output Class Initialized
+DEBUG - 2013-12-01 22:51:35 --> Security Class Initialized
+DEBUG - 2013-12-01 22:51:35 --> Input Class Initialized
+DEBUG - 2013-12-01 22:51:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 22:51:35 --> Language Class Initialized
+DEBUG - 2013-12-01 22:51:35 --> Loader Class Initialized
+DEBUG - 2013-12-01 22:51:36 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 22:51:36 --> Session Class Initialized
+DEBUG - 2013-12-01 22:51:36 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 22:51:36 --> Session routines successfully run
+DEBUG - 2013-12-01 22:51:36 --> Controller Class Initialized
+DEBUG - 2013-12-01 22:51:36 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 22:51:36 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 22:51:37 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 22:51:37 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 22:51:37 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 22:51:37 --> Model Class Initialized
+DEBUG - 2013-12-01 22:51:37 --> Model Class Initialized
+DEBUG - 2013-12-01 22:51:37 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 22:51:37 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 22:51:38 --> Upload Class Initialized
+DEBUG - 2013-12-01 22:51:38 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 22:51:38 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 22:51:38 --> Model Class Initialized
+DEBUG - 2013-12-01 22:51:38 --> File loaded: application/views/auth/login_form.php
+DEBUG - 2013-12-01 22:51:38 --> Final output sent to browser
+DEBUG - 2013-12-01 22:51:38 --> Total execution time: 4.6603
+DEBUG - 2013-12-01 22:53:59 --> Config Class Initialized
+DEBUG - 2013-12-01 22:53:59 --> Hooks Class Initialized
+DEBUG - 2013-12-01 22:53:59 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 22:54:00 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 22:54:00 --> URI Class Initialized
+DEBUG - 2013-12-01 22:54:00 --> Router Class Initialized
+DEBUG - 2013-12-01 22:54:00 --> Output Class Initialized
+DEBUG - 2013-12-01 22:54:00 --> Security Class Initialized
+DEBUG - 2013-12-01 22:54:00 --> Input Class Initialized
+DEBUG - 2013-12-01 22:54:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 22:54:00 --> Language Class Initialized
+DEBUG - 2013-12-01 22:54:00 --> Loader Class Initialized
+DEBUG - 2013-12-01 22:54:00 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 22:54:01 --> Session Class Initialized
+DEBUG - 2013-12-01 22:54:01 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 22:54:01 --> Session routines successfully run
+DEBUG - 2013-12-01 22:54:01 --> Controller Class Initialized
+DEBUG - 2013-12-01 22:54:01 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 22:54:01 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 22:54:01 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 22:54:01 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 22:54:01 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 22:54:02 --> Model Class Initialized
+DEBUG - 2013-12-01 22:54:02 --> Model Class Initialized
+DEBUG - 2013-12-01 22:54:02 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 22:54:02 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 22:54:02 --> Upload Class Initialized
+DEBUG - 2013-12-01 22:54:02 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 22:54:02 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 22:54:02 --> XSS Filtering completed
+DEBUG - 2013-12-01 22:54:02 --> Model Class Initialized
+DEBUG - 2013-12-01 22:54:02 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 22:54:03 --> XSS Filtering completed
+DEBUG - 2013-12-01 22:54:03 --> File loaded: application/views/auth/login_form.php
+DEBUG - 2013-12-01 22:54:03 --> Final output sent to browser
+DEBUG - 2013-12-01 22:54:03 --> Total execution time: 3.4572
+DEBUG - 2013-12-01 22:58:59 --> Config Class Initialized
+DEBUG - 2013-12-01 22:58:59 --> Hooks Class Initialized
+DEBUG - 2013-12-01 22:58:59 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 22:58:59 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 22:58:59 --> URI Class Initialized
+DEBUG - 2013-12-01 22:58:59 --> Router Class Initialized
+DEBUG - 2013-12-01 22:58:59 --> Output Class Initialized
+DEBUG - 2013-12-01 22:59:00 --> Security Class Initialized
+DEBUG - 2013-12-01 22:59:00 --> Input Class Initialized
+DEBUG - 2013-12-01 22:59:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 22:59:00 --> Language Class Initialized
+DEBUG - 2013-12-01 22:59:00 --> Loader Class Initialized
+DEBUG - 2013-12-01 22:59:00 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 22:59:00 --> Session Class Initialized
+DEBUG - 2013-12-01 22:59:00 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 22:59:01 --> Session routines successfully run
+DEBUG - 2013-12-01 22:59:01 --> Controller Class Initialized
+DEBUG - 2013-12-01 22:59:01 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 22:59:01 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 22:59:01 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 22:59:01 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 22:59:01 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 22:59:01 --> Model Class Initialized
+DEBUG - 2013-12-01 22:59:02 --> Model Class Initialized
+DEBUG - 2013-12-01 22:59:02 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 22:59:02 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 22:59:02 --> Upload Class Initialized
+DEBUG - 2013-12-01 22:59:02 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 22:59:02 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 22:59:02 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-01 22:59:02 --> Final output sent to browser
+DEBUG - 2013-12-01 22:59:02 --> Total execution time: 3.7542
+DEBUG - 2013-12-01 23:05:41 --> Config Class Initialized
+DEBUG - 2013-12-01 23:05:41 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:05:41 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:05:41 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:05:41 --> URI Class Initialized
+DEBUG - 2013-12-01 23:05:41 --> Router Class Initialized
+DEBUG - 2013-12-01 23:05:41 --> Output Class Initialized
+DEBUG - 2013-12-01 23:05:41 --> Security Class Initialized
+DEBUG - 2013-12-01 23:05:41 --> Input Class Initialized
+DEBUG - 2013-12-01 23:05:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:05:42 --> Language Class Initialized
+DEBUG - 2013-12-01 23:05:42 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:05:42 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:05:42 --> Session Class Initialized
+DEBUG - 2013-12-01 23:05:42 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:05:43 --> Session routines successfully run
+DEBUG - 2013-12-01 23:05:43 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:05:43 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:05:43 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:05:43 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:05:43 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:05:43 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:05:43 --> Model Class Initialized
+DEBUG - 2013-12-01 23:05:44 --> Model Class Initialized
+DEBUG - 2013-12-01 23:05:44 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:05:44 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:05:44 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:05:44 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:05:44 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:05:44 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:05:44 --> Model Class Initialized
+DEBUG - 2013-12-01 23:05:44 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 23:05:45 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:05:45 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:05:45 --> Config Class Initialized
+DEBUG - 2013-12-01 23:05:45 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:05:46 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:05:46 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:05:46 --> URI Class Initialized
+DEBUG - 2013-12-01 23:05:46 --> Router Class Initialized
+DEBUG - 2013-12-01 23:05:46 --> Output Class Initialized
+DEBUG - 2013-12-01 23:05:46 --> Security Class Initialized
+DEBUG - 2013-12-01 23:05:46 --> Input Class Initialized
+DEBUG - 2013-12-01 23:05:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:05:46 --> Language Class Initialized
+DEBUG - 2013-12-01 23:05:47 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:05:47 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:05:47 --> Session Class Initialized
+DEBUG - 2013-12-01 23:05:47 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:05:47 --> Session routines successfully run
+DEBUG - 2013-12-01 23:05:47 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:05:48 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:05:48 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:05:48 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:05:48 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:05:48 --> Model Class Initialized
+DEBUG - 2013-12-01 23:05:48 --> Model Class Initialized
+DEBUG - 2013-12-01 23:05:48 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:05:48 --> Model Class Initialized
+DEBUG - 2013-12-01 23:05:49 --> Model Class Initialized
+DEBUG - 2013-12-01 23:05:49 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:05:49 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-01 23:05:49 --> Final output sent to browser
+DEBUG - 2013-12-01 23:05:49 --> Total execution time: 3.6992
+DEBUG - 2013-12-01 23:05:53 --> Config Class Initialized
+DEBUG - 2013-12-01 23:05:53 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:05:54 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:05:54 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:05:54 --> URI Class Initialized
+DEBUG - 2013-12-01 23:05:54 --> Router Class Initialized
+DEBUG - 2013-12-01 23:05:54 --> Output Class Initialized
+DEBUG - 2013-12-01 23:05:54 --> Security Class Initialized
+DEBUG - 2013-12-01 23:05:54 --> Input Class Initialized
+DEBUG - 2013-12-01 23:05:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:05:54 --> Language Class Initialized
+DEBUG - 2013-12-01 23:05:55 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:05:55 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:05:55 --> Session Class Initialized
+DEBUG - 2013-12-01 23:05:55 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:05:55 --> Session routines successfully run
+DEBUG - 2013-12-01 23:05:55 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:05:56 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:05:56 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:05:56 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:05:56 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:05:56 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:05:56 --> Model Class Initialized
+DEBUG - 2013-12-01 23:05:56 --> Model Class Initialized
+DEBUG - 2013-12-01 23:05:56 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:05:57 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:05:57 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:05:57 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:05:57 --> File loaded: application/views/auth/change_profile_form.php
+DEBUG - 2013-12-01 23:05:57 --> Final output sent to browser
+DEBUG - 2013-12-01 23:05:57 --> Total execution time: 3.6702
+DEBUG - 2013-12-01 23:06:03 --> Config Class Initialized
+DEBUG - 2013-12-01 23:06:03 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:06:03 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:06:03 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:06:04 --> URI Class Initialized
+DEBUG - 2013-12-01 23:06:04 --> Router Class Initialized
+DEBUG - 2013-12-01 23:06:04 --> Output Class Initialized
+DEBUG - 2013-12-01 23:06:04 --> Security Class Initialized
+DEBUG - 2013-12-01 23:06:04 --> Input Class Initialized
+DEBUG - 2013-12-01 23:06:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:06:04 --> Language Class Initialized
+DEBUG - 2013-12-01 23:06:04 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:06:04 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:06:04 --> Session Class Initialized
+DEBUG - 2013-12-01 23:06:05 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:06:05 --> Session routines successfully run
+DEBUG - 2013-12-01 23:06:05 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:06:05 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:06:05 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:06:05 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:06:06 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:06:06 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:06:06 --> Model Class Initialized
+DEBUG - 2013-12-01 23:06:06 --> Model Class Initialized
+DEBUG - 2013-12-01 23:06:06 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:06:06 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:06:06 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:06:06 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:06:06 --> File loaded: application/views/auth/change_password_form.php
+DEBUG - 2013-12-01 23:06:06 --> Final output sent to browser
+DEBUG - 2013-12-01 23:06:07 --> Total execution time: 3.3982
+DEBUG - 2013-12-01 23:06:13 --> Config Class Initialized
+DEBUG - 2013-12-01 23:06:13 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:06:14 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:06:14 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:06:14 --> URI Class Initialized
+DEBUG - 2013-12-01 23:06:14 --> Router Class Initialized
+DEBUG - 2013-12-01 23:06:14 --> Output Class Initialized
+DEBUG - 2013-12-01 23:06:14 --> Security Class Initialized
+DEBUG - 2013-12-01 23:06:14 --> Input Class Initialized
+DEBUG - 2013-12-01 23:06:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:06:14 --> Language Class Initialized
+DEBUG - 2013-12-01 23:06:14 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:06:15 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:06:15 --> Session Class Initialized
+DEBUG - 2013-12-01 23:06:15 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:06:15 --> Session routines successfully run
+DEBUG - 2013-12-01 23:06:15 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:06:15 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:06:15 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:06:15 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:06:16 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:06:16 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:06:16 --> Model Class Initialized
+DEBUG - 2013-12-01 23:06:16 --> Model Class Initialized
+DEBUG - 2013-12-01 23:06:16 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:06:16 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:06:16 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:06:16 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:06:16 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 23:06:16 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:06:17 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:06:17 --> XSS Filtering completed
+ERROR - 2013-12-01 23:06:17 --> Severity: Warning  --> fopen(/dev/urandom) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory C:\Program Files (x86)\Ampps\www\project\application\libraries\phpass-0.1\PasswordHash.php 49
+DEBUG - 2013-12-01 23:06:18 --> Config Class Initialized
+DEBUG - 2013-12-01 23:06:18 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:06:18 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:06:18 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:06:18 --> URI Class Initialized
+DEBUG - 2013-12-01 23:06:18 --> Router Class Initialized
+DEBUG - 2013-12-01 23:06:18 --> Output Class Initialized
+DEBUG - 2013-12-01 23:06:18 --> Security Class Initialized
+DEBUG - 2013-12-01 23:06:18 --> Input Class Initialized
+DEBUG - 2013-12-01 23:06:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:06:19 --> Language Class Initialized
+DEBUG - 2013-12-01 23:06:19 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:06:19 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:06:19 --> Session Class Initialized
+DEBUG - 2013-12-01 23:06:19 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:06:19 --> Session routines successfully run
+DEBUG - 2013-12-01 23:06:19 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:06:19 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:06:20 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:06:20 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:06:20 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:06:20 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:06:20 --> Model Class Initialized
+DEBUG - 2013-12-01 23:06:20 --> Model Class Initialized
+DEBUG - 2013-12-01 23:06:20 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:06:20 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:06:20 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:06:21 --> Language file loaded: language/english/tank_auth_lang.php
+ERROR - 2013-12-01 23:06:21 --> Severity: Notice  --> Undefined index: HTTP_REFERRER C:\Program Files (x86)\Ampps\www\project\application\controllers\auth.php 34
+DEBUG - 2013-12-01 23:06:21 --> File loaded: application/views/auth/general_message.php
+DEBUG - 2013-12-01 23:06:21 --> Final output sent to browser
+DEBUG - 2013-12-01 23:06:21 --> Total execution time: 3.2292
+DEBUG - 2013-12-01 23:06:26 --> Config Class Initialized
+DEBUG - 2013-12-01 23:06:26 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:06:26 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:06:27 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:06:27 --> URI Class Initialized
+DEBUG - 2013-12-01 23:06:27 --> Router Class Initialized
+DEBUG - 2013-12-01 23:06:27 --> Output Class Initialized
+DEBUG - 2013-12-01 23:06:27 --> Security Class Initialized
+DEBUG - 2013-12-01 23:06:27 --> Input Class Initialized
+DEBUG - 2013-12-01 23:06:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:06:27 --> Language Class Initialized
+DEBUG - 2013-12-01 23:06:27 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:06:27 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:06:28 --> Session Class Initialized
+DEBUG - 2013-12-01 23:06:28 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:06:28 --> Session routines successfully run
+DEBUG - 2013-12-01 23:06:28 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:06:28 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:06:28 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:06:29 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:06:29 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:06:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:06:29 --> Model Class Initialized
+DEBUG - 2013-12-01 23:06:29 --> Model Class Initialized
+DEBUG - 2013-12-01 23:06:29 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:06:29 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:06:29 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:06:29 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:06:30 --> Config Class Initialized
+DEBUG - 2013-12-01 23:06:30 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:06:30 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:06:30 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:06:30 --> URI Class Initialized
+DEBUG - 2013-12-01 23:06:30 --> Router Class Initialized
+DEBUG - 2013-12-01 23:06:30 --> Output Class Initialized
+DEBUG - 2013-12-01 23:06:30 --> Security Class Initialized
+DEBUG - 2013-12-01 23:06:30 --> Input Class Initialized
+DEBUG - 2013-12-01 23:06:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:06:31 --> Language Class Initialized
+DEBUG - 2013-12-01 23:06:31 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:06:31 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:06:31 --> Session Class Initialized
+DEBUG - 2013-12-01 23:06:31 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:06:31 --> Session routines successfully run
+DEBUG - 2013-12-01 23:06:31 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:06:31 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:06:32 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:06:32 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:06:32 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:06:32 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:06:32 --> Model Class Initialized
+DEBUG - 2013-12-01 23:06:32 --> Model Class Initialized
+DEBUG - 2013-12-01 23:06:32 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:06:32 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:06:33 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:06:33 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:06:33 --> Config Class Initialized
+DEBUG - 2013-12-01 23:06:33 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:06:33 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:06:33 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:06:33 --> URI Class Initialized
+DEBUG - 2013-12-01 23:06:34 --> Router Class Initialized
+DEBUG - 2013-12-01 23:06:34 --> Output Class Initialized
+DEBUG - 2013-12-01 23:06:34 --> Security Class Initialized
+DEBUG - 2013-12-01 23:06:34 --> Input Class Initialized
+DEBUG - 2013-12-01 23:06:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:06:34 --> Language Class Initialized
+DEBUG - 2013-12-01 23:06:34 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:06:35 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:06:35 --> Session Class Initialized
+DEBUG - 2013-12-01 23:06:35 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:06:35 --> Session routines successfully run
+DEBUG - 2013-12-01 23:06:35 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:06:35 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:06:35 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:06:36 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:06:36 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:06:36 --> Model Class Initialized
+DEBUG - 2013-12-01 23:06:36 --> Model Class Initialized
+DEBUG - 2013-12-01 23:06:36 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:06:36 --> Model Class Initialized
+DEBUG - 2013-12-01 23:06:36 --> Model Class Initialized
+DEBUG - 2013-12-01 23:06:36 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:06:37 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-01 23:06:37 --> Final output sent to browser
+DEBUG - 2013-12-01 23:06:37 --> Total execution time: 3.7122
+DEBUG - 2013-12-01 23:10:19 --> Config Class Initialized
+DEBUG - 2013-12-01 23:10:19 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:10:19 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:10:19 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:10:19 --> URI Class Initialized
+DEBUG - 2013-12-01 23:10:19 --> Router Class Initialized
+DEBUG - 2013-12-01 23:10:19 --> Output Class Initialized
+DEBUG - 2013-12-01 23:10:20 --> Security Class Initialized
+DEBUG - 2013-12-01 23:10:20 --> Input Class Initialized
+DEBUG - 2013-12-01 23:10:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:10:20 --> Language Class Initialized
+DEBUG - 2013-12-01 23:10:20 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:10:20 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:10:20 --> Session Class Initialized
+DEBUG - 2013-12-01 23:10:20 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:10:21 --> Session routines successfully run
+DEBUG - 2013-12-01 23:10:21 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:10:21 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:10:21 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:10:21 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:10:21 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:10:22 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:10:22 --> Model Class Initialized
+DEBUG - 2013-12-01 23:10:22 --> Model Class Initialized
+DEBUG - 2013-12-01 23:10:22 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:10:22 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:10:22 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:10:22 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:10:22 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:10:23 --> Config Class Initialized
+DEBUG - 2013-12-01 23:10:23 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:10:23 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:10:23 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:10:23 --> URI Class Initialized
+DEBUG - 2013-12-01 23:10:23 --> Router Class Initialized
+DEBUG - 2013-12-01 23:10:23 --> Output Class Initialized
+DEBUG - 2013-12-01 23:10:23 --> Security Class Initialized
+DEBUG - 2013-12-01 23:10:23 --> Input Class Initialized
+DEBUG - 2013-12-01 23:10:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:10:24 --> Language Class Initialized
+DEBUG - 2013-12-01 23:10:43 --> Config Class Initialized
+DEBUG - 2013-12-01 23:10:43 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:10:44 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:10:44 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:10:44 --> URI Class Initialized
+DEBUG - 2013-12-01 23:10:44 --> Router Class Initialized
+DEBUG - 2013-12-01 23:10:44 --> Output Class Initialized
+DEBUG - 2013-12-01 23:10:44 --> Security Class Initialized
+DEBUG - 2013-12-01 23:10:44 --> Input Class Initialized
+DEBUG - 2013-12-01 23:10:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:10:44 --> Language Class Initialized
+DEBUG - 2013-12-01 23:10:45 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:10:45 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:10:45 --> Session Class Initialized
+DEBUG - 2013-12-01 23:10:45 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:10:45 --> A session cookie was not found.
+DEBUG - 2013-12-01 23:10:45 --> Session routines successfully run
+DEBUG - 2013-12-01 23:10:45 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:10:46 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:10:46 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:10:46 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:10:46 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:10:46 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:10:46 --> Model Class Initialized
+DEBUG - 2013-12-01 23:10:46 --> Model Class Initialized
+DEBUG - 2013-12-01 23:10:46 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:10:47 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:10:47 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:10:47 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:10:47 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:10:47 --> Model Class Initialized
+DEBUG - 2013-12-01 23:10:47 --> File loaded: application/views/auth/login_form.php
+DEBUG - 2013-12-01 23:10:47 --> Final output sent to browser
+DEBUG - 2013-12-01 23:10:47 --> Total execution time: 3.8792
+DEBUG - 2013-12-01 23:10:51 --> Config Class Initialized
+DEBUG - 2013-12-01 23:10:51 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:10:51 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:10:51 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:10:52 --> URI Class Initialized
+DEBUG - 2013-12-01 23:10:52 --> Router Class Initialized
+DEBUG - 2013-12-01 23:10:52 --> Output Class Initialized
+DEBUG - 2013-12-01 23:10:52 --> Security Class Initialized
+DEBUG - 2013-12-01 23:10:52 --> Input Class Initialized
+DEBUG - 2013-12-01 23:10:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:10:52 --> Language Class Initialized
+DEBUG - 2013-12-01 23:10:52 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:10:53 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:10:53 --> Session Class Initialized
+DEBUG - 2013-12-01 23:10:53 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:10:53 --> Session routines successfully run
+DEBUG - 2013-12-01 23:10:53 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:10:53 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:10:53 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:10:54 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:10:54 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:10:54 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:10:54 --> Model Class Initialized
+DEBUG - 2013-12-01 23:10:54 --> Model Class Initialized
+DEBUG - 2013-12-01 23:10:54 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:10:54 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:10:54 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:10:55 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:10:55 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:10:55 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:10:55 --> Model Class Initialized
+DEBUG - 2013-12-01 23:10:55 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 23:10:55 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:10:55 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:10:57 --> Config Class Initialized
+DEBUG - 2013-12-01 23:10:57 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:10:57 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:10:57 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:10:57 --> URI Class Initialized
+DEBUG - 2013-12-01 23:10:57 --> Router Class Initialized
+DEBUG - 2013-12-01 23:10:57 --> Output Class Initialized
+DEBUG - 2013-12-01 23:10:57 --> Security Class Initialized
+DEBUG - 2013-12-01 23:10:58 --> Input Class Initialized
+DEBUG - 2013-12-01 23:10:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:10:58 --> Language Class Initialized
+DEBUG - 2013-12-01 23:10:58 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:10:58 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:10:58 --> Session Class Initialized
+DEBUG - 2013-12-01 23:10:58 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:10:59 --> Session routines successfully run
+DEBUG - 2013-12-01 23:10:59 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:10:59 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:10:59 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:10:59 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:10:59 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:10:59 --> Model Class Initialized
+DEBUG - 2013-12-01 23:11:00 --> Model Class Initialized
+DEBUG - 2013-12-01 23:11:00 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:11:00 --> Model Class Initialized
+DEBUG - 2013-12-01 23:11:00 --> Model Class Initialized
+DEBUG - 2013-12-01 23:11:00 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:11:00 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-01 23:11:00 --> Final output sent to browser
+DEBUG - 2013-12-01 23:11:00 --> Total execution time: 3.7162
+DEBUG - 2013-12-01 23:11:03 --> Config Class Initialized
+DEBUG - 2013-12-01 23:11:04 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:11:04 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:11:04 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:11:04 --> URI Class Initialized
+DEBUG - 2013-12-01 23:11:04 --> Router Class Initialized
+DEBUG - 2013-12-01 23:11:04 --> Output Class Initialized
+DEBUG - 2013-12-01 23:11:04 --> Security Class Initialized
+DEBUG - 2013-12-01 23:11:04 --> Input Class Initialized
+DEBUG - 2013-12-01 23:11:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:11:04 --> Language Class Initialized
+DEBUG - 2013-12-01 23:11:05 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:11:05 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:11:05 --> Session Class Initialized
+DEBUG - 2013-12-01 23:11:05 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:11:05 --> Session routines successfully run
+DEBUG - 2013-12-01 23:11:05 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:11:06 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:11:06 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:11:06 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:11:06 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:11:06 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:11:06 --> Model Class Initialized
+DEBUG - 2013-12-01 23:11:06 --> Model Class Initialized
+DEBUG - 2013-12-01 23:11:06 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:11:07 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:11:07 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:11:07 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:11:07 --> Helper loaded: cookie_helper
 DEBUG - 2013-12-01 23:11:07 --> Config Class Initialized
 DEBUG - 2013-12-01 23:11:07 --> Hooks Class Initialized
 DEBUG - 2013-12-01 23:11:07 --> Utf8 Class Initialized
 DEBUG - 2013-12-01 23:11:07 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:11:07 --> URI Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Router Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Output Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Security Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Input Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:11:07 --> Language Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:11:07 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:11:07 --> Session Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:11:07 --> Session routines successfully run
-DEBUG - 2013-12-01 23:11:07 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:11:07 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:11:07 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:11:07 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:11:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:11:07 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:11:07 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:11:07 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:11:07 --> Final output sent to browser
-DEBUG - 2013-12-01 23:11:07 --> Total execution time: 0.0572
-DEBUG - 2013-12-01 23:11:07 --> Config Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:11:07 --> URI Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Router Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Config Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:11:07 --> URI Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Router Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Output Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Security Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Input Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:11:07 --> Language Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Output Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Security Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Input Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:11:07 --> Language Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:11:07 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:11:07 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:11:07 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:11:07 --> Session Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:11:07 --> Session Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:11:07 --> Session routines successfully run
-DEBUG - 2013-12-01 23:11:07 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:11:07 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:11:07 --> Session routines successfully run
-DEBUG - 2013-12-01 23:11:07 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:11:07 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:11:07 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:11:07 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:11:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:11:07 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:11:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:11:07 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:11:07 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:11:07 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:11:07 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:11:07 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:11:07 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:11:07 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:11:07 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:11:10 --> Config Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:11:10 --> URI Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Router Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Output Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Security Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Input Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:11:10 --> Language Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:11:10 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:11:10 --> Session Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:11:10 --> Session routines successfully run
-DEBUG - 2013-12-01 23:11:10 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:11:10 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:11:08 --> URI Class Initialized
+DEBUG - 2013-12-01 23:11:08 --> Router Class Initialized
+DEBUG - 2013-12-01 23:11:08 --> Output Class Initialized
+DEBUG - 2013-12-01 23:11:08 --> Security Class Initialized
+DEBUG - 2013-12-01 23:11:08 --> Input Class Initialized
+DEBUG - 2013-12-01 23:11:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:11:08 --> Language Class Initialized
+DEBUG - 2013-12-01 23:11:08 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:11:08 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:11:09 --> Session Class Initialized
+DEBUG - 2013-12-01 23:11:09 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:11:09 --> A session cookie was not found.
+DEBUG - 2013-12-01 23:11:09 --> Session routines successfully run
+DEBUG - 2013-12-01 23:11:09 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:11:09 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:11:09 --> Helper loaded: url_helper
 DEBUG - 2013-12-01 23:11:10 --> Form Validation Class Initialized
 DEBUG - 2013-12-01 23:11:10 --> Config file loaded: application/config/tank_auth.php
 DEBUG - 2013-12-01 23:11:10 --> Session class already loaded. Second attempt ignored.
@@ -7367,616 +7876,232 @@ DEBUG - 2013-12-01 23:11:10 --> Model Class Initialized
 DEBUG - 2013-12-01 23:11:10 --> Image Lib Class Initialized
 DEBUG - 2013-12-01 23:11:10 --> Helper loaded: cookie_helper
 DEBUG - 2013-12-01 23:11:10 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:11:10 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:11:10 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:11:10 --> Final output sent to browser
-DEBUG - 2013-12-01 23:11:10 --> Total execution time: 0.0552
-DEBUG - 2013-12-01 23:11:10 --> Config Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:11:10 --> URI Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Router Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Config Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Output Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:11:10 --> URI Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Security Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Router Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Output Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Security Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Input Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:11:10 --> Language Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Input Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:11:10 --> Language Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:11:10 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:11:10 --> Session Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:11:10 --> Session routines successfully run
-DEBUG - 2013-12-01 23:11:10 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:11:10 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:11:10 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:11:10 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:11:10 --> Session Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:11:10 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:11:10 --> Model Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:11:10 --> Model Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Session routines successfully run
-DEBUG - 2013-12-01 23:11:10 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:11:10 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:11:10 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:11:10 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:11:10 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:11:10 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:11:10 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:11:10 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:11:10 --> Model Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Model Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:11:10 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:11:10 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:11:10 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:11:10 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:14:07 --> Config Class Initialized
-DEBUG - 2013-12-01 23:14:07 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:14:07 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:14:07 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:14:07 --> URI Class Initialized
-DEBUG - 2013-12-01 23:14:07 --> Router Class Initialized
-DEBUG - 2013-12-01 23:14:07 --> Output Class Initialized
-DEBUG - 2013-12-01 23:14:07 --> Security Class Initialized
-DEBUG - 2013-12-01 23:14:07 --> Input Class Initialized
-DEBUG - 2013-12-01 23:14:07 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:14:07 --> Language Class Initialized
-DEBUG - 2013-12-01 23:14:07 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:14:07 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:14:07 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:14:07 --> Session Class Initialized
-DEBUG - 2013-12-01 23:14:07 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:14:07 --> Session routines successfully run
-DEBUG - 2013-12-01 23:14:07 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:14:07 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:14:07 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:14:07 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:14:07 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:14:07 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:14:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:14:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:14:08 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:14:08 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:14:08 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:14:08 --> Final output sent to browser
-DEBUG - 2013-12-01 23:14:08 --> Total execution time: 0.0644
-DEBUG - 2013-12-01 23:14:08 --> Config Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:14:08 --> URI Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Router Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Output Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Security Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Input Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:14:08 --> Language Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:14:08 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:14:08 --> Session Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:14:08 --> Session routines successfully run
-DEBUG - 2013-12-01 23:14:08 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:14:08 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:14:08 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Config Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:14:08 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:14:08 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:14:08 --> URI Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Model Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Router Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Model Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Output Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Security Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:14:08 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:14:08 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:14:08 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:14:08 --> Input Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:14:08 --> Language Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:14:08 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:14:08 --> Session Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:14:08 --> Session routines successfully run
-DEBUG - 2013-12-01 23:14:08 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:14:08 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:14:08 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:14:08 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:14:08 --> Model Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Model Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:14:08 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:14:08 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:14:08 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:14:08 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:14:22 --> Config Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:14:22 --> URI Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Router Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Output Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Security Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Input Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:14:22 --> Language Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:14:22 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:14:22 --> Session Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:14:22 --> Session routines successfully run
-DEBUG - 2013-12-01 23:14:22 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:14:22 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:14:22 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:14:22 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:14:22 --> Model Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Model Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:14:22 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:14:22 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:14:22 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:14:22 --> Final output sent to browser
-DEBUG - 2013-12-01 23:14:22 --> Total execution time: 0.0689
-DEBUG - 2013-12-01 23:14:22 --> Config Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:14:22 --> URI Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Router Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Output Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Security Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Input Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:14:22 --> Language Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Config Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:14:22 --> URI Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Router Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:14:22 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:14:22 --> Output Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Security Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Input Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Session Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:14:22 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:14:22 --> Language Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Session routines successfully run
-DEBUG - 2013-12-01 23:14:22 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:14:22 --> Database Driver Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:14:22 --> Form Validation Class Initialized
-ERROR - 2013-12-01 23:14:22 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:14:22 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:14:22 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:14:22 --> Model Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Model Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:14:22 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:14:22 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:14:22 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:14:22 --> Session Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:14:22 --> Session routines successfully run
-DEBUG - 2013-12-01 23:14:22 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:14:22 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:14:22 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:14:22 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:14:22 --> Model Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Model Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:14:22 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:14:22 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:14:22 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:14:22 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:17:27 --> Config Class Initialized
-DEBUG - 2013-12-01 23:17:27 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:17:27 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:17:27 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:17:27 --> URI Class Initialized
-DEBUG - 2013-12-01 23:17:27 --> Router Class Initialized
-DEBUG - 2013-12-01 23:17:27 --> No URI present. Default controller set.
-DEBUG - 2013-12-01 23:17:27 --> Output Class Initialized
-DEBUG - 2013-12-01 23:17:27 --> Security Class Initialized
-DEBUG - 2013-12-01 23:17:27 --> Input Class Initialized
-DEBUG - 2013-12-01 23:17:27 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:17:27 --> Language Class Initialized
-DEBUG - 2013-12-01 23:17:27 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:17:27 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:17:27 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:17:27 --> Session Class Initialized
-DEBUG - 2013-12-01 23:17:27 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:17:27 --> Session routines successfully run
-DEBUG - 2013-12-01 23:17:27 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:17:27 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:17:27 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:17:27 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:17:27 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:17:27 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:17:27 --> Model Class Initialized
-DEBUG - 2013-12-01 23:17:27 --> Model Class Initialized
-DEBUG - 2013-12-01 23:17:27 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:17:27 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:17:27 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:17:27 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:17:27 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:18:39 --> Config Class Initialized
-DEBUG - 2013-12-01 23:18:39 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:18:39 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:18:39 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:18:39 --> URI Class Initialized
-DEBUG - 2013-12-01 23:18:39 --> Router Class Initialized
-DEBUG - 2013-12-01 23:18:39 --> Output Class Initialized
-DEBUG - 2013-12-01 23:18:39 --> Security Class Initialized
-DEBUG - 2013-12-01 23:18:39 --> Input Class Initialized
-DEBUG - 2013-12-01 23:18:39 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:18:39 --> Language Class Initialized
-DEBUG - 2013-12-01 23:18:39 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:18:39 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:18:39 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:18:39 --> Session Class Initialized
-DEBUG - 2013-12-01 23:18:39 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:18:39 --> Session routines successfully run
-DEBUG - 2013-12-01 23:18:39 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:18:39 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:18:39 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:18:39 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:18:39 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:18:39 --> Model Class Initialized
-DEBUG - 2013-12-01 23:18:39 --> Model Class Initialized
-DEBUG - 2013-12-01 23:18:40 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:18:40 --> Model Class Initialized
-DEBUG - 2013-12-01 23:18:40 --> Model Class Initialized
-DEBUG - 2013-12-01 23:18:40 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:18:40 --> File loaded: application/views/home/postsview.php
-DEBUG - 2013-12-01 23:18:40 --> Final output sent to browser
-DEBUG - 2013-12-01 23:18:40 --> Total execution time: 0.0566
-DEBUG - 2013-12-01 23:19:45 --> Config Class Initialized
-DEBUG - 2013-12-01 23:19:45 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:19:45 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:19:45 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:19:45 --> URI Class Initialized
-DEBUG - 2013-12-01 23:19:45 --> Router Class Initialized
-DEBUG - 2013-12-01 23:19:45 --> Output Class Initialized
-DEBUG - 2013-12-01 23:19:45 --> Security Class Initialized
-DEBUG - 2013-12-01 23:19:45 --> Input Class Initialized
-DEBUG - 2013-12-01 23:19:45 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:19:45 --> Language Class Initialized
-DEBUG - 2013-12-01 23:19:45 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:19:45 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:19:45 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:19:45 --> Session Class Initialized
-DEBUG - 2013-12-01 23:19:45 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:19:45 --> Session garbage collection performed.
-DEBUG - 2013-12-01 23:19:45 --> Session routines successfully run
-DEBUG - 2013-12-01 23:19:45 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:19:45 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:19:45 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:19:45 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:19:45 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:19:45 --> Model Class Initialized
-DEBUG - 2013-12-01 23:19:45 --> Model Class Initialized
-DEBUG - 2013-12-01 23:19:45 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:19:45 --> Model Class Initialized
-DEBUG - 2013-12-01 23:19:45 --> Model Class Initialized
-DEBUG - 2013-12-01 23:19:45 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:19:45 --> File loaded: application/views/home/postsview.php
-DEBUG - 2013-12-01 23:19:45 --> Final output sent to browser
-DEBUG - 2013-12-01 23:19:45 --> Total execution time: 0.0679
-DEBUG - 2013-12-01 23:23:12 --> Config Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:23:12 --> URI Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Router Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Output Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Security Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Config Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Input Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:23:12 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:23:12 --> Language Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> URI Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Router Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Output Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Security Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Input Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:23:12 --> Language Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:23:12 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:23:12 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:23:12 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:23:12 --> Session Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:23:12 --> Session Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:23:12 --> Session routines successfully run
-DEBUG - 2013-12-01 23:23:12 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Session routines successfully run
-DEBUG - 2013-12-01 23:23:12 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:23:12 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:23:12 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:23:12 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:23:12 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:23:12 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:12 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:23:12 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:12 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:23:12 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:12 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:23:12 --> File loaded: application/views/home/postsview.php
-DEBUG - 2013-12-01 23:23:12 --> Final output sent to browser
-DEBUG - 2013-12-01 23:23:12 --> Total execution time: 0.0475
-DEBUG - 2013-12-01 23:23:12 --> File loaded: application/views/home/postsview.php
-DEBUG - 2013-12-01 23:23:12 --> Final output sent to browser
-DEBUG - 2013-12-01 23:23:12 --> Total execution time: 0.0594
-DEBUG - 2013-12-01 23:23:14 --> Config Class Initialized
-DEBUG - 2013-12-01 23:23:14 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:23:14 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:23:14 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:23:14 --> URI Class Initialized
-DEBUG - 2013-12-01 23:23:14 --> Router Class Initialized
-DEBUG - 2013-12-01 23:23:14 --> Output Class Initialized
-DEBUG - 2013-12-01 23:23:14 --> Security Class Initialized
-DEBUG - 2013-12-01 23:23:14 --> Input Class Initialized
-DEBUG - 2013-12-01 23:23:14 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:23:14 --> Language Class Initialized
-DEBUG - 2013-12-01 23:23:14 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:23:14 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:23:14 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:23:14 --> Session Class Initialized
-DEBUG - 2013-12-01 23:23:14 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:23:14 --> Session routines successfully run
-DEBUG - 2013-12-01 23:23:14 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:23:14 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:23:14 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:23:14 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:23:14 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:23:14 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:14 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:14 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:14 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:23:14 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:23:14 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:14 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:23:23 --> Config Class Initialized
-DEBUG - 2013-12-01 23:23:23 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:23:23 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:23:23 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:23:23 --> URI Class Initialized
-DEBUG - 2013-12-01 23:23:23 --> Router Class Initialized
-DEBUG - 2013-12-01 23:23:23 --> Output Class Initialized
-DEBUG - 2013-12-01 23:23:23 --> Security Class Initialized
-DEBUG - 2013-12-01 23:23:23 --> Input Class Initialized
-DEBUG - 2013-12-01 23:23:23 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:23:23 --> Language Class Initialized
-DEBUG - 2013-12-01 23:23:23 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:23:23 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:23:23 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:23:23 --> Session Class Initialized
-DEBUG - 2013-12-01 23:23:23 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:23:23 --> Session routines successfully run
-DEBUG - 2013-12-01 23:23:23 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:23:23 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:23:23 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:23:23 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:23:23 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:23 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:23 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:23 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:23:23 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:23 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:23 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:23:23 --> File loaded: application/views/home/postsview.php
-DEBUG - 2013-12-01 23:23:23 --> Final output sent to browser
-DEBUG - 2013-12-01 23:23:23 --> Total execution time: 0.0451
-DEBUG - 2013-12-01 23:23:26 --> Config Class Initialized
-DEBUG - 2013-12-01 23:23:26 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:23:26 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:23:26 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:23:26 --> URI Class Initialized
-DEBUG - 2013-12-01 23:23:26 --> Router Class Initialized
-DEBUG - 2013-12-01 23:23:26 --> Output Class Initialized
-DEBUG - 2013-12-01 23:23:26 --> Security Class Initialized
-DEBUG - 2013-12-01 23:23:26 --> Input Class Initialized
-DEBUG - 2013-12-01 23:23:26 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:23:26 --> Language Class Initialized
-DEBUG - 2013-12-01 23:23:26 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:23:26 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:23:26 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:23:26 --> Session Class Initialized
-DEBUG - 2013-12-01 23:23:26 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:23:26 --> Session routines successfully run
-DEBUG - 2013-12-01 23:23:26 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:23:26 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:23:26 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:23:26 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:23:26 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:23:26 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:26 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:26 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:26 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:23:26 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:23:26 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:26 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:23:32 --> Config Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:23:32 --> URI Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Router Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Output Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Security Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Input Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:23:32 --> Language Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:23:32 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:23:32 --> Session Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:11:11 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:11:11 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:11:11 --> Model Class Initialized
+DEBUG - 2013-12-01 23:11:11 --> File loaded: application/views/auth/login_form.php
+DEBUG - 2013-12-01 23:11:11 --> Final output sent to browser
+DEBUG - 2013-12-01 23:11:11 --> Total execution time: 3.9212
+DEBUG - 2013-12-01 23:17:30 --> Config Class Initialized
+DEBUG - 2013-12-01 23:17:31 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:17:31 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:17:31 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:17:31 --> URI Class Initialized
+DEBUG - 2013-12-01 23:17:31 --> Router Class Initialized
+DEBUG - 2013-12-01 23:17:31 --> Output Class Initialized
+DEBUG - 2013-12-01 23:17:31 --> Security Class Initialized
+DEBUG - 2013-12-01 23:17:31 --> Input Class Initialized
+DEBUG - 2013-12-01 23:17:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:17:31 --> Language Class Initialized
+DEBUG - 2013-12-01 23:17:32 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:17:32 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:17:32 --> Session Class Initialized
+DEBUG - 2013-12-01 23:17:32 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:17:32 --> Session routines successfully run
+DEBUG - 2013-12-01 23:17:32 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:17:32 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:17:33 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:17:33 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:17:33 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:17:33 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:17:33 --> Model Class Initialized
+DEBUG - 2013-12-01 23:17:33 --> Model Class Initialized
+DEBUG - 2013-12-01 23:17:33 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:17:33 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:17:34 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:17:34 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:17:34 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:17:34 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-01 23:17:34 --> Final output sent to browser
+DEBUG - 2013-12-01 23:17:34 --> Total execution time: 3.5592
+DEBUG - 2013-12-01 23:17:49 --> Config Class Initialized
+DEBUG - 2013-12-01 23:17:49 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:17:49 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:17:49 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:17:49 --> URI Class Initialized
+DEBUG - 2013-12-01 23:17:49 --> Router Class Initialized
+DEBUG - 2013-12-01 23:17:50 --> Output Class Initialized
+DEBUG - 2013-12-01 23:17:50 --> Security Class Initialized
+DEBUG - 2013-12-01 23:17:50 --> Input Class Initialized
+DEBUG - 2013-12-01 23:17:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:17:50 --> Language Class Initialized
+DEBUG - 2013-12-01 23:17:50 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:17:50 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:17:50 --> Session Class Initialized
+DEBUG - 2013-12-01 23:17:50 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:17:50 --> Session routines successfully run
+DEBUG - 2013-12-01 23:17:51 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:17:51 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:17:51 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:17:51 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:17:51 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:17:51 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:17:51 --> Model Class Initialized
+DEBUG - 2013-12-01 23:17:51 --> Model Class Initialized
+DEBUG - 2013-12-01 23:17:52 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:17:52 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:17:52 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:17:52 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:17:52 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:17:52 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 23:17:52 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:17:52 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:17:52 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:17:53 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:17:53 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:17:53 --> XSS Filtering completed
+ERROR - 2013-12-01 23:17:53 --> Severity: Warning  --> fopen(/dev/urandom) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory C:\Program Files (x86)\Ampps\www\project\application\libraries\phpass-0.1\PasswordHash.php 49
+DEBUG - 2013-12-01 23:17:54 --> Email Class Initialized
+DEBUG - 2013-12-01 23:17:54 --> File loaded: application/views/email/activate-html.php
+DEBUG - 2013-12-01 23:17:54 --> File loaded: application/views/email/activate-txt.php
+DEBUG - 2013-12-01 23:17:55 --> Language file loaded: language/english/email_lang.php
+ERROR - 2013-12-01 23:17:56 --> Severity: 4096  --> Object of class Auth could not be converted to string C:\Program Files (x86)\Ampps\www\project\application\controllers\auth.php 204
+ERROR - 2013-12-01 23:17:56 --> Severity: Notice  --> Object of class Auth to string conversion C:\Program Files (x86)\Ampps\www\project\application\controllers\auth.php 204
+ERROR - 2013-12-01 23:17:56 --> Severity: Notice  --> Undefined property: Auth::$Object C:\Program Files (x86)\Ampps\www\project\application\controllers\auth.php 204
+DEBUG - 2013-12-01 23:20:06 --> Config Class Initialized
+DEBUG - 2013-12-01 23:20:07 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:20:07 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:20:07 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:20:07 --> URI Class Initialized
+DEBUG - 2013-12-01 23:20:07 --> Router Class Initialized
+DEBUG - 2013-12-01 23:20:07 --> Output Class Initialized
+DEBUG - 2013-12-01 23:20:07 --> Security Class Initialized
+DEBUG - 2013-12-01 23:20:07 --> Input Class Initialized
+DEBUG - 2013-12-01 23:20:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:20:07 --> Language Class Initialized
+DEBUG - 2013-12-01 23:20:08 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:20:08 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:20:08 --> Session Class Initialized
+DEBUG - 2013-12-01 23:20:08 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:20:08 --> Session routines successfully run
+DEBUG - 2013-12-01 23:20:08 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:20:08 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:20:09 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:20:09 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:20:09 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:20:09 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:20:09 --> Model Class Initialized
+DEBUG - 2013-12-01 23:20:09 --> Model Class Initialized
+DEBUG - 2013-12-01 23:20:09 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:20:09 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:20:09 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:20:10 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:20:10 --> Language file loaded: language/english/tank_auth_lang.php
+ERROR - 2013-12-01 23:20:10 --> Severity: Notice  --> Undefined index: session_id C:\Program Files (x86)\Ampps\www\project\system\libraries\Session.php 272
+ERROR - 2013-12-01 23:20:10 --> Severity: Notice  --> Undefined index: ip_address C:\Program Files (x86)\Ampps\www\project\system\libraries\Session.php 272
+ERROR - 2013-12-01 23:20:10 --> Severity: Notice  --> Undefined index: user_agent C:\Program Files (x86)\Ampps\www\project\system\libraries\Session.php 272
+ERROR - 2013-12-01 23:20:10 --> Severity: Notice  --> Undefined index: last_activity C:\Program Files (x86)\Ampps\www\project\system\libraries\Session.php 272
+ERROR - 2013-12-01 23:20:10 --> Severity: Notice  --> Undefined index: session_id C:\Program Files (x86)\Ampps\www\project\system\libraries\Session.php 288
+ERROR - 2013-12-01 23:20:10 --> Severity: Notice  --> Undefined index: last_activity C:\Program Files (x86)\Ampps\www\project\system\libraries\Session.php 289
+DEBUG - 2013-12-01 23:20:11 --> Config Class Initialized
+DEBUG - 2013-12-01 23:20:11 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:20:11 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:20:11 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:20:11 --> URI Class Initialized
+DEBUG - 2013-12-01 23:20:11 --> Router Class Initialized
+DEBUG - 2013-12-01 23:20:11 --> Output Class Initialized
+DEBUG - 2013-12-01 23:20:11 --> Security Class Initialized
+DEBUG - 2013-12-01 23:20:11 --> Input Class Initialized
+DEBUG - 2013-12-01 23:20:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:20:12 --> Language Class Initialized
+DEBUG - 2013-12-01 23:20:12 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:20:12 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:20:12 --> Session Class Initialized
+DEBUG - 2013-12-01 23:20:12 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:20:13 --> Session routines successfully run
+DEBUG - 2013-12-01 23:20:13 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:20:13 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:20:13 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:20:13 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:20:13 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:20:13 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:20:13 --> Model Class Initialized
+DEBUG - 2013-12-01 23:20:13 --> Model Class Initialized
+DEBUG - 2013-12-01 23:20:14 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:20:14 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:20:14 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:20:14 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:20:14 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:20:14 --> Config Class Initialized
+DEBUG - 2013-12-01 23:20:14 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:20:14 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:20:14 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:20:15 --> URI Class Initialized
+DEBUG - 2013-12-01 23:20:15 --> Router Class Initialized
+DEBUG - 2013-12-01 23:20:15 --> Output Class Initialized
+DEBUG - 2013-12-01 23:20:15 --> Security Class Initialized
+DEBUG - 2013-12-01 23:20:15 --> Input Class Initialized
+DEBUG - 2013-12-01 23:20:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:20:15 --> Language Class Initialized
+DEBUG - 2013-12-01 23:20:15 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:20:16 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:20:16 --> Session Class Initialized
+DEBUG - 2013-12-01 23:20:16 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:20:16 --> Session routines successfully run
+DEBUG - 2013-12-01 23:20:16 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:20:16 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:20:16 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:20:16 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:20:17 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:20:17 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:20:17 --> Model Class Initialized
+DEBUG - 2013-12-01 23:20:17 --> Model Class Initialized
+DEBUG - 2013-12-01 23:20:17 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:20:17 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:20:17 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:20:17 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:20:17 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:20:18 --> Model Class Initialized
+DEBUG - 2013-12-01 23:20:18 --> File loaded: application/views/auth/login_form.php
+DEBUG - 2013-12-01 23:20:18 --> Final output sent to browser
+DEBUG - 2013-12-01 23:20:18 --> Total execution time: 3.6102
+DEBUG - 2013-12-01 23:23:29 --> Config Class Initialized
+DEBUG - 2013-12-01 23:23:30 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:23:30 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:23:30 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:23:30 --> URI Class Initialized
+DEBUG - 2013-12-01 23:23:30 --> Router Class Initialized
+DEBUG - 2013-12-01 23:23:30 --> Output Class Initialized
+DEBUG - 2013-12-01 23:23:30 --> Security Class Initialized
+DEBUG - 2013-12-01 23:23:30 --> Input Class Initialized
+DEBUG - 2013-12-01 23:23:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:23:31 --> Language Class Initialized
+DEBUG - 2013-12-01 23:23:31 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:23:31 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:23:31 --> Session Class Initialized
+DEBUG - 2013-12-01 23:23:31 --> Helper loaded: string_helper
 DEBUG - 2013-12-01 23:23:32 --> Session routines successfully run
 DEBUG - 2013-12-01 23:23:32 --> Controller Class Initialized
 DEBUG - 2013-12-01 23:23:32 --> Helper loaded: form_helper
 DEBUG - 2013-12-01 23:23:32 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:23:32 --> Form Validation Class Initialized
 DEBUG - 2013-12-01 23:23:32 --> Config file loaded: application/config/tank_auth.php
 DEBUG - 2013-12-01 23:23:32 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:32 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:23:32 --> Config Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:23:32 --> URI Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Router Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Output Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Security Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Input Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:23:32 --> Language Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> File loaded: application/views/home/postsview.php
-DEBUG - 2013-12-01 23:23:32 --> Final output sent to browser
-DEBUG - 2013-12-01 23:23:32 --> Total execution time: 0.0845
-DEBUG - 2013-12-01 23:23:32 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:23:32 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:23:32 --> Session Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:23:32 --> Session routines successfully run
-DEBUG - 2013-12-01 23:23:32 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:23:32 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:23:32 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:23:32 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:32 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:32 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:23:32 --> File loaded: application/views/home/postsview.php
-DEBUG - 2013-12-01 23:23:32 --> Final output sent to browser
-DEBUG - 2013-12-01 23:23:32 --> Total execution time: 0.1139
-DEBUG - 2013-12-01 23:23:38 --> Config Class Initialized
-DEBUG - 2013-12-01 23:23:38 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:23:38 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:23:38 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:23:38 --> URI Class Initialized
-DEBUG - 2013-12-01 23:23:38 --> Router Class Initialized
-DEBUG - 2013-12-01 23:23:38 --> Output Class Initialized
-DEBUG - 2013-12-01 23:23:38 --> Security Class Initialized
-DEBUG - 2013-12-01 23:23:38 --> Input Class Initialized
-DEBUG - 2013-12-01 23:23:38 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:23:38 --> Language Class Initialized
-DEBUG - 2013-12-01 23:23:38 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:23:38 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:23:38 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:23:38 --> Session Class Initialized
-DEBUG - 2013-12-01 23:23:38 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:23:38 --> Session routines successfully run
-DEBUG - 2013-12-01 23:23:38 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:23:38 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:23:38 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:23:38 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:23:38 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:23:38 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:38 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:38 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:38 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:23:38 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:23:38 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:38 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:23:41 --> Config Class Initialized
-DEBUG - 2013-12-01 23:23:41 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:23:41 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:23:41 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:23:41 --> URI Class Initialized
-DEBUG - 2013-12-01 23:23:41 --> Router Class Initialized
-DEBUG - 2013-12-01 23:23:41 --> Output Class Initialized
-DEBUG - 2013-12-01 23:23:41 --> Security Class Initialized
-DEBUG - 2013-12-01 23:23:41 --> Input Class Initialized
-DEBUG - 2013-12-01 23:23:41 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:23:41 --> Language Class Initialized
-DEBUG - 2013-12-01 23:23:41 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:23:41 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:23:41 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:23:41 --> Session Class Initialized
-DEBUG - 2013-12-01 23:23:41 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:23:41 --> Session garbage collection performed.
+DEBUG - 2013-12-01 23:23:33 --> Model Class Initialized
+DEBUG - 2013-12-01 23:23:33 --> Model Class Initialized
+DEBUG - 2013-12-01 23:23:33 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:23:33 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:23:33 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:23:33 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:23:33 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:23:33 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-01 23:23:34 --> Final output sent to browser
+DEBUG - 2013-12-01 23:23:34 --> Total execution time: 4.2102
+DEBUG - 2013-12-01 23:23:39 --> Config Class Initialized
+DEBUG - 2013-12-01 23:23:39 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:23:39 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:23:39 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:23:39 --> URI Class Initialized
+DEBUG - 2013-12-01 23:23:39 --> Router Class Initialized
+DEBUG - 2013-12-01 23:23:39 --> Output Class Initialized
+DEBUG - 2013-12-01 23:23:39 --> Security Class Initialized
+DEBUG - 2013-12-01 23:23:39 --> Input Class Initialized
+DEBUG - 2013-12-01 23:23:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:23:40 --> Language Class Initialized
+DEBUG - 2013-12-01 23:23:40 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:23:40 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:23:40 --> Session Class Initialized
+DEBUG - 2013-12-01 23:23:40 --> Helper loaded: string_helper
 DEBUG - 2013-12-01 23:23:41 --> Session routines successfully run
 DEBUG - 2013-12-01 23:23:41 --> Controller Class Initialized
 DEBUG - 2013-12-01 23:23:41 --> Helper loaded: form_helper
@@ -7984,574 +8109,451 @@ DEBUG - 2013-12-01 23:23:41 --> Helper loaded: url_helper
 DEBUG - 2013-12-01 23:23:41 --> Form Validation Class Initialized
 DEBUG - 2013-12-01 23:23:41 --> Config file loaded: application/config/tank_auth.php
 DEBUG - 2013-12-01 23:23:41 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:41 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:41 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:41 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:23:41 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:23:41 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:41 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:23:41 --> Helper loaded: cookie_helper
-ERROR - 2013-12-01 23:23:41 --> Severity: Notice  --> Undefined index: session_id /Applications/AMPPS/www/project-1/system/libraries/Session.php 272
-ERROR - 2013-12-01 23:23:41 --> Severity: Notice  --> Undefined index: ip_address /Applications/AMPPS/www/project-1/system/libraries/Session.php 272
-ERROR - 2013-12-01 23:23:41 --> Severity: Notice  --> Undefined index: user_agent /Applications/AMPPS/www/project-1/system/libraries/Session.php 272
-ERROR - 2013-12-01 23:23:41 --> Severity: Notice  --> Undefined index: last_activity /Applications/AMPPS/www/project-1/system/libraries/Session.php 272
-ERROR - 2013-12-01 23:23:41 --> Severity: Notice  --> Undefined index: session_id /Applications/AMPPS/www/project-1/system/libraries/Session.php 288
-ERROR - 2013-12-01 23:23:41 --> Severity: Notice  --> Undefined index: last_activity /Applications/AMPPS/www/project-1/system/libraries/Session.php 289
+DEBUG - 2013-12-01 23:23:42 --> Model Class Initialized
+DEBUG - 2013-12-01 23:23:42 --> Model Class Initialized
+DEBUG - 2013-12-01 23:23:42 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:23:42 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:23:42 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:23:42 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:23:42 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:23:42 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 23:23:43 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:23:43 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:23:43 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:23:43 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:23:43 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:23:43 --> XSS Filtering completed
+ERROR - 2013-12-01 23:23:43 --> Severity: Warning  --> fopen(/dev/urandom) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory C:\Program Files (x86)\Ampps\www\project\application\libraries\phpass-0.1\PasswordHash.php 49
+DEBUG - 2013-12-01 23:23:44 --> Email Class Initialized
+DEBUG - 2013-12-01 23:23:44 --> File loaded: application/views/email/activate-html.php
+DEBUG - 2013-12-01 23:23:44 --> File loaded: application/views/email/activate-txt.php
+DEBUG - 2013-12-01 23:23:45 --> Language file loaded: language/english/email_lang.php
 DEBUG - 2013-12-01 23:23:46 --> Config Class Initialized
 DEBUG - 2013-12-01 23:23:46 --> Hooks Class Initialized
 DEBUG - 2013-12-01 23:23:46 --> Utf8 Class Initialized
 DEBUG - 2013-12-01 23:23:46 --> UTF-8 Support Enabled
 DEBUG - 2013-12-01 23:23:46 --> URI Class Initialized
-DEBUG - 2013-12-01 23:23:46 --> Router Class Initialized
-DEBUG - 2013-12-01 23:23:46 --> Output Class Initialized
-DEBUG - 2013-12-01 23:23:46 --> Security Class Initialized
-DEBUG - 2013-12-01 23:23:46 --> Input Class Initialized
-DEBUG - 2013-12-01 23:23:46 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:23:46 --> Language Class Initialized
-DEBUG - 2013-12-01 23:23:46 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:23:46 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:23:46 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:23:46 --> Session Class Initialized
-DEBUG - 2013-12-01 23:23:46 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:23:46 --> Session routines successfully run
-DEBUG - 2013-12-01 23:23:46 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:23:46 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:23:46 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:23:47 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:23:47 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:23:47 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:47 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:47 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:47 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:23:47 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:23:47 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:23:47 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:47 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:23:47 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:47 --> File loaded: application/views/auth/login_form.php
-DEBUG - 2013-12-01 23:23:47 --> Final output sent to browser
-DEBUG - 2013-12-01 23:23:47 --> Total execution time: 0.0591
-DEBUG - 2013-12-01 23:23:56 --> Config Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:23:56 --> URI Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Router Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Output Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Security Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Input Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:23:56 --> Language Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:23:56 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:23:56 --> Session Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:23:56 --> Session routines successfully run
-DEBUG - 2013-12-01 23:23:56 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:23:56 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:23:56 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:23:56 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:56 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:23:56 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:56 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:23:56 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:23:56 --> Final output sent to browser
-DEBUG - 2013-12-01 23:23:56 --> Total execution time: 0.0729
-DEBUG - 2013-12-01 23:23:56 --> Config Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:23:56 --> URI Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Router Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Output Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Security Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Config Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:23:56 --> URI Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Router Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Output Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Security Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Input Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:23:56 --> Language Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Input Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:23:56 --> Language Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:23:56 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:23:56 --> Session Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:23:56 --> Session routines successfully run
-DEBUG - 2013-12-01 23:23:56 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:23:56 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:23:56 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:23:56 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:56 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:23:56 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:56 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:23:56 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:23:56 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:23:56 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:23:56 --> Session Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:23:56 --> Session routines successfully run
-DEBUG - 2013-12-01 23:23:56 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:23:56 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:23:56 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:23:56 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:56 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Model Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:23:56 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:23:56 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:23:56 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:23:56 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:26:15 --> Config Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:26:15 --> URI Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Router Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Output Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Security Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Input Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:26:15 --> Language Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:26:15 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:26:15 --> Session Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:26:15 --> Session routines successfully run
-DEBUG - 2013-12-01 23:26:15 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:26:15 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:26:15 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:26:15 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:26:15 --> Model Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Model Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:23:47 --> Router Class Initialized
+DEBUG - 2013-12-01 23:23:47 --> Output Class Initialized
+DEBUG - 2013-12-01 23:23:47 --> Security Class Initialized
+DEBUG - 2013-12-01 23:23:47 --> Input Class Initialized
+DEBUG - 2013-12-01 23:23:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:23:47 --> Language Class Initialized
+DEBUG - 2013-12-01 23:23:47 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:23:47 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:23:48 --> Session Class Initialized
+DEBUG - 2013-12-01 23:23:48 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:23:49 --> Session routines successfully run
+DEBUG - 2013-12-01 23:23:49 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:23:49 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:23:49 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:23:49 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:23:50 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:23:50 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:23:50 --> Model Class Initialized
+DEBUG - 2013-12-01 23:23:50 --> Model Class Initialized
+DEBUG - 2013-12-01 23:23:50 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:23:50 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:23:50 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:23:50 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:23:51 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:23:51 --> File loaded: application/views/auth/general_message.php
+DEBUG - 2013-12-01 23:23:51 --> Final output sent to browser
+DEBUG - 2013-12-01 23:23:51 --> Total execution time: 4.9723
+DEBUG - 2013-12-01 23:24:49 --> Config Class Initialized
+DEBUG - 2013-12-01 23:24:49 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:24:49 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:24:49 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:24:49 --> URI Class Initialized
+DEBUG - 2013-12-01 23:24:49 --> Router Class Initialized
+DEBUG - 2013-12-01 23:24:49 --> Output Class Initialized
+DEBUG - 2013-12-01 23:24:49 --> Security Class Initialized
+DEBUG - 2013-12-01 23:24:49 --> Input Class Initialized
+DEBUG - 2013-12-01 23:24:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:24:50 --> Language Class Initialized
+DEBUG - 2013-12-01 23:24:50 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:24:50 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:24:50 --> Session Class Initialized
+DEBUG - 2013-12-01 23:24:50 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:24:50 --> Session routines successfully run
+DEBUG - 2013-12-01 23:24:51 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:24:51 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:24:51 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:24:51 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:24:51 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:24:51 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:24:51 --> Model Class Initialized
+DEBUG - 2013-12-01 23:24:52 --> Model Class Initialized
+DEBUG - 2013-12-01 23:24:52 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:24:52 --> Config Class Initialized
+DEBUG - 2013-12-01 23:24:52 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:24:52 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:24:52 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:24:52 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:24:52 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:24:53 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:24:53 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:24:53 --> URI Class Initialized
+DEBUG - 2013-12-01 23:24:53 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-01 23:24:53 --> Router Class Initialized
+DEBUG - 2013-12-01 23:24:53 --> Final output sent to browser
+DEBUG - 2013-12-01 23:24:53 --> Output Class Initialized
+DEBUG - 2013-12-01 23:24:53 --> Total execution time: 4.5573
+DEBUG - 2013-12-01 23:24:54 --> Security Class Initialized
+DEBUG - 2013-12-01 23:24:54 --> Input Class Initialized
+DEBUG - 2013-12-01 23:24:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:24:54 --> Language Class Initialized
+DEBUG - 2013-12-01 23:24:54 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:24:54 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:24:54 --> Session Class Initialized
+DEBUG - 2013-12-01 23:24:54 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:24:55 --> Session routines successfully run
+DEBUG - 2013-12-01 23:24:55 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:24:55 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:24:55 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:24:55 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:24:55 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:24:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:24:55 --> Model Class Initialized
+DEBUG - 2013-12-01 23:24:56 --> Model Class Initialized
+DEBUG - 2013-12-01 23:24:56 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:24:56 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:24:56 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:24:56 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:24:56 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:24:56 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-01 23:24:56 --> Final output sent to browser
+DEBUG - 2013-12-01 23:24:56 --> Total execution time: 4.6503
+DEBUG - 2013-12-01 23:25:03 --> Config Class Initialized
+DEBUG - 2013-12-01 23:25:03 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:25:03 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:25:03 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:25:03 --> URI Class Initialized
+DEBUG - 2013-12-01 23:25:03 --> Router Class Initialized
+DEBUG - 2013-12-01 23:25:03 --> Output Class Initialized
+DEBUG - 2013-12-01 23:25:03 --> Security Class Initialized
+DEBUG - 2013-12-01 23:25:03 --> Input Class Initialized
+DEBUG - 2013-12-01 23:25:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:25:04 --> Language Class Initialized
+DEBUG - 2013-12-01 23:25:04 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:25:04 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:25:04 --> Session Class Initialized
+DEBUG - 2013-12-01 23:25:04 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:25:04 --> Session routines successfully run
+DEBUG - 2013-12-01 23:25:04 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:25:05 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:25:05 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:25:05 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:25:05 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:25:05 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:25:05 --> Model Class Initialized
+DEBUG - 2013-12-01 23:25:05 --> Model Class Initialized
+DEBUG - 2013-12-01 23:25:05 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:25:05 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:25:06 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:25:06 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:25:06 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:25:06 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 23:25:06 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:25:06 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:25:06 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:25:06 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:25:06 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:25:07 --> XSS Filtering completed
+ERROR - 2013-12-01 23:25:07 --> Severity: Warning  --> fopen(/dev/urandom) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory C:\Program Files (x86)\Ampps\www\project\application\libraries\phpass-0.1\PasswordHash.php 49
+DEBUG - 2013-12-01 23:25:07 --> Email Class Initialized
+DEBUG - 2013-12-01 23:25:07 --> File loaded: application/views/email/activate-html.php
+DEBUG - 2013-12-01 23:25:07 --> File loaded: application/views/email/activate-txt.php
+DEBUG - 2013-12-01 23:25:08 --> Language file loaded: language/english/email_lang.php
+DEBUG - 2013-12-01 23:25:09 --> Config Class Initialized
+DEBUG - 2013-12-01 23:25:09 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:25:09 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:25:09 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:25:10 --> URI Class Initialized
+DEBUG - 2013-12-01 23:25:10 --> Router Class Initialized
+DEBUG - 2013-12-01 23:25:10 --> Output Class Initialized
+DEBUG - 2013-12-01 23:25:10 --> Security Class Initialized
+DEBUG - 2013-12-01 23:25:10 --> Input Class Initialized
+DEBUG - 2013-12-01 23:25:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:25:10 --> Language Class Initialized
+DEBUG - 2013-12-01 23:25:10 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:25:10 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:25:11 --> Session Class Initialized
+DEBUG - 2013-12-01 23:25:11 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:25:11 --> Session garbage collection performed.
+DEBUG - 2013-12-01 23:25:11 --> Session routines successfully run
+DEBUG - 2013-12-01 23:25:11 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:25:11 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:25:12 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:25:12 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:25:12 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:25:12 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:25:12 --> Model Class Initialized
+DEBUG - 2013-12-01 23:25:12 --> Model Class Initialized
+DEBUG - 2013-12-01 23:25:12 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:25:12 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:25:13 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:25:13 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:25:13 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:25:13 --> File loaded: application/views/auth/general_message.php
+DEBUG - 2013-12-01 23:25:13 --> Final output sent to browser
+DEBUG - 2013-12-01 23:25:13 --> Total execution time: 3.8652
+DEBUG - 2013-12-01 23:25:18 --> Config Class Initialized
+DEBUG - 2013-12-01 23:25:18 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:25:18 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:25:19 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:25:19 --> URI Class Initialized
+DEBUG - 2013-12-01 23:25:19 --> Router Class Initialized
+DEBUG - 2013-12-01 23:25:19 --> Output Class Initialized
+DEBUG - 2013-12-01 23:25:19 --> Security Class Initialized
+DEBUG - 2013-12-01 23:25:19 --> Input Class Initialized
+DEBUG - 2013-12-01 23:25:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:25:19 --> Language Class Initialized
+DEBUG - 2013-12-01 23:26:04 --> Config Class Initialized
+DEBUG - 2013-12-01 23:26:04 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:26:04 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:26:04 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:26:04 --> URI Class Initialized
+DEBUG - 2013-12-01 23:26:04 --> Router Class Initialized
+DEBUG - 2013-12-01 23:26:04 --> Output Class Initialized
+DEBUG - 2013-12-01 23:26:04 --> Security Class Initialized
+DEBUG - 2013-12-01 23:26:04 --> Input Class Initialized
+DEBUG - 2013-12-01 23:26:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:26:05 --> Language Class Initialized
+DEBUG - 2013-12-01 23:26:05 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:26:05 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:26:05 --> Session Class Initialized
+DEBUG - 2013-12-01 23:26:05 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:26:05 --> Session routines successfully run
+DEBUG - 2013-12-01 23:26:06 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:26:06 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:26:06 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:26:06 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:26:06 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:26:06 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:26:06 --> Model Class Initialized
+DEBUG - 2013-12-01 23:26:06 --> Model Class Initialized
+DEBUG - 2013-12-01 23:26:07 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:26:07 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:26:07 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:26:07 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:26:07 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:26:07 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-01 23:26:07 --> Final output sent to browser
+DEBUG - 2013-12-01 23:26:07 --> Total execution time: 3.6082
+DEBUG - 2013-12-01 23:26:12 --> Config Class Initialized
+DEBUG - 2013-12-01 23:26:12 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:26:12 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:26:12 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:26:12 --> URI Class Initialized
+DEBUG - 2013-12-01 23:26:12 --> Router Class Initialized
+DEBUG - 2013-12-01 23:26:12 --> Output Class Initialized
+DEBUG - 2013-12-01 23:26:12 --> Security Class Initialized
+DEBUG - 2013-12-01 23:26:12 --> Input Class Initialized
+DEBUG - 2013-12-01 23:26:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:26:13 --> Language Class Initialized
+DEBUG - 2013-12-01 23:26:13 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:26:13 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:26:13 --> Session Class Initialized
+DEBUG - 2013-12-01 23:26:13 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:26:13 --> Session routines successfully run
+DEBUG - 2013-12-01 23:26:13 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:26:14 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:26:14 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:26:14 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:26:14 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:26:14 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:26:14 --> Model Class Initialized
+DEBUG - 2013-12-01 23:26:14 --> Model Class Initialized
+DEBUG - 2013-12-01 23:26:14 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:26:14 --> Helper loaded: cookie_helper
 DEBUG - 2013-12-01 23:26:15 --> Upload Class Initialized
 DEBUG - 2013-12-01 23:26:15 --> Image_lib class already loaded. Second attempt ignored.
 DEBUG - 2013-12-01 23:26:15 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:26:15 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:26:15 --> Final output sent to browser
-DEBUG - 2013-12-01 23:26:15 --> Total execution time: 0.0570
-DEBUG - 2013-12-01 23:26:15 --> Config Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:26:15 --> URI Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Router Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Output Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Security Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Input Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:26:15 --> Language Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Config Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:26:15 --> URI Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Router Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Output Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Security Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:26:15 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:26:15 --> Input Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:26:15 --> Language Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Session Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:26:15 --> Session routines successfully run
-DEBUG - 2013-12-01 23:26:15 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:26:15 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:26:15 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:26:15 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:26:15 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:26:15 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:26:15 --> Model Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Model Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Session Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:26:15 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:26:15 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:26:15 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:26:15 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:26:15 --> Session routines successfully run
-DEBUG - 2013-12-01 23:26:15 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:26:15 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:26:15 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:26:15 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:26:15 --> Model Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Model Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:26:15 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:26:15 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:26:15 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:26:15 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:26:16 --> Config Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:26:16 --> URI Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Router Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Output Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Security Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Input Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:26:16 --> Language Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:26:16 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:26:16 --> Session Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:26:16 --> Session routines successfully run
-DEBUG - 2013-12-01 23:26:16 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:26:16 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:26:16 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:26:16 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:26:16 --> Model Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Model Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:26:16 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:26:16 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:26:16 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:26:16 --> Final output sent to browser
-DEBUG - 2013-12-01 23:26:16 --> Total execution time: 0.0611
-DEBUG - 2013-12-01 23:26:16 --> Config Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:26:16 --> URI Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Router Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Output Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Config Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:26:16 --> URI Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Router Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Output Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Security Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Input Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:26:16 --> Language Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:26:16 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:26:16 --> Session Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:26:16 --> Session routines successfully run
-DEBUG - 2013-12-01 23:26:16 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:26:16 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:26:16 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Security Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Input Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:26:16 --> Language Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:26:16 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:26:16 --> Model Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Model Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:26:16 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:26:17 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:26:17 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:26:17 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:26:17 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:26:17 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:26:17 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:26:17 --> Session Class Initialized
-DEBUG - 2013-12-01 23:26:17 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:26:17 --> Session routines successfully run
-DEBUG - 2013-12-01 23:26:17 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:26:17 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:26:17 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:26:17 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:26:17 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:26:17 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:26:17 --> Model Class Initialized
-DEBUG - 2013-12-01 23:26:17 --> Model Class Initialized
-DEBUG - 2013-12-01 23:26:17 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:26:17 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:26:17 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:26:17 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:26:17 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:26:17 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:27:15 --> Config Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:27:15 --> URI Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Router Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Output Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Security Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Input Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:27:15 --> Language Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:27:15 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:27:15 --> Session Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:27:15 --> Session routines successfully run
-DEBUG - 2013-12-01 23:27:15 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:27:15 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:27:15 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:27:15 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:27:15 --> Model Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Model Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:27:15 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:27:15 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:27:15 --> Severity: Notice  --> Undefined variable: base_url /Applications/AMPPS/www/project-1/system/core/Loader.php(829) : eval()'d code 75
-DEBUG - 2013-12-01 23:27:15 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:27:15 --> Final output sent to browser
-DEBUG - 2013-12-01 23:27:15 --> Total execution time: 0.0698
-DEBUG - 2013-12-01 23:27:15 --> Config Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:27:15 --> URI Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Router Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Output Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Security Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Input Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:27:15 --> Language Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Config Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:27:15 --> URI Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Router Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Output Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Security Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:27:15 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:27:15 --> Input Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:27:15 --> Language Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Session Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:27:15 --> Session routines successfully run
-DEBUG - 2013-12-01 23:27:15 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:27:15 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:27:15 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:27:15 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:27:15 --> Session Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:27:15 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:27:15 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:27:15 --> Model Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Model Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:27:15 --> Session routines successfully run
-DEBUG - 2013-12-01 23:27:15 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:27:15 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:27:15 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:27:15 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:27:15 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:27:15 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:27:15 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:27:15 --> Model Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Model Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:27:15 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:27:15 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:27:15 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:27:15 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:29:00 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:00 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:00 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:00 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:00 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:00 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:00 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:00 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:00 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:00 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:00 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:00 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:00 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:29:00 --> Severity: Notice  --> Undefined variable: base_url /Applications/AMPPS/www/project-1/system/core/Loader.php(829) : eval()'d code 75
-ERROR - 2013-12-01 23:29:00 --> Severity: Notice  --> Undefined variable: base_url /Applications/AMPPS/www/project-1/system/core/Loader.php(829) : eval()'d code 77
-DEBUG - 2013-12-01 23:29:00 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:29:00 --> Final output sent to browser
-DEBUG - 2013-12-01 23:29:00 --> Total execution time: 0.0819
-DEBUG - 2013-12-01 23:29:00 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:00 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:00 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:00 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:00 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:00 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:00 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:00 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:00 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:00 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:00 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:00 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:00 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:00 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:00 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:29:00 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:29:00 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:00 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:00 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:00 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:00 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:00 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:00 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:00 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:00 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:00 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:00 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:00 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:29:00 --> 404 Page Not Found --> errors/page_missing
+DEBUG - 2013-12-01 23:26:15 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 23:26:15 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:26:15 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:26:15 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:26:15 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:26:15 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:26:16 --> XSS Filtering completed
+ERROR - 2013-12-01 23:26:16 --> Severity: Warning  --> fopen(/dev/urandom) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory C:\Program Files (x86)\Ampps\www\project\application\libraries\phpass-0.1\PasswordHash.php 49
+DEBUG - 2013-12-01 23:26:16 --> Email Class Initialized
+DEBUG - 2013-12-01 23:26:16 --> File loaded: application/views/email/activate-html.php
+DEBUG - 2013-12-01 23:26:16 --> File loaded: application/views/email/activate-txt.php
+DEBUG - 2013-12-01 23:26:17 --> Language file loaded: language/english/email_lang.php
+DEBUG - 2013-12-01 23:26:18 --> Config Class Initialized
+DEBUG - 2013-12-01 23:26:18 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:26:18 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:26:18 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:26:18 --> URI Class Initialized
+DEBUG - 2013-12-01 23:26:18 --> Router Class Initialized
+DEBUG - 2013-12-01 23:26:19 --> Output Class Initialized
+DEBUG - 2013-12-01 23:26:19 --> Security Class Initialized
+DEBUG - 2013-12-01 23:26:19 --> Input Class Initialized
+DEBUG - 2013-12-01 23:26:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:26:19 --> Language Class Initialized
+DEBUG - 2013-12-01 23:26:19 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:26:19 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:26:19 --> Session Class Initialized
+DEBUG - 2013-12-01 23:26:19 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:26:20 --> Session routines successfully run
+DEBUG - 2013-12-01 23:26:20 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:26:20 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:26:20 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:26:20 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:26:20 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:26:21 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:26:21 --> Model Class Initialized
+DEBUG - 2013-12-01 23:26:21 --> Model Class Initialized
+DEBUG - 2013-12-01 23:26:21 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:26:21 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:26:21 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:26:21 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:26:21 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:26:22 --> File loaded: application/views/auth/general_message.php
+DEBUG - 2013-12-01 23:26:22 --> Final output sent to browser
+DEBUG - 2013-12-01 23:26:22 --> Total execution time: 3.6952
+DEBUG - 2013-12-01 23:26:27 --> Config Class Initialized
+DEBUG - 2013-12-01 23:26:27 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:26:27 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:26:28 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:26:28 --> URI Class Initialized
+DEBUG - 2013-12-01 23:26:28 --> Router Class Initialized
+DEBUG - 2013-12-01 23:26:28 --> Output Class Initialized
+DEBUG - 2013-12-01 23:26:28 --> Security Class Initialized
+DEBUG - 2013-12-01 23:26:29 --> Input Class Initialized
+DEBUG - 2013-12-01 23:26:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:26:29 --> Language Class Initialized
+DEBUG - 2013-12-01 23:26:47 --> Config Class Initialized
+DEBUG - 2013-12-01 23:26:47 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:26:48 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:26:48 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:26:48 --> URI Class Initialized
+DEBUG - 2013-12-01 23:26:48 --> Router Class Initialized
+DEBUG - 2013-12-01 23:26:48 --> Output Class Initialized
+DEBUG - 2013-12-01 23:26:48 --> Security Class Initialized
+DEBUG - 2013-12-01 23:26:48 --> Input Class Initialized
+DEBUG - 2013-12-01 23:26:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:26:49 --> Language Class Initialized
+DEBUG - 2013-12-01 23:26:49 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:26:49 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:26:49 --> Session Class Initialized
+DEBUG - 2013-12-01 23:26:50 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:26:50 --> Session routines successfully run
+DEBUG - 2013-12-01 23:26:50 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:26:50 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:26:50 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:26:50 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:26:51 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:26:51 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:26:51 --> Model Class Initialized
+DEBUG - 2013-12-01 23:26:51 --> Model Class Initialized
+DEBUG - 2013-12-01 23:26:51 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:26:52 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:26:52 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:26:52 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:26:52 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:26:52 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-01 23:26:53 --> Final output sent to browser
+DEBUG - 2013-12-01 23:26:53 --> Total execution time: 5.2153
+DEBUG - 2013-12-01 23:27:07 --> Config Class Initialized
+DEBUG - 2013-12-01 23:27:07 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:27:07 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:27:07 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:27:07 --> URI Class Initialized
+DEBUG - 2013-12-01 23:27:07 --> Router Class Initialized
+DEBUG - 2013-12-01 23:27:07 --> Output Class Initialized
+DEBUG - 2013-12-01 23:27:07 --> Security Class Initialized
+DEBUG - 2013-12-01 23:27:08 --> Input Class Initialized
+DEBUG - 2013-12-01 23:27:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:27:08 --> Language Class Initialized
+DEBUG - 2013-12-01 23:27:08 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:27:08 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:27:08 --> Session Class Initialized
+DEBUG - 2013-12-01 23:27:09 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:27:09 --> Session routines successfully run
+DEBUG - 2013-12-01 23:27:09 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:27:09 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:27:09 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:27:09 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:27:09 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:27:10 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:27:10 --> Model Class Initialized
+DEBUG - 2013-12-01 23:27:10 --> Model Class Initialized
+DEBUG - 2013-12-01 23:27:10 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:27:10 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:27:10 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:27:10 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:27:10 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:27:10 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 23:27:11 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:27:11 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:27:11 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:27:11 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:27:11 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:27:11 --> XSS Filtering completed
+ERROR - 2013-12-01 23:27:11 --> Severity: Warning  --> fopen(/dev/urandom) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory C:\Program Files (x86)\Ampps\www\project\application\libraries\phpass-0.1\PasswordHash.php 49
+DEBUG - 2013-12-01 23:27:13 --> Email Class Initialized
+DEBUG - 2013-12-01 23:27:13 --> File loaded: application/views/email/activate-html.php
+DEBUG - 2013-12-01 23:27:13 --> File loaded: application/views/email/activate-txt.php
+DEBUG - 2013-12-01 23:27:14 --> Language file loaded: language/english/email_lang.php
+DEBUG - 2013-12-01 23:27:16 --> Config Class Initialized
+DEBUG - 2013-12-01 23:27:16 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:27:16 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:27:16 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:27:16 --> URI Class Initialized
+DEBUG - 2013-12-01 23:27:16 --> Router Class Initialized
+DEBUG - 2013-12-01 23:27:16 --> Output Class Initialized
+DEBUG - 2013-12-01 23:27:17 --> Security Class Initialized
+DEBUG - 2013-12-01 23:27:17 --> Input Class Initialized
+DEBUG - 2013-12-01 23:27:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:27:17 --> Language Class Initialized
+DEBUG - 2013-12-01 23:27:17 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:27:17 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:27:17 --> Session Class Initialized
+DEBUG - 2013-12-01 23:27:18 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:27:18 --> Session routines successfully run
+DEBUG - 2013-12-01 23:27:18 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:27:18 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:27:18 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:27:18 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:27:19 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:27:19 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:27:19 --> Model Class Initialized
+DEBUG - 2013-12-01 23:27:19 --> Model Class Initialized
+DEBUG - 2013-12-01 23:27:19 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:27:19 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:27:19 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:27:20 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:27:20 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:27:20 --> File loaded: application/views/auth/general_message.php
+DEBUG - 2013-12-01 23:27:20 --> Final output sent to browser
+DEBUG - 2013-12-01 23:27:20 --> Total execution time: 4.3342
+DEBUG - 2013-12-01 23:29:06 --> Config Class Initialized
+DEBUG - 2013-12-01 23:29:06 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:29:07 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:29:07 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:29:07 --> URI Class Initialized
+DEBUG - 2013-12-01 23:29:07 --> Router Class Initialized
+DEBUG - 2013-12-01 23:29:07 --> Output Class Initialized
+DEBUG - 2013-12-01 23:29:07 --> Security Class Initialized
+DEBUG - 2013-12-01 23:29:08 --> Input Class Initialized
+DEBUG - 2013-12-01 23:29:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:29:08 --> Language Class Initialized
+DEBUG - 2013-12-01 23:29:28 --> Config Class Initialized
+DEBUG - 2013-12-01 23:29:28 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:29:28 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:29:28 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:29:28 --> URI Class Initialized
+DEBUG - 2013-12-01 23:29:29 --> Router Class Initialized
+DEBUG - 2013-12-01 23:29:29 --> Output Class Initialized
+DEBUG - 2013-12-01 23:29:29 --> Security Class Initialized
+DEBUG - 2013-12-01 23:29:29 --> Input Class Initialized
+DEBUG - 2013-12-01 23:29:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:29:29 --> Language Class Initialized
 DEBUG - 2013-12-01 23:29:40 --> Config Class Initialized
 DEBUG - 2013-12-01 23:29:40 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:40 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:40 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:40 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:40 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:40 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:40 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:40 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:40 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:40 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:40 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:40 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:40 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:40 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:40 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:40 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:40 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:40 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:40 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:40 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:40 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:40 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:40 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:40 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:40 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:40 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:40 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:40 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:40 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:29:40 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:29:40 --> Final output sent to browser
-DEBUG - 2013-12-01 23:29:40 --> Total execution time: 0.0577
-DEBUG - 2013-12-01 23:29:41 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:41 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Hooks Class Initialized
 DEBUG - 2013-12-01 23:29:41 --> Utf8 Class Initialized
 DEBUG - 2013-12-01 23:29:41 --> UTF-8 Support Enabled
 DEBUG - 2013-12-01 23:29:41 --> URI Class Initialized
@@ -8559,2788 +8561,845 @@ DEBUG - 2013-12-01 23:29:41 --> Router Class Initialized
 DEBUG - 2013-12-01 23:29:41 --> Output Class Initialized
 DEBUG - 2013-12-01 23:29:41 --> Security Class Initialized
 DEBUG - 2013-12-01 23:29:41 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:41 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:41 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:41 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:41 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:41 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:41 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:41 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:41 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:41 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:41 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:41 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:41 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:41 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:41 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:41 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:41 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:41 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:41 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:41 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:41 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:41 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:41 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:41 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:41 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:41 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:41 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:29:41 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:29:41 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:41 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:41 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:41 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:41 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:29:41 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:29:41 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:41 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:41 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:41 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:41 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:41 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:29:41 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:29:43 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:43 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:43 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:43 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:43 --> Session Class Initialized
+DEBUG - 2013-12-01 23:29:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:29:42 --> Language Class Initialized
+DEBUG - 2013-12-01 23:29:42 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:29:42 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:29:42 --> Session Class Initialized
 DEBUG - 2013-12-01 23:29:43 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:43 --> Session garbage collection performed.
 DEBUG - 2013-12-01 23:29:43 --> Session routines successfully run
 DEBUG - 2013-12-01 23:29:43 --> Controller Class Initialized
 DEBUG - 2013-12-01 23:29:43 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:43 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:43 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:43 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:43 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:43 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:43 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:29:43 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:29:43 --> Final output sent to browser
-DEBUG - 2013-12-01 23:29:43 --> Total execution time: 0.0797
-DEBUG - 2013-12-01 23:29:43 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:43 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:43 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:43 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:43 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:43 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:43 --> Session garbage collection performed.
-DEBUG - 2013-12-01 23:29:43 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:43 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:43 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:43 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:43 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:43 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:43 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:43 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:43 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:43 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:43 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:29:43 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:29:43 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:43 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:43 --> Database Driver Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Session Class Initialized
-ERROR - 2013-12-01 23:29:43 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:43 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:43 --> Session garbage collection performed.
-DEBUG - 2013-12-01 23:29:43 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:43 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:43 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:43 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:43 --> Session garbage collection performed.
-DEBUG - 2013-12-01 23:29:43 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:43 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:43 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:43 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:43 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:43 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:43 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:43 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:43 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:43 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:43 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:29:43 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:29:43 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:43 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:29:43 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:29:43 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:43 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:43 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:43 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:43 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:43 --> Session garbage collection performed.
-DEBUG - 2013-12-01 23:29:43 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:43 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:43 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:43 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:43 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:43 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:43 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:43 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:29:43 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:29:43 --> Final output sent to browser
-DEBUG - 2013-12-01 23:29:43 --> Total execution time: 0.0653
-DEBUG - 2013-12-01 23:29:43 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:43 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:43 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:43 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:43 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:43 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:43 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:43 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:44 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:44 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:44 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:44 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Helper loaded: form_helper
 DEBUG - 2013-12-01 23:29:44 --> Helper loaded: url_helper
 DEBUG - 2013-12-01 23:29:44 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:44 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:44 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:44 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:44 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:44 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:44 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:44 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:44 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:44 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:44 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:29:44 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:29:44 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:44 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:44 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:44 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:44 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Helper loaded: form_helper
 DEBUG - 2013-12-01 23:29:44 --> Config file loaded: application/config/tank_auth.php
 DEBUG - 2013-12-01 23:29:44 --> Session class already loaded. Second attempt ignored.
 DEBUG - 2013-12-01 23:29:44 --> Model Class Initialized
 DEBUG - 2013-12-01 23:29:44 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:44 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:44 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:44 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:29:44 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:29:44 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:44 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:44 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:44 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:44 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:44 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:29:44 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:29:57 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:57 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:57 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:57 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:57 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:57 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:58 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:58 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:58 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:58 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:58 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:58 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:58 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:58 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:58 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:58 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:29:58 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:29:58 --> Final output sent to browser
-DEBUG - 2013-12-01 23:29:58 --> Total execution time: 0.0544
-DEBUG - 2013-12-01 23:29:58 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:29:45 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:29:45 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:29:45 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:29:45 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:29:45 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:29:45 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-01 23:29:46 --> Final output sent to browser
+DEBUG - 2013-12-01 23:29:46 --> Total execution time: 5.2993
 DEBUG - 2013-12-01 23:29:58 --> Config Class Initialized
 DEBUG - 2013-12-01 23:29:58 --> Hooks Class Initialized
 DEBUG - 2013-12-01 23:29:58 --> Utf8 Class Initialized
 DEBUG - 2013-12-01 23:29:58 --> UTF-8 Support Enabled
 DEBUG - 2013-12-01 23:29:58 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:58 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:58 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:58 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:58 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:58 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:58 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:58 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:58 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:58 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:58 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:58 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:58 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:58 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:58 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:58 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:58 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:58 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:58 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:29:58 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:58 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:58 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:58 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:58 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:58 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:58 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:58 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:58 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:58 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:58 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:29:58 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:58 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:58 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:58 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:58 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:58 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:29:58 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:29:58 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:58 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:58 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:58 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:58 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:58 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:58 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:58 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:58 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:58 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:58 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:58 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:29:58 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:29:58 --> Final output sent to browser
-DEBUG - 2013-12-01 23:29:58 --> Total execution time: 0.0566
-DEBUG - 2013-12-01 23:29:58 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:58 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:58 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:58 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:58 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:58 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:58 --> Database Driver Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Session Class Initialized
-ERROR - 2013-12-01 23:29:58 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:58 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:58 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:58 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:58 --> Config Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:29:58 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:58 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> URI Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Router Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:58 --> Output Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:58 --> Security Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Input Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:29:58 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Language Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:58 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:58 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:58 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:58 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:58 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:29:58 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:29:58 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:58 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:58 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:29:58 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:29:58 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:59 --> Session Class Initialized
-DEBUG - 2013-12-01 23:29:59 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:29:59 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:59 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:59 --> Session routines successfully run
-DEBUG - 2013-12-01 23:29:59 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:29:59 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:29:59 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:29:59 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:29:59 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:29:59 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:29:59 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:29:59 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:59 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:59 --> Model Class Initialized
-DEBUG - 2013-12-01 23:29:59 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:29:59 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:29:59 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:29:59 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:29:59 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:29:59 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:30:25 --> Config Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:30:25 --> URI Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Router Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Output Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Security Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Input Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:30:25 --> Language Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:30:25 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:30:25 --> Session Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:30:25 --> Session routines successfully run
-DEBUG - 2013-12-01 23:30:25 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:30:25 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:30:25 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:30:25 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:30:25 --> Model Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Model Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:30:25 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:30:25 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:30:25 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:30:25 --> Final output sent to browser
-DEBUG - 2013-12-01 23:30:25 --> Total execution time: 0.0646
-DEBUG - 2013-12-01 23:30:25 --> Config Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:30:25 --> URI Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Router Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Output Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Security Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Input Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:30:25 --> Language Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:30:25 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:30:25 --> Session Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:30:25 --> Config Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:30:25 --> URI Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Router Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Output Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Security Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Input Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:30:25 --> Language Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Session routines successfully run
-DEBUG - 2013-12-01 23:30:25 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:30:25 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:30:25 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:30:25 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:30:25 --> Session Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:30:25 --> Config Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:30:25 --> URI Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Session routines successfully run
-DEBUG - 2013-12-01 23:30:25 --> Router Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Output Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:30:25 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:30:25 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Security Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Input Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:30:25 --> Language Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:30:25 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:30:25 --> Model Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Model Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:30:25 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:30:25 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:30:25 --> Session Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:30:25 --> Session routines successfully run
-DEBUG - 2013-12-01 23:30:25 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:30:25 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:30:25 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:30:25 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:30:25 --> Model Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Model Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:30:25 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:30:25 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:30:25 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:30:25 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:30:25 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:30:25 --> Model Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Model Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:30:25 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:30:25 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:30:25 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:30:25 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:30:25 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:30:25 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:30:25 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:31:26 --> Config Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:31:26 --> URI Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Router Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Output Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Security Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Input Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:31:26 --> Language Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:31:26 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:31:26 --> Session Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:31:26 --> Session routines successfully run
-DEBUG - 2013-12-01 23:31:26 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:31:26 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:31:26 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:31:26 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:31:26 --> Model Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Model Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:31:26 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:31:26 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:31:26 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:31:26 --> Final output sent to browser
-DEBUG - 2013-12-01 23:31:26 --> Total execution time: 0.1066
-DEBUG - 2013-12-01 23:31:26 --> Config Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:31:26 --> URI Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Router Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Output Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Security Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Config Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Input Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:31:26 --> URI Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Router Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Output Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Security Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Input Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:31:26 --> Language Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:31:26 --> Language Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:31:26 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:31:26 --> Session Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:31:26 --> Session routines successfully run
-DEBUG - 2013-12-01 23:31:26 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:31:26 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:31:26 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Config Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:31:26 --> URI Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Router Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Output Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Security Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:31:26 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:31:26 --> Session Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:31:26 --> Session routines successfully run
-DEBUG - 2013-12-01 23:31:26 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:31:26 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:31:26 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:31:27 --> Input Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:31:27 --> Language Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:31:27 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:31:27 --> Model Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Model Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:31:27 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:31:27 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:31:27 --> Model Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Model Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:31:27 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Database Driver Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:31:27 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:31:27 --> 404 Page Not Found --> errors/page_missing
-ERROR - 2013-12-01 23:31:27 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:31:27 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:31:27 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:31:27 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:31:27 --> Session Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:31:27 --> Session routines successfully run
-DEBUG - 2013-12-01 23:31:27 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:31:27 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:31:27 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:31:27 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:31:27 --> Model Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Model Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:31:27 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:31:27 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:31:27 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:31:27 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:34:06 --> Config Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:34:06 --> URI Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Router Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Output Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Security Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Input Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:34:06 --> Language Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:34:06 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:34:06 --> Session Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:34:06 --> Session routines successfully run
-DEBUG - 2013-12-01 23:34:06 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:34:06 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:34:06 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:34:06 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:06 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:34:06 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:06 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:34:06 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:34:06 --> Final output sent to browser
-DEBUG - 2013-12-01 23:34:06 --> Total execution time: 0.0586
-DEBUG - 2013-12-01 23:34:06 --> Config Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:34:06 --> Config Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> URI Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Router Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:34:06 --> Output Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Security Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> URI Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Input Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Router Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:34:06 --> Language Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Output Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Security Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Input Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:34:06 --> Language Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Config Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:34:06 --> URI Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Router Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Output Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Security Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Input Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:34:06 --> Language Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:34:06 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:34:06 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:34:06 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:34:06 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:34:06 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:34:06 --> Session Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:34:06 --> Session routines successfully run
-DEBUG - 2013-12-01 23:34:06 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Session Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:34:06 --> Session routines successfully run
-DEBUG - 2013-12-01 23:34:06 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:34:06 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:34:06 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:34:06 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:06 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:34:06 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:34:06 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:34:06 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:06 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:34:06 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:06 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:34:06 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:34:06 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:34:06 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:06 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:34:06 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:34:06 --> Session Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:34:06 --> Session routines successfully run
-DEBUG - 2013-12-01 23:34:06 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:34:06 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:34:06 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:34:06 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:06 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:34:06 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:34:06 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:06 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:34:06 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:34:07 --> Config Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:34:07 --> URI Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Router Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Output Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Security Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Input Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:34:07 --> Language Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:34:07 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:34:07 --> Session Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:34:07 --> Session routines successfully run
-DEBUG - 2013-12-01 23:34:07 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:34:07 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:34:07 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:34:07 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:07 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:34:07 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:34:07 --> Final output sent to browser
-DEBUG - 2013-12-01 23:34:07 --> Total execution time: 0.0595
-DEBUG - 2013-12-01 23:34:07 --> Config Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Config Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:34:07 --> URI Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Config Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:34:07 --> Router Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> URI Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Router Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Output Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Output Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Security Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Security Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Input Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:34:07 --> Language Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Input Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:34:07 --> Language Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:34:07 --> URI Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Router Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Output Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:34:07 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:34:07 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:34:07 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:34:07 --> Session Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:34:07 --> Session Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:34:07 --> Session routines successfully run
-DEBUG - 2013-12-01 23:34:07 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Session routines successfully run
-DEBUG - 2013-12-01 23:34:07 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:34:07 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:34:07 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:34:07 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Security Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Input Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:34:07 --> Language Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:34:07 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:34:07 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:34:07 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:07 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:34:07 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:34:07 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:07 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:34:07 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:34:07 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:34:07 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:34:07 --> Session Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:34:07 --> Session routines successfully run
-DEBUG - 2013-12-01 23:34:07 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:34:07 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:34:07 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:34:07 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:07 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:34:07 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:34:07 --> Config Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:34:07 --> URI Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Router Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Output Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Security Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Input Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:34:07 --> Language Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:34:07 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:34:07 --> Session Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:34:07 --> Session routines successfully run
-DEBUG - 2013-12-01 23:34:07 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:34:07 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:34:07 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:34:07 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:34:07 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:07 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:34:07 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:34:07 --> Final output sent to browser
-DEBUG - 2013-12-01 23:34:07 --> Total execution time: 0.0717
-DEBUG - 2013-12-01 23:34:08 --> Config Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:34:08 --> URI Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Router Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Config Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Output Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:34:08 --> URI Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Security Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Router Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Output Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Security Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Config Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:34:08 --> URI Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Router Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Output Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Security Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Input Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:34:08 --> Language Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Input Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:34:08 --> Language Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Input Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:34:08 --> Language Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:34:08 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:34:08 --> Session Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:34:08 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:34:08 --> Session Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:34:08 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:34:08 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:34:08 --> Session routines successfully run
-DEBUG - 2013-12-01 23:34:08 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:34:08 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Session routines successfully run
-DEBUG - 2013-12-01 23:34:08 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:34:08 --> Session Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:34:08 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:34:08 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:08 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:34:08 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:08 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:34:08 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:34:08 --> Session routines successfully run
-DEBUG - 2013-12-01 23:34:08 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:34:08 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:34:08 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:08 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:34:08 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:34:08 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:08 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:34:08 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:34:08 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:34:08 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:08 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:34:08 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:08 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:34:08 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:34:08 --> Config Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:34:08 --> URI Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Router Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Output Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Security Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Input Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:34:08 --> Language Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:34:08 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:34:08 --> Session Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:34:08 --> Session routines successfully run
-DEBUG - 2013-12-01 23:34:08 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:34:08 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:34:08 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:08 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:34:08 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:08 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:34:08 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:34:08 --> Final output sent to browser
-DEBUG - 2013-12-01 23:34:08 --> Total execution time: 0.0738
-DEBUG - 2013-12-01 23:34:08 --> Config Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:34:08 --> Config Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> URI Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:34:08 --> Router Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> URI Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Router Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Output Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Security Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Output Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Security Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Config Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Input Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:34:08 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:34:08 --> URI Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Router Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Output Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Security Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Input Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:34:08 --> Language Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Input Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:34:08 --> Language Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Language Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:34:08 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:34:08 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:34:08 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:34:08 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:34:08 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:34:08 --> Session Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Session Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:34:08 --> Session routines successfully run
-DEBUG - 2013-12-01 23:34:08 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:34:08 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:34:08 --> Session routines successfully run
-DEBUG - 2013-12-01 23:34:08 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:34:08 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:08 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:34:08 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:08 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:34:08 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:34:08 --> Session Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:34:08 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:34:08 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:08 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:34:08 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:08 --> Session routines successfully run
-DEBUG - 2013-12-01 23:34:08 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:34:08 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:34:08 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:34:08 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:34:08 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:08 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Model Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:34:08 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:34:08 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:34:08 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:34:08 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:35:49 --> Config Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:35:49 --> URI Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Router Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Output Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Security Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Input Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:35:49 --> Language Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:35:49 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:35:49 --> Session Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:35:49 --> Session routines successfully run
-DEBUG - 2013-12-01 23:35:49 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:35:49 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:35:49 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:35:49 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:35:49 --> Model Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Model Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:35:49 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:35:49 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:35:49 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:35:49 --> Final output sent to browser
-DEBUG - 2013-12-01 23:35:49 --> Total execution time: 0.0675
-DEBUG - 2013-12-01 23:35:49 --> Config Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:35:49 --> URI Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Router Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Output Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Security Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Input Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:35:49 --> Language Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:35:49 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:35:49 --> Config Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:35:49 --> URI Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Router Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Output Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Security Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Input Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:35:49 --> Language Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:35:49 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:35:49 --> Session Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:35:49 --> Session routines successfully run
-DEBUG - 2013-12-01 23:35:49 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:35:49 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:35:49 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:35:49 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:35:49 --> Model Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Model Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:35:49 --> Config Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:35:49 --> URI Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Router Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Output Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:35:49 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:35:49 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:35:49 --> Security Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Input Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:35:49 --> Language Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Session Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:35:49 --> Session routines successfully run
-DEBUG - 2013-12-01 23:35:49 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:35:49 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:35:49 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:35:49 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:35:49 --> Model Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Model Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:35:49 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:35:49 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:35:49 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:35:49 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:36:37 --> Config Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:36:37 --> URI Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Router Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Output Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Security Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Input Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:36:37 --> Language Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:36:37 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:36:37 --> Session Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:36:37 --> Session routines successfully run
-DEBUG - 2013-12-01 23:36:37 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:36:37 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:36:37 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:36:37 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:36:37 --> Model Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Model Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:36:37 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:36:37 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:36:37 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:36:37 --> Final output sent to browser
-DEBUG - 2013-12-01 23:36:37 --> Total execution time: 0.0517
-DEBUG - 2013-12-01 23:36:37 --> Config Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:36:37 --> URI Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Router Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Output Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Config Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:36:37 --> Security Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> URI Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Router Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Output Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Security Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Input Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:36:37 --> Language Class Initialized
-DEBUG - 2013-12-01 23:36:37 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:36:38 --> Input Class Initialized
-DEBUG - 2013-12-01 23:36:38 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:36:38 --> Language Class Initialized
-DEBUG - 2013-12-01 23:36:38 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:36:38 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:36:38 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:36:38 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:36:38 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:36:38 --> Session Class Initialized
-DEBUG - 2013-12-01 23:36:38 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:36:38 --> Session Class Initialized
-DEBUG - 2013-12-01 23:36:38 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:36:38 --> Session routines successfully run
-DEBUG - 2013-12-01 23:36:38 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:36:38 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:36:38 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:36:38 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:36:38 --> Session routines successfully run
-DEBUG - 2013-12-01 23:36:38 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:36:38 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:36:38 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:36:38 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:36:38 --> Model Class Initialized
-DEBUG - 2013-12-01 23:36:38 --> Model Class Initialized
-DEBUG - 2013-12-01 23:36:38 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:36:38 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:36:38 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:36:38 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:36:38 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:36:38 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:36:38 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:36:38 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:36:38 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:36:38 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:36:38 --> Model Class Initialized
-DEBUG - 2013-12-01 23:36:38 --> Model Class Initialized
-DEBUG - 2013-12-01 23:36:38 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:36:38 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:36:38 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:36:38 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:36:38 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:36:38 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:39:44 --> Config Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:39:44 --> URI Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Router Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Output Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Security Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Input Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:39:44 --> Language Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:39:44 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:39:44 --> Session Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:39:44 --> Session routines successfully run
-DEBUG - 2013-12-01 23:39:44 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:39:44 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:39:44 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:39:44 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:39:44 --> Model Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Model Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:39:44 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:39:44 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:39:44 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:39:44 --> Final output sent to browser
-DEBUG - 2013-12-01 23:39:44 --> Total execution time: 0.0695
-DEBUG - 2013-12-01 23:39:44 --> Config Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:39:44 --> URI Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Router Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Output Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Security Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Input Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:39:44 --> Language Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Config Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:39:44 --> URI Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Router Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Output Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Security Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Input Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:39:44 --> Language Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:39:44 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:39:44 --> Session Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:39:44 --> Session routines successfully run
-DEBUG - 2013-12-01 23:39:44 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:39:44 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:39:44 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:39:44 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:39:44 --> Model Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Model Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:39:44 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:39:44 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:39:44 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:39:44 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:39:44 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:39:44 --> Session Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:39:44 --> Session routines successfully run
-DEBUG - 2013-12-01 23:39:44 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:39:44 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:39:44 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:39:44 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:39:44 --> Model Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Model Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:39:44 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:39:44 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:39:44 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:39:44 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:40:34 --> Config Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:40:34 --> URI Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Router Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Output Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Security Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Input Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:40:34 --> Language Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:40:34 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:40:34 --> Session Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:40:34 --> Session routines successfully run
-DEBUG - 2013-12-01 23:40:34 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:40:34 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:40:34 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:40:34 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:40:34 --> Model Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Model Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:40:34 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:40:34 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:40:34 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:40:34 --> Final output sent to browser
-DEBUG - 2013-12-01 23:40:34 --> Total execution time: 0.0761
-DEBUG - 2013-12-01 23:40:34 --> Config Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:40:34 --> URI Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Router Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Output Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Security Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Input Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:40:34 --> Language Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Config Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:40:34 --> URI Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Router Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Output Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Security Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Input Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:40:34 --> Language Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:40:34 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:40:34 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:40:34 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:40:34 --> Session Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:40:34 --> Session Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:40:34 --> Session routines successfully run
-DEBUG - 2013-12-01 23:40:34 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:40:34 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:40:34 --> Session routines successfully run
-DEBUG - 2013-12-01 23:40:34 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:40:34 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:40:34 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:40:34 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:40:34 --> Model Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Model Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:40:34 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:40:34 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:40:34 --> Model Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Model Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:40:34 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:40:34 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:40:34 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:40:34 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:40:34 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:40:34 --> 404 Page Not Found --> errors/page_missing
-ERROR - 2013-12-01 23:40:34 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:40:46 --> Config Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:40:46 --> URI Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Router Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Output Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Security Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Input Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:40:46 --> Language Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:40:46 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:40:46 --> Session Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:40:46 --> Session routines successfully run
-DEBUG - 2013-12-01 23:40:46 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:40:46 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:40:46 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:40:46 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:40:46 --> Model Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Model Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:40:46 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:40:46 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:40:46 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:40:46 --> Final output sent to browser
-DEBUG - 2013-12-01 23:40:46 --> Total execution time: 0.0545
-DEBUG - 2013-12-01 23:40:46 --> Config Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Config Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:40:46 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> URI Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:40:46 --> Router Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> URI Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Router Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Output Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Security Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Output Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Input Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:40:46 --> Language Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Security Class Initialized
-DEBUG - 2013-12-01 23:40:46 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:40:47 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:40:47 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:40:47 --> Session Class Initialized
-DEBUG - 2013-12-01 23:40:47 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:40:47 --> Session routines successfully run
-DEBUG - 2013-12-01 23:40:47 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:40:47 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:40:47 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:40:47 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:40:47 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:40:47 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:40:47 --> Model Class Initialized
-DEBUG - 2013-12-01 23:40:47 --> Model Class Initialized
-DEBUG - 2013-12-01 23:40:47 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:40:47 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:40:47 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:40:47 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:40:47 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:40:47 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:40:47 --> Input Class Initialized
-DEBUG - 2013-12-01 23:40:47 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:40:47 --> Language Class Initialized
-DEBUG - 2013-12-01 23:40:47 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:40:47 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:40:47 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:40:47 --> Session Class Initialized
-DEBUG - 2013-12-01 23:40:47 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:40:47 --> Session routines successfully run
-DEBUG - 2013-12-01 23:40:47 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:40:47 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:40:47 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:40:47 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:40:47 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:40:47 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:40:47 --> Model Class Initialized
-DEBUG - 2013-12-01 23:40:47 --> Model Class Initialized
-DEBUG - 2013-12-01 23:40:47 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:40:47 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:40:47 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:40:47 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:40:47 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:40:47 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:41:04 --> Config Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:41:04 --> URI Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Router Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Output Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Security Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Input Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:41:04 --> Language Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:41:04 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:41:04 --> Session Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:41:04 --> Session routines successfully run
-DEBUG - 2013-12-01 23:41:04 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:41:04 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:41:04 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:41:04 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:04 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:41:04 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:04 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:41:04 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:41:04 --> Final output sent to browser
-DEBUG - 2013-12-01 23:41:04 --> Total execution time: 0.0679
-DEBUG - 2013-12-01 23:41:04 --> Config Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Config Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:41:04 --> URI Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Router Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Output Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Security Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Input Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:41:04 --> Language Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:41:04 --> URI Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Router Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Output Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Security Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Input Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:41:04 --> Language Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:41:04 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:41:04 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:41:04 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:41:04 --> Session Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:41:04 --> Session Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:41:04 --> Session routines successfully run
-DEBUG - 2013-12-01 23:41:04 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:41:04 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:41:04 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Session routines successfully run
-DEBUG - 2013-12-01 23:41:04 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:41:04 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:41:04 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:41:04 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:04 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:41:04 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:04 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:41:04 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:41:04 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:41:04 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:04 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:41:04 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:41:04 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:04 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:41:04 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:41:20 --> Config Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:41:20 --> URI Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Router Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Output Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Security Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Input Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:41:20 --> Language Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:41:20 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:41:20 --> Session Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:41:20 --> Session routines successfully run
-DEBUG - 2013-12-01 23:41:20 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:41:20 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:41:20 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:41:20 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:20 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:41:20 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:20 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:41:20 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:41:20 --> Final output sent to browser
-DEBUG - 2013-12-01 23:41:20 --> Total execution time: 0.0502
-DEBUG - 2013-12-01 23:41:20 --> Config Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:41:20 --> Config Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:41:20 --> URI Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Router Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Output Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Security Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Input Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:41:20 --> Language Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> URI Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Router Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Output Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:41:20 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:41:20 --> Session Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:41:20 --> Session routines successfully run
-DEBUG - 2013-12-01 23:41:20 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Security Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Input Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:41:20 --> Language Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:41:20 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:41:20 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:41:20 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:20 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:41:20 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:41:20 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:41:20 --> Session Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:41:20 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:20 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:41:20 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:41:20 --> Session routines successfully run
-DEBUG - 2013-12-01 23:41:20 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:41:20 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:41:20 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:41:20 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:20 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:41:20 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:41:20 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:20 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:41:20 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:41:37 --> Config Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:41:37 --> URI Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Router Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Output Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Security Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Input Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:41:37 --> Language Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:41:37 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:41:37 --> Session Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:41:37 --> Session routines successfully run
-DEBUG - 2013-12-01 23:41:37 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:41:37 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:41:37 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:41:37 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:37 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:41:37 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:37 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:41:37 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:41:37 --> Final output sent to browser
-DEBUG - 2013-12-01 23:41:37 --> Total execution time: 0.0682
-DEBUG - 2013-12-01 23:41:37 --> Config Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:41:37 --> URI Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Router Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Output Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Config Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:41:37 --> URI Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Router Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Output Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Security Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Input Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:41:37 --> Language Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:41:37 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:41:37 --> Session Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:41:37 --> Session routines successfully run
-DEBUG - 2013-12-01 23:41:37 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:41:37 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:41:37 --> Security Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Input Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:41:37 --> Language Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:41:37 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:37 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:41:37 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:41:37 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:41:37 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:37 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:41:37 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:41:37 --> Session Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:41:37 --> Session routines successfully run
-DEBUG - 2013-12-01 23:41:37 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:41:37 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:41:37 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:41:37 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:37 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:41:37 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:41:37 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:37 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:41:37 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:41:53 --> Config Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:41:53 --> URI Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Router Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Output Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Security Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Input Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:41:53 --> Language Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:41:53 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:41:53 --> Session Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:41:53 --> Session routines successfully run
-DEBUG - 2013-12-01 23:41:53 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:41:53 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:41:53 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:41:53 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:53 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:41:53 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:53 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:41:53 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:41:53 --> Final output sent to browser
-DEBUG - 2013-12-01 23:41:53 --> Total execution time: 0.0971
-DEBUG - 2013-12-01 23:41:53 --> Config Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:41:53 --> URI Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Router Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Output Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Security Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Input Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:41:53 --> Language Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:41:53 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:41:53 --> Session Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:41:53 --> Session routines successfully run
-DEBUG - 2013-12-01 23:41:53 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:41:53 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:41:53 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Config Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:41:53 --> URI Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Router Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Output Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Security Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Input Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:41:53 --> Language Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:41:53 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:41:53 --> Session Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:41:53 --> Session routines successfully run
-DEBUG - 2013-12-01 23:41:53 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:41:53 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:41:53 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:53 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:41:53 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:41:53 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:53 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:41:53 --> Model Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:41:53 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:41:53 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:53 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:41:53 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:41:53 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:41:53 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:41:53 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:44:14 --> Config Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:44:14 --> URI Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Router Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Output Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Security Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Input Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:44:14 --> Language Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:44:14 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:44:14 --> Session Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:44:14 --> Session routines successfully run
-DEBUG - 2013-12-01 23:44:14 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:44:14 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:44:14 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:44:14 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:44:14 --> Model Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Model Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:44:14 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:44:14 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:44:14 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:44:14 --> Final output sent to browser
-DEBUG - 2013-12-01 23:44:14 --> Total execution time: 0.0699
-DEBUG - 2013-12-01 23:44:14 --> Config Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:44:14 --> URI Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Router Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Output Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Security Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Input Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:44:14 --> Language Class Initialized
-DEBUG - 2013-12-01 23:44:14 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Database Driver Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Config Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:44:15 --> URI Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Router Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Output Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Security Class Initialized
-ERROR - 2013-12-01 23:44:15 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:44:15 --> Session Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:44:15 --> Input Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:44:15 --> Language Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Session garbage collection performed.
-DEBUG - 2013-12-01 23:44:15 --> Session routines successfully run
-DEBUG - 2013-12-01 23:44:15 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:44:15 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:44:15 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Database Driver Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:44:15 --> Session class already loaded. Second attempt ignored.
-ERROR - 2013-12-01 23:44:15 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:44:15 --> Model Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Model Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Session Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:44:15 --> Session garbage collection performed.
-DEBUG - 2013-12-01 23:44:15 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Session routines successfully run
-DEBUG - 2013-12-01 23:44:15 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:44:15 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:44:15 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:44:15 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:44:15 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:44:15 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:44:15 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:44:15 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:44:15 --> Model Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Model Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:44:15 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:44:15 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:44:15 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:44:15 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:47:57 --> Config Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:47:57 --> URI Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Router Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Output Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Security Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Input Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:47:57 --> Language Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:47:57 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:47:57 --> Session Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:47:57 --> Session routines successfully run
-DEBUG - 2013-12-01 23:47:57 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:47:57 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:47:57 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:47:57 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:47:57 --> Model Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Model Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:47:57 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:47:57 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:47:57 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:47:57 --> Final output sent to browser
-DEBUG - 2013-12-01 23:47:57 --> Total execution time: 0.0687
-DEBUG - 2013-12-01 23:47:57 --> Config Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:47:57 --> URI Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Router Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Output Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Security Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Input Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:47:57 --> Language Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Config Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:47:57 --> URI Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Router Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Output Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Security Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Input Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:47:57 --> Language Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:47:57 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:47:57 --> Session Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:47:57 --> Session routines successfully run
-DEBUG - 2013-12-01 23:47:57 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:47:57 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:47:57 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:47:57 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:47:57 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:47:57 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:47:57 --> Model Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Model Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:47:57 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:47:57 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:47:57 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:47:57 --> Session Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:47:57 --> Session routines successfully run
-DEBUG - 2013-12-01 23:47:57 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:47:57 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:47:57 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:47:57 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:47:57 --> Model Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Model Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:47:57 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:47:57 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:47:57 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:47:57 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:48:57 --> Config Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:48:57 --> URI Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Router Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Output Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Security Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Input Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:48:57 --> Language Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:48:57 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:48:57 --> Session Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:48:57 --> Session routines successfully run
-DEBUG - 2013-12-01 23:48:57 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:48:57 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:48:57 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:48:57 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:48:57 --> Model Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Model Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:48:57 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:48:57 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:48:57 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:48:57 --> Final output sent to browser
-DEBUG - 2013-12-01 23:48:57 --> Total execution time: 0.0581
-DEBUG - 2013-12-01 23:48:57 --> Config Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:48:57 --> URI Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Router Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Output Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Security Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Input Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:48:57 --> Language Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:48:57 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:48:57 --> Session Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:48:57 --> Session routines successfully run
-DEBUG - 2013-12-01 23:48:57 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Config Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:48:57 --> URI Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Router Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Output Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:48:57 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:48:57 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:48:57 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:48:57 --> Model Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Model Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Security Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Input Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:48:57 --> Language Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:48:57 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:48:57 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:48:57 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:48:57 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:48:57 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:48:57 --> Session Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:48:57 --> Session routines successfully run
-DEBUG - 2013-12-01 23:48:57 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:48:57 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:48:57 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:48:57 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:48:57 --> Model Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Model Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:48:57 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:48:57 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:48:57 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:48:57 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:49:03 --> Config Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:49:03 --> URI Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Router Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Output Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Security Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Input Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:49:03 --> Language Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:49:03 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:49:03 --> Session Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:49:03 --> Session garbage collection performed.
-DEBUG - 2013-12-01 23:49:03 --> Session routines successfully run
-DEBUG - 2013-12-01 23:49:03 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:49:03 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:49:03 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:49:03 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:49:03 --> Model Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Model Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:49:03 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:49:03 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:49:03 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:49:03 --> Final output sent to browser
-DEBUG - 2013-12-01 23:49:03 --> Total execution time: 0.0702
-DEBUG - 2013-12-01 23:49:03 --> Config Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:49:03 --> URI Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Router Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Output Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Security Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Input Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:49:03 --> Language Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Config Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:49:03 --> URI Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Router Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Output Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:49:03 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:49:03 --> Security Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Input Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:49:03 --> Language Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:49:03 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:49:03 --> Session Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:49:03 --> Session garbage collection performed.
-DEBUG - 2013-12-01 23:49:03 --> Session routines successfully run
-DEBUG - 2013-12-01 23:49:03 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:49:03 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:49:03 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Session Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:49:03 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:49:03 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:49:03 --> Model Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Model Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:49:03 --> Session garbage collection performed.
-DEBUG - 2013-12-01 23:49:03 --> Session routines successfully run
-DEBUG - 2013-12-01 23:49:03 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:49:03 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:49:03 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:49:03 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:49:03 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:49:03 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:49:03 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:49:03 --> Model Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Model Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:49:03 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:49:03 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:49:03 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:49:03 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:54:10 --> Config Class Initialized
-DEBUG - 2013-12-01 23:54:10 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:54:10 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:54:10 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:54:10 --> URI Class Initialized
-DEBUG - 2013-12-01 23:54:10 --> Router Class Initialized
-DEBUG - 2013-12-01 23:54:10 --> Output Class Initialized
-DEBUG - 2013-12-01 23:54:10 --> Security Class Initialized
-DEBUG - 2013-12-01 23:54:10 --> Input Class Initialized
-DEBUG - 2013-12-01 23:54:10 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:54:10 --> Language Class Initialized
-DEBUG - 2013-12-01 23:54:10 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:54:10 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:54:10 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:54:11 --> Session Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:54:11 --> Session garbage collection performed.
-DEBUG - 2013-12-01 23:54:11 --> Session routines successfully run
-DEBUG - 2013-12-01 23:54:11 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:54:11 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:54:11 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:54:11 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:54:11 --> Model Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Model Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:54:11 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:54:11 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:54:11 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:54:11 --> Final output sent to browser
-DEBUG - 2013-12-01 23:54:11 --> Total execution time: 0.0579
-DEBUG - 2013-12-01 23:54:11 --> Config Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:54:11 --> URI Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Router Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Config Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:54:11 --> Output Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> URI Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Security Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Router Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Input Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:54:11 --> Language Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Output Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Security Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Input Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:54:11 --> Language Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:54:11 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:54:11 --> Session Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:54:11 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Session garbage collection performed.
-DEBUG - 2013-12-01 23:54:11 --> Session routines successfully run
-DEBUG - 2013-12-01 23:54:11 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:54:11 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:54:11 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:54:11 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:54:11 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:54:11 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:54:11 --> Model Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Model Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:54:11 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:54:11 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:54:11 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:54:11 --> Session Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:54:11 --> Session garbage collection performed.
-DEBUG - 2013-12-01 23:54:11 --> Session routines successfully run
-DEBUG - 2013-12-01 23:54:11 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:54:11 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:54:11 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:54:11 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:54:11 --> Model Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Model Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:54:11 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:54:11 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:54:11 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:54:11 --> 404 Page Not Found --> errors/page_missing
-DEBUG - 2013-12-01 23:56:42 --> Config Class Initialized
-DEBUG - 2013-12-01 23:56:42 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:56:42 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:56:42 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:56:42 --> URI Class Initialized
-DEBUG - 2013-12-01 23:56:42 --> Router Class Initialized
-DEBUG - 2013-12-01 23:56:42 --> Output Class Initialized
-DEBUG - 2013-12-01 23:56:42 --> Security Class Initialized
-DEBUG - 2013-12-01 23:56:42 --> Input Class Initialized
+DEBUG - 2013-12-01 23:29:59 --> Router Class Initialized
+DEBUG - 2013-12-01 23:29:59 --> Output Class Initialized
+DEBUG - 2013-12-01 23:29:59 --> Security Class Initialized
+DEBUG - 2013-12-01 23:29:59 --> Input Class Initialized
+DEBUG - 2013-12-01 23:29:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:29:59 --> Language Class Initialized
+DEBUG - 2013-12-01 23:29:59 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:30:00 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:30:00 --> Session Class Initialized
+DEBUG - 2013-12-01 23:30:00 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:30:00 --> Session routines successfully run
+DEBUG - 2013-12-01 23:30:00 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:30:00 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:30:01 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:30:01 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:30:01 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:30:01 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:30:01 --> Model Class Initialized
+DEBUG - 2013-12-01 23:30:01 --> Model Class Initialized
+DEBUG - 2013-12-01 23:30:01 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:30:02 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:30:02 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:30:02 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:30:02 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:30:02 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 23:30:02 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:30:02 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:30:02 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:30:03 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:30:03 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:30:03 --> XSS Filtering completed
+ERROR - 2013-12-01 23:30:03 --> Severity: Warning  --> fopen(/dev/urandom) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory C:\Program Files (x86)\Ampps\www\project\application\libraries\phpass-0.1\PasswordHash.php 49
+DEBUG - 2013-12-01 23:30:04 --> Email Class Initialized
+DEBUG - 2013-12-01 23:30:04 --> File loaded: application/views/email/activate-html.php
+DEBUG - 2013-12-01 23:30:04 --> File loaded: application/views/email/activate-txt.php
+DEBUG - 2013-12-01 23:30:04 --> Language file loaded: language/english/email_lang.php
+DEBUG - 2013-12-01 23:30:06 --> Config Class Initialized
+DEBUG - 2013-12-01 23:30:06 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:30:06 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:30:06 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:30:06 --> URI Class Initialized
+DEBUG - 2013-12-01 23:30:06 --> Router Class Initialized
+DEBUG - 2013-12-01 23:30:06 --> Output Class Initialized
+DEBUG - 2013-12-01 23:30:06 --> Security Class Initialized
+DEBUG - 2013-12-01 23:30:07 --> Input Class Initialized
+DEBUG - 2013-12-01 23:30:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:30:07 --> Language Class Initialized
+DEBUG - 2013-12-01 23:30:07 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:30:07 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:30:07 --> Session Class Initialized
+DEBUG - 2013-12-01 23:30:08 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:30:08 --> Session routines successfully run
+DEBUG - 2013-12-01 23:30:08 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:30:08 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:30:08 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:30:09 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:30:09 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:30:09 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:30:09 --> Model Class Initialized
+DEBUG - 2013-12-01 23:30:09 --> Model Class Initialized
+DEBUG - 2013-12-01 23:30:09 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:30:09 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:30:10 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:30:10 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:30:10 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:30:10 --> File loaded: application/views/auth/general_message.php
+DEBUG - 2013-12-01 23:30:10 --> Final output sent to browser
+DEBUG - 2013-12-01 23:30:10 --> Total execution time: 4.4673
+DEBUG - 2013-12-01 23:30:34 --> Config Class Initialized
+DEBUG - 2013-12-01 23:30:34 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:30:35 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:30:35 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:30:35 --> URI Class Initialized
+DEBUG - 2013-12-01 23:30:35 --> Router Class Initialized
+DEBUG - 2013-12-01 23:30:35 --> Output Class Initialized
+DEBUG - 2013-12-01 23:30:35 --> Security Class Initialized
+DEBUG - 2013-12-01 23:30:35 --> Input Class Initialized
+DEBUG - 2013-12-01 23:30:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:30:36 --> Language Class Initialized
+DEBUG - 2013-12-01 23:30:36 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:30:36 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:30:36 --> Session Class Initialized
+DEBUG - 2013-12-01 23:30:37 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:30:37 --> Session routines successfully run
+DEBUG - 2013-12-01 23:30:37 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:30:37 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:30:37 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:30:38 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:30:38 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:30:38 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:30:38 --> Model Class Initialized
+DEBUG - 2013-12-01 23:30:38 --> Model Class Initialized
+DEBUG - 2013-12-01 23:30:38 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:30:39 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:30:39 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:30:39 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:30:39 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:30:39 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-01 23:30:40 --> Final output sent to browser
+DEBUG - 2013-12-01 23:30:40 --> Total execution time: 5.2573
+DEBUG - 2013-12-01 23:30:51 --> Config Class Initialized
+DEBUG - 2013-12-01 23:30:51 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:30:51 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:30:51 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:30:51 --> URI Class Initialized
+DEBUG - 2013-12-01 23:30:51 --> Router Class Initialized
+DEBUG - 2013-12-01 23:30:51 --> Output Class Initialized
+DEBUG - 2013-12-01 23:30:52 --> Security Class Initialized
+DEBUG - 2013-12-01 23:30:52 --> Input Class Initialized
+DEBUG - 2013-12-01 23:30:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:30:52 --> Language Class Initialized
+DEBUG - 2013-12-01 23:30:52 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:30:52 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:30:52 --> Session Class Initialized
+DEBUG - 2013-12-01 23:30:53 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:30:53 --> Session routines successfully run
+DEBUG - 2013-12-01 23:30:53 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:30:53 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:30:53 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:30:53 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:30:54 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:30:54 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:30:54 --> Model Class Initialized
+DEBUG - 2013-12-01 23:30:54 --> Model Class Initialized
+DEBUG - 2013-12-01 23:30:54 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:30:54 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:30:54 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:30:55 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:30:55 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:30:55 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 23:30:55 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:30:55 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:30:55 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:30:55 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:30:56 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:30:56 --> XSS Filtering completed
+ERROR - 2013-12-01 23:30:56 --> Severity: Warning  --> fopen(/dev/urandom) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory C:\Program Files (x86)\Ampps\www\project\application\libraries\phpass-0.1\PasswordHash.php 49
+DEBUG - 2013-12-01 23:30:56 --> Email Class Initialized
+DEBUG - 2013-12-01 23:30:56 --> File loaded: application/views/email/activate-html.php
+DEBUG - 2013-12-01 23:30:57 --> File loaded: application/views/email/activate-txt.php
+DEBUG - 2013-12-01 23:30:57 --> Language file loaded: language/english/email_lang.php
+DEBUG - 2013-12-01 23:30:58 --> Config Class Initialized
+DEBUG - 2013-12-01 23:30:58 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:30:58 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:30:59 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:30:59 --> URI Class Initialized
+DEBUG - 2013-12-01 23:30:59 --> Router Class Initialized
+DEBUG - 2013-12-01 23:30:59 --> Output Class Initialized
+DEBUG - 2013-12-01 23:30:59 --> Security Class Initialized
+DEBUG - 2013-12-01 23:30:59 --> Input Class Initialized
+DEBUG - 2013-12-01 23:30:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:30:59 --> Language Class Initialized
+DEBUG - 2013-12-01 23:31:00 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:31:00 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:31:00 --> Session Class Initialized
+DEBUG - 2013-12-01 23:31:00 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:31:00 --> Session routines successfully run
+DEBUG - 2013-12-01 23:31:01 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:31:01 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:31:01 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:31:01 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:31:01 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:31:01 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:31:02 --> Model Class Initialized
+DEBUG - 2013-12-01 23:31:02 --> Model Class Initialized
+DEBUG - 2013-12-01 23:31:02 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:31:02 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:31:02 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:31:02 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:31:02 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:31:03 --> File loaded: application/views/auth/general_message.php
+DEBUG - 2013-12-01 23:31:03 --> Final output sent to browser
+DEBUG - 2013-12-01 23:31:03 --> Total execution time: 4.5593
+DEBUG - 2013-12-01 23:31:08 --> Config Class Initialized
+DEBUG - 2013-12-01 23:31:08 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:31:08 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:31:09 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:31:09 --> URI Class Initialized
+DEBUG - 2013-12-01 23:31:09 --> Router Class Initialized
+DEBUG - 2013-12-01 23:31:09 --> Output Class Initialized
+DEBUG - 2013-12-01 23:31:09 --> Security Class Initialized
+DEBUG - 2013-12-01 23:31:09 --> Input Class Initialized
+DEBUG - 2013-12-01 23:31:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:31:09 --> Language Class Initialized
+DEBUG - 2013-12-01 23:31:10 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:31:10 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:31:10 --> Session Class Initialized
+DEBUG - 2013-12-01 23:31:10 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:31:11 --> Session routines successfully run
+DEBUG - 2013-12-01 23:31:11 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:31:11 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:31:11 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:31:11 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:31:12 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:31:12 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:31:12 --> Model Class Initialized
+DEBUG - 2013-12-01 23:31:12 --> Model Class Initialized
+DEBUG - 2013-12-01 23:31:12 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:31:12 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:31:12 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:31:13 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:31:13 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:31:13 --> Model Class Initialized
+DEBUG - 2013-12-01 23:31:13 --> File loaded: application/views/auth/login_form.php
+DEBUG - 2013-12-01 23:31:13 --> Final output sent to browser
+DEBUG - 2013-12-01 23:31:13 --> Total execution time: 4.9173
+DEBUG - 2013-12-01 23:38:06 --> Config Class Initialized
+DEBUG - 2013-12-01 23:38:06 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:38:06 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:38:06 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:38:07 --> URI Class Initialized
+DEBUG - 2013-12-01 23:38:07 --> Router Class Initialized
+DEBUG - 2013-12-01 23:38:07 --> Output Class Initialized
+DEBUG - 2013-12-01 23:38:07 --> Security Class Initialized
+DEBUG - 2013-12-01 23:38:07 --> Input Class Initialized
+DEBUG - 2013-12-01 23:38:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:38:07 --> Language Class Initialized
+DEBUG - 2013-12-01 23:38:07 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:38:08 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:38:08 --> Session Class Initialized
+DEBUG - 2013-12-01 23:38:08 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:38:08 --> Session routines successfully run
+DEBUG - 2013-12-01 23:38:08 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:38:09 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:38:09 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:38:09 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:38:09 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:38:09 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:38:09 --> Model Class Initialized
+DEBUG - 2013-12-01 23:38:10 --> Model Class Initialized
+DEBUG - 2013-12-01 23:38:10 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:38:10 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:38:10 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:38:10 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:38:10 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:38:11 --> Config Class Initialized
+DEBUG - 2013-12-01 23:38:11 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:38:11 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:38:11 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:38:11 --> URI Class Initialized
+DEBUG - 2013-12-01 23:38:11 --> Router Class Initialized
+DEBUG - 2013-12-01 23:38:12 --> Output Class Initialized
+DEBUG - 2013-12-01 23:38:12 --> Security Class Initialized
+DEBUG - 2013-12-01 23:38:12 --> Input Class Initialized
+DEBUG - 2013-12-01 23:38:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:38:12 --> Language Class Initialized
+DEBUG - 2013-12-01 23:38:12 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:38:13 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:38:13 --> Session Class Initialized
+DEBUG - 2013-12-01 23:38:13 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:38:13 --> Session routines successfully run
+DEBUG - 2013-12-01 23:38:13 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:38:14 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:38:14 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:38:14 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:38:14 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:38:14 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:38:14 --> Model Class Initialized
+DEBUG - 2013-12-01 23:38:14 --> Model Class Initialized
+DEBUG - 2013-12-01 23:38:14 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:38:14 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:38:15 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:38:15 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:38:15 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:38:15 --> File loaded: application/views/auth/general_message.php
+DEBUG - 2013-12-01 23:38:15 --> Final output sent to browser
+DEBUG - 2013-12-01 23:38:15 --> Total execution time: 4.4183
+DEBUG - 2013-12-01 23:38:21 --> Config Class Initialized
+DEBUG - 2013-12-01 23:38:21 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:38:21 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:38:21 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:38:21 --> URI Class Initialized
+DEBUG - 2013-12-01 23:38:21 --> Router Class Initialized
+DEBUG - 2013-12-01 23:38:21 --> Output Class Initialized
+DEBUG - 2013-12-01 23:38:21 --> Security Class Initialized
+DEBUG - 2013-12-01 23:38:22 --> Input Class Initialized
+DEBUG - 2013-12-01 23:38:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:38:22 --> Language Class Initialized
+DEBUG - 2013-12-01 23:38:22 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:38:22 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:38:22 --> Session Class Initialized
+DEBUG - 2013-12-01 23:38:22 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:38:22 --> Session routines successfully run
+DEBUG - 2013-12-01 23:38:23 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:38:23 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:38:23 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:38:23 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:38:23 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:38:23 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:38:24 --> Model Class Initialized
+DEBUG - 2013-12-01 23:38:24 --> Model Class Initialized
+DEBUG - 2013-12-01 23:38:24 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:38:24 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:38:24 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:38:24 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:38:24 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:38:25 --> Model Class Initialized
+DEBUG - 2013-12-01 23:38:25 --> File loaded: application/views/auth/login_form.php
+DEBUG - 2013-12-01 23:38:25 --> Final output sent to browser
+DEBUG - 2013-12-01 23:38:25 --> Total execution time: 4.3182
+DEBUG - 2013-12-01 23:38:29 --> Config Class Initialized
+DEBUG - 2013-12-01 23:38:29 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:38:29 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:38:29 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:38:29 --> URI Class Initialized
+DEBUG - 2013-12-01 23:38:29 --> Router Class Initialized
+DEBUG - 2013-12-01 23:38:30 --> Output Class Initialized
+DEBUG - 2013-12-01 23:38:30 --> Security Class Initialized
+DEBUG - 2013-12-01 23:38:30 --> Input Class Initialized
+DEBUG - 2013-12-01 23:38:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:38:30 --> Language Class Initialized
+DEBUG - 2013-12-01 23:38:30 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:38:30 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:38:31 --> Session Class Initialized
+DEBUG - 2013-12-01 23:38:31 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:38:31 --> Session routines successfully run
+DEBUG - 2013-12-01 23:38:31 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:38:31 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:38:32 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:38:32 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:38:32 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:38:32 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:38:32 --> Model Class Initialized
+DEBUG - 2013-12-01 23:38:32 --> Model Class Initialized
+DEBUG - 2013-12-01 23:38:33 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:38:33 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:38:33 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:38:33 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:38:33 --> Language file loaded: language/english/tank_auth_lang.php
+ERROR - 2013-12-01 23:38:33 --> Severity: Notice  --> Undefined index: session_id C:\Program Files (x86)\Ampps\www\project\system\libraries\Session.php 272
+ERROR - 2013-12-01 23:38:34 --> Severity: Notice  --> Undefined index: ip_address C:\Program Files (x86)\Ampps\www\project\system\libraries\Session.php 272
+ERROR - 2013-12-01 23:38:34 --> Severity: Notice  --> Undefined index: user_agent C:\Program Files (x86)\Ampps\www\project\system\libraries\Session.php 272
+ERROR - 2013-12-01 23:38:34 --> Severity: Notice  --> Undefined index: last_activity C:\Program Files (x86)\Ampps\www\project\system\libraries\Session.php 272
+ERROR - 2013-12-01 23:38:34 --> Severity: Notice  --> Undefined index: session_id C:\Program Files (x86)\Ampps\www\project\system\libraries\Session.php 288
+ERROR - 2013-12-01 23:38:34 --> Severity: Notice  --> Undefined index: last_activity C:\Program Files (x86)\Ampps\www\project\system\libraries\Session.php 289
+DEBUG - 2013-12-01 23:38:35 --> Config Class Initialized
+DEBUG - 2013-12-01 23:38:35 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:38:35 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:38:35 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:38:35 --> URI Class Initialized
+DEBUG - 2013-12-01 23:38:35 --> Router Class Initialized
+DEBUG - 2013-12-01 23:38:35 --> Output Class Initialized
+DEBUG - 2013-12-01 23:38:36 --> Security Class Initialized
+DEBUG - 2013-12-01 23:38:36 --> Input Class Initialized
+DEBUG - 2013-12-01 23:38:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:38:36 --> Language Class Initialized
+DEBUG - 2013-12-01 23:38:36 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:38:36 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:38:37 --> Session Class Initialized
+DEBUG - 2013-12-01 23:38:37 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:38:37 --> Session routines successfully run
+DEBUG - 2013-12-01 23:38:37 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:38:38 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:38:38 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:38:38 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:38:38 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:38:38 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:38:38 --> Model Class Initialized
+DEBUG - 2013-12-01 23:38:39 --> Model Class Initialized
+DEBUG - 2013-12-01 23:38:39 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:38:39 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:38:39 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:38:39 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:38:39 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:38:40 --> Config Class Initialized
+DEBUG - 2013-12-01 23:38:40 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:38:40 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:38:40 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:38:40 --> URI Class Initialized
+DEBUG - 2013-12-01 23:38:40 --> Router Class Initialized
+DEBUG - 2013-12-01 23:38:40 --> Output Class Initialized
+DEBUG - 2013-12-01 23:38:41 --> Security Class Initialized
+DEBUG - 2013-12-01 23:38:41 --> Input Class Initialized
+DEBUG - 2013-12-01 23:38:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:38:41 --> Language Class Initialized
+DEBUG - 2013-12-01 23:38:41 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:38:41 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:38:41 --> Session Class Initialized
+DEBUG - 2013-12-01 23:38:41 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:38:42 --> Session routines successfully run
+DEBUG - 2013-12-01 23:38:42 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:38:42 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:38:42 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:38:42 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:38:42 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:38:42 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:38:43 --> Model Class Initialized
+DEBUG - 2013-12-01 23:38:43 --> Model Class Initialized
+DEBUG - 2013-12-01 23:38:43 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:38:43 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:38:43 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:38:43 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:38:43 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:38:44 --> Model Class Initialized
+DEBUG - 2013-12-01 23:38:44 --> File loaded: application/views/auth/login_form.php
+DEBUG - 2013-12-01 23:38:44 --> Final output sent to browser
+DEBUG - 2013-12-01 23:38:44 --> Total execution time: 4.1532
+DEBUG - 2013-12-01 23:39:02 --> Config Class Initialized
+DEBUG - 2013-12-01 23:39:02 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:39:02 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:39:02 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:39:03 --> URI Class Initialized
+DEBUG - 2013-12-01 23:39:03 --> Router Class Initialized
+DEBUG - 2013-12-01 23:39:03 --> Output Class Initialized
+DEBUG - 2013-12-01 23:39:03 --> Security Class Initialized
+DEBUG - 2013-12-01 23:39:03 --> Input Class Initialized
+DEBUG - 2013-12-01 23:39:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:39:03 --> Language Class Initialized
+DEBUG - 2013-12-01 23:39:03 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:39:04 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:39:04 --> Session Class Initialized
+DEBUG - 2013-12-01 23:39:04 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:39:04 --> Session routines successfully run
+DEBUG - 2013-12-01 23:39:04 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:39:05 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:39:05 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:39:05 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:39:05 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:39:05 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:39:05 --> Model Class Initialized
+DEBUG - 2013-12-01 23:39:06 --> Model Class Initialized
+DEBUG - 2013-12-01 23:39:06 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:39:06 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-01 23:39:06 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:39:06 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:39:06 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:39:06 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:39:06 --> Model Class Initialized
+DEBUG - 2013-12-01 23:39:07 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 23:39:07 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:39:07 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:39:07 --> Config Class Initialized
+DEBUG - 2013-12-01 23:39:08 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:39:08 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:39:08 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:39:08 --> URI Class Initialized
+DEBUG - 2013-12-01 23:39:08 --> Router Class Initialized
+DEBUG - 2013-12-01 23:39:08 --> Output Class Initialized
+DEBUG - 2013-12-01 23:39:08 --> Security Class Initialized
+DEBUG - 2013-12-01 23:39:08 --> Input Class Initialized
+DEBUG - 2013-12-01 23:39:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:39:09 --> Language Class Initialized
+DEBUG - 2013-12-01 23:39:09 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:39:09 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:39:09 --> Session Class Initialized
+DEBUG - 2013-12-01 23:39:10 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:39:10 --> Session routines successfully run
+DEBUG - 2013-12-01 23:39:10 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:39:10 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:39:10 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:39:10 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:39:10 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:39:11 --> Model Class Initialized
+DEBUG - 2013-12-01 23:39:11 --> Model Class Initialized
+DEBUG - 2013-12-01 23:39:11 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:39:11 --> Model Class Initialized
+DEBUG - 2013-12-01 23:39:11 --> Model Class Initialized
+DEBUG - 2013-12-01 23:39:11 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:39:11 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-01 23:39:12 --> Final output sent to browser
+DEBUG - 2013-12-01 23:39:12 --> Total execution time: 4.2382
+DEBUG - 2013-12-01 23:39:31 --> Config Class Initialized
+DEBUG - 2013-12-01 23:39:31 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:39:31 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:39:31 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:39:31 --> URI Class Initialized
+DEBUG - 2013-12-01 23:39:31 --> Router Class Initialized
+DEBUG - 2013-12-01 23:39:31 --> Output Class Initialized
+DEBUG - 2013-12-01 23:39:32 --> Security Class Initialized
+DEBUG - 2013-12-01 23:39:32 --> Input Class Initialized
+DEBUG - 2013-12-01 23:39:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:39:32 --> Language Class Initialized
+DEBUG - 2013-12-01 23:39:32 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:39:32 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:39:32 --> Session Class Initialized
+DEBUG - 2013-12-01 23:39:32 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:39:33 --> Session routines successfully run
+DEBUG - 2013-12-01 23:39:33 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:39:33 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:39:33 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:39:33 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:39:34 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:39:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:39:34 --> Model Class Initialized
+DEBUG - 2013-12-01 23:39:34 --> Model Class Initialized
+DEBUG - 2013-12-01 23:39:34 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:39:34 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:39:34 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:39:34 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:39:34 --> File loaded: application/views/auth/change_profile_form.php
+DEBUG - 2013-12-01 23:39:35 --> Final output sent to browser
+DEBUG - 2013-12-01 23:39:35 --> Total execution time: 3.7702
+DEBUG - 2013-12-01 23:51:56 --> Config Class Initialized
+DEBUG - 2013-12-01 23:51:56 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:51:56 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:51:56 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:51:56 --> URI Class Initialized
+DEBUG - 2013-12-01 23:51:56 --> Router Class Initialized
+DEBUG - 2013-12-01 23:51:56 --> Output Class Initialized
+DEBUG - 2013-12-01 23:51:57 --> Security Class Initialized
+DEBUG - 2013-12-01 23:51:57 --> Input Class Initialized
+DEBUG - 2013-12-01 23:51:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:51:57 --> Language Class Initialized
+DEBUG - 2013-12-01 23:51:57 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:51:57 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:51:57 --> Session Class Initialized
+DEBUG - 2013-12-01 23:51:58 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:52:01 --> Session routines successfully run
+DEBUG - 2013-12-01 23:52:01 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:52:01 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:52:01 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:52:01 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:52:01 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:52:02 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:52:02 --> Model Class Initialized
+DEBUG - 2013-12-01 23:52:02 --> Model Class Initialized
+DEBUG - 2013-12-01 23:52:02 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:52:02 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:52:03 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:52:03 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:52:03 --> File loaded: application/views/auth/change_profile_form.php
+DEBUG - 2013-12-01 23:52:03 --> Final output sent to browser
+DEBUG - 2013-12-01 23:52:03 --> Total execution time: 7.2624
+DEBUG - 2013-12-01 23:52:23 --> Config Class Initialized
+DEBUG - 2013-12-01 23:52:23 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:52:24 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:52:24 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:52:24 --> URI Class Initialized
+DEBUG - 2013-12-01 23:52:24 --> Router Class Initialized
+DEBUG - 2013-12-01 23:52:24 --> Output Class Initialized
+DEBUG - 2013-12-01 23:52:24 --> Security Class Initialized
+DEBUG - 2013-12-01 23:52:24 --> Input Class Initialized
+DEBUG - 2013-12-01 23:52:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:52:25 --> Language Class Initialized
+DEBUG - 2013-12-01 23:52:25 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:52:25 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:52:25 --> Session Class Initialized
+DEBUG - 2013-12-01 23:52:25 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:52:25 --> Session routines successfully run
+DEBUG - 2013-12-01 23:52:26 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:52:26 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:52:26 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:52:26 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:52:26 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:52:26 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:52:26 --> Model Class Initialized
+DEBUG - 2013-12-01 23:52:27 --> Model Class Initialized
+DEBUG - 2013-12-01 23:52:27 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:52:27 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:52:27 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:52:27 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:52:28 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 23:52:32 --> XSS Filtering completed
+ERROR - 2013-12-01 23:52:32 --> Severity: Notice  --> Undefined property: Auth::$user C:\Program Files (x86)\Ampps\www\project\application\controllers\auth.php 644
+DEBUG - 2013-12-01 23:52:45 --> Config Class Initialized
+DEBUG - 2013-12-01 23:52:45 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:52:46 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:52:46 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:52:46 --> URI Class Initialized
+DEBUG - 2013-12-01 23:52:46 --> Router Class Initialized
+DEBUG - 2013-12-01 23:52:46 --> Output Class Initialized
+DEBUG - 2013-12-01 23:52:46 --> Security Class Initialized
+DEBUG - 2013-12-01 23:52:47 --> Input Class Initialized
+DEBUG - 2013-12-01 23:52:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:52:47 --> Language Class Initialized
+DEBUG - 2013-12-01 23:52:47 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:52:48 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:52:48 --> Session Class Initialized
+DEBUG - 2013-12-01 23:52:48 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:52:48 --> Session routines successfully run
+DEBUG - 2013-12-01 23:52:48 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:52:49 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:52:49 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:52:49 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:52:49 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:52:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:52:49 --> Model Class Initialized
+DEBUG - 2013-12-01 23:52:50 --> Model Class Initialized
+DEBUG - 2013-12-01 23:52:50 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:52:50 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:52:50 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:52:50 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:52:51 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 23:52:51 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:52:51 --> File loaded: application/views/auth/change_profile_form.php
+DEBUG - 2013-12-01 23:52:51 --> Final output sent to browser
+DEBUG - 2013-12-01 23:52:51 --> Total execution time: 5.8193
+DEBUG - 2013-12-01 23:52:58 --> Config Class Initialized
+DEBUG - 2013-12-01 23:52:59 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:52:59 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:52:59 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:52:59 --> URI Class Initialized
+DEBUG - 2013-12-01 23:52:59 --> Router Class Initialized
+DEBUG - 2013-12-01 23:52:59 --> Output Class Initialized
+DEBUG - 2013-12-01 23:52:59 --> Security Class Initialized
+DEBUG - 2013-12-01 23:53:00 --> Input Class Initialized
+DEBUG - 2013-12-01 23:53:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:53:00 --> Language Class Initialized
+DEBUG - 2013-12-01 23:53:00 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:53:00 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:53:01 --> Session Class Initialized
+DEBUG - 2013-12-01 23:53:01 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:53:01 --> Session routines successfully run
+DEBUG - 2013-12-01 23:53:01 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:53:02 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:53:02 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:53:02 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:53:02 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:53:02 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:53:02 --> Model Class Initialized
+DEBUG - 2013-12-01 23:53:03 --> Model Class Initialized
+DEBUG - 2013-12-01 23:53:03 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:53:03 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:53:03 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:53:03 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:53:03 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 23:53:04 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:53:04 --> File loaded: application/views/auth/change_profile_form.php
+DEBUG - 2013-12-01 23:53:04 --> Final output sent to browser
+DEBUG - 2013-12-01 23:53:04 --> Total execution time: 5.5633
+DEBUG - 2013-12-01 23:53:41 --> Config Class Initialized
+DEBUG - 2013-12-01 23:53:41 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:53:41 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:53:41 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:53:41 --> URI Class Initialized
+DEBUG - 2013-12-01 23:53:41 --> Router Class Initialized
+DEBUG - 2013-12-01 23:53:42 --> Output Class Initialized
+DEBUG - 2013-12-01 23:53:42 --> Security Class Initialized
+DEBUG - 2013-12-01 23:53:42 --> Input Class Initialized
+DEBUG - 2013-12-01 23:53:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:53:42 --> Language Class Initialized
+DEBUG - 2013-12-01 23:53:42 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:53:43 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:53:43 --> Session Class Initialized
+DEBUG - 2013-12-01 23:53:43 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:53:43 --> Session routines successfully run
+DEBUG - 2013-12-01 23:53:44 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:53:44 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:53:44 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:53:44 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:53:44 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:53:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:53:45 --> Model Class Initialized
+DEBUG - 2013-12-01 23:53:45 --> Model Class Initialized
+DEBUG - 2013-12-01 23:53:45 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:53:45 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:53:45 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:53:45 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:53:46 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 23:53:46 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:53:46 --> File loaded: application/views/auth/change_profile_form.php
+DEBUG - 2013-12-01 23:53:46 --> Final output sent to browser
+DEBUG - 2013-12-01 23:53:47 --> Total execution time: 5.7823
+DEBUG - 2013-12-01 23:54:46 --> Config Class Initialized
+DEBUG - 2013-12-01 23:54:47 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:54:47 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:54:47 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:54:47 --> URI Class Initialized
+DEBUG - 2013-12-01 23:54:47 --> Router Class Initialized
+DEBUG - 2013-12-01 23:54:47 --> Output Class Initialized
+DEBUG - 2013-12-01 23:54:47 --> Security Class Initialized
+DEBUG - 2013-12-01 23:54:48 --> Input Class Initialized
+DEBUG - 2013-12-01 23:54:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:54:48 --> Language Class Initialized
+DEBUG - 2013-12-01 23:54:48 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:54:49 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:54:49 --> Session Class Initialized
+DEBUG - 2013-12-01 23:54:49 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:54:49 --> Session routines successfully run
+DEBUG - 2013-12-01 23:54:49 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:54:50 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:54:50 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:54:50 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:54:50 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:54:50 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:54:50 --> Model Class Initialized
+DEBUG - 2013-12-01 23:54:51 --> Model Class Initialized
+DEBUG - 2013-12-01 23:54:51 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:54:51 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:54:51 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:54:51 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:54:51 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 23:54:51 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:54:52 --> File loaded: application/views/auth/change_profile_form.php
+DEBUG - 2013-12-01 23:54:52 --> Final output sent to browser
+DEBUG - 2013-12-01 23:54:52 --> Total execution time: 5.5763
+DEBUG - 2013-12-01 23:54:59 --> Config Class Initialized
+DEBUG - 2013-12-01 23:54:59 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:54:59 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:55:00 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:55:00 --> URI Class Initialized
+DEBUG - 2013-12-01 23:55:00 --> Router Class Initialized
+DEBUG - 2013-12-01 23:55:00 --> Output Class Initialized
+DEBUG - 2013-12-01 23:55:00 --> Security Class Initialized
+DEBUG - 2013-12-01 23:55:00 --> Input Class Initialized
+DEBUG - 2013-12-01 23:55:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:55:01 --> Language Class Initialized
+DEBUG - 2013-12-01 23:55:01 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:55:01 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:55:01 --> Session Class Initialized
+DEBUG - 2013-12-01 23:55:01 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:55:02 --> Session routines successfully run
+DEBUG - 2013-12-01 23:55:02 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:55:02 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:55:02 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:55:02 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:55:03 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:55:03 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:55:03 --> Model Class Initialized
+DEBUG - 2013-12-01 23:55:03 --> Model Class Initialized
+DEBUG - 2013-12-01 23:55:03 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:55:03 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:55:04 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:55:04 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:55:04 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 23:55:04 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:55:04 --> File loaded: application/views/auth/change_profile_form.php
+DEBUG - 2013-12-01 23:55:04 --> Final output sent to browser
+DEBUG - 2013-12-01 23:55:04 --> Total execution time: 5.2123
+DEBUG - 2013-12-01 23:55:08 --> Config Class Initialized
+DEBUG - 2013-12-01 23:55:08 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:55:08 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:55:09 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:55:09 --> URI Class Initialized
+DEBUG - 2013-12-01 23:55:09 --> Router Class Initialized
+DEBUG - 2013-12-01 23:55:09 --> Output Class Initialized
+DEBUG - 2013-12-01 23:55:09 --> Security Class Initialized
+DEBUG - 2013-12-01 23:55:09 --> Input Class Initialized
+DEBUG - 2013-12-01 23:55:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:55:10 --> Language Class Initialized
+DEBUG - 2013-12-01 23:55:10 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:55:11 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:55:11 --> Session Class Initialized
+DEBUG - 2013-12-01 23:55:11 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:55:11 --> Session garbage collection performed.
+DEBUG - 2013-12-01 23:55:11 --> Session routines successfully run
+DEBUG - 2013-12-01 23:55:12 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:55:12 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:55:12 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:55:12 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:55:12 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:55:12 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:55:13 --> Model Class Initialized
+DEBUG - 2013-12-01 23:55:13 --> Model Class Initialized
+DEBUG - 2013-12-01 23:55:13 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:55:13 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:55:13 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:55:13 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:55:14 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 23:55:14 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:55:14 --> File loaded: application/views/auth/change_profile_form.php
+DEBUG - 2013-12-01 23:55:14 --> Final output sent to browser
+DEBUG - 2013-12-01 23:55:14 --> Total execution time: 5.8253
+DEBUG - 2013-12-01 23:56:31 --> Config Class Initialized
+DEBUG - 2013-12-01 23:56:31 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:56:31 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:56:31 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:56:31 --> URI Class Initialized
+DEBUG - 2013-12-01 23:56:31 --> Router Class Initialized
+DEBUG - 2013-12-01 23:56:32 --> Output Class Initialized
+DEBUG - 2013-12-01 23:56:35 --> Security Class Initialized
+DEBUG - 2013-12-01 23:56:35 --> Input Class Initialized
+DEBUG - 2013-12-01 23:56:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-01 23:56:35 --> Language Class Initialized
+DEBUG - 2013-12-01 23:56:36 --> Loader Class Initialized
+DEBUG - 2013-12-01 23:56:36 --> Database Driver Class Initialized
+DEBUG - 2013-12-01 23:56:36 --> Session Class Initialized
+DEBUG - 2013-12-01 23:56:36 --> Helper loaded: string_helper
+DEBUG - 2013-12-01 23:56:36 --> Session routines successfully run
+DEBUG - 2013-12-01 23:56:36 --> Controller Class Initialized
+DEBUG - 2013-12-01 23:56:37 --> Helper loaded: form_helper
+DEBUG - 2013-12-01 23:56:37 --> Helper loaded: url_helper
+DEBUG - 2013-12-01 23:56:37 --> Form Validation Class Initialized
+DEBUG - 2013-12-01 23:56:37 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-01 23:56:37 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:56:37 --> Model Class Initialized
+DEBUG - 2013-12-01 23:56:37 --> Model Class Initialized
+DEBUG - 2013-12-01 23:56:37 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:56:37 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:56:38 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:56:38 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:56:38 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-01 23:56:38 --> XSS Filtering completed
+DEBUG - 2013-12-01 23:56:40 --> Config Class Initialized
+DEBUG - 2013-12-01 23:56:40 --> Hooks Class Initialized
+DEBUG - 2013-12-01 23:56:41 --> Utf8 Class Initialized
+DEBUG - 2013-12-01 23:56:41 --> UTF-8 Support Enabled
+DEBUG - 2013-12-01 23:56:41 --> URI Class Initialized
+DEBUG - 2013-12-01 23:56:41 --> Router Class Initialized
+DEBUG - 2013-12-01 23:56:41 --> Output Class Initialized
+DEBUG - 2013-12-01 23:56:41 --> Security Class Initialized
+DEBUG - 2013-12-01 23:56:41 --> Input Class Initialized
 DEBUG - 2013-12-01 23:56:42 --> Global POST and COOKIE data sanitized
 DEBUG - 2013-12-01 23:56:42 --> Language Class Initialized
 DEBUG - 2013-12-01 23:56:42 --> Loader Class Initialized
 DEBUG - 2013-12-01 23:56:42 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:56:42 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
 DEBUG - 2013-12-01 23:56:42 --> Session Class Initialized
 DEBUG - 2013-12-01 23:56:42 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:56:42 --> Session routines successfully run
-DEBUG - 2013-12-01 23:56:42 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:56:42 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:56:42 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:56:42 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:56:42 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:56:42 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:56:42 --> Model Class Initialized
-DEBUG - 2013-12-01 23:56:42 --> Model Class Initialized
-DEBUG - 2013-12-01 23:56:42 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:56:42 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:56:42 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:56:42 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:56:42 --> Language file loaded: language/english/tank_auth_lang.php
-DEBUG - 2013-12-01 23:56:42 --> File loaded: application/views/auth/register_form.php
-DEBUG - 2013-12-01 23:56:42 --> Final output sent to browser
-DEBUG - 2013-12-01 23:56:42 --> Total execution time: 0.0543
-DEBUG - 2013-12-01 23:56:43 --> Config Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:56:43 --> URI Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Router Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Output Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Security Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Input Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:56:43 --> Language Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Loader Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Config Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Hooks Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Utf8 Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> UTF-8 Support Enabled
-DEBUG - 2013-12-01 23:56:43 --> URI Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Router Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:56:43 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:56:43 --> Output Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Security Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Session Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Input Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-12-01 23:56:43 --> Language Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:56:43 --> Loader Class Initialized
 DEBUG - 2013-12-01 23:56:43 --> Session routines successfully run
 DEBUG - 2013-12-01 23:56:43 --> Controller Class Initialized
 DEBUG - 2013-12-01 23:56:43 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:56:43 --> Helper loaded: url_helper
-DEBUG - 2013-12-01 23:56:43 --> Form Validation Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Database Driver Class Initialized
-ERROR - 2013-12-01 23:56:43 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Headers and client library minor version mismatch. Headers:50529 Library:50613 /Applications/AMPPS/www/project-1/system/database/drivers/mysql/mysql_driver.php 91
-DEBUG - 2013-12-01 23:56:43 --> Session Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Helper loaded: string_helper
-DEBUG - 2013-12-01 23:56:43 --> Session routines successfully run
-DEBUG - 2013-12-01 23:56:43 --> Controller Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Config file loaded: application/config/tank_auth.php
-DEBUG - 2013-12-01 23:56:43 --> Session class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:56:43 --> Model Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Model Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:56:43 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:56:43 --> Helper loaded: form_helper
-DEBUG - 2013-12-01 23:56:43 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:56:43 --> 404 Page Not Found --> errors/page_missing
 DEBUG - 2013-12-01 23:56:43 --> Helper loaded: url_helper
 DEBUG - 2013-12-01 23:56:43 --> Form Validation Class Initialized
 DEBUG - 2013-12-01 23:56:43 --> Config file loaded: application/config/tank_auth.php
 DEBUG - 2013-12-01 23:56:43 --> Session class already loaded. Second attempt ignored.
 DEBUG - 2013-12-01 23:56:43 --> Model Class Initialized
 DEBUG - 2013-12-01 23:56:43 --> Model Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Image Lib Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Helper loaded: cookie_helper
-DEBUG - 2013-12-01 23:56:43 --> Upload Class Initialized
-DEBUG - 2013-12-01 23:56:43 --> Image_lib class already loaded. Second attempt ignored.
-DEBUG - 2013-12-01 23:56:43 --> Language file loaded: language/english/tank_auth_lang.php
-ERROR - 2013-12-01 23:56:43 --> 404 Page Not Found --> errors/page_missing
+DEBUG - 2013-12-01 23:56:44 --> Image Lib Class Initialized
+DEBUG - 2013-12-01 23:56:44 --> Upload Class Initialized
+DEBUG - 2013-12-01 23:56:44 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-01 23:56:44 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-01 23:56:44 --> File loaded: application/views/auth/change_profile_form.php
+DEBUG - 2013-12-01 23:56:44 --> Final output sent to browser
+DEBUG - 2013-12-01 23:56:44 --> Total execution time: 3.8372

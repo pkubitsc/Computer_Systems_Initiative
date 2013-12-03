@@ -14,6 +14,7 @@ class Users extends CI_Model
 {
 	private $table_name			= 'users';			// user accounts
 	private $profile_table_name	= 'user_profiles';	// user profiles
+        private $following_table_name = 'Following';
 
 	function __construct()
 	{
@@ -451,10 +452,6 @@ class Users extends CI_Model
                 return null;
         }
         
-        function follow_user($follower_id, $followed_id) {
-            
-        }
-        
         public function search_users($str1 = null, $str2 = null, $str3 = null, $page = 1) {
                 // for each argument passed...
                 // 1 argument = just un, or just fn, or just ln
@@ -475,16 +472,116 @@ class Users extends CI_Model
                 }
                 
                 $stmt = "SELECT users.username, users.id, user_profiles.first_name, user_profiles.last_name, users.created, user_profiles.profile_image
-                    FROM users
-                    JOIN user_profiles ON user_profiles.user_id = users.id
-                    WHERE soundex(users.username) IN (".$in_str.")
+                        FROM users
+                        JOIN user_profiles ON user_profiles.user_id = users.id
+                        WHERE soundex(users.username) IN (".$in_str.")
                         OR soundex(user_profiles.first_name) IN (".$in_str.")
-                        OR soundex(user_profiles.last_name) IN (".$in_str.")";
+                        OR soundex(user_profiles.last_name) IN (".$in_str.")
+                        ORDER BY users.username DESC
+                        LIMIT ".(($page-1)*10).",10";
                 $query = $this->db->query($stmt);
                 // 
 		$results = $query->result_array();
                 return $results;
         }
+        
+        public function search_users_count($str1 = null, $str2 = null, $str3 = null) {
+                // for each argument passed...
+                // 1 argument = just un, or just fn, or just ln
+                // 2 arguments = fn/ln, ln/fn, un/fn, fn/un, un/ln, ln/un
+                // 3 arguments = all combinations of possible fn, ln, un
+                // if a developer inputs the second string and not the first, etc... be very angry
+                $in_str1 = "soundex('".$str1."')";
+                $in_str2 = "soundex('".$str2."')";
+                $in_str3 = "soundex('".$str3."')";
+                if (is_null($str1) && is_null($str2) && is_null($str3)) {
+                        $in_str = "1";
+                } elseif (!is_null($str1) && is_null($str2) && is_null($str3)) {
+                    $in_str = $in_str1;
+                } elseif (!is_null($str1) && !is_null($str2) && is_null($str3)) {
+                    $in_str = $in_str1.",".$in_str2;
+                } elseif (!is_null($str1) && !is_null($str2) && !is_null($str3)) {
+                    $in_str = $in_str1.",".$in_str2.",".$in_str3;
+                }
+                
+                $stmt = "SELECT COUNT(*) AS num_results
+                        FROM users
+                        JOIN user_profiles ON user_profiles.user_id = users.id
+                        WHERE soundex(users.username) IN (".$in_str.")
+                        OR soundex(user_profiles.first_name) IN (".$in_str.")
+                        OR soundex(user_profiles.last_name) IN (".$in_str.")";
+                $query = $this->db->query($stmt);
+		$results = $query->row_array();
+                return $results['num_results'];
+        }
+        
+        function follow_user($follower_id, $followed_id) {
+                $this->db->set('user_id', $follower_id);
+                $this->db->set('following_id', $followed_id);
+                if ($this->db->insert($this->following_table_name)) {
+                        return true;
+                }
+                return false;	
+       }
+       
+       function unfollow_user($follower_id, $followed_id) {
+                $this->db->where('user_id', $follower_id);
+                $this->db->where('following_id', $followed_id);
+                if ($this->db->delete($this->following_table_name)) {
+                        return true;
+                }
+                return false;	
+       }
+       
+       function is_followed($follower_id, $followed_id) {
+       
+                $this->db->where('user_id', $follower_id);
+                $this->db->where('following_id', $followed_id);
+                $query = $this->db->get($this->following_table_name);
+                
+                if ($query->num_rows() > 0) {
+                        return TRUE;
+                }
+                return FALSE;	
+       }
+       
+       function get_all_users($page = 1) {
+                $stmt = "SELECT users.username, users.id, user_profiles.first_name, user_profiles.last_name, users.created, user_profiles.profile_image
+                        FROM users
+                        JOIN user_profiles ON user_profiles.user_id = users.id
+                        ORDER BY users.username DESC
+                        LIMIT ".(($page-1)*10).",10";
+                $query = $this->db->query($stmt);
+		$results = $query->result_array();
+                return $results;
+       }
+       
+       function get_all_users_count() {
+                $stmt = "SELECT COUNT(*) AS num_users FROM Users";
+                $query = $this->db->query($stmt);
+		$results = $query->row_array();
+                return $results['num_users'];
+       }
+       
+       function get_followed_users($follower_id, $page) {
+                $stmt = "SELECT users.username, users.id, user_profiles.first_name, user_profiles.last_name, users.created, user_profiles.profile_image
+                        FROM Following
+                        JOIN users ON users.id = Following.following_id
+                        JOIN user_profiles ON user_profiles.user_id = users.id
+                        WHERE Following.user_id=".$follower_id."
+                        ORDER BY users.username DESC
+                        LIMIT ".(($page-1)*10).",10";
+                $query = $this->db->query($stmt);
+		$results = $query->result_array();
+                return $results;
+       }
+       
+       function get_followed_users_count($user_id) {
+                $stmt = "SELECT COUNT(*) AS num_users FROM Following WHERE user_id=".$user_id." AND following_id > 0";
+                $query = $this->db->query($stmt);
+		$results = $query->row_array();
+                return $results['num_users'];
+       }
 }
 
 /* End of file users.php */

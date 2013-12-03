@@ -71,12 +71,99 @@ $captcha = array(
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="../../css/register/demo.css" media="all" />
-    <link href="../../css/register/style.css" rel="stylesheet" type="text/css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+<<<<<<< HEAD
+        <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>css/register/demo.css" media="all" />
+        <link href="<?php echo $base_url; ?>css/register/style.css" rel="stylesheet" type="text/css" media="screen" />
+   <script src="<?php echo $base_url; ?>css/register/script.js"></script>
    
    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script src="script.js"></script>	
+	<script src="<?php echo $base_url; ?>script.js"></script>
+=======
+        <link rel="stylesheet" type="text/css" href="../../css/register/demo.css" media="all" />
+        <link href="../../css/register/style.css" rel="stylesheet" type="text/css" media="screen" />
+   
+   	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="../../script.js"></script>
+>>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
+        
+        <!--script for checking username, email, password matching-->	
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+        <!-- <script type="text/javascript" src="js/jquery-ui-1.8.17.custom.min.js"></script> -->
+        
+       <script type="text/javascript">
+ 
+ 
+ 
+        //Script for checking username
+         $(document).ready(function(){
+            $("#username").change(function(){
+                 $("#message").html("<img src='../../images/ajax-loader.gif' /> checking...");
+             
+ 
+            var username=$("#username").val();
+ 
+              $.ajax({
+                    type:"post",
+                    url:"http://localhost/project/index.php/jquery_scripts/check_username/",
+                    data:"username="+username,
+                        success:function(data){
+                        if(data==0){
+                            $("#message").html("<img src='../../images/register/tick.png' /> Username available");
+                        }
+                        else{
+                            $("#message").html("<img src='../../images/register/cross.png' /> Username already taken");
+                        }
+                    }
+                 });
+ 
+            });
+ 
+         });
+         
+         //function checking password
+          function checkPasswordMatch() {
+                var password = $("#password").val();
+                var confirmPassword = $("#confirm_password").val();
+
+        if (password != confirmPassword)
+                 $("#divCheckPasswordMatch").html("Passwords do not match!");
+        else
+                 $("#divCheckPasswordMatch").html("Passwords match.");
+        }
+
+        $(document).ready(function () {
+             $("#txtConfirmPassword").keyup(checkPasswordMatch);
+        });
+
+ 
+         //function checking email	
+         $(document).ready(function(){
+            $("#email").change(function(){
+                 $("#message_email").html("<img src='../../images/register/ajax-loader.gif' /> checking...");
+             
+ 
+            var email=$("#email").val();
+ 
+              $.ajax({
+                    type:"post",
+                    url:"http://localhost/project/index.php/jquery_scripts/check_email/",
+                    data:"email="+email,
+                        success:function(data){
+                        if(data==0){
+                            $("#message_email").html("<img src='../../images/register/tick.png' /> Email available");
+                        }
+                        else{
+                            $("#message_email").html("<img src='../../images/register/cross.png' /> Email already taken");
+                        }
+                    }
+                 });
+ 
+            });
+ 
+         });
+ 
+       </script>
         
     </head>
 <body>
@@ -102,55 +189,41 @@ $captcha = array(
               	<p class="contact"><label for="name"><?php echo form_label('Username', $username['id']); ?></label></p> 
     			<?php echo form_input($username); ?> 
     			<?php echo form_error($username['name']); ?><?php echo isset($errors[$username['name']])?$errors[$username['name']]:''; ?>
-                
-    			<p class="contact"><label for="email"><?php echo form_label('Email Address', $email['id']); ?></label></p> 
+                        <span id= "message"></span>
+                        
+                <p class="contact"><label for="email"><?php echo form_label('Email Address', $email['id']); ?></label></p> 
     			<?php echo form_input($email); ?>
-              	<?php echo form_error($email['name']); ?><?php echo isset($errors[$email['name']])?$errors[$email['name']]:''; ?>  
-                
+                        <?php echo form_error($email['name']); ?><?php echo isset($errors[$email['name']])?$errors[$email['name']]:''; ?>  
+                        <span id= "message_email"></span>
+                        
            	<p class="contact"><label for="password"><?php echo form_label('Password', $password['id']); ?></label></p> 
 	   			<?php echo form_password($password); ?>
           		<?php echo form_error($password['name']); ?>  
                
 	  			<span id= "result"></span>
 	           <p class="contact"><label for="repassword"><?php echo form_label('Confirm Password', $confirm_password['id']); ?></label></p> 
-    			<?php echo form_password($confirm_password); ?> 
+    			<?php echo form_password($confirm_password, array('id' => 'confirm_password'), "onChange=\"checkPasswordMatch();\""); ?>
         		<?php echo form_error($confirm_password['name']); ?>
+                <div class="registrationFormAlert" id="divCheckPasswordMatch">
+                </div>
                 
-                
-               <fieldset>
-                 <label>Birthday</label>
-                  <label class="month"> 
-                  <select class="select-style" name="BirthMonth">
-                  <option value="">Month</option>
-                  <option  value="01">January</option>
-                  <option value="02">February</option>
-                  <option value="03" >March</option>
-                  <option value="04">April</option>
-                  <option value="05">May</option>
-                  <option value="06">June</option>
-                  <option value="07">July</option>
-                  <option value="08">August</option>	
-                  <option value="09">September</option>
-                  <option value="10">October</option>
-                  <option value="11">November</option>
-                  <option value="12" >December</option>
-                  </label>
-                 </select>    
-                <label>Day<input class="birthday" maxlength="2" name="BirthDay"  placeholder="Day" required></label>
-                <label>Year <input class="birthyear" maxlength="4" name="BirthYear" placeholder="Year" required></label>
-              </fieldset> 
+     
               
-             <p class= "contract"><label for="biography"><?php echo form_label('Biography', $biography['id']); ?></label>
-             <?php echo form_textarea($biography); ?>
-             <?php echo form_error($biography['name']); ?>
+                 <p class= "contact"><label for="biography"><?php echo form_label('Biography', $biography['id']); ?></label>
+                     <?php echo form_textarea($biography); ?>
+                     <?php echo form_error($biography['name']); ?>
              
-             <p class="contact"><label for="image"><?php echo form_label('Profile Image', $profile_image['id']); ?></label>
-             <input type="file" name="userfile" size="20" />
-             <?php echo form_error($profile_image['name']); ?>
+                <p class="contact"><label for="image"><?php echo form_label('Profile Image', $profile_image['id']); ?></label>
+<<<<<<< HEAD
+                    <input type="file" name="userfile" />
+=======
+                    <input type="file" name="userfile" size="20" />
+>>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
+                    <?php echo form_error($profile_image['name']); ?>
              
-          <br/>
-          </p>
-          <p>
+                <br/>
+                </p>
+                <p>
            <?php echo form_submit('register', 'Register'); ?>
 			</p>
 		<?php echo form_close(); ?>

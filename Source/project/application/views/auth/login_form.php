@@ -38,7 +38,7 @@ $captcha = array(
  <meta name="keywords" content="Sleek & Modern Login Form" /> 
  <meta http-equiv="content-type" content="application/xhtml; charset=UTF-8" />
  <link rel="stylesheet" type="text/css" href="css/style.css" />
- <link href="../../css/login/style.css" rel="stylesheet" type="text/css" media="screen" />
+ <link href="<?php echo $base_url; ?>css/login/style.css" rel="stylesheet" type="text/css" media="screen" />
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
 $('input[type="image"]').attr('disabled','disabled');

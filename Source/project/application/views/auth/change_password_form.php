@@ -27,10 +27,10 @@ $confirm_new_password = array(
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <link rel="stylesheet" type="text/css" href="style.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="../../../css/changepassword/demo.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="../../css/changepassword/demo.css" media="all" />
-    <link href="../../../css/changepassword/style.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="../../css/changepassword/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>css/changepassword/demo.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>css/changepassword/demo.css" media="all" />
+    <link href="<?php echo $base_url; ?>css/changepassword/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="<?php echo $base_url; ?>css/changepassword/style.css" rel="stylesheet" type="text/css" media="screen" />
 
     </head>
 <body>
