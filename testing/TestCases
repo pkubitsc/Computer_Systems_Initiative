@@ -1,0 +1,42 @@
+TC#1: Attempt to login with username RedGreen and some password
+TC#2: Register user with the username datUser and password datTest123 (2x)
+    Input a valid email address and click on link sent to that email
+TC#3: Input invalid email address (not#valid()email!address@not-anEmail) 
+TC#4: Finishing registration, create first name Red and last name Green with any
+    bio less than 200 characters. Picture upload optional
+TC#5: Create and register an account. Then duplicate the process i.e. create an
+    account with username Freddy. Afterward, attempt to create another
+    account with username Freddy.
+TC#6: For password creation, type in order: a, short, d3cenT, amAz1NgPa55w0rd 
+TC#7: During password creation, type the password only once and try to register 
+
+TC#8: During password creation, type same password twice, but vary the case
+    between each word (thus making them different in case)
+TC#9: Fail entering a ‘correct’ password three times and try to login a fourth time 
+TC#10: Attempt to login with a correct username and password
+TC#11: Click on recover password or username to get forgotten login data
+TC#12: Click on change password and change password to: an0therPa55 
+TC#13: Click on logout to logout of system
+TC#14: Sit idle for x minutes to force logout of system
+TC#15: Search “ ” in users search field
+                    
+TC#16: Search for RedGreen in users search (we should have already created him) 
+TC#17: Search for real name Red Green see results
+TC#18: Click ‘follow’ on a user’s post whom you would like to follow.  View followed users/hashtags page. View your home page to see the ‘followed’ person’s posts 
+TC#19: Click follow on someone you are already following
+TC#20: Click unfollow on someone you are not following
+TC#21: Write a post more than 200 characters long
+TC#22: View your main page and check for existence of posts (check
+chronological/post format)
+TC#23: Create a new posts. Then view your main page to see if it is chronologically
+    at the top
+TC#24: Click sort by username
+TC#25: Click sort by hashtag
+TC#26: Click sort by likes
+TC#27: Sit idle at the main page and wait for polling of new posts
+TC#28: Comment on a post of yours or someone you are following
+TC#29: Create a hashtag (#a_topic) in a post. Then search for #a_topic in hashtags
+    for existence
+TC#30: Follow a hashtag. Create post with hashtag as another user.  Login as original user and view followed hashtags. The new post with hashtag should appear
+TC#31: Search users and check for existence of their posts
+TC#32: Like a post and check for like existence
