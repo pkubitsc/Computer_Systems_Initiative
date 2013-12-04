@@ -72,28 +72,12 @@ $captcha = array(
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
         <link rel="stylesheet" type="text/css" href="style.css" media="all" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>css/register/demo.css" media="all" />
-        <link href="<?php echo $base_url; ?>css/register/style.css" rel="stylesheet" type="text/css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>css/register/demo.php?url=<?php echo $base_url; ?>" media="all" />
+        <link href="<?php echo $base_url; ?>css/register/style.php?url=<?php echo $base_url; ?>" rel="stylesheet" type="text/css" media="screen" />
    <script src="<?php echo $base_url; ?>css/register/script.js"></script>
    
    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script src="<?php echo $base_url; ?>script.js"></script>
-=======
-        <link rel="stylesheet" type="text/css" href="../../css/register/demo.css" media="all" />
-        <link href="../../css/register/style.css" rel="stylesheet" type="text/css" media="screen" />
-   
-   	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script src="../../script.js"></script>
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
-=======
-        <link rel="stylesheet" type="text/css" href="../../css/register/demo.css" media="all" />
-        <link href="../../css/register/style.css" rel="stylesheet" type="text/css" media="screen" />
-   
-   	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script src="../../script.js"></script>
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
         
         <!--script for checking username, email, password matching-->	
         <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
@@ -113,7 +97,7 @@ $captcha = array(
  
               $.ajax({
                     type:"post",
-                    url:"http://localhost/project/index.php/jquery_scripts/check_username/",
+                    url:"<?php echo $base_url; ?>index.php/jquery_scripts/check_username/",
                     data:"username="+username,
                         success:function(data){
                         if(data==0){
@@ -155,7 +139,7 @@ $captcha = array(
  
               $.ajax({
                     type:"post",
-                    url:"http://localhost/project/index.php/jquery_scripts/check_email/",
+                    url:"<?php echo $base_url; ?>index.php/jquery_scripts/check_email/",
                     data:"email="+email,
                         success:function(data){
                         if(data==0){
@@ -222,15 +206,7 @@ $captcha = array(
                      <?php echo form_error($biography['name']); ?>
              
                 <p class="contact"><label for="image"><?php echo form_label('Profile Image', $profile_image['id']); ?></label>
-<<<<<<< HEAD
-<<<<<<< HEAD
                     <input type="file" name="userfile" />
-=======
-                    <input type="file" name="userfile" size="20" />
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
-=======
-                    <input type="file" name="userfile" size="20" />
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
                     <?php echo form_error($profile_image['name']); ?>
              
                 <br/>

@@ -1,5 +1,5 @@
 <?php
-function paging($pages, $current_page) {
+function paging($base_url, $pages, $current_page) {
     $str = "Pages ";
     $temp_str = "";
     if ($pages > 10) {
@@ -22,18 +22,18 @@ function paging($pages, $current_page) {
     }
     
     if ($page_start != 1) {
-        $str .= " <a href=\"http://localhost/project/index.php/home/followed_users?page=1\">First</a> ";
+        $str .= " <a href=\"".$base_url."index.php/home/followed_users?page=1\">First</a> ";
     }
     for ($i = $page_start; $i <= $page_end; $i++) {
-        $str .= " <a href=\"http://localhost/project/index.php/home/followed_users?page=".$i."\">".$i."</a>&nbsp;";
+        $str .= " <a href=\"".$base_url."index.php/home/followed_users?page=".$i."\">".$i."</a>&nbsp;";
     }
     if ($page_end != $pages) {
-        $str .= " <a href=\"http://localhost/project/index.php/home/followed_users?page=".$pages."\">Last</a> ";
+        $str .= " <a href=\"".$base_url."index.php/home/followed_users?page=".$pages."\">Last</a> ";
     }
     
     return $str;
 }
-$pages = paging($num_pages, $current_page);
+$pages = paging($base_url, $num_pages, $current_page);
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -43,7 +43,7 @@ $pages = paging($num_pages, $current_page);
 <title>HALOC Computer Systems Initiative</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link href="<?php echo $base_url; ?>css/profile/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="<?php echo $base_url; ?>css/profile/style.php?url=<?php echo $base_url; ?>" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
 <div id="header-wrapper">
@@ -100,7 +100,7 @@ if (isset($users) && !empty($users)) {
       <b>Users You Are Following</b><br /><br />
       <?php foreach ($users as $user) {?>
                             <table><tr>
-                            <td><img src="http://localhost/project/images/user_images/<?php echo $user['profile_image']; ?>"></img></td>
+                            <td><img src="<?php echo $base_url; ?>images/user_images/<?php echo $user['profile_image']; ?>"></img></td>
                             <td><?php echo $user['username']?> (ID: <?php echo $user['id']; ?>)- <a href="home/view_profile/<?php echo $user['id']; ?>">See Profile/Posts</a> - <a href="<?php echo $base_url."index.php/home/unfollow_user/".$user['id']; ?>">Unfollow</a><br />
                             <?php echo $user['first_name']; ?> <?php echo $user['last_name']; ?></td>
                             </tr></table><br />

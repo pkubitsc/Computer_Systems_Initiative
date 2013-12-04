@@ -18,7 +18,7 @@ if (empty($errors)) {
             'columns' => 30
     );   
 }
-function paging($pages, $current_page) {
+function paging($base_url, $pages, $current_page) {
     $str = "Pages ";
     $temp_str = "";
     if ($pages > 10) {
@@ -41,18 +41,18 @@ function paging($pages, $current_page) {
     }
     
     if ($page_start != 1) {
-        $str .= "<a href=\"http://localhost/project/index.php/home/yourposts?page=1\">First</a> ";
+        $str .= "<a href=\"".$base_url."index.php/home/yourposts?page=1\">First</a> ";
     }
     for ($i = $page_start; $i <= $page_end; $i++) {
-        $str .= "<a href=\"http://localhost/project/index.php/home/yourposts?page=".$i."\">".$i."</a> ";
+        $str .= "<a href=\"".$base_url."index.php/home/yourposts?page=".$i."\">".$i."</a> ";
     }
     if ($page_end != $pages) {
-        $str .= "<a href=\"http://localhost/project/index.php/home/yourposts?page=".$pages."\">Last</a> ";
+        $str .= "<a href=\"".$base_url."index.php/home/yourposts?page=".$pages."\">Last</a> ";
     }
     
     return $str;
 }
-$pages = paging($num_pages, $current_page);
+$pages = paging($base_url, $num_pages, $current_page);
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -61,7 +61,7 @@ $pages = paging($num_pages, $current_page);
 <title>HALOC Computer Systems Initiative</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link href="<?php echo $base_url; ?>css/otherprofile/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="<?php echo $base_url; ?>css/otherprofile/style.php?url=<?php echo $base_url; ?>" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
 <div id="header-wrapper">
@@ -147,7 +147,7 @@ if (isset($errors)) {
 	<div class="post">
 		<h2 class="title">&nbsp;</h2>
 			<h2 class="title"><?php if(file_exists('images/user_images/'.$user_post['profile_image'])) { ?>
-              <img src="http://localhost/project/images/user_images/<?php echo $user_post['profile_image']; ?>"></img>
+              <img src="<?php echo $base_url; ?>images/user_images/<?php echo $user_post['profile_image']; ?>"></img>
               <?php } ?> <a href="<?php echo $base_url;?>index.php/home/view_other_profile/<?php echo $user_post['user_id'];?>"><?php echo $user_post['username'] ?></a></h2> &nbsp;&nbsp;&nbsp;
 				<p class="meta">Posted On: <?php echo $user_post['created'] ?></p>
 				<div class="entry">
@@ -155,9 +155,9 @@ if (isset($errors)) {
                     
 				 <a href="<?php echo $base_url; ?>index.php/home/see_replies/<?php echo $user_post['post_id'];?> "> Comments (<?php echo $user_post['post_replies']; ?>)</a> &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
                   <?php if ($user_post['is_liked'] > 0) { ?>
-                    			 <a href="http://localhost/project/index.php/home/likepost/<?php echo $user_post['post_id']; ?>"/>Dislike</a>
+                    			 <a href="<?php echo $base_url; ?>index.php/home/likepost/<?php echo $user_post['post_id']; ?>"/>Dislike</a>
 	                    <?php } else { ?>
-    			               <a href="http://localhost/project/index.php/home/likepost/<?php echo $user_post['post_id']; ?>"/>Like</a>
+    			               <a href="<?php echo $base_url; ?>index.php/home/likepost/<?php echo $user_post['post_id']; ?>"/>Like</a>
                     <?php } ?>
                     &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
                 <?php echo $user_post['post_likes']; ?> &nbsp;Likes

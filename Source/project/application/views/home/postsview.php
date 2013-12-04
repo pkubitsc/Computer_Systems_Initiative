@@ -18,7 +18,7 @@ if (empty($errors)) {
             'columns' => 30
     );   
 }
-function paging($pages, $current_page, $followed = null) {
+function paging($base_url, $pages, $current_page, $type_page) {
     $str = "Pages ";
     $temp_str = "";
     if ($pages > 10) {
@@ -40,29 +40,21 @@ function paging($pages, $current_page, $followed = null) {
         $page_end = $pages;
     }
     
-    if (isset($followed)) {
-        $url = "followed";
-    } else {
-        $url = "yourposts";
-    }
-    
     if ($page_start != 1) {
-        $str .= "<a href=\"http://localhost/project/index.php/home/".$url."yourposts?page=1\">First</a> ";
+        $str .= "<a href=\"".$base_url."index.php/home/".$type_page."?page=1\">First</a> ";
     }
     for ($i = $page_start; $i <= $page_end; $i++) {
-        $str .= "<a href=\"http://localhost/project/index.php/home/".$url."?page=".$i."\">".$i."</a> ";
+        $str .= "<a href=\"".$base_url."index.php/home/".$type_page."?page=".$i."\">".$i."</a> ";
     }
     if ($page_end != $pages) {
-        $str .= "<a href=\"http://localhost/project/index.php/home/".$url."?page=".$pages."\">Last</a> ";
+        $str .= "<a href=\"".$base_url."index.php/home/".$type_page."?page=".$pages."\">Last</a> ";
     }
     
     return $str;
 }
-if (isset($followed)) {
-    $pages = paging($num_pages, $current_page, $followed);
-} else {
-    $pages = paging($num_pages, $current_page);
-}
+
+$pages = paging($base_url, $num_pages, $current_page, $type_page);
+
 ?>
  
  
@@ -73,7 +65,8 @@ if (isset($followed)) {
 <title>HALOC Computer Systems Initiative</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link href="<?php echo $base_url; ?>css/home/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="<?php echo $base_url; ?>css/home/style.php?url=<?php echo $base_url; ?>" rel="stylesheet" type="text/css" media="screen" />
+<meta http-equiv="refresh" content="90">
 </head>
 <body>
 <div id="header-wrapper">
@@ -119,8 +112,8 @@ if (isset($followed)) {
       <br/>                  
 	<div class="post">
 		<h2 class="title">Original Post</h2>
-			<h2 class="title"><?php if(file_exists('images/user_images/'.$parent_post['profile_image'])) { ?>
-              	<img src="http://localhost/project/images/user_images/<?php echo $parent_post['profile_image']; ?>"></img>
+			<h2 class="title"><?php if(file_exists($base_url.'images/user_images/'.$parent_post['profile_image'])) { ?>
+              	<img src="<?php echo $base_url;?>/images/user_images/<?php echo $parent_post['profile_image']; ?>"></img>
               	<?php } ?> 
 			  	<?php echo $parent_post['username'] ?></h2> &nbsp;&nbsp;&nbsp;
 				<p class="meta">Posted On: <?php echo $parent_post['created'] ?></p>
@@ -128,9 +121,9 @@ if (isset($followed)) {
 					<p><?php echo $parent_post['post_content']?></p>
                   
                   <?php if ($parent_post['is_liked'] > 0) { ?>
-                    			 <a href="http://localhost/project/index.php/home/likepost/<?php echo $parent_post['post_id']; ?>"/>Dislike</a>
+                    			 <a href="<?php echo $base_url;?>index.php/home/likepost/<?php echo $parent_post['post_id']; ?>"/>Dislike</a>
 	                    <?php } else { ?>
-    			               <a href="http://localhost/project/index.php/home/likepost/<?php echo $parent_post['post_id']; ?>"/>Like</a>
+    			               <a href="<?php echo $base_url;?>index.php/home/likepost/<?php echo $parent_post['post_id']; ?>"/>Like</a>
                     <?php } ?>
                     &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
                 <?php echo $parent_post['post_likes']; ?> &nbsp;Likes
@@ -159,7 +152,6 @@ if (isset($errors)) {
       <div class="freshdesignweb-top">
       <div class="clr"></div>
       </div><!--/ freshdesignweb top bar -->       
-<<<<<<< HEAD
       <div class="form2">
       <br/>      
                   
@@ -172,21 +164,16 @@ if (isset($errors)) {
                 ?>
         <table>
             <tr>
-                <td><?php echo form_label('Reply', $post['id']); ?></td>
-=======
-      <div  class="form">
-      <br/>                  
-		<?php echo form_open('home/addpost/'); ?>
-        <table>
-            <tr>
-                <td><?php echo form_label('Post Something', $post['id']); ?></td>
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
+                <td><?php if (isset($parent_post)) {
+                                echo form_label('Reply', $post['id']);
+                          } else {
+                                echo form_label('Add a Post', $post['id']);
+                          }?></td>
                         <td><?php echo form_textarea($post); ?></td>
                 <td style="color: red;"><?php echo form_error($post['name']); ?></td>
             </tr>
         </table>
         <?php echo form_submit('submit', 'Submit'); ?>
-<<<<<<< HEAD
         <?php echo form_close(); ?>
         
 
@@ -195,27 +182,6 @@ if (isset($errors)) {
 </div>	
 </div>
 </div> 
-=======
-
-      </div>
-<?php echo form_close(); ?>
-</div>	
-<!--
-<?php echo form_open('home/addpost/'); ?>
-<table>
-	<tr>
-		<td><?php echo form_label('Post Something', $post['id']); ?></td>
-                <td><?php echo form_textarea($post); ?></td>
-		<td style="color: red;"><?php echo form_error($post['name']); ?></td>
-	</tr>
-</table>
-<?php echo form_submit('submit', 'Submit'); ?>
-<?php echo form_close(); ?>
-
-<br/>
--->
-<?php echo $pages ?>
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
 
 <!-- PAGES -->
 <div class="container">
@@ -232,7 +198,6 @@ if (isset($errors)) {
 </div>          
        
 <?php foreach ($posts as $user_post) { ?>
-<<<<<<< HEAD
 <div class="container">
 	   <!-- freshdesignweb top bar -->
       <div class="freshdesignweb-top">
@@ -240,27 +205,27 @@ if (isset($errors)) {
       </div><!--/ freshdesignweb top bar -->       
       <div  class="form">
       <br/>                  
-=======
-
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
 	<div class="post">
 		<h2 class="title">&nbsp;</h2>
-			<h2 class="title"><?php if(file_exists('images/user_images/'.$user_post['profile_image'])) { ?>
-              <img src="http://localhost/project/images/user_images/<?php echo $user_post['profile_image']; ?>"></img>
-              <?php } ?> <a href="<?php echo $base_url;?>index.php/home/view_other_profile/<?php echo $user_post['user_id'];?>"><?php echo $user_post['username'] ?></a></h2> &nbsp;&nbsp;&nbsp;
+			<h2 class="title">
+                        <img src="<?php echo $base_url;?>images/user_images/<?php echo $user_post['profile_image']; ?>"></img>
+                        <a href="<?php echo $base_url;?>index.php/home/view_other_profile/<?php echo $user_post['user_id'];?>"><?php echo $user_post['username'] ?></a></h2> &nbsp;&nbsp;&nbsp;
 				<p class="meta">Posted On: <?php echo $user_post['created'] ?></p>
 				<div class="entry">
 					<p><?php echo $user_post['post_content']?></p>
                     
-<<<<<<< HEAD
 				 <a href="<?php echo $base_url; ?>index.php/home/see_replies/<?php echo $user_post['post_id'];?> "> Comments (<?php echo $user_post['post_replies']; ?>)</a> &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
-                  <?php if ($user_post['is_liked'] > 0) { ?>
-                    			 <a href="http://localhost/project/index.php/home/likepost/<?php echo $user_post['post_id']; ?>"/>Dislike</a>
+                  <?php if ($user_post['is_liked'] != 0) { ?>
+                    			 <a href="<?php echo $base_url;?>index.php/home/likepost/<?php echo $user_post['post_id']; ?>"/>Dislike</a>
 	                    <?php } else { ?>
-    			               <a href="http://localhost/project/index.php/home/likepost/<?php echo $user_post['post_id']; ?>"/>Like</a>
+    			               <a href="<?php echo $base_url;?>index.php/home/likepost/<?php echo $user_post['post_id']; ?>"/>Like</a>
                     <?php } ?>
                     &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
                 <?php echo $user_post['post_likes']; ?> &nbsp;Likes
+                <?php if ($user_post['parent_id'] != 0) { ?>
+                    &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; In reply to <a href="<?php echo $base_url;?>index.php/home/see_replies/<?php echo $user_post['parent_id'];?>/"> Hoot #<?php echo $user_post['parent_id'];?></a>
+                <?php }?>
+                
 			    </div>
 		    </div>
     </div>
@@ -282,49 +247,6 @@ if (isset($errors)) {
 </div>          
        
 
-=======
-					<p class="links"><a href="#">Read More</a> &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="#">Comments</a> &nbsp;&nbsp;&nbsp;&nbsp; |			&nbsp;&nbsp;&nbsp;&nbsp; <?php if ($user_post['is_liked'] > 0) { ?>
-                    
-                  <a href="http://localhost/project/index.php/home/likepost/<?php echo $user_post['post_id']; ?>"/>Dislike</a>
-                    <?php } else { ?>
-                  <a href="http://localhost/project/index.php/home/likepost/<?php echo $user_post['post_id']; ?>"/>Like</a>
-                    <?php } ?>
-                  &nbsp;&nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;&nbsp; <a href=""/>Reply</a> &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; <a href=""/>See Replies</a></p>
-			    </div>
-		    </div>
-            
-            
-                        
-        <tr>
-		<!--<td width="100"><?php echo $user_post['username'] ?></td>
-                <td>Posted On: <?php echo $user_post['created'] ?></td>
-        </tr> 
-        <tr>
-                <td><?php if(file_exists('images/user_images/'.$user_post['profile_image'])) { ?>
-                        <img src="http://localhost/project/images/user_images/<?php echo $user_post['profile_image']; ?>"></img>
-                <?php } ?></td> 
-		<td><?php echo $user_post['post_content']?></td> 
-	</tr>
-        <tr>
-		<td width="100"> </td>
-                <td textalign="center">
-                -->
-                 <!--   <?php if ($user_post['is_liked'] > 0) { ?> 
-                       <a href="http://localhost/project/index.php/home/likepost/<?php echo $user_post['post_id']; ?>"/>Dislike</a>
-                    <?php } else { ?>
-                        <a href="http://localhost/project/index.php/home/likepost/<?php echo $user_post['post_id']; ?>"/>Like</a>
-                    <?php } ?>
-                     <a href=""/>Reply</a> - <a href=""/>See Replies</a></td> -->
-        </tr>
-        <tr> 
- <?php } ?><!--
-</table>
-
-<br/>
-<?php echo $pages ?> 
-
--->
->>>>>>> ab745b3c1c860e02e056d5f846dcfebc2ae3b9d2
 <div id="footer-bull">
 	<div id="footer">
     	<p>

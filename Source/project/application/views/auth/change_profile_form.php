@@ -17,7 +17,7 @@ $biography = array(
 <title>HALOC Computer Systems Initiative</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link href="<?php echo $base_url; ?>css/profile/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="<?php echo $base_url; ?>css/profile/style.php?url=<?php echo $base_url; ?>" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
 <div id="header-wrapper">
@@ -70,10 +70,10 @@ if (isset($errors)) {
                 <td>
                         <table>
                             <tr>
-                                <td><img src="http://localhost/project/images/user_images/original/<?php echo $user->profile_image;?>"></img></td>
+                                <td><img src="<?php echo $base_url; ?>images/user_images/original/<?php echo $user->profile_image;?>"></img></td>
                             </tr>
                             <tr>
-                                <td><a href="http://localhost/project/index.php/auth/change_profile_image/">Change Profile Image</a></td>
+                                <td><a href="<?php echo $base_url; ?>index.php/auth/change_profile_image/">Change Profile Image</a></td>
                             </tr>
                         </table>
                 </td>
@@ -89,10 +89,10 @@ if (isset($errors)) {
                             <td><?php echo $user->first_name?> <?php echo $user->last_name?></td>
                         </tr>
                         <tr>
-                            <td><a href="http://localhost/project/index.php/auth/change_email/">Change Email</a></td>
+                            <td><a href="<?php echo $base_url; ?>index.php/auth/change_email/">Change Email</a></td>
                         </tr>
                         <tr>
-                            <td><a href="http://localhost/project/index.php/auth/change_password/">Change Password</a></td>
+                            <td><a href="<?php echo $base_url; ?>index.php/auth/change_password/">Change Password</a></td>
                         </tr>
                         <tr>
   <!--                      <td><?php echo form_label('Biography', $biography['id']); ?></td>

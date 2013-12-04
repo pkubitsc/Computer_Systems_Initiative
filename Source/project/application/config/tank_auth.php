@@ -8,7 +8,7 @@
 |--------------------------------------------------------------------------
 */
 $config['website_name'] = 'HALOC';
-$config['webmaster_email'] = 'webmaster@your-site.com';
+$config['webmaster_email'] = 'haloc.noreply@gmail.com';
 $config['login_redirect'] = '/home/yourposts';
 
 /*

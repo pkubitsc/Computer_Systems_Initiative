@@ -16,7 +16,7 @@ $profile_image = array(
 <title>HALOC Computer Systems Initiative</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link href="<?php echo $base_url;?>css/profile/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="<?php echo $base_url;?>css/profile/style.php?url=<?php echo $base_url; ?>" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
 <div id="header-wrapper">
@@ -65,7 +65,7 @@ $profile_image = array(
                 <td>Current Image:<br /></td>
         </tr>
         <tr>
-                <td><img src="http://localhost/project/images/user_images/original/<?php echo $user->profile_image;?>"></img></td>
+                <td><img src="<?php echo $base_url; ?>images/user_images/original/<?php echo $user->profile_image;?>"></img></td>
         </tr>
 </table>
 

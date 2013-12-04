@@ -38,7 +38,7 @@ $captcha = array(
  <meta name="keywords" content="Sleek & Modern Login Form" /> 
  <meta http-equiv="content-type" content="application/xhtml; charset=UTF-8" />
  <link rel="stylesheet" type="text/css" href="css/style.css" />
- <link href="<?php echo $base_url; ?>css/login/style.css" rel="stylesheet" type="text/css" media="screen" />
+ <link href="<?php echo $base_url; ?>css/login/style.php?url=<?php echo $base_url; ?>" rel="stylesheet" type="text/css" media="screen" />
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
 $('input[type="image"]').attr('disabled','disabled');
@@ -60,7 +60,7 @@ $('input[type="text"]').keyup(function(){
 
 <!-- Form Title Starts Here -->
 <div class="form_title">
-<img src="http://localhost/project/images/login/form_title.gif" alt="Sleek &amp; Modern Login Form - Design3Edge" />
+<img src="<?php echo $base_url; ?>images/login/form_title.gif" alt="Sleek &amp; Modern Login Form - Design3Edge" />
 </div>
 <!-- Form Title Ends Here -->
 
@@ -104,8 +104,8 @@ $('input[type="text"]').keyup(function(){
 </p>
 
 <p class="form_login_signup_btn">
-<?php echo form_input(array('type' => 'image', 'src' => 'http://localhost/project/images/login/login_btn.png', 'name' => 'submit'));?> &nbsp;
-<a href="http://localhost/project/index.php/auth/register"><img src="http://localhost/project/images/login/signup_btn.png" title="Signup Now" name="signup" id="signup" /></a>
+<?php echo form_input(array('type' => 'image', 'src' => $base_url.'images/login/login_btn.png', 'name' => 'submit'));?> &nbsp;
+<a href="<?php echo $base_url; ?>index.php/auth/register"><img src="<?php echo $base_url; ?>images/login/signup_btn.png" title="Signup Now" name="signup" id="signup" /></a>
 </p>
 		
 <?php echo form_close(); ?>

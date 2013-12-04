@@ -6,8 +6,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
         <link rel="stylesheet" type="text/css" href="style.css" media="all" />
-        <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>css/register/demo.css" media="all" />
-        <link href="<?php echo $base_url; ?>css/register/style.css" rel="stylesheet" type="text/css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>css/register/demo.php?url=<?php echo $base_url; ?>" media="all" />
+        <link href="<?php echo $base_url; ?>css/register/style.php?url=<?php echo $base_url; ?>" rel="stylesheet" type="text/css" media="screen" />
    <script src="<?php echo $base_url; ?>css/register/script.js"></script>
         
     </head>
