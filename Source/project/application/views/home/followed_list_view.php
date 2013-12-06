@@ -101,7 +101,7 @@ if (isset($users) && !empty($users)) {
       <?php foreach ($users as $user) {?>
                             <table><tr>
                             <td><img src="<?php echo $base_url; ?>images/user_images/<?php echo $user['profile_image']; ?>"></img></td>
-                            <td><?php echo $user['username']?> (ID: <?php echo $user['id']; ?>)- <a href="home/view_profile/<?php echo $user['id']; ?>">See Profile/Posts</a> - <a href="<?php echo $base_url."index.php/home/unfollow_user/".$user['id']; ?>">Unfollow</a><br />
+                            <td><?php echo $user['username']?> (ID: <?php echo $user['id']; ?>)- <a href="<?php echo $base_url;?>index.php/home/view_other_profile/<?php echo $user['id']; ?>">See Profile/Posts</a> - <a href="<?php echo $base_url."index.php/home/unfollow_user/".$user['id']; ?>">Unfollow</a><br />
                             <?php echo $user['first_name']; ?> <?php echo $user['last_name']; ?></td>
                             </tr></table><br />
 <?php }
@@ -109,7 +109,7 @@ if (isset($users) && !empty($users)) {
        <b>Hashtags You Are Following</b><br /><br />                     
 <?php    foreach ($hashtags as $hashtag) { ?>
       Hashtag: <?php echo $hashtag['hashtag'] ?><br />
-                     - <a href="<?php echo $base_url."index.php/home/view_hashtag/".$hashtag['hashtag_id'] ?>">See Posts</a> -  
+                     - <a href="<?php echo $base_url."index.php/home/view_hashtag_profile/".$hashtag['hashtag_id'] ?>">See Posts</a> -  
                     <a href="<?php echo $base_url."index.php/home/unfollow_hashtag/".$hashtag['hashtag_id'] ?>">Unfollow</a><br /><br />
 <?php } }?>
       </div>

@@ -196,22 +196,23 @@ class Home extends CI_Controller
                 $is_post = $this->posts->is_post($post_id);
                 //exit($post_id.$user_id.$redirect_url.$is_post);
                 // Check for empty or if it's not an integer
-                if (empty($post_id) || !is_int($post_id) || empty($redirect_url) || !$is_post) {
-                        // Send an error to the prior view
-                        $this->session->set_flashdata('redirect_url', $redirect_url);
+                if (empty($post_id) || !is_int($post_id) || is_null($is_post)) {
                         $this->session->set_flashdata('error', 'There was a problem liking the post.');
-                        if (empty($redirect_url)) {
-                                redirect('/home/yourposts/');
-                        } else {
-                                redirect($redirect_url);
-                        }
                 } else {
+                        $num_likes = $is_post['post_likes'];
+                        //exit($num_likes);
                         // If the post is already liked, dislike it
                         if ($this->posts->is_liked($user_id, $post_id)) {
-                                $this->posts->dislike_post($user_id, $post_id);
+                                $this->posts->dislike_post($user_id, $post_id, $num_likes);
                         } else {
-                                $this->posts->like_post($user_id, $post_id);
+                                $this->posts->like_post($user_id, $post_id, $num_likes);
                         }
+                }
+                
+                $this->session->set_flashdata('redirect_url', $redirect_url);
+                if (empty($redirect_url)) {
+                        redirect('/home/yourposts/');
+                } else {
                         redirect($redirect_url);
                 }
         }

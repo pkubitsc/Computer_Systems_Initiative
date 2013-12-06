@@ -238,7 +238,7 @@ class Posts extends CI_Model
 		return NULL;
         }
         
-        function dislike_post($user_id, $post_id) {
+        function dislike_post($user_id, $post_id, $num_likes) {
                 // insert int PostLikeTable
                 $this->db->where('post_id', $post_id);
 		$this->db->where('user_id', $user_id);
@@ -268,9 +268,9 @@ class Posts extends CI_Model
                 $this->db->where('post_id', $post_id);
                 $query = $this->db->get($this->table_name);
                 if ($query->num_rows() > 0) {
-                        return TRUE;
+                        return $query->row_array();
                 }
-                        return FALSE;
+                        return null;
         }
         
 	/**
