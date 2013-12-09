@@ -27,7 +27,7 @@ a {text-decoration:none;cursor:pointer;}
 
 #main_body {width:526px;margin-top:200px;text-align:left;height:295px;background:url(<?php echo $base_url; ?>images/login/form_BG.png) no-repeat left;padding:20px 0px 0px 43px }
 
-.form_title{width:156px;text-align:left;margin-left:0px;}
+.form_title{color:#000000;font-size:12px;float:left;padding-top:3px;}
 
 .form_box{padding-top:65px;color:#ffffff;font-size:12px;}
 
