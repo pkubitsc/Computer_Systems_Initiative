@@ -60,6 +60,7 @@ class Home extends CI_Controller
                 $data['function'] = "posts_by_user_id";
                 $data['order_option'] = "posts";
                 $this->session->set_flashdata('redirect_url', '/home/yourposts?page='.$page);
+                $this->session->set_userdata('redirect_url', '/home/yourposts?page='.$page);
                 $this->load->view('home/postsview', $data);
         }
         
@@ -145,7 +146,7 @@ class Home extends CI_Controller
                 }
                 if (empty($data['errors'])) {
                         $this->session->set_flashdata('redirect_url');
-                        redirect($this->session->flashdata('redirect_url'));
+                        redirect($this->session->userdata('redirect_url'));
                 } else {
                         if ($parent_id != 0) {
                             $this->see_replies($parent_id, $data);
@@ -163,7 +164,7 @@ class Home extends CI_Controller
 
                 $post_id = intval($this->uri->segment(3));
                 $user_id = $this->tank_auth->get_user_id();
-                $redirect_url = $this->session->flashdata('redirect_url');
+                $redirect_url = $this->session->userdata('redirect_url');
                 $is_post = $this->posts->is_post($post_id);
                 //exit($post_id.$user_id.$redirect_url.$is_post);
                 // Check for empty or if it's not an integer
@@ -181,6 +182,7 @@ class Home extends CI_Controller
                 }
                 
                 $this->session->set_flashdata('redirect_url', $redirect_url);
+                $this->session->set_userdata('redirect_url', $redirect_url);
                 if (empty($redirect_url)) {
                         redirect('/home/yourposts/');
                 } else {
@@ -223,6 +225,7 @@ class Home extends CI_Controller
                         
                         $this->session->set_flashdata('redirect_url', '/home/yourposts?page='.$page);
                         $this->session->set_flashdata('redirect_url', '/home/see_replies/'.$post_id);
+                        $this->session->set_userdata('redirect_url', '/home/see_replies/'.$post_id);
                 }
                 
                 $this->load->view('home/postsview', $data);
@@ -239,6 +242,7 @@ class Home extends CI_Controller
                 $data['search_terms'] = "";
                 $data['page'] = "";
                 $this->session->set_flashdata('redirect_url', '/home/search/');
+                $this->session->set_userdata('redirect_url', '/home/search/');
                 $user_id = $this->tank_auth->get_user_id();
                 
                 // check for paging
@@ -329,6 +333,7 @@ class Home extends CI_Controller
                                 $data['search_terms'] = urlencode($search_terms);
 
                                 $this->session->set_flashdata('redirect_url', '/home/search?search='.urlencode($search_terms).'&submit=Submit&page='.$page);
+                                $this->session->set_userdata('redirect_url', '/home/search?search='.urlencode($search_terms).'&submit=Submit&page='.$page);
                                 //$num_total_posts = $this->posts->search_hashtags_count($hashtag[0]);
                                 // $data['num_pages'] = ceil(intval($num_total_posts)/10);
                                 //$data['current_page'] = $page;
@@ -367,7 +372,7 @@ class Home extends CI_Controller
                 }
                 
                 // redirect irregardless if there is an error or not
-                $redirect_url = $this->session->flashdata('redirect_url');
+                $redirect_url = $this->session->userdata('redirect_url');
                 $this->session->set_flashdata('errors', $data['errors']);
                 if (!empty($redirect_url)) {
                         redirect($redirect_url);
@@ -404,7 +409,7 @@ class Home extends CI_Controller
                 }
                 
                 // redirect irregardless if there is an error or not
-                $redirect_url = $this->session->flashdata('redirect_url');
+                $redirect_url = $this->session->userdata('redirect_url');
                 $this->session->set_flashdata('errors', $data['errors']);
                 if (!empty($redirect_url)) {
                         redirect($redirect_url);
@@ -442,7 +447,7 @@ class Home extends CI_Controller
                 }
                 
                 // redirect irregardless if there is an error or not
-                $redirect_url = $this->session->flashdata('redirect_url');
+                $redirect_url = $this->session->userdata('redirect_url');
                 $this->session->set_flashdata('errors', $data['errors']);
                 if (!empty($redirect_url)) {
                         redirect($redirect_url);
@@ -485,6 +490,7 @@ class Home extends CI_Controller
                 $data['order_option'] = "posts";
                 
                 $this->session->set_flashdata('redirect_url', '/home/view_other_profile/'.$user_id.'?page='.$page);
+                $this->session->set_userdata('redirect_url', '/home/view_other_profile/'.$user_id.'?page='.$page);
                 $this->load->view('home/other_profile_view', $data);
         }
         
@@ -538,6 +544,8 @@ class Home extends CI_Controller
                 $data['order_option'] = "hashtags";
 
                 $this->session->set_flashdata('redirect_url', '/home/view_hashtag_profile/'.$hashtag_id.'?page='.$page);
+                $this->session->set_userdata('redirect_url', '/home/view_hashtag_profile/'.$hashtag_id.'?page='.$page);
+                
                 $this->load->view('home/other_profile_view', $data);
         }
         
@@ -570,6 +578,7 @@ class Home extends CI_Controller
                 $data['order_option'] = "posts";
                 
                 $this->session->set_flashdata('redirect_url', '/home/followed?page='.$page);
+                $this->session->set_userdata('redirect_url', '/home/followed?page='.$page);
                 $this->load->view('home/postsview', $data);
         }
         
@@ -601,6 +610,7 @@ class Home extends CI_Controller
                 $data['base_url'] = $this->config->item('base_url');
                 $data['order_option'] = "users";
                 $this->session->set_flashdata('redirect_url', '/home/followed_users?page='.$page);
+                $this->session->set_userdata('redirect_url', '/home/followed_users?page='.$page);
                 $this->load->view('home/followed_list_view', $data);
         }
         
@@ -632,7 +642,7 @@ class Home extends CI_Controller
                 }
                 
                 // redirect irregardless if there is an error or not
-                $redirect_url = $this->session->flashdata('redirect_url');
+                $redirect_url = $this->session->userdata('redirect_url');
                 $this->session->set_flashdata('errors', $data['errors']);
                 if (!empty($redirect_url)) {
                         redirect($redirect_url);
@@ -669,6 +679,7 @@ class Home extends CI_Controller
                 $data['base_url'] = $this->config->item('base_url');
                 $data['order_option'] = "hashtags";
                 $this->session->set_flashdata('redirect_url', '/home/followed_hashtags?page='.$page);
+                $this->session->set_userdata('redirect_url', '/home/followed_hashtags?page='.$page);
                 $this->load->view('home/followed_list_view', $data);
         }
 
