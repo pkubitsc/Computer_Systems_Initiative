@@ -15,27 +15,18 @@ class Hashtags extends CI_Model
 	private $table_name			= 'Hashtags';			// user accounts
         private $post_hashtags_table_name	= 'Post_Hashtags';	// user profiles
         private $following_table_name	= 'Following';	// Following
+        private $ci;
 
 	function __construct()
 	{
 		parent::__construct();
 
-		$ci =& get_instance();
-		$this->table_name			= $ci->config->item('db_table_prefix', 'tank_auth').$this->table_name;
-		$this->post_hashtags_table_name	= $ci->config->item('db_table_prefix', 'tank_auth').$this->post_hashtags_table_name;
+		$this->ci =& get_instance();
+                $this->ci->load->library('haloc');
+                
+		$this->table_name			= $this->ci->config->item('db_table_prefix', 'tank_auth').$this->table_name;
+		$this->post_hashtags_table_name	= $this->ci->config->item('db_table_prefix', 'tank_auth').$this->post_hashtags_table_name;
 	}
-
-        function remove_hashtag($name) {
-            return preg_replace('/^\#/', '', $name);
-        }
-        
-        function remove_many_hashtags($array) {
-            foreach($array AS $key => $value) {
-                $new_array[$key] = preg_replace('/^\#/', '', $value);
-            }
-            
-            return $new_array;
-        }
         
 	/**
 	 * Get hashtag record by Id
@@ -46,7 +37,7 @@ class Hashtags extends CI_Model
 	function get_hashtag_id($name)
 	{
                 // remove the pound sign if there is one
-                $name = $this->remove_hashtag($name);
+                $name = $this->ci->haloc->remove_hashtag($name);
                 
                 $this->db->select('hashtag_id');
 		$this->db->where('hashtag', $name);
@@ -69,13 +60,14 @@ class Hashtags extends CI_Model
         
         function get_hashtags_by_name($names)
 	{
-                $str = "SELECT hashtag, hashtag_id FROM Hashtags WHERE hashtag IN ('".implode('\',\'', $names)."')";
+                $str = "SELECT * FROM Hashtags WHERE hashtag IN ('".implode('\',\'', $names)."')";
 		$query = $this->db->query($str);
                 return $query->result_array();
 	}
         
         function add_hashtag($name) {
-                $this->db->set('hashtag', $this->remove_hashtag($name));
+                $this->db->set('hashtag', $this->ci->haloc->remove_hashtag($name));
+                $this->db->set('created', date('Y-m-d H:i:s'));
                 if ($this->db->insert($this->table_name)) {
                     $hashtag_id = $this->db->insert_id();
                     return array('hashtag_id' => $hashtag_id);
@@ -92,7 +84,22 @@ class Hashtags extends CI_Model
                 return NULL;
         }
         
-        public function search_hashtags($str1 = null, $page = 1) {
+        function get_all_hashtags($page = 1, $order_by = 'hashtag', $order = 'DESC') {
+                $str = "SELECT * FROM Hashtags
+                        ORDER BY ".$order_by." ".$order."
+                        LIMIT ".(($page-1)*10).",10";
+		$query = $this->db->query($str);
+                return $query->result_array();
+        }
+        
+        function get_number_all_hashtags($id = 0) {
+                $stmt = "SELECT COUNT(*) AS num_results FROM Hashtags";
+                $query = $this->db->query($stmt);
+		$results = $query->row_array();
+                return $results['num_results'];
+        }
+        
+        public function search_hashtags($str1 = null, $page = 1, $order_by = 'Hashtags.hashtag', $order = 'DESC') {
                 // for each argument passed...
                 // 1 argument = just un, or just fn, or just ln
                 // 2 arguments = fn/ln, ln/fn, un/fn, fn/un, un/ln, ln/un
@@ -108,14 +115,14 @@ class Hashtags extends CI_Model
                             JOIN user_profiles ON Posts.user_id = user_profiles.user_id
                             WHERE soundex(Hashtags.hashtag) = soundex('".$str1."')";*/
                 $stmt = "SELECT Hashtags.* FROM Hashtags WHERE soundex(Hashtags.hashtag) = soundex('".$str1."')
-                        ORDER BY hashtag DESC
+                        ORDER BY ".$order_by." ".$order."
                         LIMIT ".(($page-1)*10).",10";
                 $query = $this->db->query($stmt);
 		$results = $query->result_array();
                 return $results;
         }
         
-        public function search_hashtags_count($str1 = null) {
+        public function get_number_search_hashtags($str1 = null) {
                 // for each argument passed...
                 // 1 argument = just un, or just fn, or just ln
                 // 2 arguments = fn/ln, ln/fn, un/fn, fn/un, un/ln, ln/un
@@ -159,7 +166,7 @@ class Hashtags extends CI_Model
        }
        
        function get_followed_hashtags($follower_id, $page) {
-                $stmt = "SELECT Hashtags.hashtag, Hashtags.hashtag_id
+                $stmt = "SELECT Hashtags.hashtag, Hashtags.hashtag_id, Hashtags.created
                         FROM Following
                         JOIN Hashtags ON Following.hashtag_id = Hashtags.hashtag_id
                         WHERE Following.user_id=".$follower_id."

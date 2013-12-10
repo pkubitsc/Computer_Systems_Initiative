@@ -90,7 +90,7 @@ $captcha = array(
         //Script for checking username
          $(document).ready(function(){
             $("#username").change(function(){
-                 $("#message").html("<img src='../../images/ajax-loader.gif' /> checking...");
+                 $("#message").html("<img src='<?php echo $base_url; ?>images/ajax-loader.gif' /> checking...");
              
  
             var username=$("#username").val();
@@ -101,10 +101,10 @@ $captcha = array(
                     data:"username="+username,
                         success:function(data){
                         if(data==0){
-                            $("#message").html("<img src='../../images/register/tick.png' /> Username available");
+                            $("#message").html("<img src='<?php echo $base_url; ?>images/register/tick.png' /> Username available");
                         }
                         else{
-                            $("#message").html("<img src='../../images/register/cross.png' /> Username already taken");
+                            $("#message").html("<img src='<?php echo $base_url; ?>images/register/cross.png' /> Username already taken");
                         }
                     }
                  });
@@ -132,7 +132,7 @@ $captcha = array(
          //function checking email	
          $(document).ready(function(){
             $("#email").change(function(){
-                 $("#message_email").html("<img src='../../images/register/ajax-loader.gif' /> checking...");
+                 $("#message_email").html("<img src='<?php echo $base_url; ?>images/register/ajax-loader.gif' /> checking...");
              
  
             var email=$("#email").val();
@@ -143,10 +143,10 @@ $captcha = array(
                     data:"email="+email,
                         success:function(data){
                         if(data==0){
-                            $("#message_email").html("<img src='../../images/register/tick.png' /> Email available");
+                            $("#message_email").html("<img src='<?php echo $base_url; ?>images/register/tick.png' /> Email available");
                         }
                         else{
-                            $("#message_email").html("<img src='../../images/register/cross.png' /> Email already taken");
+                            $("#message_email").html("<img src='<?php echo $base_url; ?>images/register/cross.png' /> Email already taken");
                         }
                     }
                  });
@@ -193,7 +193,7 @@ $captcha = array(
           		<?php echo form_error($password['name']); ?>  
                
 	  			<span id= "result"></span>
-	           <p class="contact"><label for="repassword"><?php echo form_label('Confirm Password', $confirm_password['id']); ?></label></p> 
+	           <p class="contact"><label for="confirm_password"><?php echo form_label('Confirm Password', $confirm_password['id']); ?></label></p> 
     			<?php echo form_password($confirm_password, array('id' => 'confirm_password'), "onChange=\"checkPasswordMatch();\""); ?>
         		<?php echo form_error($confirm_password['name']); ?>
                 <div class="registrationFormAlert" id="divCheckPasswordMatch">

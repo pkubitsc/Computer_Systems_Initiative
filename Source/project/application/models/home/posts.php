@@ -18,12 +18,16 @@ class Posts extends CI_Model
         private $hashtags_table_name	= 'Hashtags';	// hashtags table
         private $users_table_name       = 'users';
         private $post_likes_table_name       = 'PostLikes';
+        private $logged_user_id;
 
 	function __construct()
 	{
 		parent::__construct();
 
 		$ci =& get_instance();
+                $ci->load->library('tank_auth');
+                //$this->_assign_libraries();
+                $this->logged_user_id = $ci->tank_auth->get_user_id();
 	}
 
         
@@ -88,15 +92,15 @@ class Posts extends CI_Model
                 return $result['num_posts'];
         }
         
-        function get_replies_by_post_id($parent_id, $page = 1) {
+        function get_replies_by_post_id($parent_id, $page = 1, $order_by = 'Posts.created', $order = 'DESC') {
                 
                 $query = "SELECT Posts.*, users.username, user_profiles.profile_image,
-                            (SELECT COUNT(*) FROM PostLikes WHERE PostLikes.user_id=Posts.user_id AND PostLikes.post_id=Posts.post_id) AS is_liked
+                            (SELECT COUNT(*) FROM PostLikes WHERE PostLikes.user_id=".$this->logged_user_id." AND PostLikes.post_id=Posts.post_id) AS is_liked
                             FROM Posts
                             JOIN users ON Posts.user_id = users.id
                             JOIN user_profiles ON Posts.user_id = user_profiles.user_id
                             WHERE Posts.parent_id=".$parent_id."
-                            ORDER BY Posts.created DESC
+                            ORDER BY ".$order_by." ".$order."
                             LIMIT ".(($page-1)*10).",10";
                 
                 //$this->db->select('Posts.*, users.username, user_profiles.profile_image', FALSE);
@@ -115,14 +119,18 @@ class Posts extends CI_Model
                     
         }
         
-        function get_posts_by_user_id($user_id, $page = 1) {
+        function get_posts_by_user_id($user_id, $page = 1, $order_by = 'Posts.created', $order = 'DESC') {
+                $num_args = func_num_args();
+                if ($num_args == 3 || $num_args == 5) {
+                        // we have an extra user_id
+                }
                 $query = "SELECT Posts.*, users.username, user_profiles.profile_image,
-                            (SELECT COUNT(*) AS is_liked FROM PostLikes WHERE PostLikes.user_id=Posts.user_id AND PostLikes.post_id=Posts.post_id) AS is_liked
+                            (SELECT COUNT(*) AS is_liked FROM PostLikes WHERE PostLikes.user_id=".$this->logged_user_id." AND PostLikes.post_id=Posts.post_id) AS is_liked
                             FROM Posts
                             JOIN users ON Posts.user_id = users.id
                             JOIN user_profiles ON Posts.user_id = user_profiles.user_id
                             WHERE Posts.user_id=".$user_id."
-                            ORDER BY Posts.created DESC
+                            ORDER BY ".$order_by." ".$order."
                             LIMIT ".(($page-1)*10).",10";
                 //$this->db->select('Posts.*, users.username, user_profiles.profile_image', FALSE);
                 //$this->db->join($this->users_table_name, 'Posts.user_id = users.id');
@@ -144,13 +152,13 @@ class Posts extends CI_Model
         // two queries, concatenate the array
         function get_posts_by_follow_id($follower_id, $page = 1) {
                 $query = "SELECT Posts.*, users.username, user_profiles.profile_image,
-                            (SELECT COUNT(*) AS is_liked FROM PostLikes WHERE PostLikes.user_id=Posts.user_id AND PostLikes.post_id=Posts.post_id) AS is_liked
+                            (SELECT COUNT(*) AS is_liked FROM PostLikes WHERE PostLikes.user_id=".$this->logged_user_id." AND PostLikes.post_id=Posts.post_id) AS is_liked
                             FROM Posts
                             JOIN users ON Posts.user_id = users.id
                             JOIN user_profiles ON Posts.user_id = user_profiles.user_id
                             JOIN Following ON Following.user_id = users.id
                             JOIN Post_Hashtags ON 
-                            WHERE Posts.user_id=".$user_id."
+                            WHERE Posts.user_id=".$follower_id."
                             ORDER BY Posts.created DESC
                             LIMIT ".(($page-1)*10).",10";
                 //$this->db->select('Posts.*, users.username, user_profiles.profile_image', FALSE);
@@ -171,7 +179,7 @@ class Posts extends CI_Model
         
         function get_posts_by_hashtag_id($hashtag_id, $page = 1) {
                 $query = "SELECT Posts.*, users.username, user_profiles.profile_image,
-                            (SELECT COUNT(*) FROM PostLikes WHERE PostLikes.user_id=Posts.user_id AND PostLikes.post_id=Posts.post_id) AS is_liked
+                            (SELECT COUNT(*) FROM PostLikes WHERE PostLikes.user_id=".$this->logged_user_id." AND PostLikes.post_id=Posts.post_id) AS is_liked
                             FROM Posts
                             JOIN users ON Posts.user_id = users.id
                             JOIN user_profiles ON Posts.user_id = user_profiles.user_id
@@ -196,10 +204,10 @@ class Posts extends CI_Model
                     
         }
         
-        function get_parent_post($post_id) {
+        function get_parent_post($post_id, $page = null) {
                 
                 $query = "SELECT Posts.*, users.username, user_profiles.profile_image,
-                            (SELECT COUNT(*) FROM PostLikes WHERE PostLikes.user_id=Posts.user_id AND PostLikes.post_id=Posts.post_id) AS is_liked
+                            (SELECT COUNT(*) FROM PostLikes WHERE PostLikes.user_id=".$this->logged_user_id." AND PostLikes.post_id=Posts.post_id) AS is_liked
                             FROM Posts
                             JOIN users ON Posts.user_id = users.id
                             JOIN user_profiles ON Posts.user_id = user_profiles.user_id
@@ -217,7 +225,7 @@ class Posts extends CI_Model
                 $get = $this->db->query($query);
                 
                 //$query = $this->db->query("SELECT * FROM ".$this->table_name." WHERE user_id=".$user_id);
-		return $get->row_array();
+		return $get->result_array();
                     
         }
         
@@ -302,14 +310,14 @@ class Posts extends CI_Model
 		return NULL;
         }
         
-        function get_followed_posts($follower_id, $page = 1) {
+        function get_followed_posts($follower_id, $page = 1, $order_by = 'Posts.created', $order = 'DESC') {
                 $stmt = "SELECT Post_Hashtags.post_id FROM Following
                             JOIN Post_Hashtags ON Post_Hashtags.hashtag_id=Following.hashtag_id
                             WHERE Following.user_id=".$follower_id." AND Following.hashtag_id <> 0";
                 $result = $this->db->query($stmt);
                 
                 $query = "SELECT Posts.*, users.username, user_profiles.profile_image,
-                            (SELECT COUNT(*) FROM PostLikes WHERE PostLikes.user_id=Posts.user_id AND PostLikes.post_id=Posts.post_id) AS is_liked
+                            (SELECT COUNT(*) FROM PostLikes WHERE PostLikes.user_id=".$this->logged_user_id." AND PostLikes.post_id=Posts.post_id) AS is_liked
                             FROM Posts
                             JOIN users ON Posts.user_id = users.id
                             JOIN user_profiles ON Posts.user_id = user_profiles.user_id
@@ -319,7 +327,7 @@ class Posts extends CI_Model
                                     (SELECT Post_Hashtags.post_id FROM Following
                                         JOIN Post_Hashtags ON Post_Hashtags.hashtag_id=Following.hashtag_id
                                         WHERE Following.user_id=".$follower_id." AND Following.hashtag_id <> 0)
-                            ORDER BY Posts.created DESC
+                            ORDER BY ".$order_by." ".$order."
                             LIMIT ".(($page-1)*10).",10";
                 
                 //$query = $this->db->get($this->table_name);
@@ -331,7 +339,7 @@ class Posts extends CI_Model
                     
         }
         
-        function get_followed_posts_count($follower_id) {
+        function get_number_followed_posts($follower_id) {
                 $query = "SELECT COUNT(*) AS num_posts
                             FROM Posts
                             JOIN users ON Posts.user_id = users.id

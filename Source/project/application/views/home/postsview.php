@@ -6,7 +6,6 @@ if (empty($errors)) {
             'value'	=> '',
             'maxlength'	=> 200,
             'rows' => 3,
-            'columns' => 30
     );
 } else {
      $post = array(
@@ -15,124 +14,15 @@ if (empty($errors)) {
             'value'	=> set_value('post'),
             'maxlength'	=> 200,
             'rows' => 3,
-            'columns' => 30
     );   
 }
-function paging($base_url, $pages, $current_page, $type_page) {
-    $str = "Pages ";
-    $temp_str = "";
-    if ($pages > 10) {
-        // do some hacking...
-        if ($current_page-3 > 0) {
-            $page_start = $current_page-3;
-        } else {
-            $page_start = 1;
-        }
-        
-        if ($current_page+3 < $pages) {
-            $page_end = $current_page+3;
-        } else {
-            $page_end = $pages;
-        }
-
-    } else {
-        $page_start = 1;
-        $page_end = $pages;
-    }
-    
-    if ($page_start != 1) {
-        $str .= "<a href=\"".$base_url."index.php/home/".$type_page."?page=1\">First</a> ";
-    }
-    for ($i = $page_start; $i <= $page_end; $i++) {
-        $str .= "<a href=\"".$base_url."index.php/home/".$type_page."?page=".$i."\">".$i."</a> ";
-    }
-    if ($page_end != $pages) {
-        $str .= "<a href=\"".$base_url."index.php/home/".$type_page."?page=".$pages."\">Last</a> ";
-    }
-    
-    return $str;
-}
-
-$pages = paging($base_url, $num_pages, $current_page, $type_page);
-
 ?>
- 
- 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>HALOC Computer Systems Initiative</title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<link href="<?php echo $base_url; ?>css/home/style.php?url=<?php echo $base_url; ?>" rel="stylesheet" type="text/css" media="screen" />
-<meta http-equiv="refresh" content="90">
-</head>
-<body>
-<div id="header-wrapper">
-	<div id="header">
-		<div id="menu">
-				<ul>
-				  <li><a href="<?php echo $base_url;?>index.php/home/yourposts/">HomePage</a></li>
-				  <li><a href="<?php echo $base_url;?>index.php/auth/change_profile">Profile</a></li>
-				  <li><a href="<?php echo $base_url;?>index.php/home/search">Search</a></li>
-				  <li><a href="<?php echo $base_url;?>index.php/auth/logout">Logout</a></li>
-			</ul>
-		</div>
-	</div>
-</div>
-<!-- end #header -->
 
-<!-- end #header-wrapper -->
-<div id="logo">
-  <h1><a href="#">Haloc </a></h1>
-	<p>Computer systems initiative</p>
-	<p>&nbsp;</p>
-</div>
+<!-- HEADER -->
+<?php include_once(__DIR__."/header.php"); ?>
 
-<?php if (!isset($parent_post)) { ?>
-<div id="header-wrapper">
-	<div id="header">
-		<div id="menu">
-         <ul>
-		   	<li><a href="<?php echo $base_url; ?>index.php/home/yourposts/">Your Hoots</a></li>
-			<li><a href="<?php echo $base_url; ?>index.php/home/followed/">Followed Users/Hashtags</a></li>
-         </ul>
-		</div>
-	</div>
-</div>
-<?php } else { ?>
-<!-- Parent Post SECTION -->   
-<div class="container">
-	   <!-- freshdesignweb top bar -->
-      <div class="freshdesignweb-top">
-      <div class="clr"></div>
-      </div><!--/ freshdesignweb top bar -->       
-      <div class="form">
-      <br/>                  
-	<div class="post">
-		<h2 class="title">Original Post</h2>
-			<h2 class="title"><?php if(file_exists($base_url.'images/user_images/'.$parent_post['profile_image'])) { ?>
-              	<img src="<?php echo $base_url;?>/images/user_images/<?php echo $parent_post['profile_image']; ?>"></img>
-              	<?php } ?> 
-			  	<?php echo $parent_post['username'] ?></h2> &nbsp;&nbsp;&nbsp;
-				<p class="meta">Posted On: <?php echo $parent_post['created'] ?></p>
-				<div class="entry">
-					<p><?php echo $parent_post['post_content']?></p>
-                  
-                  <?php if ($parent_post['is_liked'] > 0) { ?>
-                    			 <a href="<?php echo $base_url;?>index.php/home/likepost/<?php echo $parent_post['post_id']; ?>"/>Dislike</a>
-	                    <?php } else { ?>
-    			               <a href="<?php echo $base_url;?>index.php/home/likepost/<?php echo $parent_post['post_id']; ?>"/>Like</a>
-                    <?php } ?>
-                    &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
-                <?php echo $parent_post['post_likes']; ?> &nbsp;Likes
-			    </div>
-		    </div>
-    </div>
-</div>          
- <?php } ?>
-<br/>
+<!-- Parent Post SECTION -->  
+<div id="parent_post"></div>          
 
 <?php 
 if (isset($errors)) {
@@ -141,116 +31,49 @@ if (isset($errors)) {
     }
 } 
 ?>		
-<div id="wrapper">
-	<div id="page">
-		<div id="page-bgtop">
-        </div>
-	<hr/>
-<!-- ADD POST SECTION -->    
-<div class="container">
-	   <!-- freshdesignweb top bar -->
-      <div class="freshdesignweb-top">
-      <div class="clr"></div>
-      </div><!--/ freshdesignweb top bar -->       
-      <div class="form2">
+
+<!-- ADD POST SECTION --> 
+<?php if ($type_page != 'followed') { ?>
+<div class="form">
       <br/>      
                   
-		<?php
-                    if (!isset($parent_post)) {
-                        echo form_open('home/addpost/');
-                    } else {
-                        echo form_open('home/addpost/'.$parent_post['post_id']);
-                    }
-                ?>
-        <table>
-            <tr>
-                <td><?php if (isset($parent_post)) {
+	<?php
+        if (!isset($parent_post)) {
+                echo form_open('home/addpost/');
+        } else {
+                echo form_open('home/addpost/'.$id);
+        }
+        ?>
+            <div>
+                        <?php
+                        if (isset($parent_post)) {
                                 echo form_label('Reply', $post['id']);
-                          } else {
+                        } else {
                                 echo form_label('Add a Post', $post['id']);
-                          }?></td>
-                        <td><?php echo form_textarea($post); ?></td>
-                <td style="color: red;"><?php echo form_error($post['name']); ?></td>
-            </tr>
-        </table>
-        <?php echo form_submit('submit', 'Submit'); ?>
+                        }
+                        ?>
+            </div>
+            <div>
+                    <?php echo form_textarea($post); ?>
+                    <div id="characterLeft"></div>
+            </div>
+            <div>
+                    <?php echo form_submit('submit', 'Submit'); ?>
+            </div>
+                <?php echo form_error($post['name']); ?>
         <?php echo form_close(); ?>
-        
-
-      </div>
-	
-</div>	
 </div>
-</div> 
+<?php } ?>
 
 <!-- PAGES -->
-<div class="container">
-	   <!-- freshdesignweb top bar -->
-      <div class="freshdesignweb-top">
-      <div class="clr"></div>
-      </div><!--/ freshdesignweb top bar -->       
-      <div class="form2" style="height: 50px; padding-top: 15px;">
-      <br/>                  
-	<div class="post">
-	<?php echo $pages; ?>&nbsp;
-   </div>            
-   </div>
-</div>          
-       
-<?php foreach ($posts as $user_post) { ?>
-<div class="container">
-	   <!-- freshdesignweb top bar -->
-      <div class="freshdesignweb-top">
-      <div class="clr"></div>
-      </div><!--/ freshdesignweb top bar -->       
-      <div  class="form">
-      <br/>                  
-	<div class="post">
-		<h2 class="title">&nbsp;</h2>
-			<h2 class="title">
-                        <img src="<?php echo $base_url;?>images/user_images/<?php echo $user_post['profile_image']; ?>"></img>
-                        <a href="<?php echo $base_url;?>index.php/home/view_other_profile/<?php echo $user_post['user_id'];?>"><?php echo $user_post['username'] ?></a></h2> &nbsp;&nbsp;&nbsp;
-				<p class="meta">Posted On: <?php echo $user_post['created'] ?></p>
-				<div class="entry">
-					<p><?php echo $user_post['post_content']?></p>
-                    
-				 <a href="<?php echo $base_url; ?>index.php/home/see_replies/<?php echo $user_post['post_id'];?> "> Comments (<?php echo $user_post['post_replies']; ?>)</a> &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
-                  <?php if ($user_post['is_liked'] != 0) { ?>
-                    			 <a href="<?php echo $base_url;?>index.php/home/likepost/<?php echo $user_post['post_id']; ?>"/>Dislike</a>
-	                    <?php } else { ?>
-    			               <a href="<?php echo $base_url;?>index.php/home/likepost/<?php echo $user_post['post_id']; ?>"/>Like</a>
-                    <?php } ?>
-                    &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
-                <?php echo $user_post['post_likes']; ?> &nbsp;Likes
-                <?php if ($user_post['parent_id'] != 0) { ?>
-                    &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; In reply to <a href="<?php echo $base_url;?>index.php/home/see_replies/<?php echo $user_post['parent_id'];?>/"> Hoot #<?php echo $user_post['parent_id'];?></a>
-                <?php }?>
-                
-			    </div>
-		    </div>
-    </div>
-</div>          
- <?php } ?>
-<br/>
+<div id="pages0"></div>         
 
-<div class="container">
-	   <!-- freshdesignweb top bar -->
-      <div class="freshdesignweb-top">
-      <div class="clr"></div>
-      </div><!--/ freshdesignweb top bar -->       
-      <div class="form2" style="height: 50px; padding-top: 15px;">
-      <br/>                  
-	<div class="post">
-	<?php echo $pages; ?> &nbsp;
-   </div>            
-   </div>
-</div>          
-       
+<!-- POSTS -->
+<div id="posts"></div>
 
-<div id="footer-bull">
-	<div id="footer">
-    	<p>
-        Made by: Corey Geesey, Paul Kubitschek, Mai Van Pham, Bryce Cooper
-        </p>
-	</div>
-</div> 
+<!-- PAGES -->
+<div id="pages1"></div>           
+<br /><br />       
+
+<!-- FOOTER -->
+<?php include_once(__DIR__."/footer.php"); ?>

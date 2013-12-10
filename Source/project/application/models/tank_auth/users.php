@@ -485,7 +485,7 @@ class Users extends CI_Model
                 return $results;
         }
         
-        public function search_users_count($str1 = null, $str2 = null, $str3 = null) {
+        public function get_number_search_users($str1 = null, $str2 = null, $str3 = null) {
                 // for each argument passed...
                 // 1 argument = just un, or just fn, or just ln
                 // 2 arguments = fn/ln, ln/fn, un/fn, fn/un, un/ln, ln/un
@@ -556,7 +556,7 @@ class Users extends CI_Model
                 return $results;
        }
        
-       function get_all_users_count() {
+       function get_number_all_users() {
                 $stmt = "SELECT COUNT(*) AS num_users FROM Users";
                 $query = $this->db->query($stmt);
 		$results = $query->row_array();

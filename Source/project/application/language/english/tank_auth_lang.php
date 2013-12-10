@@ -7,10 +7,11 @@ $lang['auth_incorrect_email_or_username'] = 'Login or email doesn\'t exist';
 $lang['auth_email_in_use'] = 'Email is already used by another user. Please choose another email.';
 $lang['auth_username_in_use'] = 'Username already exists. Please choose another username.';
 $lang['auth_current_email'] = 'This is your current email';
+$lang['auth_confirm_password_error'] = 'Passwords do not match. Please try again.';
 $lang['auth_incorrect_captcha'] = 'Your confirmation code does not match the one in the image.';
 $lang['auth_captcha_expired'] = 'Your confirmation code has expired. Please try again.';
 $lang['auth_image_upload_error'] = 'Your confirmation code has expired. Please try again.';
-$land['auth_biography_changed'] = 'Your biography has been changed.';
+$lang['auth_biography_changed'] = 'Your biography has been changed.';
 
 // Notifications
 $lang['auth_message_logged_out'] = 'You have been successfully logged out.';

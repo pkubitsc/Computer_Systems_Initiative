@@ -26,7 +26,7 @@
 
 <!-- Form Title Starts Here -->
 <div class="form_title">
-HALOC LOGIN
+<img src="images/login/form_title.gif" alt="Sleek &amp; Modern Login Form - Design3Edge" />
 </div>
 <!-- Form Title Ends Here -->
 

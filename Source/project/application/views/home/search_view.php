@@ -8,129 +8,39 @@ if (isset($_GET['search'])) {
             'name'	=> 'search',
             'id'	=> 'search',
             'value'	=> $search_var,
-            'maxlength'	=> 200
+            'maxlength'	=> 200,
+            'rows'      => 3
     );
-    
-function paging($base_url, $pages, $current_page, $search_terms) {
-    $str = "Pages ";
-    $temp_str = "";
-    if ($pages > 10) {
-        // do some hacking...
-        if ($current_page-3 > 0) {
-            $page_start = $current_page-3;
-        } else {
-            $page_start = 1;
-        }
-        
-        if ($current_page+3 < $pages) {
-            $page_end = $current_page+3;
-        } else {
-            $page_end = $pages;
-        }
-
-    } else {
-        $page_start = 1;
-        $page_end = $pages;
-    }
-    
-    if ($page_start != 1) {
-        $str .= " <a href=\"".$base_url."index.php/home/search?page=1&search=".$search_terms."&submit=Submit\">First</a> ";
-    }
-    for ($i = $page_start; $i <= $page_end; $i++) {
-        $str .= " <a href=\"".$base_url."index.php/home/search?page=".$i."&search=".$search_terms."&submit=Submit\">".$i."</a>&nbsp;";
-    }
-    if ($page_end != $pages) {
-        $str .= " <a href=\"".$base_url."index.php/home/search?page=".$pages."&search=".$search_terms."&submit=Submit\">Last</a> ";
-    }
-    
-    return $str;
-}
-$pages = paging($base_url, $num_pages, $current_page, $search_terms);
 ?>
+<!-- HEADER -->
+<?php include_once(__DIR__."/header.php"); ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>HALOC Computer Systems Initiative</title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<link href="<?php echo $base_url; ?>css/search/style.php?url=<?php echo $base_url; ?>" rel="stylesheet" type="text/css" media="all" />
-</head>
-<body>
-<div id="header-wrapper">
-	<div id="header">
-		<div id="menu">
-				<ul>
-				  <li><a href="<?php echo $base_url;?>index.php/home/yourposts/">HomePage</a></li>
-				  <li><a href="<?php echo $base_url;?>index.php/auth/change_profile">Profile</a></li>
-				  <li><a href="<?php echo $base_url;?>index.php/home/search">Search</a></li>
-				  <li><a href="<?php echo $base_url;?>index.php/auth/logout">Logout</a></li>
-			</ul>
-		</div>
-	</div>
-</div>
-<!-- end #header -->
-
-<!-- end #header-wrapper -->
-<div id="logo">
-  <h1><a href="#">Haloc </a></h1>
-	<p>Computer systems initiative</p>
-	<p>&nbsp;</p>
-</div>
-<div id="header-wrapper">
-	<div id="header">
-		<div id="menu">
-
-		</div>
-	</div>
-</div>		
-<div id="wrapper">
-	<div id="page">
-		<div id="page-bgtop">
-        </div>
-	<hr />
-    
 <?php if (isset($errors)) {
         foreach ($errors AS $key => $value) { ?>
                 <br/><?php echo $value; ?>
 <?php   }
 } ?>
-
-<!--SEARCHING TEXTFIELD -->
-<div class="container">
-	<!-- freshdesignweb top bar -->
-    <div class="freshdesignweb-top">
-      <div class="clr"></div>
-    </div><!--/ freshdesignweb top bar -->       
-    <div  class="form">
-      <br/>                  
-       	<?php echo form_open('home/search/', array('method' => 'get')); ?>
-		<?php echo form_label('Search', $search['id']); ?>
-       	<?php echo form_input($search); ?>
-		<?php echo form_error($search['name']); ?>                 
-        <p>
-        <?php echo form_submit('submit', 'Submit'); ?>
-            <?php echo form_close(); ?>
-        </p>
-        <br/><br/>
-     </div>
-
-</div>
+                
+                
+<div class="form" style="position:relative; top:50%; height:70px; margin-top:25px;">
+      <br/>      
+                  
+	<?php echo form_open('home/search/', array('method' => 'get')); ?>
+            <div style="float: left; padding-top: 10px; padding-left: 0px;">
+                        <?php echo form_label('Search', $search['id']); ?>
+            </div>
+            <div style="float: left; padding-top: 0px; padding-left: 100px;">
+                    <?php echo form_input($search); ?>
+            </div>
+            <div style="float: left; padding-top: 0px; padding-left: 30px;">
+                    <?php echo form_submit('submit', 'Submit'); ?>
+            </div>
+                <?php echo form_error($search['name']); ?> 
+        <?php echo form_close(); ?>
+</div>                
 
 <!-- PAGES -->
-<div class="container">
-	   <!-- freshdesignweb top bar -->
-      <div class="freshdesignweb-top">
-      <div class="clr"></div>
-      </div><!--/ freshdesignweb top bar -->       
-      <div class="form" style="height: 50px; padding-top: 15px;">
-      <br/>                  
-	<div class="post">
-	<?php echo $pages; ?>&nbsp;
-   </div>            
-   </div>
-</div> 
+<div id="pages0"></div>
 
 <!--This is the results by # -->
 <div class="container">
@@ -153,18 +63,7 @@ $pages = paging($base_url, $num_pages, $current_page, $search_terms);
 </div>
 
 <!-- PAGES -->
-<div class="container">
-	   <!-- freshdesignweb top bar -->
-      <div class="freshdesignweb-top">
-      <div class="clr"></div>
-      </div><!--/ freshdesignweb top bar -->       
-      <div class="form" style="height: 50px; padding-top: 15px;">
-      <br/>                  
-	<div class="post">
-	<?php echo $pages; ?>&nbsp;
-   </div>            
-   </div>
-</div> 
+<div id="pages1"></div>
 
 <!-- This is the results on PEOPLE on the search page -->
 <div class="container">
@@ -191,25 +90,7 @@ $pages = paging($base_url, $num_pages, $current_page, $search_terms);
 </div>
 
 <!-- PAGES -->
-<div class="container">
-	   <!-- freshdesignweb top bar -->
-      <div class="freshdesignweb-top">
-      <div class="clr"></div>
-      </div><!--/ freshdesignweb top bar -->       
-      <div class="form" style="height: 50px; padding-top: 15px;">
-      <br/>                  
-	<div class="post">
-	<?php echo $pages; ?>&nbsp;
-   </div>            
-   </div>
-</div> 
+<div id="pages0"></div>
 
-
-
-<div id="footer-bull">
-	<div id="footer">
-    	<p>
-        Made by: Corey Geesey, Paul Kubitschek, Mai Van Pham, Bryce Cooper
-        </p>
-	</div>
-</div> 
+<!-- FOOTER -->
+<?php include_once(__DIR__."/footer.php"); ?>

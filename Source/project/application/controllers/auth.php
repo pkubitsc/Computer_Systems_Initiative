@@ -157,7 +157,7 @@ class Auth extends CI_Controller
 			}
 			$this->form_validation->set_rules('email', 'Email', 'trim|required|xss_clean|valid_email');
 			$this->form_validation->set_rules('password', 'Password', 'trim|required|xss_clean|min_length['.$this->config->item('password_min_length', 'tank_auth').']|max_length['.$this->config->item('password_max_length', 'tank_auth').']|alpha_dash');
-                        $this->form_validation->set_rules('password', 'Password', 'trim|required|xss_clean|min_length['.$this->config->item('password_min_length', 'tank_auth').']|max_length['.$this->config->item('password_max_length', 'tank_auth').']|alpha_dash');
+                        $this->form_validation->set_rules('confirm_password', 'Confirm Password', 'trim|required|xss_clean|min_length['.$this->config->item('password_min_length', 'tank_auth').']|max_length['.$this->config->item('password_max_length', 'tank_auth').']|alpha_dash|matches[password]');
 			$this->form_validation->set_rules('first_name', 'First Name', 'trim|required|xss_clean|min_length['.$this->config->item('first_name_min_length', 'tank_auth').']|max_length['.$this->config->item('first_name_max_length', 'tank_auth').']|alpha_dash');
                         $this->form_validation->set_rules('last_name', 'Last Name', 'trim|required|xss_clean|min_length['.$this->config->item('last_name_min_length', 'tank_auth').']|max_length['.$this->config->item('last_name_max_length', 'tank_auth').']|alpha_dash');
                         $this->form_validation->set_rules('biography', 'Biography', 'trim|xss_clean|min_length['.$this->config->item('biography_min_length', 'tank_auth').']|max_length['.$this->config->item('biography_max_length', 'tank_auth').']');
@@ -222,7 +222,9 @@ class Auth extends CI_Controller
                                         
 				} else {
 					$errors = $this->tank_auth->get_error_message();
+                                        print_r($errors);
 					foreach ($errors as $k => $v)	$data['errors'][$k] = $this->lang->line($v);
+                                        
 				}
 			}
 			if ($captcha_registration) {

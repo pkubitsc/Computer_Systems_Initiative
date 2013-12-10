@@ -10,6 +10,7 @@ class Home extends CI_Controller
 		$this->load->helper(array('form', 'url'));
 		$this->load->library('security');
 		$this->load->library('tank_auth');
+                $this->load->library('haloc');
                 $this->load->model('home/posts');
                 $this->load->model('home/hashtags');
 		$this->lang->load('tank_auth');
@@ -51,50 +52,20 @@ class Home extends CI_Controller
                 } else {
                         $data = array();
                 }
-
-                $data['posts'] = $this->hashtag_url_generator($this->posts->get_posts_by_user_id($user_id, $page));
-                $num_total_posts = $this->posts->get_number_posts_by_user_id($user_id);
-                $data['num_pages'] = ceil(intval($num_total_posts)/10);
+                
                 $data['current_page'] = $page;
                 $data['base_url'] = $this->config->item('base_url');
                 $data['type_page'] = 'yourposts';
+                $data['id'] = $user_id;
+                $data['function'] = "posts_by_user_id";
+                $data['order_option'] = "posts";
                 $this->session->set_flashdata('redirect_url', '/home/yourposts?page='.$page);
                 $this->load->view('home/postsview', $data);
         }
         
-        /*
-         * Clean the hashtags, outputs an error otherwise
-         * 
-         */
-        function clean_hashtags($hashtags) {
-                // remove hashtag sign
-                $hashtags_removed = $this->hashtags->remove_many_hashtags($hashtags);
-
-                // check if first character is alphanumeric
-                $type_error = FALSE;
-                foreach ($hashtags_removed AS $key => $value) {
-                    if (!ctype_alnum($value[0])) {
-                        $type_error = TRUE;
-                        break;
-                    }
-                }
-                
-                if ($type_error) {
-                        return null;
-                }
-                
-                return $hashtags_removed;
-        }
         
-        function in_array_r($needle, $haystack, $strict = false) {
-            foreach ($haystack as $item) {
-                if (($strict ? $item === $needle : $item == $needle) || (is_array($item) && $this->in_array_r($needle, $item, $strict))) {
-                    return true;
-                }
-            }
-
-            return false;
-        }
+        
+        
         
         /*
          * adds a post
@@ -123,7 +94,7 @@ class Home extends CI_Controller
                         // In here we must separate the hashtags
                         preg_match_all("/#\w+/", $post, $hashtags);
                         if (!empty($hashtags[0])) {
-                                $new_hashtags = $this->clean_hashtags($hashtags[0]);
+                                $new_hashtags = $this->haloc->clean_hashtags($hashtags[0]);
                         } else {
                                 $new_hashtags = false;
                         }
@@ -146,7 +117,7 @@ class Home extends CI_Controller
 
                                                 foreach ($new_hashtags AS $hashtag_word) {
                                                     //print_r($hashtag);
-                                                        if (!$this->in_array_r($hashtag_word, $hashtags_in_db)) {
+                                                        if (!$this->haloc->in_array_r($hashtag_word, $hashtags_in_db)) {
                                                             // add the new hashtag to the db
                                                             $hashtag = $this->hashtags->add_hashtag($hashtag_word);
                                                             if (is_null($hashtag)) {
@@ -242,15 +213,15 @@ class Home extends CI_Controller
                             $page = 1;
                         }
                         
-                        echo $page;
-                        
-                        $data['parent_post'] = $this->hashtag_url_generator_single($this->posts->get_parent_post($post_id));
-                        $data['posts'] = $this->hashtag_url_generator($this->posts->get_replies_by_post_id($post_id, $page));
-                        $num_total_posts = $this->posts->get_number_replies_by_post_id($post_id);
-                        $data['num_pages'] = ceil(intval($num_total_posts)/10);
+                        $data['parent_post'] = array('function' => 'parent_post', 'id' => $post_id);
                         $data['current_page'] = $page;
                         $data['base_url'] = $this->config->item('base_url');
-                        $data['type_page'] = 'see_replies/'.$parent_id;
+                        $data['type_page'] = 'see_replies';
+                        $data['id'] = $post_id;
+                        $data['function'] = "replies_by_post_id";
+                        $data['order_option'] = "posts";
+                        
+                        $this->session->set_flashdata('redirect_url', '/home/yourposts?page='.$page);
                         $this->session->set_flashdata('redirect_url', '/home/see_replies/'.$post_id);
                 }
                 
@@ -300,33 +271,59 @@ class Home extends CI_Controller
 
                                 // check for hashtag in the first one
                                 preg_match_all("/#\w+/", $terms[0], $hashtag);
-                                if (!empty($hashtag[0])) {
+
+                                if (strlen(trim($terms[0])) == 1 && substr($terms[0], 0) == "#") {
+                                        // we need to get all of the hashtags
+                                        $data['hashtag_results'] = $this->hashtags->get_all_hashtags($page);
+                                        
+                                        $data['current_page'] = $page;
+                                        $data['base_url'] = $this->config->item('base_url');
+                                        $data['type_page'] = 'search';
+                                        $data['id'] = 0;
+                                        $data['function'] = "all_hashtags";
+                                        $data['order_option'] = "hashtags";
+                                        
+                                } else if (!empty($hashtag[0])) {
                                         // hashtag search
-                                        $clean_hashtag = $this->clean_hashtags($hashtag[0]);
+                                        $clean_hashtag = $this->haloc->clean_hashtags($hashtag[0]);
 
                                         $data['hashtag_results'] = $this->hashtags->search_hashtags($clean_hashtag[0], $page);
-                                        $num_results = $this->hashtags->search_hashtags_count($clean_hashtag[0]);
-                                        $data['num_pages'] = ceil(intval($num_results)/10);
                                         $data['current_page'] = $page;
+                                        $data['base_url'] = $this->config->item('base_url');
+                                        $data['type_page'] = 'search';
+                                        $data['id'] = 0;
+                                        $data['function'] = "search_hashtags";
+                                        $data['order_option'] = "hashtags";
                                 } else {
                                         // user search
                                         if (empty($terms[0])) {
                                                 // no users selected, but submit button selected, list all users
                                                 $data['user_results'] = $this->users->get_all_users($page);
-                                                $num_results = $this->users->get_all_users_count();
-                                        } elseif (!isset($terms[1])) {
-                                                $data['user_results'] = $this->users->search_users($terms[0], $page);
-                                                $num_results = $this->users->search_users_count($terms[0]);
-                                        } elseif (!isset($terms[2])) {
-                                                $data['user_results'] = $this->users->search_users($terms[0], $terms[1]);
-                                                $num_results = $this->users->search_users_count($terms[0], $terms[1]);
+                                                
+                                                $data['current_page'] = $page;
+                                                $data['base_url'] = $this->config->item('base_url');
+                                                $data['type_page'] = 'search';
+                                                $data['id'] = 0;
+                                                $data['function'] = "search_users";
+                                                $data['order_option'] = "users";
                                         } else {
-                                                $data['user_results'] = $this->users->search_users($terms[0], $terms[1], $terms[2]);
-                                                $num_results = $this->users->search_users_count($terms[0], $terms[1], $terms[2]);
+                                                if (!isset($terms[1])) {
+                                                        $data['user_results'] = $this->users->search_users($terms[0], $page);
+                                                } elseif (!isset($terms[2])) {
+                                                        $data['user_results'] = $this->users->search_users($terms[0], $terms[1]);
+                                                } else {
+                                                        $data['user_results'] = $this->users->search_users($terms[0], $terms[1], $terms[2]);
+                                                }
+
+                                                $data['current_page'] = $page;
+                                                $data['base_url'] = $this->config->item('base_url');
+                                                $data['type_page'] = 'search';
+                                                $data['id'] = 0;
+                                                $data['function'] = "search_users";
+                                                $data['order_option'] = "users";
                                         }
 
-                                        $data['num_pages'] = ceil(intval($num_results)/10);
-                                        $data['current_page'] = $page;
+                                        
                                 }
 
                                 $data['search_terms'] = urlencode($search_terms);
@@ -458,8 +455,6 @@ class Home extends CI_Controller
                 $this->check_login();
 
                 // we want to grab the last 10 posts made by the other user
-                $your_id = $this->tank_auth->get_user_id();
-                
                 // check for ID
                 $user_id = intval($this->uri->segment(3));
 
@@ -474,8 +469,6 @@ class Home extends CI_Controller
                     $page = 1;
                 }
                 
-                $data = array();
-                
                 $errors = $this->session->flashdata('errors');
                 if (!empty($errors)) {
                         $data['errors'] = $errors;
@@ -484,23 +477,13 @@ class Home extends CI_Controller
                 // get user information
                 $data['user'] = (array)$this->users->get_user_by_id($user_id, 1);
                 
-                $posts_temp = $this->hashtag_url_generator($this->posts->get_posts_by_user_id($user_id, $page));
-                $data['posts'] = array();
-                $i = 0;
-                foreach ($posts_temp AS $post) {
-                    if ($this->posts->is_liked($your_id, $post['post_id']) == true) {
-                        $post['is_liked'] = 1;
-                    } else {
-                        $post['is_liked'] = 0;
-                    }
-                    $data['posts'][$i] = $post;
-                    ++$i;
-                }
-                
-                $num_total_posts = $this->posts->get_number_posts_by_user_id($user_id);
-                $data['num_pages'] = ceil(intval($num_total_posts)/10);
                 $data['current_page'] = $page;
                 $data['base_url'] = $this->config->item('base_url');
+                $data['type_page'] = 'view_other_profile';
+                $data['id'] = $user_id;
+                $data['function'] = "posts_by_user_id";
+                $data['order_option'] = "posts";
+                
                 $this->session->set_flashdata('redirect_url', '/home/view_other_profile/'.$user_id.'?page='.$page);
                 $this->load->view('home/other_profile_view', $data);
         }
@@ -522,7 +505,7 @@ class Home extends CI_Controller
                 preg_match_all("/#\w+/", urldecode($element), $hashtag);
                 if (!empty($hashtag[0])) {
                         // it's a hashtag, get its ID
-                        $clean_hashtag = $this->clean_hashtags($hashtag[0]);
+                        $clean_hashtag = $this->haloc->clean_hashtags($hashtag[0]);
                         $db_hashtag = $this->hashtags->get_hashtag_id($clean_hashtag[0]);
                         $hashtag_id = $db_hashtag['hashtag_id'];
                         
@@ -547,50 +530,15 @@ class Home extends CI_Controller
                 // get user information
                 $data['hashtag'] = $this->hashtags->get_hashtag_name($hashtag_id);
                 
-                $posts_temp = $this->hashtag_url_generator($this->posts->get_posts_by_hashtag_id($hashtag_id, $page));
-                $data['posts'] = array();
-                $i = 0;
-                foreach ($posts_temp AS $post) {
-                    if ($this->posts->is_liked($user_id, $post['post_id']) == true) {
-                        $post['is_liked'] = 1;
-                    } else {
-                        $post['is_liked'] = 0;
-                    }
-                    $data['posts'][$i] = $post;
-                    ++$i;
-                }
-                
-                $num_total_posts = $this->posts->get_number_posts_by_hashtag_id($user_id);
-                $data['num_pages'] = ceil(intval($num_total_posts)/10);
                 $data['current_page'] = $page;
                 $data['base_url'] = $this->config->item('base_url');
+                $data['type_page'] = 'view_hashtag_profile';
+                $data['id'] = $user_id;
+                $data['function'] = "posts_by_hashtag_id";
+                $data['order_option'] = "hashtags";
+
                 $this->session->set_flashdata('redirect_url', '/home/view_hashtag_profile/'.$hashtag_id.'?page='.$page);
                 $this->load->view('home/other_profile_view', $data);
-        }
-        
-        function hashtag_url_generator($posts) {
-                if (empty($posts) || is_null($posts)) {
-                        return array();
-                } else {
-                        $new_posts = array();
-                        $i = 0;
-                        foreach($posts AS $post) {
-                                $post['post_content'] = preg_replace( "/#([^\s]+)/", "<a href=\"".$this->config->item('base_url')."index.php/home/view_hashtag_profile/%23$1\">#$1</a>", $post['post_content'] );
-                                $new_posts[$i] = $post;
-                                ++$i;
-                        }
-                        
-                        return $new_posts;
-                }
-        }
-        
-        function hashtag_url_generator_single($post) {
-                if (empty($post) || is_null($post)) {
-                        return array();
-                } else {
-                        $post['post_content'] = preg_replace( "/#([^\s]+)/", "<a href=\"".$this->config->item('base_url')."index.php/home/view_hashtag_profile/%23$1\">#$1</a>", $post['post_content'] );
-                        return $post;
-                }
         }
         
         function followed() {
@@ -613,24 +561,14 @@ class Home extends CI_Controller
                 } else {
                         $data = array();
                 }
-
-                $posts_temp = $this->hashtag_url_generator($this->posts->get_followed_posts($user_id, $page));
-                $data['posts'] = array();
-                $i = 0;
-                foreach ($posts_temp AS $post) {
-                    if ($this->posts->is_liked($user_id, $post['post_id']) == true) {
-                        $post['is_liked'] = 1;
-                    } else {
-                        $post['is_liked'] = 0;
-                    }
-                    $data['posts'][$i] = $post;
-                    ++$i;
-                }
-                $num_total_posts = $this->posts->get_followed_posts_count($user_id);
-                $data['num_pages'] = ceil(intval($num_total_posts)/10);
+                
                 $data['current_page'] = $page;
                 $data['base_url'] = $this->config->item('base_url');
                 $data['type_page'] = 'followed';
+                $data['id'] = $user_id;
+                $data['function'] = "followed_posts";
+                $data['order_option'] = "posts";
+                
                 $this->session->set_flashdata('redirect_url', '/home/followed?page='.$page);
                 $this->load->view('home/postsview', $data);
         }
@@ -661,6 +599,7 @@ class Home extends CI_Controller
                 $data['num_pages'] = ceil(intval($num_total_posts)/10);
                 $data['current_page'] = $page;
                 $data['base_url'] = $this->config->item('base_url');
+                $data['order_option'] = "users";
                 $this->session->set_flashdata('redirect_url', '/home/followed_users?page='.$page);
                 $this->load->view('home/followed_list_view', $data);
         }
@@ -728,6 +667,7 @@ class Home extends CI_Controller
                 $data['num_pages'] = ceil(intval($num_total_posts)/10);
                 $data['current_page'] = $page;
                 $data['base_url'] = $this->config->item('base_url');
+                $data['order_option'] = "hashtags";
                 $this->session->set_flashdata('redirect_url', '/home/followed_hashtags?page='.$page);
                 $this->load->view('home/followed_list_view', $data);
         }

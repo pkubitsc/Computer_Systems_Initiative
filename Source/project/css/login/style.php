@@ -22,10 +22,13 @@ a img{border: 0px;}
  
 a {text-decoration:none;cursor:pointer;}
 
-
 /* Form Style Starts Here */
 
-#main_body {width:526px;margin-top:200px;text-align:left;height:295px;background:url(<?php echo $base_url; ?>images/login/form_BG.png) no-repeat left;padding:20px 0px 0px 43px }
+#main_body {width:526px;margin-top:200px;text-align:left;height:295px;
+background:url(<?php echo $base_url; ?>images/login/form_BG.png) no-repeat left;
+padding:20px 0px 0px 43px;
+margin-left: auto;
+margin-right: auto;}
 
 .form_title{color:#000000;font-size:12px;float:left;padding-top:3px;}
 
