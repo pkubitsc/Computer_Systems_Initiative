@@ -62,7 +62,7 @@
     $order_by['users'] = array(
                   'default'  => 'Default',
                   'created'  => 'Account Creation Date',
-                  'hashtag'  => 'Username',
+                  'username'  => 'Username',
                   'first_name'  => 'First Name',
                   'last_name'  => 'Last Name'
                 );
@@ -80,6 +80,13 @@
             $default_order_by = 'default';
             $default_order = 'default';
     }
+    
+    if ($type_page == 'search' && !is_int($id)) {
+            $hidden = array('submit' => 'Submit', 'search' => $id);
+    } else {
+        $hidden = null;
+    }
+    
 ?>
 <div class="form" style="position:relative; top:50%; height:50px; margin-top:25px;">               
 	<div style="float: left; padding-top: 17px;">
@@ -92,6 +99,10 @@
             <?php echo form_open($base_url.'index.php/home/'.$type_page.'?page='.$current_page, array('method' => 'GET')); ?>
             <?php echo form_dropdown('order_by', $order_by[$order_option], $default_order_by); ?>
             <?php echo form_dropdown('order', $order, $default_order); ?>
+            <?php if ($type_page == 'search' && !is_int($id)) {
+                    echo form_hidden($hidden);
+            } ?>
+            
             <?php echo form_submit('sort', 'Sort'); ?>
             <?php form_close(); ?>
         </div>

@@ -114,6 +114,12 @@ class Haloc
                                     'default' => 'Hashtags.created',
                                     'created' => 'Hashtags.created',
                                     'hashtag' => 'Hashtags.hashtag');
+                $options_users = array(
+                                    'default'  => 'users.username',
+                                    'created'  => 'users.created',
+                                    'hashtag'  => 'users.username',
+                                    'first_name'  => 'user_profiles.first_name',
+                                    'last_name'  => 'user_profiles.last_name');
                 
                 
                 if (isset($_GET['sort']) && !empty($_GET['sort'])) {
@@ -127,6 +133,34 @@ class Haloc
                                         $data['order_by'] = $options_posts[$order_by];
                                 } else {
                                         $data['order_by'] = $options_posts['default'];
+                                }
+                                
+                                if (array_key_exists($order, $options_order)) {
+                                        $data['order'] = $options_order[$order];
+                                } else {
+                                        $data['order'] = $options_order['default'];
+                                }
+                                
+                                return $data;
+                        } elseif ($type_page == 'hashtags') {
+                                if (array_key_exists($order_by, $options_hashtags)) {
+                                        $data['order_by'] = $options_hashtags[$order_by];
+                                } else {
+                                        $data['order_by'] = $options_hashtags['default'];
+                                }
+                                
+                                if (array_key_exists($order, $options_order)) {
+                                        $data['order'] = $options_order[$order];
+                                } else {
+                                        $data['order'] = $options_order['default'];
+                                }
+                                
+                                return $data;
+                        } elseif ($type_page == 'users') {
+                                if (array_key_exists($order_by, $options_users)) {
+                                        $data['order_by'] = $options_users[$order_by];
+                                } else {
+                                        $data['order_by'] = $options_users['default'];
                                 }
                                 
                                 if (array_key_exists($order, $options_order)) {

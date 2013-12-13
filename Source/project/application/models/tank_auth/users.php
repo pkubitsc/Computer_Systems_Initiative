@@ -22,8 +22,8 @@ class Users extends CI_Model
 		parent::__construct();
 
 		$ci =& get_instance();
-                //$ci->load->library('tank_auth');
-                //$this->logged_user_id = $ci->tank_auth->get_user_id();
+                $ci->load->library('tank_auth');
+                $this->logged_user_id = $ci->session->userdata('user_id');
 		$this->table_name			= $ci->config->item('db_table_prefix', 'tank_auth').$this->table_name;
 		$this->profile_table_name	= $ci->config->item('db_table_prefix', 'tank_auth').$this->profile_table_name;
                 
@@ -456,7 +456,7 @@ class Users extends CI_Model
                 return null;
         }
         
-        public function search_users($str1 = null, $str2 = null, $str3 = null, $page = 1) {
+        public function search_users($str1 = null, $str2 = null, $str3 = null, $page = 1, $order_by = 'users.username', $order = 'DESC') {
                 // for each argument passed...
                 // 1 argument = just un, or just fn, or just ln
                 // 2 arguments = fn/ln, ln/fn, un/fn, fn/un, un/ln, ln/un
@@ -482,7 +482,8 @@ class Users extends CI_Model
                         WHERE soundex(users.username) IN (".$in_str.")
                         OR soundex(user_profiles.first_name) IN (".$in_str.")
                         OR soundex(user_profiles.last_name) IN (".$in_str.")
-                        ORDER BY users.username DESC
+                        AND users.activated=1
+                        ORDER BY ".$order_by." ".$order."
                         LIMIT ".(($page-1)*10).",10";
                 $query = $this->db->query($stmt);
                 // 
@@ -514,7 +515,8 @@ class Users extends CI_Model
                         JOIN user_profiles ON user_profiles.user_id = users.id
                         WHERE soundex(users.username) IN (".$in_str.")
                         OR soundex(user_profiles.first_name) IN (".$in_str.")
-                        OR soundex(user_profiles.last_name) IN (".$in_str.")";
+                        OR soundex(user_profiles.last_name) IN (".$in_str.")
+                        AND users.activated=1";
                 $query = $this->db->query($stmt);
 		$results = $query->row_array();
                 return $results['num_results'];
@@ -550,11 +552,13 @@ class Users extends CI_Model
                 return FALSE;	
        }
        
-       function get_all_users($page = 1) {
-                $stmt = "SELECT users.username, users.id, user_profiles.first_name, user_profiles.last_name, users.created, user_profiles.profile_image
+       function get_all_users($page = 1, $order_by = 'users.username', $order = 'DESC') {
+                $stmt = "SELECT users.username, users.id, user_profiles.first_name, user_profiles.last_name, users.created, user_profiles.profile_image,
+                        (SELECT COUNT(*) FROM Following WHERE Following.user_id=".$this->logged_user_id." AND Following.following_id=users.id) AS is_followed
                         FROM users
                         JOIN user_profiles ON user_profiles.user_id = users.id
-                        ORDER BY users.username DESC
+                        WHERE users.activated=1
+                        ORDER BY ".$order_by." ".$order."
                         LIMIT ".(($page-1)*10).",10";
                 $query = $this->db->query($stmt);
 		$results = $query->result_array();
@@ -562,26 +566,26 @@ class Users extends CI_Model
        }
        
        function get_number_all_users() {
-                $stmt = "SELECT COUNT(*) AS num_users FROM Users";
+                $stmt = "SELECT COUNT(*) AS num_users FROM Users WHERE users.activated=1";
                 $query = $this->db->query($stmt);
 		$results = $query->row_array();
                 return $results['num_users'];
        }
        
-       function get_followed_users($follower_id, $page) {
+       function get_followed_users($follower_id, $page, $order_by = 'users.username', $order = 'DESC') {
                 $stmt = "SELECT users.username, users.id, user_profiles.first_name, user_profiles.last_name, users.created, user_profiles.profile_image
                         FROM Following
                         JOIN users ON users.id = Following.following_id
                         JOIN user_profiles ON user_profiles.user_id = users.id
                         WHERE Following.user_id=".$follower_id."
-                        ORDER BY users.username DESC
+                        ORDER BY ".$order_by." ".$order."
                         LIMIT ".(($page-1)*10).",10";
                 $query = $this->db->query($stmt);
 		$results = $query->result_array();
                 return $results;
        }
        
-       function get_followed_users_count($user_id) {
+       function get_number_followed_users($user_id) {
                 $stmt = "SELECT COUNT(*) AS num_users FROM Following WHERE user_id=".$user_id." AND following_id > 0";
                 $query = $this->db->query($stmt);
 		$results = $query->row_array();

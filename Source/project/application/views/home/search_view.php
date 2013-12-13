@@ -53,8 +53,11 @@ if (isset($_GET['search'])) {
 		<?php if (!empty($hashtag_results)) {
    				foreach ($hashtag_results as $hashtag) { ?>
                     Hashtag: <?php echo $hashtag['hashtag'] ?><br />
-                     - <a href="<?php echo $base_url."index.php/home/view_hashtag_profile/".$hashtag['hashtag_id'] ?>">See Posts</a>  
-                    <a href="<?php echo $base_url."index.php/home/follow_hashtag/".$hashtag['hashtag_id'] ?>">Follow</a><br /><br />
+                     - <a href="<?php echo $base_url."index.php/home/view_hashtag_profile/".$hashtag['hashtag_id'] ?>">See Posts</a>
+                     <?php if(!$hashtag['is_followed']) { ?>
+                                <a href="<?php echo $base_url."index.php/home/follow_hashtag/".$hashtag['hashtag_id'] ?>">Follow</a>
+                     <?php } ?>
+                     <br /><br />
                 <?php }
 		} else {?>
            No results<br /><br />
@@ -80,7 +83,7 @@ if (isset($_GET['search'])) {
                             <table><tr>
                             <td><img src="http://localhost/project/images/user_images/<?php echo $user['profile_image']; ?>"></img></td>
                             <td><?php echo $user['username']?> (ID: <?php echo $user['id']; ?>)- <a href="<?php echo $base_url;?>index.php/home/view_other_profile/<?php echo $user['id']; ?>">See Profile/Posts</a>
-                                <?php if ($user['is_followed'] > 0) { ?>
+                                <?php if ($user['is_followed'] == 0) { ?>
                                     - <a href="<?php echo $base_url."index.php/home/follow_user/".$user['id']; ?>">Follow</a><br />
                                 <?php } ?>
                             <?php echo $user['first_name']; ?> <?php echo $user['last_name']; ?></td>

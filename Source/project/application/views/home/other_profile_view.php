@@ -33,15 +33,23 @@ if (isset($errors)) {
 <div class="container">       
         <div  class="form">                
             <table><tr>
-                <?php if (isset($user)) { ?>
+                <?php if (isset($user) && !is_null($user)) { ?>
                         <td><img src="<?php echo $base_url."images/user_images/original/".$user['profile_image']; ?>"></td>
                         <td>&nbsp;</td>
                         <td><h2 class="title"><?php echo $user['username']; ?></h2><br/>
                         <?php echo $user['first_name']; ?> <?php echo $user['last_name']; ?><br/>
-                        <a href="<?php echo $base_url."index.php/home/follow_user/".$user['id']; ?>">Follow</a></td>
-                <?php } elseif(isset($hashtag)) { ?>
+                        <?php if(!$is_following) { ?>
+                                <a href="<?php echo $base_url."index.php/home/follow_user/".$user['id']; ?>">Follow</a></td>
+                        <?php } ?>
+                <?php } elseif(isset($hashtag) && !is_null($hashtag)) { ?>
                         <h2 class="title">Hashtag: <?php echo $hashtag['hashtag'] ?></h2><br />
-                        <a href="<?php echo $base_url."index.php/home/follow_hashtag/".$hashtag['hashtag_id']; ?>">Follow</a>
+                        <?php if(!$is_following) { ?>
+                                <a href="<?php echo $base_url."index.php/home/follow_hashtag/".$hashtag['hashtag_id']; ?>">Follow</a>
+                        <?php } ?>
+                <?php } if (isset($user) && is_null($user)) { ?>
+                        <h2>User not found</h2>
+                <?php } if (isset($hashtag) && is_null($hashtag)) { ?>
+                        <h2>Hashtag not found</h2>
                 <?php } ?>
             </tr></table>
         </div>

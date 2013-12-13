@@ -84,9 +84,15 @@ class Jquery_Scripts extends CI_Controller
                 $this->load->library('haloc');
                 
                 $function = "get_number_".xss_clean(trim($this->uri->segment(3)));
-                $data['id'] = intval(xss_clean(trim($this->uri->segment(4))));
                 $data['current_page'] = intval(xss_clean(trim($this->uri->segment(5))));
                 $data['type_page'] = xss_clean(trim($this->uri->segment(6)));
+                
+                if ($data['type_page'] == 'search') {
+                        $data['id'] = xss_clean(trim($this->uri->segment(4)));
+                } else {
+                        $data['id'] = intval(xss_clean(trim($this->uri->segment(4))));
+                }
+                
                 $data['order_option'] = xss_clean(trim($this->uri->segment(7)));
                 
                 if ($data['order_option'] == 'hashtags') {

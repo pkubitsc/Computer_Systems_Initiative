@@ -31116,3 +31116,3522 @@ DEBUG - 2013-12-10 07:34:16 --> Upload Class Initialized
 DEBUG - 2013-12-10 07:34:16 --> Image_lib class already loaded. Second attempt ignored.
 DEBUG - 2013-12-10 07:34:16 --> Language file loaded: language/english/tank_auth_lang.php
 ERROR - 2013-12-10 07:34:16 --> 404 Page Not Found --> errors/page_missing
+DEBUG - 2013-12-10 08:01:28 --> Config Class Initialized
+DEBUG - 2013-12-10 08:01:28 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:01:28 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:01:28 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:01:28 --> URI Class Initialized
+DEBUG - 2013-12-10 08:01:28 --> Router Class Initialized
+DEBUG - 2013-12-10 08:01:28 --> Output Class Initialized
+DEBUG - 2013-12-10 08:01:28 --> Security Class Initialized
+DEBUG - 2013-12-10 08:01:29 --> Input Class Initialized
+DEBUG - 2013-12-10 08:01:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:01:29 --> Language Class Initialized
+DEBUG - 2013-12-10 08:01:29 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:01:29 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:01:29 --> Session Class Initialized
+DEBUG - 2013-12-10 08:01:29 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:01:29 --> Session routines successfully run
+DEBUG - 2013-12-10 08:01:29 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:01:29 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:01:29 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:01:29 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 08:01:29 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:01:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:29 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:30 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:30 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:01:30 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 08:01:30 --> Upload Class Initialized
+DEBUG - 2013-12-10 08:01:30 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:30 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:01:30 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:30 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:30 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-12-10 08:01:30 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:30 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:31 --> Config Class Initialized
+DEBUG - 2013-12-10 08:01:31 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:01:31 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:01:31 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:01:31 --> URI Class Initialized
+DEBUG - 2013-12-10 08:01:31 --> Router Class Initialized
+DEBUG - 2013-12-10 08:01:31 --> Output Class Initialized
+DEBUG - 2013-12-10 08:01:31 --> Security Class Initialized
+DEBUG - 2013-12-10 08:01:31 --> Input Class Initialized
+DEBUG - 2013-12-10 08:01:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:01:32 --> Language Class Initialized
+DEBUG - 2013-12-10 08:01:32 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:01:32 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:01:32 --> Session Class Initialized
+DEBUG - 2013-12-10 08:01:32 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:01:32 --> Session routines successfully run
+DEBUG - 2013-12-10 08:01:32 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:01:32 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:01:32 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:01:32 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:01:32 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:32 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:32 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:32 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:01:33 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:33 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:33 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:33 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:33 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:01:33 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-10 08:01:33 --> Final output sent to browser
+DEBUG - 2013-12-10 08:01:33 --> Total execution time: 2.1621
+DEBUG - 2013-12-10 08:01:34 --> Config Class Initialized
+DEBUG - 2013-12-10 08:01:34 --> Config Class Initialized
+DEBUG - 2013-12-10 08:01:34 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:01:34 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:01:34 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:01:34 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:01:34 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:01:34 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:01:34 --> URI Class Initialized
+DEBUG - 2013-12-10 08:01:34 --> URI Class Initialized
+DEBUG - 2013-12-10 08:01:34 --> Router Class Initialized
+DEBUG - 2013-12-10 08:01:34 --> Router Class Initialized
+DEBUG - 2013-12-10 08:01:34 --> Output Class Initialized
+DEBUG - 2013-12-10 08:01:35 --> Output Class Initialized
+DEBUG - 2013-12-10 08:01:35 --> Security Class Initialized
+DEBUG - 2013-12-10 08:01:35 --> Security Class Initialized
+DEBUG - 2013-12-10 08:01:35 --> Input Class Initialized
+DEBUG - 2013-12-10 08:01:35 --> Input Class Initialized
+DEBUG - 2013-12-10 08:01:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:01:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:01:35 --> Language Class Initialized
+DEBUG - 2013-12-10 08:01:35 --> Language Class Initialized
+DEBUG - 2013-12-10 08:01:35 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:01:35 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:01:35 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:01:35 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:01:35 --> Session Class Initialized
+DEBUG - 2013-12-10 08:01:35 --> Session Class Initialized
+DEBUG - 2013-12-10 08:01:35 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:01:36 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:01:36 --> Session routines successfully run
+DEBUG - 2013-12-10 08:01:36 --> Session routines successfully run
+DEBUG - 2013-12-10 08:01:36 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:01:36 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:01:36 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:01:36 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:01:36 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:01:36 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:01:36 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:01:36 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:01:36 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:36 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:36 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:36 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:37 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:01:37 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:01:37 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:37 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:37 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:37 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:37 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:01:37 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:01:37 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:37 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:37 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:37 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:37 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:37 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:37 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:37 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:37 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:38 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:38 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:38 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:38 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:38 --> Config Class Initialized
+DEBUG - 2013-12-10 08:01:38 --> File loaded: application/views/jquery/posts.php
+DEBUG - 2013-12-10 08:01:38 --> File loaded: application/views/jquery/pages.php
+DEBUG - 2013-12-10 08:01:38 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:01:38 --> Final output sent to browser
+DEBUG - 2013-12-10 08:01:38 --> Final output sent to browser
+DEBUG - 2013-12-10 08:01:38 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:01:38 --> Total execution time: 4.3022
+DEBUG - 2013-12-10 08:01:38 --> Total execution time: 4.3392
+DEBUG - 2013-12-10 08:01:38 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:01:38 --> URI Class Initialized
+DEBUG - 2013-12-10 08:01:38 --> Router Class Initialized
+DEBUG - 2013-12-10 08:01:39 --> Output Class Initialized
+DEBUG - 2013-12-10 08:01:39 --> Security Class Initialized
+DEBUG - 2013-12-10 08:01:39 --> Input Class Initialized
+DEBUG - 2013-12-10 08:01:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:01:39 --> Language Class Initialized
+DEBUG - 2013-12-10 08:01:39 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:01:39 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:01:39 --> Session Class Initialized
+DEBUG - 2013-12-10 08:01:39 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:01:39 --> Session routines successfully run
+DEBUG - 2013-12-10 08:01:39 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:01:39 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:01:39 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:01:39 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:01:40 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:40 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:40 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:40 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:01:40 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:40 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:40 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:40 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:40 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:01:40 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-10 08:01:40 --> Final output sent to browser
+DEBUG - 2013-12-10 08:01:40 --> Total execution time: 2.6292
+DEBUG - 2013-12-10 08:01:41 --> Config Class Initialized
+DEBUG - 2013-12-10 08:01:41 --> Config Class Initialized
+DEBUG - 2013-12-10 08:01:41 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:01:41 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:01:41 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:01:41 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:01:41 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:01:41 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:01:41 --> URI Class Initialized
+DEBUG - 2013-12-10 08:01:41 --> URI Class Initialized
+DEBUG - 2013-12-10 08:01:41 --> Router Class Initialized
+DEBUG - 2013-12-10 08:01:41 --> Router Class Initialized
+DEBUG - 2013-12-10 08:01:41 --> Output Class Initialized
+DEBUG - 2013-12-10 08:01:42 --> Output Class Initialized
+DEBUG - 2013-12-10 08:01:42 --> Security Class Initialized
+DEBUG - 2013-12-10 08:01:42 --> Security Class Initialized
+DEBUG - 2013-12-10 08:01:42 --> Input Class Initialized
+DEBUG - 2013-12-10 08:01:42 --> Input Class Initialized
+DEBUG - 2013-12-10 08:01:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:01:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:01:42 --> Language Class Initialized
+DEBUG - 2013-12-10 08:01:42 --> Language Class Initialized
+DEBUG - 2013-12-10 08:01:42 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:01:42 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:01:42 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:01:42 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:01:42 --> Session Class Initialized
+DEBUG - 2013-12-10 08:01:42 --> Session Class Initialized
+DEBUG - 2013-12-10 08:01:42 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:01:43 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:01:43 --> Session garbage collection performed.
+DEBUG - 2013-12-10 08:01:43 --> Session garbage collection performed.
+DEBUG - 2013-12-10 08:01:43 --> Session routines successfully run
+DEBUG - 2013-12-10 08:01:43 --> Session routines successfully run
+DEBUG - 2013-12-10 08:01:43 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:01:43 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:01:43 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:01:43 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:01:43 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:01:43 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:01:43 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:01:43 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:01:43 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:44 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:44 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:44 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:44 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:01:44 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:01:44 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:44 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:44 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:44 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:44 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:01:44 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:01:44 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:44 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:44 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:44 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:44 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:45 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:45 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:45 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:45 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:45 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:45 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:45 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:45 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:01:45 --> File loaded: application/views/jquery/posts.php
+DEBUG - 2013-12-10 08:01:45 --> File loaded: application/views/jquery/pages.php
+DEBUG - 2013-12-10 08:01:46 --> Final output sent to browser
+DEBUG - 2013-12-10 08:01:46 --> Final output sent to browser
+DEBUG - 2013-12-10 08:01:46 --> Total execution time: 4.6693
+DEBUG - 2013-12-10 08:01:46 --> Total execution time: 4.6523
+DEBUG - 2013-12-10 08:01:51 --> Config Class Initialized
+DEBUG - 2013-12-10 08:01:51 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:01:51 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:01:51 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:01:51 --> URI Class Initialized
+DEBUG - 2013-12-10 08:01:51 --> Router Class Initialized
+DEBUG - 2013-12-10 08:01:51 --> Output Class Initialized
+DEBUG - 2013-12-10 08:01:51 --> Security Class Initialized
+DEBUG - 2013-12-10 08:01:51 --> Input Class Initialized
+DEBUG - 2013-12-10 08:01:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:01:51 --> Language Class Initialized
+DEBUG - 2013-12-10 08:01:51 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:01:51 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:01:52 --> Session Class Initialized
+DEBUG - 2013-12-10 08:01:52 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:01:52 --> Session routines successfully run
+DEBUG - 2013-12-10 08:01:52 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:01:52 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:01:52 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:01:52 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:01:52 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:52 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:52 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:52 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:01:52 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:52 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:53 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:53 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:53 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:01:53 --> Config Class Initialized
+DEBUG - 2013-12-10 08:01:53 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:01:53 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:01:53 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:01:53 --> URI Class Initialized
+DEBUG - 2013-12-10 08:01:53 --> Router Class Initialized
+DEBUG - 2013-12-10 08:01:53 --> Output Class Initialized
+DEBUG - 2013-12-10 08:01:53 --> Security Class Initialized
+DEBUG - 2013-12-10 08:01:54 --> Input Class Initialized
+DEBUG - 2013-12-10 08:01:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:01:54 --> Language Class Initialized
+DEBUG - 2013-12-10 08:01:54 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:01:54 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:01:54 --> Session Class Initialized
+DEBUG - 2013-12-10 08:01:54 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:01:54 --> Session routines successfully run
+DEBUG - 2013-12-10 08:01:54 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:01:54 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:01:54 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:01:54 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:01:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:55 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:55 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:55 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:01:55 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:55 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:55 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:55 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:55 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:01:56 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-10 08:01:56 --> Final output sent to browser
+DEBUG - 2013-12-10 08:01:56 --> Total execution time: 2.6812
+DEBUG - 2013-12-10 08:01:56 --> Config Class Initialized
+DEBUG - 2013-12-10 08:01:56 --> Config Class Initialized
+DEBUG - 2013-12-10 08:01:56 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:01:56 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:01:56 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:01:56 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:01:56 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:01:56 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:01:57 --> URI Class Initialized
+DEBUG - 2013-12-10 08:01:57 --> URI Class Initialized
+DEBUG - 2013-12-10 08:01:57 --> Router Class Initialized
+DEBUG - 2013-12-10 08:01:57 --> Router Class Initialized
+DEBUG - 2013-12-10 08:01:57 --> Output Class Initialized
+DEBUG - 2013-12-10 08:01:57 --> Output Class Initialized
+DEBUG - 2013-12-10 08:01:57 --> Security Class Initialized
+DEBUG - 2013-12-10 08:01:57 --> Security Class Initialized
+DEBUG - 2013-12-10 08:01:57 --> Input Class Initialized
+DEBUG - 2013-12-10 08:01:57 --> Input Class Initialized
+DEBUG - 2013-12-10 08:01:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:01:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:01:57 --> Language Class Initialized
+DEBUG - 2013-12-10 08:01:57 --> Language Class Initialized
+DEBUG - 2013-12-10 08:01:57 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:01:57 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:01:57 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:01:57 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:01:58 --> Session Class Initialized
+DEBUG - 2013-12-10 08:01:58 --> Session Class Initialized
+DEBUG - 2013-12-10 08:01:58 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:01:58 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:01:58 --> Session routines successfully run
+DEBUG - 2013-12-10 08:01:58 --> Session routines successfully run
+DEBUG - 2013-12-10 08:01:58 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:01:58 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:01:58 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:01:58 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:01:58 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:01:59 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:01:59 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:01:59 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:01:59 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:59 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:59 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:59 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:59 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:01:59 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:01:59 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:59 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:01:59 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:59 --> Model Class Initialized
+DEBUG - 2013-12-10 08:01:59 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:01:59 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:02:00 --> Model Class Initialized
+DEBUG - 2013-12-10 08:02:00 --> Model Class Initialized
+DEBUG - 2013-12-10 08:02:00 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:02:00 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:02:00 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:02:00 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:02:00 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:02:00 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:02:00 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:02:00 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:02:00 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:02:00 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:02:00 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:02:00 --> File loaded: application/views/jquery/pages.php
+DEBUG - 2013-12-10 08:02:00 --> File loaded: application/views/jquery/posts.php
+DEBUG - 2013-12-10 08:02:00 --> Final output sent to browser
+DEBUG - 2013-12-10 08:02:01 --> Final output sent to browser
+DEBUG - 2013-12-10 08:02:01 --> Total execution time: 4.4173
+DEBUG - 2013-12-10 08:02:01 --> Total execution time: 4.4173
+DEBUG - 2013-12-10 08:03:26 --> Config Class Initialized
+DEBUG - 2013-12-10 08:03:26 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:03:26 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:03:26 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:03:26 --> URI Class Initialized
+DEBUG - 2013-12-10 08:03:26 --> Router Class Initialized
+DEBUG - 2013-12-10 08:03:26 --> Output Class Initialized
+DEBUG - 2013-12-10 08:03:26 --> Security Class Initialized
+DEBUG - 2013-12-10 08:03:27 --> Input Class Initialized
+DEBUG - 2013-12-10 08:03:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:03:27 --> Language Class Initialized
+DEBUG - 2013-12-10 08:03:27 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:03:27 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:03:27 --> Session Class Initialized
+DEBUG - 2013-12-10 08:03:27 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:03:27 --> Session routines successfully run
+DEBUG - 2013-12-10 08:03:27 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:03:27 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:03:27 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:03:27 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:03:27 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:03:27 --> Model Class Initialized
+DEBUG - 2013-12-10 08:03:27 --> Model Class Initialized
+DEBUG - 2013-12-10 08:03:27 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:03:28 --> Model Class Initialized
+DEBUG - 2013-12-10 08:03:28 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:03:28 --> Model Class Initialized
+DEBUG - 2013-12-10 08:03:28 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:03:28 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:03:28 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-10 08:03:28 --> Final output sent to browser
+DEBUG - 2013-12-10 08:03:28 --> Total execution time: 2.0041
+DEBUG - 2013-12-10 08:03:29 --> Config Class Initialized
+DEBUG - 2013-12-10 08:03:29 --> Config Class Initialized
+DEBUG - 2013-12-10 08:03:29 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:03:29 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:03:29 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:03:29 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:03:29 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:03:29 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:03:29 --> URI Class Initialized
+DEBUG - 2013-12-10 08:03:29 --> URI Class Initialized
+DEBUG - 2013-12-10 08:03:29 --> Router Class Initialized
+DEBUG - 2013-12-10 08:03:29 --> Router Class Initialized
+DEBUG - 2013-12-10 08:03:29 --> Output Class Initialized
+DEBUG - 2013-12-10 08:03:30 --> Output Class Initialized
+DEBUG - 2013-12-10 08:03:30 --> Security Class Initialized
+DEBUG - 2013-12-10 08:03:30 --> Security Class Initialized
+DEBUG - 2013-12-10 08:03:30 --> Input Class Initialized
+DEBUG - 2013-12-10 08:03:30 --> Input Class Initialized
+DEBUG - 2013-12-10 08:03:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:03:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:03:30 --> Language Class Initialized
+DEBUG - 2013-12-10 08:03:30 --> Language Class Initialized
+DEBUG - 2013-12-10 08:03:30 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:03:30 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:03:30 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:03:30 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:03:30 --> Session Class Initialized
+DEBUG - 2013-12-10 08:03:30 --> Session Class Initialized
+DEBUG - 2013-12-10 08:03:31 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:03:31 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:03:31 --> Session routines successfully run
+DEBUG - 2013-12-10 08:03:31 --> Session routines successfully run
+DEBUG - 2013-12-10 08:03:31 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:03:31 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:03:31 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:03:31 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:03:31 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:03:31 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:03:31 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:03:31 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:03:31 --> Model Class Initialized
+DEBUG - 2013-12-10 08:03:31 --> Model Class Initialized
+DEBUG - 2013-12-10 08:03:31 --> Model Class Initialized
+DEBUG - 2013-12-10 08:03:32 --> Model Class Initialized
+DEBUG - 2013-12-10 08:03:32 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:03:32 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:03:32 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:03:32 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:03:32 --> Model Class Initialized
+DEBUG - 2013-12-10 08:03:32 --> Model Class Initialized
+DEBUG - 2013-12-10 08:03:32 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:03:32 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:03:32 --> Model Class Initialized
+DEBUG - 2013-12-10 08:03:32 --> Model Class Initialized
+DEBUG - 2013-12-10 08:03:32 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:03:32 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:03:32 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:03:33 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:03:33 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:03:33 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:03:33 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:03:33 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:03:33 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:03:33 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:03:33 --> File loaded: application/views/jquery/posts.php
+DEBUG - 2013-12-10 08:03:33 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:03:33 --> Final output sent to browser
+DEBUG - 2013-12-10 08:03:33 --> File loaded: application/views/jquery/pages.php
+DEBUG - 2013-12-10 08:03:33 --> Total execution time: 4.3092
+DEBUG - 2013-12-10 08:03:33 --> Final output sent to browser
+DEBUG - 2013-12-10 08:03:33 --> Total execution time: 4.4833
+DEBUG - 2013-12-10 08:04:59 --> Config Class Initialized
+DEBUG - 2013-12-10 08:04:59 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:04:59 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:04:59 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:04:59 --> URI Class Initialized
+DEBUG - 2013-12-10 08:04:59 --> Router Class Initialized
+DEBUG - 2013-12-10 08:04:59 --> Output Class Initialized
+DEBUG - 2013-12-10 08:04:59 --> Security Class Initialized
+DEBUG - 2013-12-10 08:04:59 --> Input Class Initialized
+DEBUG - 2013-12-10 08:05:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:05:00 --> Language Class Initialized
+DEBUG - 2013-12-10 08:05:00 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:05:00 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:05:00 --> Session Class Initialized
+DEBUG - 2013-12-10 08:05:00 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:05:00 --> Session routines successfully run
+DEBUG - 2013-12-10 08:05:00 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:05:00 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:05:00 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:05:00 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:05:00 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:05:01 --> Model Class Initialized
+DEBUG - 2013-12-10 08:05:01 --> Model Class Initialized
+DEBUG - 2013-12-10 08:05:01 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:05:01 --> Model Class Initialized
+DEBUG - 2013-12-10 08:05:01 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:05:01 --> Model Class Initialized
+DEBUG - 2013-12-10 08:05:01 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:05:01 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:05:01 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-10 08:05:02 --> Final output sent to browser
+DEBUG - 2013-12-10 08:05:02 --> Total execution time: 2.7672
+DEBUG - 2013-12-10 08:05:02 --> Config Class Initialized
+DEBUG - 2013-12-10 08:05:02 --> Config Class Initialized
+DEBUG - 2013-12-10 08:05:03 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:05:03 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:05:03 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:05:03 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:05:03 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:05:03 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:05:03 --> URI Class Initialized
+DEBUG - 2013-12-10 08:05:03 --> URI Class Initialized
+DEBUG - 2013-12-10 08:05:03 --> Router Class Initialized
+DEBUG - 2013-12-10 08:05:03 --> Router Class Initialized
+DEBUG - 2013-12-10 08:05:03 --> Output Class Initialized
+DEBUG - 2013-12-10 08:05:03 --> Output Class Initialized
+DEBUG - 2013-12-10 08:05:03 --> Security Class Initialized
+DEBUG - 2013-12-10 08:05:03 --> Input Class Initialized
+DEBUG - 2013-12-10 08:05:03 --> Security Class Initialized
+DEBUG - 2013-12-10 08:05:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:05:04 --> Input Class Initialized
+DEBUG - 2013-12-10 08:05:04 --> Language Class Initialized
+DEBUG - 2013-12-10 08:05:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:05:04 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:05:04 --> Language Class Initialized
+DEBUG - 2013-12-10 08:05:04 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:05:04 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:05:04 --> Session Class Initialized
+DEBUG - 2013-12-10 08:05:04 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:05:04 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:05:04 --> Session Class Initialized
+DEBUG - 2013-12-10 08:05:04 --> Session routines successfully run
+DEBUG - 2013-12-10 08:05:04 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:05:05 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:05:05 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:05:05 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:05:05 --> Session routines successfully run
+DEBUG - 2013-12-10 08:05:05 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:05:05 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:05:05 --> Model Class Initialized
+DEBUG - 2013-12-10 08:05:05 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:05:05 --> Model Class Initialized
+DEBUG - 2013-12-10 08:05:05 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:05:05 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:05:05 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:05:06 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:05:06 --> Model Class Initialized
+DEBUG - 2013-12-10 08:05:06 --> Model Class Initialized
+DEBUG - 2013-12-10 08:05:06 --> Model Class Initialized
+DEBUG - 2013-12-10 08:05:06 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:05:06 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:05:06 --> Model Class Initialized
+DEBUG - 2013-12-10 08:05:06 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:05:06 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:05:06 --> Model Class Initialized
+DEBUG - 2013-12-10 08:05:06 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:05:06 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:05:06 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:05:07 --> Model Class Initialized
+DEBUG - 2013-12-10 08:05:07 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:05:07 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:05:07 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:05:07 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:05:07 --> File loaded: application/views/jquery/posts.php
+DEBUG - 2013-12-10 08:05:07 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:05:07 --> Final output sent to browser
+DEBUG - 2013-12-10 08:05:07 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:05:07 --> Total execution time: 4.5113
+DEBUG - 2013-12-10 08:05:07 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:05:07 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:05:07 --> File loaded: application/views/jquery/pages.php
+DEBUG - 2013-12-10 08:05:07 --> Final output sent to browser
+DEBUG - 2013-12-10 08:05:07 --> Total execution time: 4.9823
+DEBUG - 2013-12-10 08:06:32 --> Config Class Initialized
+DEBUG - 2013-12-10 08:06:32 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:06:33 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:06:33 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:06:33 --> URI Class Initialized
+DEBUG - 2013-12-10 08:06:33 --> Router Class Initialized
+DEBUG - 2013-12-10 08:06:33 --> Output Class Initialized
+DEBUG - 2013-12-10 08:06:33 --> Security Class Initialized
+DEBUG - 2013-12-10 08:06:33 --> Input Class Initialized
+DEBUG - 2013-12-10 08:06:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:06:33 --> Language Class Initialized
+DEBUG - 2013-12-10 08:06:33 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:06:33 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:06:33 --> Session Class Initialized
+DEBUG - 2013-12-10 08:06:33 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:06:33 --> Session routines successfully run
+DEBUG - 2013-12-10 08:06:33 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:06:34 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:06:34 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:06:34 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:06:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:06:34 --> Model Class Initialized
+DEBUG - 2013-12-10 08:06:34 --> Model Class Initialized
+DEBUG - 2013-12-10 08:06:34 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:06:34 --> Model Class Initialized
+DEBUG - 2013-12-10 08:06:34 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:06:34 --> Model Class Initialized
+DEBUG - 2013-12-10 08:06:34 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:06:35 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:06:35 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-10 08:06:35 --> Final output sent to browser
+DEBUG - 2013-12-10 08:06:35 --> Total execution time: 2.2771
+DEBUG - 2013-12-10 08:06:35 --> Config Class Initialized
+DEBUG - 2013-12-10 08:06:35 --> Config Class Initialized
+DEBUG - 2013-12-10 08:06:35 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:06:36 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:06:36 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:06:36 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:06:36 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:06:36 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:06:36 --> URI Class Initialized
+DEBUG - 2013-12-10 08:06:36 --> URI Class Initialized
+DEBUG - 2013-12-10 08:06:36 --> Router Class Initialized
+DEBUG - 2013-12-10 08:06:36 --> Router Class Initialized
+DEBUG - 2013-12-10 08:06:36 --> Output Class Initialized
+DEBUG - 2013-12-10 08:06:36 --> Output Class Initialized
+DEBUG - 2013-12-10 08:06:36 --> Security Class Initialized
+DEBUG - 2013-12-10 08:06:36 --> Security Class Initialized
+DEBUG - 2013-12-10 08:06:37 --> Input Class Initialized
+DEBUG - 2013-12-10 08:06:37 --> Input Class Initialized
+DEBUG - 2013-12-10 08:06:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:06:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:06:37 --> Language Class Initialized
+DEBUG - 2013-12-10 08:06:37 --> Language Class Initialized
+DEBUG - 2013-12-10 08:06:37 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:06:37 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:06:37 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:06:37 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:06:37 --> Session Class Initialized
+DEBUG - 2013-12-10 08:06:37 --> Session Class Initialized
+DEBUG - 2013-12-10 08:06:37 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:06:38 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:06:38 --> Session garbage collection performed.
+DEBUG - 2013-12-10 08:06:38 --> Session routines successfully run
+DEBUG - 2013-12-10 08:06:38 --> Session routines successfully run
+DEBUG - 2013-12-10 08:06:38 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:06:38 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:06:38 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:06:38 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:06:38 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:06:38 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:06:38 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:06:38 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:06:39 --> Model Class Initialized
+DEBUG - 2013-12-10 08:06:39 --> Model Class Initialized
+DEBUG - 2013-12-10 08:06:39 --> Model Class Initialized
+DEBUG - 2013-12-10 08:06:39 --> Model Class Initialized
+DEBUG - 2013-12-10 08:06:39 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:06:39 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:06:39 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:06:39 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:06:39 --> Model Class Initialized
+DEBUG - 2013-12-10 08:06:39 --> Model Class Initialized
+DEBUG - 2013-12-10 08:06:39 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:06:39 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:06:39 --> Model Class Initialized
+DEBUG - 2013-12-10 08:06:39 --> Model Class Initialized
+DEBUG - 2013-12-10 08:06:39 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:06:39 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:06:40 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:06:40 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:06:40 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:06:40 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:06:40 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:06:40 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:06:40 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:06:40 --> File loaded: application/views/jquery/posts.php
+DEBUG - 2013-12-10 08:06:40 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:06:40 --> Final output sent to browser
+DEBUG - 2013-12-10 08:06:40 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:06:40 --> Total execution time: 4.7303
+DEBUG - 2013-12-10 08:06:40 --> File loaded: application/views/jquery/pages.php
+DEBUG - 2013-12-10 08:06:40 --> Final output sent to browser
+DEBUG - 2013-12-10 08:06:40 --> Total execution time: 5.0093
+DEBUG - 2013-12-10 08:08:05 --> Config Class Initialized
+DEBUG - 2013-12-10 08:08:05 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:08:05 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:08:06 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:08:06 --> URI Class Initialized
+DEBUG - 2013-12-10 08:08:06 --> Router Class Initialized
+DEBUG - 2013-12-10 08:08:06 --> Output Class Initialized
+DEBUG - 2013-12-10 08:08:06 --> Security Class Initialized
+DEBUG - 2013-12-10 08:08:06 --> Input Class Initialized
+DEBUG - 2013-12-10 08:08:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:08:06 --> Language Class Initialized
+DEBUG - 2013-12-10 08:08:06 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:08:06 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:08:06 --> Session Class Initialized
+DEBUG - 2013-12-10 08:08:06 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:08:06 --> Session routines successfully run
+DEBUG - 2013-12-10 08:08:06 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:08:07 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:08:07 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:08:07 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:08:07 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:08:07 --> Model Class Initialized
+DEBUG - 2013-12-10 08:08:07 --> Model Class Initialized
+DEBUG - 2013-12-10 08:08:07 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:08:07 --> Model Class Initialized
+DEBUG - 2013-12-10 08:08:07 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:08:07 --> Model Class Initialized
+DEBUG - 2013-12-10 08:08:07 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:08:07 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:08:08 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-10 08:08:08 --> Final output sent to browser
+DEBUG - 2013-12-10 08:08:08 --> Total execution time: 2.3051
+DEBUG - 2013-12-10 08:08:08 --> Config Class Initialized
+DEBUG - 2013-12-10 08:08:08 --> Config Class Initialized
+DEBUG - 2013-12-10 08:08:08 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:08:08 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:08:09 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:08:09 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:08:09 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:08:09 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:08:09 --> URI Class Initialized
+DEBUG - 2013-12-10 08:08:09 --> URI Class Initialized
+DEBUG - 2013-12-10 08:08:09 --> Router Class Initialized
+DEBUG - 2013-12-10 08:08:09 --> Router Class Initialized
+DEBUG - 2013-12-10 08:08:09 --> Output Class Initialized
+DEBUG - 2013-12-10 08:08:09 --> Output Class Initialized
+DEBUG - 2013-12-10 08:08:09 --> Security Class Initialized
+DEBUG - 2013-12-10 08:08:09 --> Security Class Initialized
+DEBUG - 2013-12-10 08:08:09 --> Input Class Initialized
+DEBUG - 2013-12-10 08:08:09 --> Input Class Initialized
+DEBUG - 2013-12-10 08:08:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:08:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:08:09 --> Language Class Initialized
+DEBUG - 2013-12-10 08:08:10 --> Language Class Initialized
+DEBUG - 2013-12-10 08:08:10 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:08:10 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:08:10 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:08:10 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:08:10 --> Session Class Initialized
+DEBUG - 2013-12-10 08:08:10 --> Session Class Initialized
+DEBUG - 2013-12-10 08:08:10 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:08:10 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:08:10 --> Session routines successfully run
+DEBUG - 2013-12-10 08:08:10 --> Session routines successfully run
+DEBUG - 2013-12-10 08:08:10 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:08:10 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:08:10 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:08:10 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:08:10 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:08:11 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:08:11 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:08:11 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:08:11 --> Model Class Initialized
+DEBUG - 2013-12-10 08:08:11 --> Model Class Initialized
+DEBUG - 2013-12-10 08:08:11 --> Model Class Initialized
+DEBUG - 2013-12-10 08:08:11 --> Model Class Initialized
+DEBUG - 2013-12-10 08:08:11 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:08:11 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:08:11 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:08:11 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:08:11 --> Model Class Initialized
+DEBUG - 2013-12-10 08:08:11 --> Model Class Initialized
+DEBUG - 2013-12-10 08:08:11 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:08:11 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:08:12 --> Model Class Initialized
+DEBUG - 2013-12-10 08:08:12 --> Model Class Initialized
+DEBUG - 2013-12-10 08:08:12 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:08:12 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:08:12 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:08:12 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:08:12 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:08:12 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:08:12 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:08:12 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:08:12 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:08:12 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:08:12 --> File loaded: application/views/jquery/posts.php
+DEBUG - 2013-12-10 08:08:12 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:08:13 --> Final output sent to browser
+DEBUG - 2013-12-10 08:08:13 --> File loaded: application/views/jquery/pages.php
+DEBUG - 2013-12-10 08:08:13 --> Total execution time: 3.9642
+DEBUG - 2013-12-10 08:08:13 --> Final output sent to browser
+DEBUG - 2013-12-10 08:08:13 --> Total execution time: 4.3512
+DEBUG - 2013-12-10 08:09:38 --> Config Class Initialized
+DEBUG - 2013-12-10 08:09:38 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:09:38 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:09:39 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:09:39 --> URI Class Initialized
+DEBUG - 2013-12-10 08:09:39 --> Router Class Initialized
+DEBUG - 2013-12-10 08:09:39 --> Output Class Initialized
+DEBUG - 2013-12-10 08:09:39 --> Security Class Initialized
+DEBUG - 2013-12-10 08:09:39 --> Input Class Initialized
+DEBUG - 2013-12-10 08:09:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:09:39 --> Language Class Initialized
+DEBUG - 2013-12-10 08:09:39 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:09:39 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:09:39 --> Session Class Initialized
+DEBUG - 2013-12-10 08:09:39 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:09:39 --> Session garbage collection performed.
+DEBUG - 2013-12-10 08:09:39 --> Session routines successfully run
+DEBUG - 2013-12-10 08:09:39 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:09:40 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:09:40 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:09:40 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:09:40 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:09:40 --> Model Class Initialized
+DEBUG - 2013-12-10 08:09:40 --> Model Class Initialized
+DEBUG - 2013-12-10 08:09:40 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:09:40 --> Model Class Initialized
+DEBUG - 2013-12-10 08:09:40 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:09:40 --> Model Class Initialized
+DEBUG - 2013-12-10 08:09:40 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:09:40 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:09:41 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-10 08:09:41 --> Final output sent to browser
+DEBUG - 2013-12-10 08:09:41 --> Total execution time: 2.4431
+DEBUG - 2013-12-10 08:09:42 --> Config Class Initialized
+DEBUG - 2013-12-10 08:09:42 --> Config Class Initialized
+DEBUG - 2013-12-10 08:09:42 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:09:42 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:09:42 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:09:42 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:09:42 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:09:42 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:09:42 --> URI Class Initialized
+DEBUG - 2013-12-10 08:09:42 --> URI Class Initialized
+DEBUG - 2013-12-10 08:09:42 --> Router Class Initialized
+DEBUG - 2013-12-10 08:09:42 --> Router Class Initialized
+DEBUG - 2013-12-10 08:09:42 --> Output Class Initialized
+DEBUG - 2013-12-10 08:09:42 --> Output Class Initialized
+DEBUG - 2013-12-10 08:09:42 --> Security Class Initialized
+DEBUG - 2013-12-10 08:09:42 --> Security Class Initialized
+DEBUG - 2013-12-10 08:09:43 --> Input Class Initialized
+DEBUG - 2013-12-10 08:09:43 --> Input Class Initialized
+DEBUG - 2013-12-10 08:09:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:09:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:09:43 --> Language Class Initialized
+DEBUG - 2013-12-10 08:09:43 --> Language Class Initialized
+DEBUG - 2013-12-10 08:09:43 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:09:43 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:09:43 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:09:43 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:09:43 --> Session Class Initialized
+DEBUG - 2013-12-10 08:09:43 --> Session Class Initialized
+DEBUG - 2013-12-10 08:09:43 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:09:43 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:09:44 --> Session routines successfully run
+DEBUG - 2013-12-10 08:09:44 --> Session routines successfully run
+DEBUG - 2013-12-10 08:09:44 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:09:44 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:09:44 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:09:44 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:09:44 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:09:44 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:09:44 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:09:44 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:09:44 --> Model Class Initialized
+DEBUG - 2013-12-10 08:09:44 --> Model Class Initialized
+DEBUG - 2013-12-10 08:09:44 --> Model Class Initialized
+DEBUG - 2013-12-10 08:09:44 --> Model Class Initialized
+DEBUG - 2013-12-10 08:09:45 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:09:45 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:09:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:09:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:09:45 --> Model Class Initialized
+DEBUG - 2013-12-10 08:09:45 --> Model Class Initialized
+DEBUG - 2013-12-10 08:09:45 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:09:45 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:09:45 --> Model Class Initialized
+DEBUG - 2013-12-10 08:09:45 --> Model Class Initialized
+DEBUG - 2013-12-10 08:09:45 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:09:45 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:09:45 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:09:45 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:09:45 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:09:46 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:09:46 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:09:46 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:09:46 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:09:46 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:09:46 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:09:46 --> File loaded: application/views/jquery/posts.php
+DEBUG - 2013-12-10 08:09:46 --> File loaded: application/views/jquery/pages.php
+DEBUG - 2013-12-10 08:09:46 --> Final output sent to browser
+DEBUG - 2013-12-10 08:09:46 --> Final output sent to browser
+DEBUG - 2013-12-10 08:09:46 --> Total execution time: 4.4933
+DEBUG - 2013-12-10 08:09:46 --> Total execution time: 4.5343
+DEBUG - 2013-12-10 08:11:12 --> Config Class Initialized
+DEBUG - 2013-12-10 08:11:12 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:11:12 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:11:12 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:11:12 --> URI Class Initialized
+DEBUG - 2013-12-10 08:11:12 --> Router Class Initialized
+DEBUG - 2013-12-10 08:11:12 --> Output Class Initialized
+DEBUG - 2013-12-10 08:11:12 --> Security Class Initialized
+DEBUG - 2013-12-10 08:11:12 --> Input Class Initialized
+DEBUG - 2013-12-10 08:11:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:11:12 --> Language Class Initialized
+DEBUG - 2013-12-10 08:11:12 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:11:12 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:11:12 --> Session Class Initialized
+DEBUG - 2013-12-10 08:11:12 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:11:12 --> Session routines successfully run
+DEBUG - 2013-12-10 08:11:13 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:11:13 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:11:13 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:11:13 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:11:13 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:11:13 --> Model Class Initialized
+DEBUG - 2013-12-10 08:11:13 --> Model Class Initialized
+DEBUG - 2013-12-10 08:11:13 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:11:13 --> Model Class Initialized
+DEBUG - 2013-12-10 08:11:13 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:11:13 --> Model Class Initialized
+DEBUG - 2013-12-10 08:11:13 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:11:13 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:11:13 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-10 08:11:14 --> Final output sent to browser
+DEBUG - 2013-12-10 08:11:14 --> Total execution time: 2.0061
+DEBUG - 2013-12-10 08:11:14 --> Config Class Initialized
+DEBUG - 2013-12-10 08:11:14 --> Config Class Initialized
+DEBUG - 2013-12-10 08:11:14 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:11:14 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:11:14 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:11:14 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:11:15 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:11:15 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:11:15 --> URI Class Initialized
+DEBUG - 2013-12-10 08:11:15 --> URI Class Initialized
+DEBUG - 2013-12-10 08:11:15 --> Router Class Initialized
+DEBUG - 2013-12-10 08:11:15 --> Router Class Initialized
+DEBUG - 2013-12-10 08:11:15 --> Output Class Initialized
+DEBUG - 2013-12-10 08:11:15 --> Output Class Initialized
+DEBUG - 2013-12-10 08:11:15 --> Security Class Initialized
+DEBUG - 2013-12-10 08:11:15 --> Security Class Initialized
+DEBUG - 2013-12-10 08:11:15 --> Input Class Initialized
+DEBUG - 2013-12-10 08:11:15 --> Input Class Initialized
+DEBUG - 2013-12-10 08:11:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:11:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:11:15 --> Language Class Initialized
+DEBUG - 2013-12-10 08:11:15 --> Language Class Initialized
+DEBUG - 2013-12-10 08:11:16 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:11:16 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:11:16 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:11:16 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:11:16 --> Session Class Initialized
+DEBUG - 2013-12-10 08:11:16 --> Session Class Initialized
+DEBUG - 2013-12-10 08:11:16 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:11:16 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:11:16 --> Session routines successfully run
+DEBUG - 2013-12-10 08:11:17 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:11:17 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:11:17 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:11:17 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:11:17 --> Session routines successfully run
+DEBUG - 2013-12-10 08:11:17 --> Model Class Initialized
+DEBUG - 2013-12-10 08:11:17 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:11:17 --> Model Class Initialized
+DEBUG - 2013-12-10 08:11:17 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:11:17 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:11:17 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:11:17 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:11:17 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:11:18 --> Model Class Initialized
+DEBUG - 2013-12-10 08:11:18 --> Model Class Initialized
+DEBUG - 2013-12-10 08:11:18 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:11:18 --> Model Class Initialized
+DEBUG - 2013-12-10 08:11:18 --> Model Class Initialized
+DEBUG - 2013-12-10 08:11:18 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:11:18 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:11:18 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:11:18 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:11:18 --> Model Class Initialized
+DEBUG - 2013-12-10 08:11:18 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:11:18 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:11:18 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:11:18 --> Model Class Initialized
+DEBUG - 2013-12-10 08:11:18 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:11:18 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:11:19 --> File loaded: application/views/jquery/posts.php
+DEBUG - 2013-12-10 08:11:19 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:11:19 --> Final output sent to browser
+DEBUG - 2013-12-10 08:11:19 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:11:19 --> Total execution time: 4.4493
+DEBUG - 2013-12-10 08:11:19 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:11:19 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:11:19 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:11:19 --> File loaded: application/views/jquery/pages.php
+DEBUG - 2013-12-10 08:11:19 --> Final output sent to browser
+DEBUG - 2013-12-10 08:11:19 --> Total execution time: 4.9333
+DEBUG - 2013-12-10 08:12:44 --> Config Class Initialized
+DEBUG - 2013-12-10 08:12:44 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:12:44 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:12:44 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:12:44 --> URI Class Initialized
+DEBUG - 2013-12-10 08:12:44 --> Router Class Initialized
+DEBUG - 2013-12-10 08:12:45 --> Output Class Initialized
+DEBUG - 2013-12-10 08:12:45 --> Security Class Initialized
+DEBUG - 2013-12-10 08:12:45 --> Input Class Initialized
+DEBUG - 2013-12-10 08:12:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:12:45 --> Language Class Initialized
+DEBUG - 2013-12-10 08:12:45 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:12:45 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:12:45 --> Session Class Initialized
+DEBUG - 2013-12-10 08:12:45 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:12:45 --> Session routines successfully run
+DEBUG - 2013-12-10 08:12:45 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:12:45 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:12:45 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:12:45 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:12:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:12:46 --> Model Class Initialized
+DEBUG - 2013-12-10 08:12:46 --> Model Class Initialized
+DEBUG - 2013-12-10 08:12:46 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:12:46 --> Model Class Initialized
+DEBUG - 2013-12-10 08:12:46 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:12:46 --> Model Class Initialized
+DEBUG - 2013-12-10 08:12:46 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:12:46 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:12:46 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-10 08:12:46 --> Final output sent to browser
+DEBUG - 2013-12-10 08:12:46 --> Total execution time: 2.1241
+DEBUG - 2013-12-10 08:12:47 --> Config Class Initialized
+DEBUG - 2013-12-10 08:12:47 --> Config Class Initialized
+DEBUG - 2013-12-10 08:12:47 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:12:47 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:12:47 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:12:47 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:12:48 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:12:48 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:12:48 --> URI Class Initialized
+DEBUG - 2013-12-10 08:12:48 --> URI Class Initialized
+DEBUG - 2013-12-10 08:12:48 --> Router Class Initialized
+DEBUG - 2013-12-10 08:12:48 --> Router Class Initialized
+DEBUG - 2013-12-10 08:12:48 --> Output Class Initialized
+DEBUG - 2013-12-10 08:12:48 --> Output Class Initialized
+DEBUG - 2013-12-10 08:12:48 --> Security Class Initialized
+DEBUG - 2013-12-10 08:12:48 --> Security Class Initialized
+DEBUG - 2013-12-10 08:12:48 --> Input Class Initialized
+DEBUG - 2013-12-10 08:12:48 --> Input Class Initialized
+DEBUG - 2013-12-10 08:12:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:12:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:12:48 --> Language Class Initialized
+DEBUG - 2013-12-10 08:12:48 --> Language Class Initialized
+DEBUG - 2013-12-10 08:12:48 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:12:48 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:12:49 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:12:49 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:12:49 --> Session Class Initialized
+DEBUG - 2013-12-10 08:12:49 --> Session Class Initialized
+DEBUG - 2013-12-10 08:12:49 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:12:49 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:12:49 --> Session routines successfully run
+DEBUG - 2013-12-10 08:12:49 --> Session routines successfully run
+DEBUG - 2013-12-10 08:12:49 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:12:49 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:12:49 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:12:49 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:12:49 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:12:50 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:12:50 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:12:50 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:12:50 --> Model Class Initialized
+DEBUG - 2013-12-10 08:12:50 --> Model Class Initialized
+DEBUG - 2013-12-10 08:12:50 --> Model Class Initialized
+DEBUG - 2013-12-10 08:12:50 --> Model Class Initialized
+DEBUG - 2013-12-10 08:12:50 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:12:50 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:12:50 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:12:50 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:12:50 --> Model Class Initialized
+DEBUG - 2013-12-10 08:12:50 --> Model Class Initialized
+DEBUG - 2013-12-10 08:12:50 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:12:50 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:12:51 --> Model Class Initialized
+DEBUG - 2013-12-10 08:12:51 --> Model Class Initialized
+DEBUG - 2013-12-10 08:12:51 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:12:51 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:12:51 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:12:51 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:12:51 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:12:51 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:12:51 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:12:51 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:12:51 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:12:51 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:12:51 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:12:51 --> File loaded: application/views/jquery/posts.php
+DEBUG - 2013-12-10 08:12:51 --> File loaded: application/views/jquery/pages.php
+DEBUG - 2013-12-10 08:12:51 --> Final output sent to browser
+DEBUG - 2013-12-10 08:12:51 --> Final output sent to browser
+DEBUG - 2013-12-10 08:12:51 --> Total execution time: 4.2732
+DEBUG - 2013-12-10 08:12:52 --> Total execution time: 4.3362
+DEBUG - 2013-12-10 08:14:17 --> Config Class Initialized
+DEBUG - 2013-12-10 08:14:17 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:14:17 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:14:17 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:14:17 --> URI Class Initialized
+DEBUG - 2013-12-10 08:14:17 --> Router Class Initialized
+DEBUG - 2013-12-10 08:14:17 --> Output Class Initialized
+DEBUG - 2013-12-10 08:14:17 --> Security Class Initialized
+DEBUG - 2013-12-10 08:14:18 --> Input Class Initialized
+DEBUG - 2013-12-10 08:14:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:14:18 --> Language Class Initialized
+DEBUG - 2013-12-10 08:14:18 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:14:18 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:14:18 --> Session Class Initialized
+DEBUG - 2013-12-10 08:14:18 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:14:18 --> Session routines successfully run
+DEBUG - 2013-12-10 08:14:18 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:14:18 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:14:18 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:14:18 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:14:18 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:14:18 --> Model Class Initialized
+DEBUG - 2013-12-10 08:14:18 --> Model Class Initialized
+DEBUG - 2013-12-10 08:14:18 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:14:19 --> Model Class Initialized
+DEBUG - 2013-12-10 08:14:19 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:14:19 --> Model Class Initialized
+DEBUG - 2013-12-10 08:14:19 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:14:19 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:14:19 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-10 08:14:19 --> Final output sent to browser
+DEBUG - 2013-12-10 08:14:19 --> Total execution time: 2.0741
+DEBUG - 2013-12-10 08:14:20 --> Config Class Initialized
+DEBUG - 2013-12-10 08:14:20 --> Config Class Initialized
+DEBUG - 2013-12-10 08:14:20 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:14:20 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:14:20 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:14:20 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:14:20 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:14:20 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:14:20 --> URI Class Initialized
+DEBUG - 2013-12-10 08:14:20 --> URI Class Initialized
+DEBUG - 2013-12-10 08:14:20 --> Router Class Initialized
+DEBUG - 2013-12-10 08:14:20 --> Router Class Initialized
+DEBUG - 2013-12-10 08:14:20 --> Output Class Initialized
+DEBUG - 2013-12-10 08:14:20 --> Output Class Initialized
+DEBUG - 2013-12-10 08:14:21 --> Security Class Initialized
+DEBUG - 2013-12-10 08:14:21 --> Security Class Initialized
+DEBUG - 2013-12-10 08:14:21 --> Input Class Initialized
+DEBUG - 2013-12-10 08:14:21 --> Input Class Initialized
+DEBUG - 2013-12-10 08:14:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:14:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:14:21 --> Language Class Initialized
+DEBUG - 2013-12-10 08:14:21 --> Language Class Initialized
+DEBUG - 2013-12-10 08:14:21 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:14:21 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:14:21 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:14:21 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:14:21 --> Session Class Initialized
+DEBUG - 2013-12-10 08:14:21 --> Session Class Initialized
+DEBUG - 2013-12-10 08:14:21 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:14:22 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:14:22 --> Session routines successfully run
+DEBUG - 2013-12-10 08:14:22 --> Session routines successfully run
+DEBUG - 2013-12-10 08:14:22 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:14:22 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:14:22 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:14:22 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:14:22 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:14:22 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:14:22 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:14:22 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:14:22 --> Model Class Initialized
+DEBUG - 2013-12-10 08:14:22 --> Model Class Initialized
+DEBUG - 2013-12-10 08:14:22 --> Model Class Initialized
+DEBUG - 2013-12-10 08:14:22 --> Model Class Initialized
+DEBUG - 2013-12-10 08:14:23 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:14:23 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:14:23 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:14:23 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:14:23 --> Model Class Initialized
+DEBUG - 2013-12-10 08:14:23 --> Model Class Initialized
+DEBUG - 2013-12-10 08:14:23 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:14:23 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:14:23 --> Model Class Initialized
+DEBUG - 2013-12-10 08:14:23 --> Model Class Initialized
+DEBUG - 2013-12-10 08:14:23 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:14:23 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:14:23 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:14:23 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:14:23 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:14:23 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:14:24 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:14:24 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:14:24 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:14:24 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:14:24 --> File loaded: application/views/jquery/posts.php
+DEBUG - 2013-12-10 08:14:24 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:14:24 --> Final output sent to browser
+DEBUG - 2013-12-10 08:14:24 --> File loaded: application/views/jquery/pages.php
+DEBUG - 2013-12-10 08:14:24 --> Total execution time: 4.2092
+DEBUG - 2013-12-10 08:14:24 --> Final output sent to browser
+DEBUG - 2013-12-10 08:14:24 --> Total execution time: 4.3592
+DEBUG - 2013-12-10 08:15:50 --> Config Class Initialized
+DEBUG - 2013-12-10 08:15:50 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:15:50 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:15:50 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:15:50 --> URI Class Initialized
+DEBUG - 2013-12-10 08:15:50 --> Router Class Initialized
+DEBUG - 2013-12-10 08:15:50 --> Output Class Initialized
+DEBUG - 2013-12-10 08:15:50 --> Security Class Initialized
+DEBUG - 2013-12-10 08:15:50 --> Input Class Initialized
+DEBUG - 2013-12-10 08:15:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:15:50 --> Language Class Initialized
+DEBUG - 2013-12-10 08:15:50 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:15:50 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:15:50 --> Session Class Initialized
+DEBUG - 2013-12-10 08:15:51 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:15:51 --> Session routines successfully run
+DEBUG - 2013-12-10 08:15:51 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:15:51 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:15:51 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:15:51 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:15:51 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:15:51 --> Model Class Initialized
+DEBUG - 2013-12-10 08:15:51 --> Model Class Initialized
+DEBUG - 2013-12-10 08:15:51 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:15:51 --> Model Class Initialized
+DEBUG - 2013-12-10 08:15:51 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:15:51 --> Model Class Initialized
+DEBUG - 2013-12-10 08:15:51 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:15:52 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:15:52 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-10 08:15:52 --> Final output sent to browser
+DEBUG - 2013-12-10 08:15:52 --> Total execution time: 2.0941
+DEBUG - 2013-12-10 08:15:52 --> Config Class Initialized
+DEBUG - 2013-12-10 08:15:52 --> Config Class Initialized
+DEBUG - 2013-12-10 08:15:52 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:15:53 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:15:53 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:15:53 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:15:53 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:15:53 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:15:53 --> URI Class Initialized
+DEBUG - 2013-12-10 08:15:53 --> URI Class Initialized
+DEBUG - 2013-12-10 08:15:53 --> Router Class Initialized
+DEBUG - 2013-12-10 08:15:53 --> Router Class Initialized
+DEBUG - 2013-12-10 08:15:53 --> Output Class Initialized
+DEBUG - 2013-12-10 08:15:53 --> Output Class Initialized
+DEBUG - 2013-12-10 08:15:53 --> Security Class Initialized
+DEBUG - 2013-12-10 08:15:53 --> Security Class Initialized
+DEBUG - 2013-12-10 08:15:53 --> Input Class Initialized
+DEBUG - 2013-12-10 08:15:53 --> Input Class Initialized
+DEBUG - 2013-12-10 08:15:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:15:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:15:54 --> Language Class Initialized
+DEBUG - 2013-12-10 08:15:54 --> Language Class Initialized
+DEBUG - 2013-12-10 08:15:54 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:15:54 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:15:54 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:15:54 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:15:54 --> Session Class Initialized
+DEBUG - 2013-12-10 08:15:54 --> Session Class Initialized
+DEBUG - 2013-12-10 08:15:54 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:15:54 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:15:54 --> Session garbage collection performed.
+DEBUG - 2013-12-10 08:15:54 --> Session garbage collection performed.
+DEBUG - 2013-12-10 08:15:54 --> Session routines successfully run
+DEBUG - 2013-12-10 08:15:54 --> Session routines successfully run
+DEBUG - 2013-12-10 08:15:54 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:15:55 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:15:55 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:15:55 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:15:55 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:15:55 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:15:55 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:15:55 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:15:55 --> Model Class Initialized
+DEBUG - 2013-12-10 08:15:55 --> Model Class Initialized
+DEBUG - 2013-12-10 08:15:55 --> Model Class Initialized
+DEBUG - 2013-12-10 08:15:55 --> Model Class Initialized
+DEBUG - 2013-12-10 08:15:55 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:15:55 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:15:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:15:56 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:15:56 --> Model Class Initialized
+DEBUG - 2013-12-10 08:15:56 --> Model Class Initialized
+DEBUG - 2013-12-10 08:15:56 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:15:56 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:15:56 --> Model Class Initialized
+DEBUG - 2013-12-10 08:15:56 --> Model Class Initialized
+DEBUG - 2013-12-10 08:15:56 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:15:56 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:15:56 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:15:56 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:15:56 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:15:56 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:15:56 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:15:57 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:15:57 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:15:57 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:15:57 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:15:57 --> File loaded: application/views/jquery/posts.php
+DEBUG - 2013-12-10 08:15:57 --> File loaded: application/views/jquery/pages.php
+DEBUG - 2013-12-10 08:15:57 --> Final output sent to browser
+DEBUG - 2013-12-10 08:15:57 --> Final output sent to browser
+DEBUG - 2013-12-10 08:15:57 --> Total execution time: 4.5223
+DEBUG - 2013-12-10 08:15:57 --> Total execution time: 4.5743
+DEBUG - 2013-12-10 08:17:22 --> Config Class Initialized
+DEBUG - 2013-12-10 08:17:22 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:17:22 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:17:23 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:17:23 --> URI Class Initialized
+DEBUG - 2013-12-10 08:17:23 --> Router Class Initialized
+DEBUG - 2013-12-10 08:17:23 --> Output Class Initialized
+DEBUG - 2013-12-10 08:17:23 --> Security Class Initialized
+DEBUG - 2013-12-10 08:17:23 --> Input Class Initialized
+DEBUG - 2013-12-10 08:17:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:17:23 --> Language Class Initialized
+DEBUG - 2013-12-10 08:17:23 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:17:23 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:17:23 --> Session Class Initialized
+DEBUG - 2013-12-10 08:17:23 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:17:23 --> Session routines successfully run
+DEBUG - 2013-12-10 08:17:23 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:17:23 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:17:23 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:17:24 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:17:24 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:17:24 --> Model Class Initialized
+DEBUG - 2013-12-10 08:17:24 --> Model Class Initialized
+DEBUG - 2013-12-10 08:17:24 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:17:24 --> Model Class Initialized
+DEBUG - 2013-12-10 08:17:24 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:17:24 --> Model Class Initialized
+DEBUG - 2013-12-10 08:17:24 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:17:24 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:17:24 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-10 08:17:24 --> Final output sent to browser
+DEBUG - 2013-12-10 08:17:24 --> Total execution time: 2.0971
+DEBUG - 2013-12-10 08:17:25 --> Config Class Initialized
+DEBUG - 2013-12-10 08:17:25 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:17:25 --> Config Class Initialized
+DEBUG - 2013-12-10 08:17:25 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:17:25 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:17:26 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:17:26 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:17:26 --> URI Class Initialized
+DEBUG - 2013-12-10 08:17:26 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:17:26 --> Router Class Initialized
+DEBUG - 2013-12-10 08:17:26 --> URI Class Initialized
+DEBUG - 2013-12-10 08:17:26 --> Output Class Initialized
+DEBUG - 2013-12-10 08:17:26 --> Router Class Initialized
+DEBUG - 2013-12-10 08:17:26 --> Security Class Initialized
+DEBUG - 2013-12-10 08:17:26 --> Output Class Initialized
+DEBUG - 2013-12-10 08:17:26 --> Input Class Initialized
+DEBUG - 2013-12-10 08:17:26 --> Security Class Initialized
+DEBUG - 2013-12-10 08:17:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:17:26 --> Input Class Initialized
+DEBUG - 2013-12-10 08:17:26 --> Language Class Initialized
+DEBUG - 2013-12-10 08:17:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:17:26 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:17:27 --> Language Class Initialized
+DEBUG - 2013-12-10 08:17:27 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:17:27 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:17:27 --> Session Class Initialized
+DEBUG - 2013-12-10 08:17:27 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:17:27 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:17:27 --> Session Class Initialized
+DEBUG - 2013-12-10 08:17:27 --> Session routines successfully run
+DEBUG - 2013-12-10 08:17:27 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:17:27 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:17:27 --> Session routines successfully run
+DEBUG - 2013-12-10 08:17:27 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:17:27 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:17:28 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:17:28 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:17:28 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:17:28 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:17:28 --> Model Class Initialized
+DEBUG - 2013-12-10 08:17:28 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:17:28 --> Model Class Initialized
+DEBUG - 2013-12-10 08:17:28 --> Model Class Initialized
+DEBUG - 2013-12-10 08:17:28 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:17:28 --> Model Class Initialized
+DEBUG - 2013-12-10 08:17:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:17:28 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:17:28 --> Model Class Initialized
+DEBUG - 2013-12-10 08:17:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:17:29 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:17:29 --> Model Class Initialized
+DEBUG - 2013-12-10 08:17:29 --> Model Class Initialized
+DEBUG - 2013-12-10 08:17:29 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:17:29 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:17:29 --> Model Class Initialized
+DEBUG - 2013-12-10 08:17:29 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:17:29 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:17:29 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:17:29 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:17:29 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:17:29 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:17:29 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:17:29 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:17:29 --> File loaded: application/views/jquery/posts.php
+DEBUG - 2013-12-10 08:17:29 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:17:30 --> Final output sent to browser
+DEBUG - 2013-12-10 08:17:30 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:17:30 --> Total execution time: 4.3022
+DEBUG - 2013-12-10 08:17:30 --> File loaded: application/views/jquery/pages.php
+DEBUG - 2013-12-10 08:17:30 --> Final output sent to browser
+DEBUG - 2013-12-10 08:17:30 --> Total execution time: 4.5363
+DEBUG - 2013-12-10 08:18:55 --> Config Class Initialized
+DEBUG - 2013-12-10 08:18:55 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:18:55 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:18:55 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:18:55 --> URI Class Initialized
+DEBUG - 2013-12-10 08:18:56 --> Router Class Initialized
+DEBUG - 2013-12-10 08:18:56 --> Output Class Initialized
+DEBUG - 2013-12-10 08:18:56 --> Security Class Initialized
+DEBUG - 2013-12-10 08:18:56 --> Input Class Initialized
+DEBUG - 2013-12-10 08:18:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:18:56 --> Language Class Initialized
+DEBUG - 2013-12-10 08:18:56 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:18:56 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:18:56 --> Session Class Initialized
+DEBUG - 2013-12-10 08:18:56 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:18:56 --> Session garbage collection performed.
+DEBUG - 2013-12-10 08:18:56 --> Session routines successfully run
+DEBUG - 2013-12-10 08:18:56 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:18:56 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:18:56 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:18:57 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:18:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:18:57 --> Model Class Initialized
+DEBUG - 2013-12-10 08:18:57 --> Model Class Initialized
+DEBUG - 2013-12-10 08:18:57 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:18:57 --> Model Class Initialized
+DEBUG - 2013-12-10 08:18:57 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:18:57 --> Model Class Initialized
+DEBUG - 2013-12-10 08:18:57 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:18:57 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:18:57 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-10 08:18:57 --> Final output sent to browser
+DEBUG - 2013-12-10 08:18:57 --> Total execution time: 2.2331
+DEBUG - 2013-12-10 08:18:58 --> Config Class Initialized
+DEBUG - 2013-12-10 08:18:58 --> Config Class Initialized
+DEBUG - 2013-12-10 08:18:58 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:18:58 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:18:58 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:18:58 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:18:58 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:18:58 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:18:59 --> URI Class Initialized
+DEBUG - 2013-12-10 08:18:59 --> URI Class Initialized
+DEBUG - 2013-12-10 08:18:59 --> Router Class Initialized
+DEBUG - 2013-12-10 08:18:59 --> Router Class Initialized
+DEBUG - 2013-12-10 08:18:59 --> Output Class Initialized
+DEBUG - 2013-12-10 08:18:59 --> Output Class Initialized
+DEBUG - 2013-12-10 08:18:59 --> Security Class Initialized
+DEBUG - 2013-12-10 08:18:59 --> Security Class Initialized
+DEBUG - 2013-12-10 08:18:59 --> Input Class Initialized
+DEBUG - 2013-12-10 08:18:59 --> Input Class Initialized
+DEBUG - 2013-12-10 08:18:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:18:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:18:59 --> Language Class Initialized
+DEBUG - 2013-12-10 08:18:59 --> Language Class Initialized
+DEBUG - 2013-12-10 08:18:59 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:18:59 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:19:00 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:19:00 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:19:00 --> Session Class Initialized
+DEBUG - 2013-12-10 08:19:00 --> Session Class Initialized
+DEBUG - 2013-12-10 08:19:00 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:19:00 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:19:00 --> Session routines successfully run
+DEBUG - 2013-12-10 08:19:00 --> Session routines successfully run
+DEBUG - 2013-12-10 08:19:00 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:19:00 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:19:00 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:19:00 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:19:00 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:19:00 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:19:00 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:19:01 --> Model Class Initialized
+DEBUG - 2013-12-10 08:19:01 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:19:01 --> Model Class Initialized
+DEBUG - 2013-12-10 08:19:01 --> Model Class Initialized
+DEBUG - 2013-12-10 08:19:01 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:19:01 --> Model Class Initialized
+DEBUG - 2013-12-10 08:19:01 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:19:01 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:19:01 --> Model Class Initialized
+DEBUG - 2013-12-10 08:19:01 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:19:01 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:19:01 --> Model Class Initialized
+DEBUG - 2013-12-10 08:19:01 --> Model Class Initialized
+DEBUG - 2013-12-10 08:19:01 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:19:02 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:19:02 --> Model Class Initialized
+DEBUG - 2013-12-10 08:19:02 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:19:02 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:19:02 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:19:02 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:19:02 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:19:02 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:19:02 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:19:02 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:19:02 --> File loaded: application/views/jquery/posts.php
+DEBUG - 2013-12-10 08:19:02 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:19:02 --> Final output sent to browser
+DEBUG - 2013-12-10 08:19:02 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:19:02 --> Total execution time: 4.1862
+DEBUG - 2013-12-10 08:19:02 --> File loaded: application/views/jquery/pages.php
+DEBUG - 2013-12-10 08:19:02 --> Final output sent to browser
+DEBUG - 2013-12-10 08:19:03 --> Total execution time: 4.4533
+DEBUG - 2013-12-10 08:20:28 --> Config Class Initialized
+DEBUG - 2013-12-10 08:20:28 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:20:29 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:20:29 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:20:29 --> URI Class Initialized
+DEBUG - 2013-12-10 08:20:29 --> Router Class Initialized
+DEBUG - 2013-12-10 08:20:29 --> Output Class Initialized
+DEBUG - 2013-12-10 08:20:29 --> Security Class Initialized
+DEBUG - 2013-12-10 08:20:29 --> Input Class Initialized
+DEBUG - 2013-12-10 08:20:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:20:29 --> Language Class Initialized
+DEBUG - 2013-12-10 08:20:29 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:20:29 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:20:29 --> Session Class Initialized
+DEBUG - 2013-12-10 08:20:29 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:20:29 --> Session routines successfully run
+DEBUG - 2013-12-10 08:20:29 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:20:29 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:20:30 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:20:30 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:20:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:20:30 --> Model Class Initialized
+DEBUG - 2013-12-10 08:20:30 --> Model Class Initialized
+DEBUG - 2013-12-10 08:20:30 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:20:30 --> Model Class Initialized
+DEBUG - 2013-12-10 08:20:30 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:20:30 --> Model Class Initialized
+DEBUG - 2013-12-10 08:20:30 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:20:30 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:20:30 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-10 08:20:30 --> Final output sent to browser
+DEBUG - 2013-12-10 08:20:30 --> Total execution time: 2.0481
+DEBUG - 2013-12-10 08:20:31 --> Config Class Initialized
+DEBUG - 2013-12-10 08:20:31 --> Config Class Initialized
+DEBUG - 2013-12-10 08:20:31 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:20:31 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:20:31 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:20:31 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:20:31 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:20:31 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:20:32 --> URI Class Initialized
+DEBUG - 2013-12-10 08:20:32 --> URI Class Initialized
+DEBUG - 2013-12-10 08:20:32 --> Router Class Initialized
+DEBUG - 2013-12-10 08:20:32 --> Router Class Initialized
+DEBUG - 2013-12-10 08:20:32 --> Output Class Initialized
+DEBUG - 2013-12-10 08:20:32 --> Output Class Initialized
+DEBUG - 2013-12-10 08:20:32 --> Security Class Initialized
+DEBUG - 2013-12-10 08:20:32 --> Security Class Initialized
+DEBUG - 2013-12-10 08:20:32 --> Input Class Initialized
+DEBUG - 2013-12-10 08:20:32 --> Input Class Initialized
+DEBUG - 2013-12-10 08:20:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:20:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:20:32 --> Language Class Initialized
+DEBUG - 2013-12-10 08:20:32 --> Language Class Initialized
+DEBUG - 2013-12-10 08:20:32 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:20:32 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:20:32 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:20:33 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:20:33 --> Session Class Initialized
+DEBUG - 2013-12-10 08:20:33 --> Session Class Initialized
+DEBUG - 2013-12-10 08:20:33 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:20:33 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:20:33 --> Session routines successfully run
+DEBUG - 2013-12-10 08:20:33 --> Session routines successfully run
+DEBUG - 2013-12-10 08:20:33 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:20:33 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:20:33 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:20:33 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:20:33 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:20:33 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:20:33 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:20:34 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:20:34 --> Model Class Initialized
+DEBUG - 2013-12-10 08:20:34 --> Model Class Initialized
+DEBUG - 2013-12-10 08:20:34 --> Model Class Initialized
+DEBUG - 2013-12-10 08:20:34 --> Model Class Initialized
+DEBUG - 2013-12-10 08:20:34 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:20:34 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:20:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:20:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:20:34 --> Model Class Initialized
+DEBUG - 2013-12-10 08:20:34 --> Model Class Initialized
+DEBUG - 2013-12-10 08:20:34 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:20:34 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:20:34 --> Model Class Initialized
+DEBUG - 2013-12-10 08:20:34 --> Model Class Initialized
+DEBUG - 2013-12-10 08:20:35 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:20:35 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:20:35 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:20:35 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:20:35 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:20:35 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:20:35 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:20:35 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:20:35 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:20:35 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:20:35 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:20:35 --> File loaded: application/views/jquery/posts.php
+DEBUG - 2013-12-10 08:20:35 --> File loaded: application/views/jquery/pages.php
+DEBUG - 2013-12-10 08:20:35 --> Final output sent to browser
+DEBUG - 2013-12-10 08:20:36 --> Final output sent to browser
+DEBUG - 2013-12-10 08:20:36 --> Total execution time: 4.4673
+DEBUG - 2013-12-10 08:20:36 --> Total execution time: 4.5343
+DEBUG - 2013-12-10 08:22:01 --> Config Class Initialized
+DEBUG - 2013-12-10 08:22:01 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:22:01 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:22:01 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:22:01 --> URI Class Initialized
+DEBUG - 2013-12-10 08:22:01 --> Router Class Initialized
+DEBUG - 2013-12-10 08:22:01 --> Output Class Initialized
+DEBUG - 2013-12-10 08:22:01 --> Security Class Initialized
+DEBUG - 2013-12-10 08:22:01 --> Input Class Initialized
+DEBUG - 2013-12-10 08:22:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:22:02 --> Language Class Initialized
+DEBUG - 2013-12-10 08:22:02 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:22:02 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:22:02 --> Session Class Initialized
+DEBUG - 2013-12-10 08:22:02 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:22:02 --> Session routines successfully run
+DEBUG - 2013-12-10 08:22:02 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:22:02 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:22:02 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:22:02 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:22:02 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:22:02 --> Model Class Initialized
+DEBUG - 2013-12-10 08:22:02 --> Model Class Initialized
+DEBUG - 2013-12-10 08:22:02 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:22:02 --> Model Class Initialized
+DEBUG - 2013-12-10 08:22:03 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:22:03 --> Model Class Initialized
+DEBUG - 2013-12-10 08:22:03 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:22:03 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:22:03 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-10 08:22:03 --> Final output sent to browser
+DEBUG - 2013-12-10 08:22:03 --> Total execution time: 2.0131
+DEBUG - 2013-12-10 08:22:03 --> Config Class Initialized
+DEBUG - 2013-12-10 08:22:04 --> Config Class Initialized
+DEBUG - 2013-12-10 08:22:04 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:22:04 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:22:04 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:22:04 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:22:04 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:22:04 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:22:04 --> URI Class Initialized
+DEBUG - 2013-12-10 08:22:04 --> URI Class Initialized
+DEBUG - 2013-12-10 08:22:04 --> Router Class Initialized
+DEBUG - 2013-12-10 08:22:04 --> Router Class Initialized
+DEBUG - 2013-12-10 08:22:04 --> Output Class Initialized
+DEBUG - 2013-12-10 08:22:04 --> Output Class Initialized
+DEBUG - 2013-12-10 08:22:04 --> Security Class Initialized
+DEBUG - 2013-12-10 08:22:04 --> Security Class Initialized
+DEBUG - 2013-12-10 08:22:05 --> Input Class Initialized
+DEBUG - 2013-12-10 08:22:05 --> Input Class Initialized
+DEBUG - 2013-12-10 08:22:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:22:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:22:05 --> Language Class Initialized
+DEBUG - 2013-12-10 08:22:05 --> Language Class Initialized
+DEBUG - 2013-12-10 08:22:05 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:22:05 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:22:05 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:22:05 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:22:05 --> Session Class Initialized
+DEBUG - 2013-12-10 08:22:05 --> Session Class Initialized
+DEBUG - 2013-12-10 08:22:05 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:22:05 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:22:05 --> Session routines successfully run
+DEBUG - 2013-12-10 08:22:06 --> Session routines successfully run
+DEBUG - 2013-12-10 08:22:06 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:22:06 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:22:06 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:22:06 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:22:06 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:22:06 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:22:06 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:22:06 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:22:06 --> Model Class Initialized
+DEBUG - 2013-12-10 08:22:06 --> Model Class Initialized
+DEBUG - 2013-12-10 08:22:06 --> Model Class Initialized
+DEBUG - 2013-12-10 08:22:06 --> Model Class Initialized
+DEBUG - 2013-12-10 08:22:06 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:22:07 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:22:07 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:22:07 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:22:07 --> Model Class Initialized
+DEBUG - 2013-12-10 08:22:07 --> Model Class Initialized
+DEBUG - 2013-12-10 08:22:07 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:22:07 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:22:07 --> Model Class Initialized
+DEBUG - 2013-12-10 08:22:07 --> Model Class Initialized
+DEBUG - 2013-12-10 08:22:07 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:22:07 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:22:07 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:22:07 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:22:07 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:22:08 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:22:08 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:22:08 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:22:08 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:22:08 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:22:08 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:22:08 --> File loaded: application/views/jquery/posts.php
+DEBUG - 2013-12-10 08:22:08 --> File loaded: application/views/jquery/pages.php
+DEBUG - 2013-12-10 08:22:08 --> Final output sent to browser
+DEBUG - 2013-12-10 08:22:08 --> Final output sent to browser
+DEBUG - 2013-12-10 08:22:08 --> Total execution time: 4.5093
+DEBUG - 2013-12-10 08:22:08 --> Total execution time: 4.5643
+DEBUG - 2013-12-10 08:23:33 --> Config Class Initialized
+DEBUG - 2013-12-10 08:23:34 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:23:34 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:23:34 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:23:34 --> URI Class Initialized
+DEBUG - 2013-12-10 08:23:34 --> Router Class Initialized
+DEBUG - 2013-12-10 08:23:34 --> Output Class Initialized
+DEBUG - 2013-12-10 08:23:34 --> Security Class Initialized
+DEBUG - 2013-12-10 08:23:34 --> Input Class Initialized
+DEBUG - 2013-12-10 08:23:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:23:34 --> Language Class Initialized
+DEBUG - 2013-12-10 08:23:34 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:23:34 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:23:34 --> Session Class Initialized
+DEBUG - 2013-12-10 08:23:34 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:23:34 --> Session routines successfully run
+DEBUG - 2013-12-10 08:23:34 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:23:35 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:23:35 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:23:35 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:23:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:23:35 --> Model Class Initialized
+DEBUG - 2013-12-10 08:23:35 --> Model Class Initialized
+DEBUG - 2013-12-10 08:23:35 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:23:35 --> Model Class Initialized
+DEBUG - 2013-12-10 08:23:35 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:23:35 --> Model Class Initialized
+DEBUG - 2013-12-10 08:23:35 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:23:35 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:23:35 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-10 08:23:35 --> Final output sent to browser
+DEBUG - 2013-12-10 08:23:35 --> Total execution time: 1.9571
+DEBUG - 2013-12-10 08:23:36 --> Config Class Initialized
+DEBUG - 2013-12-10 08:23:36 --> Config Class Initialized
+DEBUG - 2013-12-10 08:23:36 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:23:36 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:23:36 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:23:36 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:23:36 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:23:36 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:23:36 --> URI Class Initialized
+DEBUG - 2013-12-10 08:23:36 --> URI Class Initialized
+DEBUG - 2013-12-10 08:23:37 --> Router Class Initialized
+DEBUG - 2013-12-10 08:23:37 --> Router Class Initialized
+DEBUG - 2013-12-10 08:23:37 --> Output Class Initialized
+DEBUG - 2013-12-10 08:23:37 --> Output Class Initialized
+DEBUG - 2013-12-10 08:23:37 --> Security Class Initialized
+DEBUG - 2013-12-10 08:23:37 --> Security Class Initialized
+DEBUG - 2013-12-10 08:23:37 --> Input Class Initialized
+DEBUG - 2013-12-10 08:23:37 --> Input Class Initialized
+DEBUG - 2013-12-10 08:23:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:23:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:23:37 --> Language Class Initialized
+DEBUG - 2013-12-10 08:23:37 --> Language Class Initialized
+DEBUG - 2013-12-10 08:23:37 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:23:37 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:23:37 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:23:37 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:23:38 --> Session Class Initialized
+DEBUG - 2013-12-10 08:23:38 --> Session Class Initialized
+DEBUG - 2013-12-10 08:23:38 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:23:38 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:23:38 --> Session routines successfully run
+DEBUG - 2013-12-10 08:23:38 --> Session routines successfully run
+DEBUG - 2013-12-10 08:23:38 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:23:38 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:23:38 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:23:38 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:23:38 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:23:38 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:23:38 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:23:38 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:23:38 --> Model Class Initialized
+DEBUG - 2013-12-10 08:23:38 --> Model Class Initialized
+DEBUG - 2013-12-10 08:23:39 --> Model Class Initialized
+DEBUG - 2013-12-10 08:23:39 --> Model Class Initialized
+DEBUG - 2013-12-10 08:23:39 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:23:39 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:23:39 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:23:39 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:23:39 --> Model Class Initialized
+DEBUG - 2013-12-10 08:23:39 --> Model Class Initialized
+DEBUG - 2013-12-10 08:23:39 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:23:39 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:23:39 --> Model Class Initialized
+DEBUG - 2013-12-10 08:23:39 --> Model Class Initialized
+DEBUG - 2013-12-10 08:23:39 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:23:39 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:23:39 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:23:40 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:23:40 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:23:40 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:23:40 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:23:40 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:23:40 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:23:40 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:23:40 --> File loaded: application/views/jquery/posts.php
+DEBUG - 2013-12-10 08:23:40 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:23:40 --> Final output sent to browser
+DEBUG - 2013-12-10 08:23:40 --> File loaded: application/views/jquery/pages.php
+DEBUG - 2013-12-10 08:23:40 --> Total execution time: 4.1422
+DEBUG - 2013-12-10 08:23:40 --> Final output sent to browser
+DEBUG - 2013-12-10 08:23:40 --> Total execution time: 4.3112
+DEBUG - 2013-12-10 08:25:06 --> Config Class Initialized
+DEBUG - 2013-12-10 08:25:06 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:25:06 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:25:06 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:25:06 --> URI Class Initialized
+DEBUG - 2013-12-10 08:25:06 --> Router Class Initialized
+DEBUG - 2013-12-10 08:25:06 --> Output Class Initialized
+DEBUG - 2013-12-10 08:25:06 --> Security Class Initialized
+DEBUG - 2013-12-10 08:25:06 --> Input Class Initialized
+DEBUG - 2013-12-10 08:25:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:25:07 --> Language Class Initialized
+DEBUG - 2013-12-10 08:25:07 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:25:07 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:25:07 --> Session Class Initialized
+DEBUG - 2013-12-10 08:25:07 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:25:07 --> Session routines successfully run
+DEBUG - 2013-12-10 08:25:07 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:25:07 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:25:07 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:25:07 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:25:07 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:25:07 --> Model Class Initialized
+DEBUG - 2013-12-10 08:25:07 --> Model Class Initialized
+DEBUG - 2013-12-10 08:25:08 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:25:08 --> Model Class Initialized
+DEBUG - 2013-12-10 08:25:08 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:25:08 --> Model Class Initialized
+DEBUG - 2013-12-10 08:25:08 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:25:08 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 08:25:08 --> File loaded: application/views/home/postsview.php
+DEBUG - 2013-12-10 08:25:08 --> Final output sent to browser
+DEBUG - 2013-12-10 08:25:08 --> Total execution time: 2.2081
+DEBUG - 2013-12-10 08:25:09 --> Config Class Initialized
+DEBUG - 2013-12-10 08:25:09 --> Config Class Initialized
+DEBUG - 2013-12-10 08:25:09 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:25:09 --> Hooks Class Initialized
+DEBUG - 2013-12-10 08:25:09 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:25:09 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 08:25:09 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:25:09 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 08:25:09 --> URI Class Initialized
+DEBUG - 2013-12-10 08:25:09 --> URI Class Initialized
+DEBUG - 2013-12-10 08:25:09 --> Router Class Initialized
+DEBUG - 2013-12-10 08:25:09 --> Router Class Initialized
+DEBUG - 2013-12-10 08:25:09 --> Output Class Initialized
+DEBUG - 2013-12-10 08:25:10 --> Output Class Initialized
+DEBUG - 2013-12-10 08:25:10 --> Security Class Initialized
+DEBUG - 2013-12-10 08:25:10 --> Security Class Initialized
+DEBUG - 2013-12-10 08:25:10 --> Input Class Initialized
+DEBUG - 2013-12-10 08:25:10 --> Input Class Initialized
+DEBUG - 2013-12-10 08:25:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:25:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 08:25:10 --> Language Class Initialized
+DEBUG - 2013-12-10 08:25:10 --> Language Class Initialized
+DEBUG - 2013-12-10 08:25:10 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:25:10 --> Loader Class Initialized
+DEBUG - 2013-12-10 08:25:10 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:25:10 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 08:25:10 --> Session Class Initialized
+DEBUG - 2013-12-10 08:25:10 --> Session Class Initialized
+DEBUG - 2013-12-10 08:25:10 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:25:10 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 08:25:11 --> Session routines successfully run
+DEBUG - 2013-12-10 08:25:11 --> Session routines successfully run
+DEBUG - 2013-12-10 08:25:11 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:25:11 --> Controller Class Initialized
+DEBUG - 2013-12-10 08:25:11 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:25:11 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 08:25:11 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:25:11 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 08:25:11 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:25:11 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 08:25:11 --> Model Class Initialized
+DEBUG - 2013-12-10 08:25:11 --> Model Class Initialized
+DEBUG - 2013-12-10 08:25:11 --> Model Class Initialized
+DEBUG - 2013-12-10 08:25:11 --> Model Class Initialized
+DEBUG - 2013-12-10 08:25:12 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:25:12 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 08:25:12 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:25:12 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:25:12 --> Model Class Initialized
+DEBUG - 2013-12-10 08:25:12 --> Model Class Initialized
+DEBUG - 2013-12-10 08:25:12 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:25:12 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 08:25:12 --> Model Class Initialized
+DEBUG - 2013-12-10 08:25:12 --> Model Class Initialized
+DEBUG - 2013-12-10 08:25:12 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:25:12 --> Haloc class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 08:25:12 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:25:12 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:25:12 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:25:13 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:25:13 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:25:13 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:25:13 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:25:13 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:25:13 --> File loaded: application/views/jquery/posts.php
+DEBUG - 2013-12-10 08:25:13 --> XSS Filtering completed
+DEBUG - 2013-12-10 08:25:13 --> Final output sent to browser
+DEBUG - 2013-12-10 08:25:13 --> File loaded: application/views/jquery/pages.php
+DEBUG - 2013-12-10 08:25:13 --> Total execution time: 4.2592
+DEBUG - 2013-12-10 08:25:13 --> Final output sent to browser
+DEBUG - 2013-12-10 08:25:13 --> Total execution time: 4.4543
+DEBUG - 2013-12-10 17:38:58 --> Config Class Initialized
+DEBUG - 2013-12-10 17:38:58 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:38:58 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:38:58 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:38:58 --> URI Class Initialized
+DEBUG - 2013-12-10 17:38:58 --> Router Class Initialized
+DEBUG - 2013-12-10 17:38:58 --> No URI present. Default controller set.
+DEBUG - 2013-12-10 17:38:58 --> Output Class Initialized
+DEBUG - 2013-12-10 17:38:59 --> Security Class Initialized
+DEBUG - 2013-12-10 17:38:59 --> Input Class Initialized
+DEBUG - 2013-12-10 17:38:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:38:59 --> Language Class Initialized
+DEBUG - 2013-12-10 17:38:59 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:38:59 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:38:59 --> Session Class Initialized
+DEBUG - 2013-12-10 17:39:00 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:39:00 --> Session routines successfully run
+DEBUG - 2013-12-10 17:39:00 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:39:00 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:39:00 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:39:00 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:39:00 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:39:00 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:39:00 --> Model Class Initialized
+DEBUG - 2013-12-10 17:39:01 --> Model Class Initialized
+DEBUG - 2013-12-10 17:39:01 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:39:01 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:39:01 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:39:01 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:39:01 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 17:39:01 --> Config Class Initialized
+DEBUG - 2013-12-10 17:39:01 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:39:01 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:39:01 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:39:01 --> URI Class Initialized
+DEBUG - 2013-12-10 17:39:01 --> Router Class Initialized
+DEBUG - 2013-12-10 17:39:02 --> Output Class Initialized
+DEBUG - 2013-12-10 17:39:02 --> Security Class Initialized
+DEBUG - 2013-12-10 17:39:02 --> Input Class Initialized
+DEBUG - 2013-12-10 17:39:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:39:02 --> Language Class Initialized
+DEBUG - 2013-12-10 17:39:02 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:39:02 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:39:02 --> Session Class Initialized
+DEBUG - 2013-12-10 17:39:02 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:39:02 --> Session routines successfully run
+DEBUG - 2013-12-10 17:39:02 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:39:02 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:39:02 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:39:02 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:39:02 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:39:02 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:39:03 --> Model Class Initialized
+DEBUG - 2013-12-10 17:39:03 --> Model Class Initialized
+DEBUG - 2013-12-10 17:39:03 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:39:03 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:39:03 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:39:03 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:39:03 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 17:39:03 --> Model Class Initialized
+DEBUG - 2013-12-10 17:39:03 --> File loaded: application/views/auth/login_form.php
+DEBUG - 2013-12-10 17:39:03 --> Final output sent to browser
+DEBUG - 2013-12-10 17:39:03 --> Total execution time: 2.1411
+DEBUG - 2013-12-10 17:39:04 --> Config Class Initialized
+DEBUG - 2013-12-10 17:39:04 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:39:04 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:39:04 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:39:04 --> URI Class Initialized
+DEBUG - 2013-12-10 17:39:04 --> Router Class Initialized
+DEBUG - 2013-12-10 17:39:04 --> Output Class Initialized
+DEBUG - 2013-12-10 17:39:04 --> Security Class Initialized
+DEBUG - 2013-12-10 17:39:04 --> Input Class Initialized
+DEBUG - 2013-12-10 17:39:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:39:04 --> Language Class Initialized
+DEBUG - 2013-12-10 17:39:04 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:39:04 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:39:04 --> Session Class Initialized
+DEBUG - 2013-12-10 17:39:05 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:39:05 --> Session routines successfully run
+DEBUG - 2013-12-10 17:39:05 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:39:05 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:39:05 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:39:05 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:39:05 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:39:05 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:39:05 --> Model Class Initialized
+DEBUG - 2013-12-10 17:39:05 --> Model Class Initialized
+DEBUG - 2013-12-10 17:39:05 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:39:05 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:39:05 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:39:06 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:39:06 --> Language file loaded: language/english/tank_auth_lang.php
+ERROR - 2013-12-10 17:39:06 --> 404 Page Not Found --> errors/page_missing
+DEBUG - 2013-12-10 17:39:28 --> Config Class Initialized
+DEBUG - 2013-12-10 17:39:28 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:39:28 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:39:28 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:39:28 --> URI Class Initialized
+DEBUG - 2013-12-10 17:39:28 --> Router Class Initialized
+DEBUG - 2013-12-10 17:39:28 --> Output Class Initialized
+DEBUG - 2013-12-10 17:39:28 --> Security Class Initialized
+DEBUG - 2013-12-10 17:39:28 --> Input Class Initialized
+DEBUG - 2013-12-10 17:39:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:39:29 --> Language Class Initialized
+DEBUG - 2013-12-10 17:39:29 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:39:29 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:39:29 --> Session Class Initialized
+DEBUG - 2013-12-10 17:39:29 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:39:29 --> Session routines successfully run
+DEBUG - 2013-12-10 17:39:29 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:39:29 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:39:29 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:39:29 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:39:29 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:39:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:39:29 --> Model Class Initialized
+DEBUG - 2013-12-10 17:39:29 --> Model Class Initialized
+DEBUG - 2013-12-10 17:39:30 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:39:30 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:39:30 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:39:30 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:39:30 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 17:39:30 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-10 17:39:30 --> Final output sent to browser
+DEBUG - 2013-12-10 17:39:30 --> Total execution time: 1.9361
+DEBUG - 2013-12-10 17:39:30 --> Config Class Initialized
+DEBUG - 2013-12-10 17:39:30 --> Config Class Initialized
+DEBUG - 2013-12-10 17:39:30 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:39:30 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:39:30 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:39:31 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:39:31 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:39:31 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:39:31 --> URI Class Initialized
+DEBUG - 2013-12-10 17:39:31 --> URI Class Initialized
+DEBUG - 2013-12-10 17:39:31 --> Router Class Initialized
+DEBUG - 2013-12-10 17:39:31 --> Router Class Initialized
+DEBUG - 2013-12-10 17:39:31 --> Output Class Initialized
+DEBUG - 2013-12-10 17:39:31 --> Output Class Initialized
+DEBUG - 2013-12-10 17:39:31 --> Security Class Initialized
+DEBUG - 2013-12-10 17:39:31 --> Security Class Initialized
+DEBUG - 2013-12-10 17:39:31 --> Input Class Initialized
+DEBUG - 2013-12-10 17:39:31 --> Input Class Initialized
+DEBUG - 2013-12-10 17:39:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:39:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:39:31 --> Language Class Initialized
+DEBUG - 2013-12-10 17:39:31 --> Language Class Initialized
+DEBUG - 2013-12-10 17:39:31 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:39:32 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:39:32 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:39:32 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:39:32 --> Session Class Initialized
+DEBUG - 2013-12-10 17:39:32 --> Session Class Initialized
+DEBUG - 2013-12-10 17:39:32 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:39:32 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:39:32 --> Session routines successfully run
+DEBUG - 2013-12-10 17:39:32 --> Session routines successfully run
+DEBUG - 2013-12-10 17:39:32 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:39:32 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:39:32 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:39:32 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:39:32 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:39:32 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:39:32 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:39:32 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:39:33 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:39:33 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:39:33 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:39:33 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:39:33 --> Model Class Initialized
+DEBUG - 2013-12-10 17:39:33 --> Model Class Initialized
+DEBUG - 2013-12-10 17:39:33 --> Model Class Initialized
+DEBUG - 2013-12-10 17:39:33 --> Model Class Initialized
+DEBUG - 2013-12-10 17:39:33 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:39:33 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:39:33 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:39:33 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:39:33 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:39:33 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:39:33 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:39:33 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:39:34 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 17:39:34 --> Language file loaded: language/english/tank_auth_lang.php
+ERROR - 2013-12-10 17:39:34 --> 404 Page Not Found --> errors/page_missing
+ERROR - 2013-12-10 17:39:34 --> 404 Page Not Found --> errors/page_missing
+DEBUG - 2013-12-10 17:40:48 --> Config Class Initialized
+DEBUG - 2013-12-10 17:40:48 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:40:49 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:40:49 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:40:49 --> URI Class Initialized
+DEBUG - 2013-12-10 17:40:49 --> Router Class Initialized
+DEBUG - 2013-12-10 17:40:49 --> Output Class Initialized
+DEBUG - 2013-12-10 17:40:49 --> Security Class Initialized
+DEBUG - 2013-12-10 17:40:49 --> Input Class Initialized
+DEBUG - 2013-12-10 17:40:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:40:49 --> Language Class Initialized
+DEBUG - 2013-12-10 17:40:49 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:40:49 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:40:49 --> Session Class Initialized
+DEBUG - 2013-12-10 17:40:49 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:40:49 --> Session routines successfully run
+DEBUG - 2013-12-10 17:40:49 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:40:49 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:40:50 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:40:50 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 17:41:28 --> Config Class Initialized
+DEBUG - 2013-12-10 17:41:28 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:41:28 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:41:28 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:41:28 --> URI Class Initialized
+DEBUG - 2013-12-10 17:41:28 --> Router Class Initialized
+DEBUG - 2013-12-10 17:41:28 --> Output Class Initialized
+DEBUG - 2013-12-10 17:41:28 --> Security Class Initialized
+DEBUG - 2013-12-10 17:41:28 --> Input Class Initialized
+DEBUG - 2013-12-10 17:41:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:41:28 --> Language Class Initialized
+DEBUG - 2013-12-10 17:41:28 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:41:28 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:41:29 --> Session Class Initialized
+DEBUG - 2013-12-10 17:41:29 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:41:29 --> Session routines successfully run
+DEBUG - 2013-12-10 17:41:29 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:41:29 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:41:29 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:41:29 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 17:45:53 --> Config Class Initialized
+DEBUG - 2013-12-10 17:45:53 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:45:53 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:45:54 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:45:54 --> URI Class Initialized
+DEBUG - 2013-12-10 17:45:54 --> Router Class Initialized
+DEBUG - 2013-12-10 17:45:54 --> Output Class Initialized
+DEBUG - 2013-12-10 17:45:54 --> Security Class Initialized
+DEBUG - 2013-12-10 17:45:54 --> Input Class Initialized
+DEBUG - 2013-12-10 17:45:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:45:54 --> Language Class Initialized
+DEBUG - 2013-12-10 17:45:54 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:45:54 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:45:54 --> Session Class Initialized
+DEBUG - 2013-12-10 17:45:54 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:45:54 --> Session routines successfully run
+DEBUG - 2013-12-10 17:45:54 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:45:54 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:45:54 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:45:55 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:45:55 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:45:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:45:55 --> Model Class Initialized
+DEBUG - 2013-12-10 17:45:55 --> Model Class Initialized
+DEBUG - 2013-12-10 17:45:55 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:45:55 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:45:55 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:45:55 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:45:55 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 17:45:55 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-10 17:45:55 --> Final output sent to browser
+DEBUG - 2013-12-10 17:45:55 --> Total execution time: 1.8861
+DEBUG - 2013-12-10 17:45:56 --> Config Class Initialized
+DEBUG - 2013-12-10 17:45:56 --> Config Class Initialized
+DEBUG - 2013-12-10 17:45:56 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:45:56 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:45:56 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:45:56 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:45:56 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:45:56 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:45:56 --> URI Class Initialized
+DEBUG - 2013-12-10 17:45:56 --> URI Class Initialized
+DEBUG - 2013-12-10 17:45:56 --> Router Class Initialized
+DEBUG - 2013-12-10 17:45:56 --> Router Class Initialized
+DEBUG - 2013-12-10 17:45:57 --> Output Class Initialized
+DEBUG - 2013-12-10 17:45:57 --> Output Class Initialized
+DEBUG - 2013-12-10 17:45:57 --> Security Class Initialized
+DEBUG - 2013-12-10 17:45:57 --> Security Class Initialized
+DEBUG - 2013-12-10 17:45:57 --> Input Class Initialized
+DEBUG - 2013-12-10 17:45:57 --> Input Class Initialized
+DEBUG - 2013-12-10 17:45:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:45:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:45:57 --> Language Class Initialized
+DEBUG - 2013-12-10 17:45:57 --> Language Class Initialized
+DEBUG - 2013-12-10 17:45:57 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:45:57 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:45:57 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:45:57 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:45:57 --> Session Class Initialized
+DEBUG - 2013-12-10 17:45:58 --> Session Class Initialized
+DEBUG - 2013-12-10 17:45:58 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:45:58 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:45:58 --> Session routines successfully run
+DEBUG - 2013-12-10 17:45:58 --> Session routines successfully run
+DEBUG - 2013-12-10 17:45:58 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:45:58 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:45:58 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:45:58 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:45:58 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:45:58 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:45:58 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:45:58 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:45:58 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:45:59 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:45:59 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:45:59 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:45:59 --> Model Class Initialized
+DEBUG - 2013-12-10 17:45:59 --> Model Class Initialized
+DEBUG - 2013-12-10 17:45:59 --> Model Class Initialized
+DEBUG - 2013-12-10 17:45:59 --> Model Class Initialized
+DEBUG - 2013-12-10 17:45:59 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:45:59 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:45:59 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:45:59 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:45:59 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:45:59 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:45:59 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:45:59 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:45:59 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 17:46:00 --> Language file loaded: language/english/tank_auth_lang.php
+ERROR - 2013-12-10 17:46:00 --> 404 Page Not Found --> errors/page_missing
+ERROR - 2013-12-10 17:46:00 --> 404 Page Not Found --> errors/page_missing
+DEBUG - 2013-12-10 17:46:03 --> Config Class Initialized
+DEBUG - 2013-12-10 17:46:03 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:46:03 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:46:03 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:46:04 --> URI Class Initialized
+DEBUG - 2013-12-10 17:46:04 --> Router Class Initialized
+DEBUG - 2013-12-10 17:46:04 --> Output Class Initialized
+DEBUG - 2013-12-10 17:46:04 --> Security Class Initialized
+DEBUG - 2013-12-10 17:46:04 --> Input Class Initialized
+DEBUG - 2013-12-10 17:46:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:46:04 --> Language Class Initialized
+DEBUG - 2013-12-10 17:46:04 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:46:04 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:46:04 --> Session Class Initialized
+DEBUG - 2013-12-10 17:46:04 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:46:04 --> Session routines successfully run
+DEBUG - 2013-12-10 17:46:04 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:46:04 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:46:04 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:46:04 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 17:48:57 --> Config Class Initialized
+DEBUG - 2013-12-10 17:48:57 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:48:57 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:48:57 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:48:57 --> URI Class Initialized
+DEBUG - 2013-12-10 17:48:57 --> Router Class Initialized
+DEBUG - 2013-12-10 17:48:57 --> Output Class Initialized
+DEBUG - 2013-12-10 17:48:57 --> Security Class Initialized
+DEBUG - 2013-12-10 17:48:57 --> Input Class Initialized
+DEBUG - 2013-12-10 17:48:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:48:57 --> Language Class Initialized
+DEBUG - 2013-12-10 17:48:57 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:48:57 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:48:57 --> Session Class Initialized
+DEBUG - 2013-12-10 17:48:58 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:48:58 --> Session routines successfully run
+DEBUG - 2013-12-10 17:48:58 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:48:58 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:48:58 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:48:58 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:48:58 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:48:58 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:48:58 --> Model Class Initialized
+DEBUG - 2013-12-10 17:48:58 --> Model Class Initialized
+DEBUG - 2013-12-10 17:48:58 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:48:58 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:48:58 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:48:58 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:48:59 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 17:48:59 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-10 17:48:59 --> Final output sent to browser
+DEBUG - 2013-12-10 17:48:59 --> Total execution time: 2.0141
+DEBUG - 2013-12-10 17:48:59 --> Config Class Initialized
+DEBUG - 2013-12-10 17:48:59 --> Config Class Initialized
+DEBUG - 2013-12-10 17:48:59 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:48:59 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:48:59 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:48:59 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:49:00 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:49:00 --> URI Class Initialized
+DEBUG - 2013-12-10 17:49:00 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:49:00 --> Router Class Initialized
+DEBUG - 2013-12-10 17:49:00 --> URI Class Initialized
+DEBUG - 2013-12-10 17:49:00 --> Output Class Initialized
+DEBUG - 2013-12-10 17:49:00 --> Router Class Initialized
+DEBUG - 2013-12-10 17:49:00 --> Security Class Initialized
+DEBUG - 2013-12-10 17:49:00 --> Output Class Initialized
+DEBUG - 2013-12-10 17:49:00 --> Input Class Initialized
+DEBUG - 2013-12-10 17:49:00 --> Security Class Initialized
+DEBUG - 2013-12-10 17:49:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:49:00 --> Input Class Initialized
+DEBUG - 2013-12-10 17:49:00 --> Language Class Initialized
+DEBUG - 2013-12-10 17:49:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:49:01 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:49:01 --> Language Class Initialized
+DEBUG - 2013-12-10 17:49:01 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:49:01 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:49:01 --> Session Class Initialized
+DEBUG - 2013-12-10 17:49:01 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:49:01 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:49:01 --> Session Class Initialized
+DEBUG - 2013-12-10 17:49:01 --> Session routines successfully run
+DEBUG - 2013-12-10 17:49:01 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:49:01 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:49:01 --> Session routines successfully run
+DEBUG - 2013-12-10 17:49:01 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:49:01 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:49:01 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:49:02 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:49:02 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:49:02 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:49:02 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:49:02 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:49:02 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:49:02 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:49:02 --> Model Class Initialized
+DEBUG - 2013-12-10 17:49:02 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:49:02 --> Model Class Initialized
+DEBUG - 2013-12-10 17:49:02 --> Model Class Initialized
+DEBUG - 2013-12-10 17:49:02 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:49:02 --> Model Class Initialized
+DEBUG - 2013-12-10 17:49:02 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:49:03 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:49:03 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:49:03 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:49:03 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:49:03 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:49:03 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 17:49:03 --> Image_lib class already loaded. Second attempt ignored.
+ERROR - 2013-12-10 17:49:03 --> 404 Page Not Found --> errors/page_missing
+DEBUG - 2013-12-10 17:49:03 --> Language file loaded: language/english/tank_auth_lang.php
+ERROR - 2013-12-10 17:49:03 --> 404 Page Not Found --> errors/page_missing
+DEBUG - 2013-12-10 17:49:07 --> Config Class Initialized
+DEBUG - 2013-12-10 17:49:07 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:49:07 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:49:07 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:49:07 --> URI Class Initialized
+DEBUG - 2013-12-10 17:49:07 --> Router Class Initialized
+DEBUG - 2013-12-10 17:49:07 --> Output Class Initialized
+DEBUG - 2013-12-10 17:49:07 --> Security Class Initialized
+DEBUG - 2013-12-10 17:49:07 --> Input Class Initialized
+DEBUG - 2013-12-10 17:49:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:49:07 --> Language Class Initialized
+DEBUG - 2013-12-10 17:49:08 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:49:08 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:49:08 --> Session Class Initialized
+DEBUG - 2013-12-10 17:49:08 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:49:08 --> Session routines successfully run
+DEBUG - 2013-12-10 17:49:08 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:49:08 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:49:08 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:49:08 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 17:50:19 --> Config Class Initialized
+DEBUG - 2013-12-10 17:50:19 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:50:19 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:50:19 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:50:19 --> URI Class Initialized
+DEBUG - 2013-12-10 17:50:19 --> Router Class Initialized
+DEBUG - 2013-12-10 17:50:19 --> Output Class Initialized
+DEBUG - 2013-12-10 17:50:20 --> Security Class Initialized
+DEBUG - 2013-12-10 17:50:20 --> Input Class Initialized
+DEBUG - 2013-12-10 17:50:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:50:20 --> Language Class Initialized
+DEBUG - 2013-12-10 17:50:20 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:50:20 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:50:20 --> Session Class Initialized
+DEBUG - 2013-12-10 17:50:20 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:50:20 --> Session routines successfully run
+DEBUG - 2013-12-10 17:50:20 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:50:20 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:50:20 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:50:20 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:50:20 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:50:20 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:50:20 --> Model Class Initialized
+DEBUG - 2013-12-10 17:50:21 --> Model Class Initialized
+DEBUG - 2013-12-10 17:50:21 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:50:21 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:50:21 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:50:21 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:50:21 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 17:50:21 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-10 17:50:21 --> Final output sent to browser
+DEBUG - 2013-12-10 17:50:21 --> Total execution time: 2.1131
+DEBUG - 2013-12-10 17:50:22 --> Config Class Initialized
+DEBUG - 2013-12-10 17:50:22 --> Config Class Initialized
+DEBUG - 2013-12-10 17:50:22 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:50:22 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:50:22 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:50:22 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:50:22 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:50:22 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:50:22 --> URI Class Initialized
+DEBUG - 2013-12-10 17:50:22 --> URI Class Initialized
+DEBUG - 2013-12-10 17:50:22 --> Router Class Initialized
+DEBUG - 2013-12-10 17:50:22 --> Router Class Initialized
+DEBUG - 2013-12-10 17:50:22 --> Output Class Initialized
+DEBUG - 2013-12-10 17:50:22 --> Output Class Initialized
+DEBUG - 2013-12-10 17:50:22 --> Security Class Initialized
+DEBUG - 2013-12-10 17:50:23 --> Security Class Initialized
+DEBUG - 2013-12-10 17:50:23 --> Input Class Initialized
+DEBUG - 2013-12-10 17:50:23 --> Input Class Initialized
+DEBUG - 2013-12-10 17:50:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:50:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:50:23 --> Language Class Initialized
+DEBUG - 2013-12-10 17:50:23 --> Language Class Initialized
+DEBUG - 2013-12-10 17:50:23 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:50:23 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:50:23 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:50:23 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:50:23 --> Session Class Initialized
+DEBUG - 2013-12-10 17:50:23 --> Session Class Initialized
+DEBUG - 2013-12-10 17:50:23 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:50:23 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:50:24 --> Session routines successfully run
+DEBUG - 2013-12-10 17:50:24 --> Session routines successfully run
+DEBUG - 2013-12-10 17:50:24 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:50:24 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:50:24 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:50:24 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:50:24 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:50:24 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:50:24 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:50:24 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:50:24 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:50:24 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:50:24 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:50:24 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:50:25 --> Model Class Initialized
+DEBUG - 2013-12-10 17:50:25 --> Model Class Initialized
+DEBUG - 2013-12-10 17:50:25 --> Model Class Initialized
+DEBUG - 2013-12-10 17:50:25 --> Model Class Initialized
+DEBUG - 2013-12-10 17:50:25 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:50:25 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:50:25 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:50:25 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:50:25 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:50:25 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:50:25 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:50:25 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:50:25 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 17:50:25 --> Language file loaded: language/english/tank_auth_lang.php
+ERROR - 2013-12-10 17:50:25 --> 404 Page Not Found --> errors/page_missing
+ERROR - 2013-12-10 17:50:26 --> 404 Page Not Found --> errors/page_missing
+DEBUG - 2013-12-10 17:50:30 --> Config Class Initialized
+DEBUG - 2013-12-10 17:50:30 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:50:30 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:50:30 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:50:30 --> URI Class Initialized
+DEBUG - 2013-12-10 17:50:30 --> Router Class Initialized
+DEBUG - 2013-12-10 17:50:30 --> Output Class Initialized
+DEBUG - 2013-12-10 17:50:30 --> Security Class Initialized
+DEBUG - 2013-12-10 17:50:30 --> Input Class Initialized
+DEBUG - 2013-12-10 17:50:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:50:30 --> Language Class Initialized
+DEBUG - 2013-12-10 17:50:30 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:50:30 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:50:31 --> Session Class Initialized
+DEBUG - 2013-12-10 17:50:31 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:50:31 --> Session routines successfully run
+DEBUG - 2013-12-10 17:50:31 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:50:31 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:50:31 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:50:31 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 17:52:04 --> Config Class Initialized
+DEBUG - 2013-12-10 17:52:04 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:52:04 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:52:04 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:52:04 --> URI Class Initialized
+DEBUG - 2013-12-10 17:52:04 --> Router Class Initialized
+DEBUG - 2013-12-10 17:52:05 --> Output Class Initialized
+DEBUG - 2013-12-10 17:52:05 --> Security Class Initialized
+DEBUG - 2013-12-10 17:52:05 --> Input Class Initialized
+DEBUG - 2013-12-10 17:52:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:52:05 --> Language Class Initialized
+DEBUG - 2013-12-10 17:52:05 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:52:05 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:52:05 --> Session Class Initialized
+DEBUG - 2013-12-10 17:52:05 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:52:06 --> Session garbage collection performed.
+DEBUG - 2013-12-10 17:52:06 --> Session routines successfully run
+DEBUG - 2013-12-10 17:52:06 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:52:06 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:52:06 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:52:06 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:52:06 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:52:06 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:52:06 --> Model Class Initialized
+DEBUG - 2013-12-10 17:52:07 --> Model Class Initialized
+DEBUG - 2013-12-10 17:52:07 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:52:07 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:52:07 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:52:07 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:52:07 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 17:52:07 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-10 17:52:07 --> Final output sent to browser
+DEBUG - 2013-12-10 17:52:07 --> Total execution time: 2.8172
+DEBUG - 2013-12-10 17:52:07 --> Config Class Initialized
+DEBUG - 2013-12-10 17:52:08 --> Config Class Initialized
+DEBUG - 2013-12-10 17:52:08 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:52:08 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:52:08 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:52:08 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:52:08 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:52:08 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:52:08 --> URI Class Initialized
+DEBUG - 2013-12-10 17:52:08 --> URI Class Initialized
+DEBUG - 2013-12-10 17:52:08 --> Router Class Initialized
+DEBUG - 2013-12-10 17:52:08 --> Router Class Initialized
+DEBUG - 2013-12-10 17:52:08 --> Output Class Initialized
+DEBUG - 2013-12-10 17:52:08 --> Output Class Initialized
+DEBUG - 2013-12-10 17:52:08 --> Security Class Initialized
+DEBUG - 2013-12-10 17:52:08 --> Security Class Initialized
+DEBUG - 2013-12-10 17:52:08 --> Input Class Initialized
+DEBUG - 2013-12-10 17:52:09 --> Input Class Initialized
+DEBUG - 2013-12-10 17:52:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:52:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:52:09 --> Language Class Initialized
+DEBUG - 2013-12-10 17:52:09 --> Language Class Initialized
+DEBUG - 2013-12-10 17:52:09 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:52:09 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:52:09 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:52:09 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:52:09 --> Session Class Initialized
+DEBUG - 2013-12-10 17:52:09 --> Session Class Initialized
+DEBUG - 2013-12-10 17:52:09 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:52:09 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:52:09 --> Session routines successfully run
+DEBUG - 2013-12-10 17:52:09 --> Session routines successfully run
+DEBUG - 2013-12-10 17:52:09 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:52:10 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:52:10 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:52:10 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:52:10 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:52:10 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:52:10 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:52:10 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:52:10 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:52:10 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:52:10 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:52:10 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:52:10 --> Model Class Initialized
+DEBUG - 2013-12-10 17:52:10 --> Model Class Initialized
+DEBUG - 2013-12-10 17:52:10 --> Model Class Initialized
+DEBUG - 2013-12-10 17:52:10 --> Model Class Initialized
+DEBUG - 2013-12-10 17:52:10 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:52:10 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:52:11 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:52:11 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:52:11 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:52:11 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:52:11 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:52:11 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:52:11 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 17:52:11 --> Language file loaded: language/english/tank_auth_lang.php
+ERROR - 2013-12-10 17:52:11 --> 404 Page Not Found --> errors/page_missing
+ERROR - 2013-12-10 17:52:11 --> 404 Page Not Found --> errors/page_missing
+DEBUG - 2013-12-10 17:52:13 --> Config Class Initialized
+DEBUG - 2013-12-10 17:52:13 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:52:13 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:52:13 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:52:14 --> URI Class Initialized
+DEBUG - 2013-12-10 17:52:14 --> Router Class Initialized
+DEBUG - 2013-12-10 17:52:14 --> Output Class Initialized
+DEBUG - 2013-12-10 17:52:14 --> Security Class Initialized
+DEBUG - 2013-12-10 17:52:14 --> Input Class Initialized
+DEBUG - 2013-12-10 17:52:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:52:14 --> Language Class Initialized
+DEBUG - 2013-12-10 17:52:14 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:52:14 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:52:14 --> Session Class Initialized
+DEBUG - 2013-12-10 17:52:14 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:52:14 --> Session routines successfully run
+DEBUG - 2013-12-10 17:52:14 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:52:14 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:52:14 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:52:15 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 17:58:32 --> Config Class Initialized
+DEBUG - 2013-12-10 17:58:33 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:58:33 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:58:33 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:58:33 --> URI Class Initialized
+DEBUG - 2013-12-10 17:58:33 --> Router Class Initialized
+DEBUG - 2013-12-10 17:58:33 --> Output Class Initialized
+DEBUG - 2013-12-10 17:58:33 --> Security Class Initialized
+DEBUG - 2013-12-10 17:58:33 --> Input Class Initialized
+DEBUG - 2013-12-10 17:58:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:58:33 --> Language Class Initialized
+DEBUG - 2013-12-10 17:58:33 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:58:33 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:58:33 --> Session Class Initialized
+DEBUG - 2013-12-10 17:58:33 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:58:34 --> Session routines successfully run
+DEBUG - 2013-12-10 17:58:34 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:58:34 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:58:34 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:58:34 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:58:34 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:58:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:58:34 --> Model Class Initialized
+DEBUG - 2013-12-10 17:58:34 --> Model Class Initialized
+DEBUG - 2013-12-10 17:58:34 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:58:34 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:58:34 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:58:34 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:58:34 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 17:58:35 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-10 17:58:35 --> Final output sent to browser
+DEBUG - 2013-12-10 17:58:35 --> Total execution time: 2.0711
+DEBUG - 2013-12-10 17:58:35 --> Config Class Initialized
+DEBUG - 2013-12-10 17:58:35 --> Config Class Initialized
+DEBUG - 2013-12-10 17:58:35 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:58:35 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:58:35 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:58:35 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:58:35 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:58:35 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:58:36 --> URI Class Initialized
+DEBUG - 2013-12-10 17:58:36 --> URI Class Initialized
+DEBUG - 2013-12-10 17:58:36 --> Router Class Initialized
+DEBUG - 2013-12-10 17:58:36 --> Router Class Initialized
+DEBUG - 2013-12-10 17:58:36 --> Output Class Initialized
+DEBUG - 2013-12-10 17:58:36 --> Output Class Initialized
+DEBUG - 2013-12-10 17:58:36 --> Security Class Initialized
+DEBUG - 2013-12-10 17:58:36 --> Security Class Initialized
+DEBUG - 2013-12-10 17:58:36 --> Input Class Initialized
+DEBUG - 2013-12-10 17:58:36 --> Input Class Initialized
+DEBUG - 2013-12-10 17:58:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:58:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:58:36 --> Language Class Initialized
+DEBUG - 2013-12-10 17:58:36 --> Language Class Initialized
+DEBUG - 2013-12-10 17:58:36 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:58:36 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:58:37 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:58:37 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:58:37 --> Session Class Initialized
+DEBUG - 2013-12-10 17:58:37 --> Session Class Initialized
+DEBUG - 2013-12-10 17:58:37 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:58:37 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:58:37 --> Session routines successfully run
+DEBUG - 2013-12-10 17:58:37 --> Session routines successfully run
+DEBUG - 2013-12-10 17:58:37 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:58:37 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:58:37 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:58:37 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:58:37 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:58:37 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:58:38 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:58:38 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 17:58:38 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:58:38 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 17:58:38 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:58:38 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:58:38 --> Model Class Initialized
+DEBUG - 2013-12-10 17:58:38 --> Model Class Initialized
+DEBUG - 2013-12-10 17:58:38 --> Model Class Initialized
+DEBUG - 2013-12-10 17:58:38 --> Model Class Initialized
+DEBUG - 2013-12-10 17:58:38 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:58:38 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 17:58:38 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:58:38 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 17:58:38 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:58:39 --> Upload Class Initialized
+DEBUG - 2013-12-10 17:58:39 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:58:39 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 17:58:39 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 17:58:39 --> Language file loaded: language/english/tank_auth_lang.php
+ERROR - 2013-12-10 17:58:39 --> 404 Page Not Found --> errors/page_missing
+ERROR - 2013-12-10 17:58:39 --> 404 Page Not Found --> errors/page_missing
+DEBUG - 2013-12-10 17:59:47 --> Config Class Initialized
+DEBUG - 2013-12-10 17:59:47 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:59:47 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:59:48 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:59:48 --> URI Class Initialized
+DEBUG - 2013-12-10 17:59:48 --> Router Class Initialized
+DEBUG - 2013-12-10 17:59:48 --> Output Class Initialized
+DEBUG - 2013-12-10 17:59:48 --> Security Class Initialized
+DEBUG - 2013-12-10 17:59:48 --> Input Class Initialized
+DEBUG - 2013-12-10 17:59:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:59:48 --> Language Class Initialized
+DEBUG - 2013-12-10 17:59:48 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:59:48 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:59:48 --> Session Class Initialized
+DEBUG - 2013-12-10 17:59:48 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:59:48 --> Session routines successfully run
+DEBUG - 2013-12-10 17:59:48 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:59:48 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:59:48 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:59:49 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 17:59:56 --> Config Class Initialized
+DEBUG - 2013-12-10 17:59:56 --> Hooks Class Initialized
+DEBUG - 2013-12-10 17:59:56 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 17:59:56 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 17:59:56 --> URI Class Initialized
+DEBUG - 2013-12-10 17:59:56 --> Router Class Initialized
+DEBUG - 2013-12-10 17:59:56 --> Output Class Initialized
+DEBUG - 2013-12-10 17:59:57 --> Security Class Initialized
+DEBUG - 2013-12-10 17:59:57 --> Input Class Initialized
+DEBUG - 2013-12-10 17:59:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 17:59:57 --> Language Class Initialized
+DEBUG - 2013-12-10 17:59:57 --> Loader Class Initialized
+DEBUG - 2013-12-10 17:59:57 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 17:59:57 --> Session Class Initialized
+DEBUG - 2013-12-10 17:59:57 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 17:59:57 --> Session routines successfully run
+DEBUG - 2013-12-10 17:59:57 --> Controller Class Initialized
+DEBUG - 2013-12-10 17:59:57 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 17:59:57 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 17:59:57 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 18:00:40 --> Config Class Initialized
+DEBUG - 2013-12-10 18:00:40 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:00:40 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:00:40 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:00:40 --> URI Class Initialized
+DEBUG - 2013-12-10 18:00:40 --> Router Class Initialized
+DEBUG - 2013-12-10 18:00:40 --> Output Class Initialized
+DEBUG - 2013-12-10 18:00:41 --> Security Class Initialized
+DEBUG - 2013-12-10 18:00:41 --> Input Class Initialized
+DEBUG - 2013-12-10 18:00:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:00:41 --> Language Class Initialized
+DEBUG - 2013-12-10 18:00:41 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:00:41 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:00:41 --> Session Class Initialized
+DEBUG - 2013-12-10 18:00:41 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:00:41 --> Session routines successfully run
+DEBUG - 2013-12-10 18:00:41 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:00:41 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:00:41 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:00:41 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 18:00:44 --> Config Class Initialized
+DEBUG - 2013-12-10 18:00:44 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:00:44 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:00:44 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:00:44 --> URI Class Initialized
+DEBUG - 2013-12-10 18:00:44 --> Router Class Initialized
+DEBUG - 2013-12-10 18:00:44 --> Output Class Initialized
+DEBUG - 2013-12-10 18:00:44 --> Security Class Initialized
+DEBUG - 2013-12-10 18:00:44 --> Input Class Initialized
+DEBUG - 2013-12-10 18:00:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:00:45 --> Language Class Initialized
+DEBUG - 2013-12-10 18:00:45 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:00:45 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:00:45 --> Session Class Initialized
+DEBUG - 2013-12-10 18:00:45 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:00:45 --> Session routines successfully run
+DEBUG - 2013-12-10 18:00:45 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:00:45 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:00:45 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:00:45 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 18:00:45 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 18:00:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:00:45 --> Model Class Initialized
+DEBUG - 2013-12-10 18:00:45 --> Model Class Initialized
+DEBUG - 2013-12-10 18:00:46 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 18:00:46 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 18:00:46 --> Upload Class Initialized
+DEBUG - 2013-12-10 18:00:46 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:00:46 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 18:00:46 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-10 18:00:46 --> Final output sent to browser
+DEBUG - 2013-12-10 18:00:46 --> Total execution time: 2.0861
+DEBUG - 2013-12-10 18:00:46 --> Config Class Initialized
+DEBUG - 2013-12-10 18:00:47 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:00:47 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:00:47 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:00:47 --> URI Class Initialized
+DEBUG - 2013-12-10 18:00:47 --> Router Class Initialized
+DEBUG - 2013-12-10 18:00:47 --> Output Class Initialized
+DEBUG - 2013-12-10 18:00:47 --> Security Class Initialized
+DEBUG - 2013-12-10 18:00:47 --> Input Class Initialized
+DEBUG - 2013-12-10 18:00:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:00:47 --> Language Class Initialized
+DEBUG - 2013-12-10 18:00:47 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:00:47 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:00:47 --> Session Class Initialized
+DEBUG - 2013-12-10 18:00:47 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:00:47 --> Session routines successfully run
+DEBUG - 2013-12-10 18:00:48 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:00:48 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:00:48 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:00:48 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 18:00:48 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 18:00:48 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:00:48 --> Model Class Initialized
+DEBUG - 2013-12-10 18:00:48 --> Model Class Initialized
+DEBUG - 2013-12-10 18:00:48 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 18:00:48 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 18:00:48 --> Upload Class Initialized
+DEBUG - 2013-12-10 18:00:48 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:00:48 --> Language file loaded: language/english/tank_auth_lang.php
+ERROR - 2013-12-10 18:00:49 --> 404 Page Not Found --> errors/page_missing
+DEBUG - 2013-12-10 18:00:51 --> Config Class Initialized
+DEBUG - 2013-12-10 18:00:51 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:00:51 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:00:51 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:00:51 --> URI Class Initialized
+DEBUG - 2013-12-10 18:00:51 --> Router Class Initialized
+DEBUG - 2013-12-10 18:00:51 --> Output Class Initialized
+DEBUG - 2013-12-10 18:00:51 --> Security Class Initialized
+DEBUG - 2013-12-10 18:00:51 --> Input Class Initialized
+DEBUG - 2013-12-10 18:00:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:00:52 --> Language Class Initialized
+DEBUG - 2013-12-10 18:00:52 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:00:52 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:00:52 --> Session Class Initialized
+DEBUG - 2013-12-10 18:00:52 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:00:52 --> Session routines successfully run
+DEBUG - 2013-12-10 18:00:52 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:00:52 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:00:52 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:00:52 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 18:00:53 --> Config Class Initialized
+DEBUG - 2013-12-10 18:00:53 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:00:53 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:00:53 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:00:53 --> URI Class Initialized
+DEBUG - 2013-12-10 18:00:53 --> Router Class Initialized
+DEBUG - 2013-12-10 18:00:53 --> Output Class Initialized
+DEBUG - 2013-12-10 18:00:53 --> Security Class Initialized
+DEBUG - 2013-12-10 18:00:53 --> Input Class Initialized
+DEBUG - 2013-12-10 18:00:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:00:54 --> Language Class Initialized
+DEBUG - 2013-12-10 18:00:54 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:00:54 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:00:54 --> Session Class Initialized
+DEBUG - 2013-12-10 18:00:54 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:00:54 --> Session routines successfully run
+DEBUG - 2013-12-10 18:00:54 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:00:54 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:00:54 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:00:54 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 18:03:53 --> Config Class Initialized
+DEBUG - 2013-12-10 18:03:53 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:03:53 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:03:53 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:03:53 --> URI Class Initialized
+DEBUG - 2013-12-10 18:03:53 --> Router Class Initialized
+DEBUG - 2013-12-10 18:03:54 --> Output Class Initialized
+DEBUG - 2013-12-10 18:03:54 --> Security Class Initialized
+DEBUG - 2013-12-10 18:03:54 --> Input Class Initialized
+DEBUG - 2013-12-10 18:03:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:03:54 --> Language Class Initialized
+DEBUG - 2013-12-10 18:03:54 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:03:54 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:03:54 --> Session Class Initialized
+DEBUG - 2013-12-10 18:03:54 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:03:54 --> Session routines successfully run
+DEBUG - 2013-12-10 18:03:54 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:03:54 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:03:54 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:03:55 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 18:04:15 --> Config Class Initialized
+DEBUG - 2013-12-10 18:04:15 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:04:15 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:04:15 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:04:15 --> URI Class Initialized
+DEBUG - 2013-12-10 18:04:15 --> Router Class Initialized
+DEBUG - 2013-12-10 18:04:15 --> Output Class Initialized
+DEBUG - 2013-12-10 18:04:15 --> Security Class Initialized
+DEBUG - 2013-12-10 18:04:15 --> Input Class Initialized
+DEBUG - 2013-12-10 18:04:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:04:16 --> Language Class Initialized
+DEBUG - 2013-12-10 18:04:16 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:04:16 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:04:16 --> Session Class Initialized
+DEBUG - 2013-12-10 18:04:16 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:04:16 --> Session routines successfully run
+DEBUG - 2013-12-10 18:04:16 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:04:16 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:04:16 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:04:16 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 18:04:17 --> Config Class Initialized
+DEBUG - 2013-12-10 18:04:17 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:04:17 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:04:17 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:04:17 --> URI Class Initialized
+DEBUG - 2013-12-10 18:04:17 --> Router Class Initialized
+DEBUG - 2013-12-10 18:04:17 --> Output Class Initialized
+DEBUG - 2013-12-10 18:04:17 --> Security Class Initialized
+DEBUG - 2013-12-10 18:04:17 --> Input Class Initialized
+DEBUG - 2013-12-10 18:04:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:04:17 --> Language Class Initialized
+DEBUG - 2013-12-10 18:04:18 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:04:18 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:04:18 --> Session Class Initialized
+DEBUG - 2013-12-10 18:04:18 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:04:18 --> Session garbage collection performed.
+DEBUG - 2013-12-10 18:04:18 --> Session routines successfully run
+DEBUG - 2013-12-10 18:04:18 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:04:18 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:04:18 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:04:18 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 18:04:18 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 18:04:18 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:04:19 --> Model Class Initialized
+DEBUG - 2013-12-10 18:04:19 --> Model Class Initialized
+DEBUG - 2013-12-10 18:04:19 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 18:04:19 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 18:04:19 --> Upload Class Initialized
+DEBUG - 2013-12-10 18:04:19 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:04:19 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 18:04:19 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-10 18:04:19 --> Final output sent to browser
+DEBUG - 2013-12-10 18:04:19 --> Total execution time: 2.4741
+DEBUG - 2013-12-10 18:04:20 --> Config Class Initialized
+DEBUG - 2013-12-10 18:04:20 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:04:20 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:04:20 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:04:20 --> URI Class Initialized
+DEBUG - 2013-12-10 18:04:20 --> Router Class Initialized
+DEBUG - 2013-12-10 18:04:20 --> Output Class Initialized
+DEBUG - 2013-12-10 18:04:20 --> Security Class Initialized
+DEBUG - 2013-12-10 18:04:20 --> Input Class Initialized
+DEBUG - 2013-12-10 18:04:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:04:20 --> Language Class Initialized
+DEBUG - 2013-12-10 18:04:20 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:04:21 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:04:21 --> Session Class Initialized
+DEBUG - 2013-12-10 18:04:21 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:04:21 --> Session routines successfully run
+DEBUG - 2013-12-10 18:04:21 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:04:21 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:04:21 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:04:21 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 18:04:21 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 18:04:21 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:04:21 --> Model Class Initialized
+DEBUG - 2013-12-10 18:04:21 --> Model Class Initialized
+DEBUG - 2013-12-10 18:04:21 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 18:04:22 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 18:04:22 --> Upload Class Initialized
+DEBUG - 2013-12-10 18:04:22 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:04:22 --> Language file loaded: language/english/tank_auth_lang.php
+ERROR - 2013-12-10 18:04:22 --> 404 Page Not Found --> errors/page_missing
+DEBUG - 2013-12-10 18:04:28 --> Config Class Initialized
+DEBUG - 2013-12-10 18:04:28 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:04:28 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:04:28 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:04:28 --> URI Class Initialized
+DEBUG - 2013-12-10 18:04:28 --> Router Class Initialized
+DEBUG - 2013-12-10 18:04:28 --> Output Class Initialized
+DEBUG - 2013-12-10 18:04:28 --> Security Class Initialized
+DEBUG - 2013-12-10 18:04:29 --> Input Class Initialized
+DEBUG - 2013-12-10 18:04:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:04:29 --> Language Class Initialized
+DEBUG - 2013-12-10 18:04:29 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:04:29 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:04:29 --> Session Class Initialized
+DEBUG - 2013-12-10 18:04:29 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:04:29 --> Session routines successfully run
+DEBUG - 2013-12-10 18:04:29 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:04:29 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:04:29 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:04:29 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 18:04:32 --> Config Class Initialized
+DEBUG - 2013-12-10 18:04:33 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:04:33 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:04:33 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:04:33 --> URI Class Initialized
+DEBUG - 2013-12-10 18:04:33 --> Router Class Initialized
+DEBUG - 2013-12-10 18:04:33 --> Output Class Initialized
+DEBUG - 2013-12-10 18:04:33 --> Security Class Initialized
+DEBUG - 2013-12-10 18:04:33 --> Input Class Initialized
+DEBUG - 2013-12-10 18:04:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:04:33 --> Language Class Initialized
+DEBUG - 2013-12-10 18:04:33 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:04:33 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:04:33 --> Session Class Initialized
+DEBUG - 2013-12-10 18:04:33 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:04:33 --> Session routines successfully run
+DEBUG - 2013-12-10 18:04:33 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:04:34 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:04:34 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:04:34 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 18:08:47 --> Config Class Initialized
+DEBUG - 2013-12-10 18:08:47 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:08:47 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:08:47 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:08:47 --> URI Class Initialized
+DEBUG - 2013-12-10 18:08:47 --> Router Class Initialized
+DEBUG - 2013-12-10 18:08:48 --> No URI present. Default controller set.
+DEBUG - 2013-12-10 18:08:48 --> Output Class Initialized
+DEBUG - 2013-12-10 18:08:48 --> Security Class Initialized
+DEBUG - 2013-12-10 18:08:48 --> Input Class Initialized
+DEBUG - 2013-12-10 18:08:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:08:48 --> Language Class Initialized
+DEBUG - 2013-12-10 18:08:48 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:08:48 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:08:48 --> Session Class Initialized
+DEBUG - 2013-12-10 18:08:48 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:08:48 --> A session cookie was not found.
+DEBUG - 2013-12-10 18:08:48 --> Session routines successfully run
+DEBUG - 2013-12-10 18:08:48 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:08:48 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:08:48 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:08:49 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 18:08:49 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 18:08:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:08:49 --> Model Class Initialized
+DEBUG - 2013-12-10 18:08:49 --> Model Class Initialized
+DEBUG - 2013-12-10 18:08:49 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 18:08:49 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 18:08:49 --> Upload Class Initialized
+DEBUG - 2013-12-10 18:08:49 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:08:49 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 18:08:49 --> Config Class Initialized
+DEBUG - 2013-12-10 18:08:49 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:08:50 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:08:50 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:08:50 --> URI Class Initialized
+DEBUG - 2013-12-10 18:08:50 --> Router Class Initialized
+DEBUG - 2013-12-10 18:08:50 --> Output Class Initialized
+DEBUG - 2013-12-10 18:08:50 --> Security Class Initialized
+DEBUG - 2013-12-10 18:08:50 --> Input Class Initialized
+DEBUG - 2013-12-10 18:08:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:08:50 --> Language Class Initialized
+DEBUG - 2013-12-10 18:08:50 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:08:50 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:08:50 --> Session Class Initialized
+DEBUG - 2013-12-10 18:08:51 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:08:51 --> Session routines successfully run
+DEBUG - 2013-12-10 18:08:51 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:08:51 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:08:51 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:08:51 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 18:08:51 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 18:08:51 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:08:51 --> Model Class Initialized
+DEBUG - 2013-12-10 18:08:51 --> Model Class Initialized
+DEBUG - 2013-12-10 18:08:51 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 18:08:51 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 18:08:51 --> Upload Class Initialized
+DEBUG - 2013-12-10 18:08:52 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:08:52 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 18:08:52 --> Model Class Initialized
+DEBUG - 2013-12-10 18:08:52 --> File loaded: application/views/auth/login_form.php
+DEBUG - 2013-12-10 18:08:52 --> Final output sent to browser
+DEBUG - 2013-12-10 18:08:52 --> Total execution time: 2.4641
+DEBUG - 2013-12-10 18:08:52 --> Config Class Initialized
+DEBUG - 2013-12-10 18:08:52 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:08:52 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:08:52 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:08:52 --> URI Class Initialized
+DEBUG - 2013-12-10 18:08:52 --> Router Class Initialized
+DEBUG - 2013-12-10 18:08:53 --> Output Class Initialized
+DEBUG - 2013-12-10 18:08:53 --> Security Class Initialized
+DEBUG - 2013-12-10 18:08:53 --> Input Class Initialized
+DEBUG - 2013-12-10 18:08:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:08:53 --> Language Class Initialized
+DEBUG - 2013-12-10 18:08:53 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:08:53 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:08:53 --> Session Class Initialized
+DEBUG - 2013-12-10 18:08:53 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:08:53 --> Session routines successfully run
+DEBUG - 2013-12-10 18:08:53 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:08:53 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:08:53 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:08:53 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 18:08:54 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 18:08:54 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:08:54 --> Model Class Initialized
+DEBUG - 2013-12-10 18:08:54 --> Model Class Initialized
+DEBUG - 2013-12-10 18:08:54 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 18:08:54 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 18:08:54 --> Upload Class Initialized
+DEBUG - 2013-12-10 18:08:54 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:08:54 --> Language file loaded: language/english/tank_auth_lang.php
+ERROR - 2013-12-10 18:08:54 --> 404 Page Not Found --> errors/page_missing
+DEBUG - 2013-12-10 18:08:57 --> Config Class Initialized
+DEBUG - 2013-12-10 18:08:57 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:08:57 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:08:57 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:08:57 --> URI Class Initialized
+DEBUG - 2013-12-10 18:08:57 --> Router Class Initialized
+DEBUG - 2013-12-10 18:08:57 --> Output Class Initialized
+DEBUG - 2013-12-10 18:08:57 --> Security Class Initialized
+DEBUG - 2013-12-10 18:08:57 --> Input Class Initialized
+DEBUG - 2013-12-10 18:08:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:08:57 --> Language Class Initialized
+DEBUG - 2013-12-10 18:08:58 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:08:58 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:08:58 --> Session Class Initialized
+DEBUG - 2013-12-10 18:08:58 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:08:58 --> Session routines successfully run
+DEBUG - 2013-12-10 18:08:58 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:08:58 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:08:58 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:08:58 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 18:08:58 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 18:08:58 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:08:58 --> Model Class Initialized
+DEBUG - 2013-12-10 18:08:58 --> Model Class Initialized
+DEBUG - 2013-12-10 18:08:58 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 18:08:59 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 18:08:59 --> Upload Class Initialized
+DEBUG - 2013-12-10 18:08:59 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:08:59 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 18:08:59 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-10 18:08:59 --> Final output sent to browser
+DEBUG - 2013-12-10 18:08:59 --> Total execution time: 2.0751
+DEBUG - 2013-12-10 18:08:59 --> Config Class Initialized
+DEBUG - 2013-12-10 18:08:59 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:08:59 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:08:59 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:08:59 --> URI Class Initialized
+DEBUG - 2013-12-10 18:08:59 --> Router Class Initialized
+DEBUG - 2013-12-10 18:09:00 --> Output Class Initialized
+DEBUG - 2013-12-10 18:09:00 --> Security Class Initialized
+DEBUG - 2013-12-10 18:09:00 --> Input Class Initialized
+DEBUG - 2013-12-10 18:09:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:09:00 --> Language Class Initialized
+DEBUG - 2013-12-10 18:09:00 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:09:00 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:09:00 --> Session Class Initialized
+DEBUG - 2013-12-10 18:09:00 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:09:00 --> Session routines successfully run
+DEBUG - 2013-12-10 18:09:00 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:09:00 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:09:00 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:09:01 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 18:09:01 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 18:09:01 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:09:01 --> Model Class Initialized
+DEBUG - 2013-12-10 18:09:01 --> Model Class Initialized
+DEBUG - 2013-12-10 18:09:01 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 18:09:01 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 18:09:01 --> Upload Class Initialized
+DEBUG - 2013-12-10 18:09:01 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:09:01 --> Language file loaded: language/english/tank_auth_lang.php
+ERROR - 2013-12-10 18:09:01 --> 404 Page Not Found --> errors/page_missing
+DEBUG - 2013-12-10 18:09:05 --> Config Class Initialized
+DEBUG - 2013-12-10 18:09:05 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:09:05 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:09:05 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:09:05 --> URI Class Initialized
+DEBUG - 2013-12-10 18:09:05 --> Router Class Initialized
+DEBUG - 2013-12-10 18:09:05 --> Output Class Initialized
+DEBUG - 2013-12-10 18:09:05 --> Security Class Initialized
+DEBUG - 2013-12-10 18:09:05 --> Input Class Initialized
+DEBUG - 2013-12-10 18:09:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:09:05 --> Language Class Initialized
+DEBUG - 2013-12-10 18:09:05 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:09:05 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:09:06 --> Session Class Initialized
+DEBUG - 2013-12-10 18:09:06 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:09:06 --> Session routines successfully run
+DEBUG - 2013-12-10 18:09:06 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:09:06 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:09:06 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:09:06 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 18:09:12 --> Config Class Initialized
+DEBUG - 2013-12-10 18:09:12 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:09:12 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:09:12 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:09:12 --> URI Class Initialized
+DEBUG - 2013-12-10 18:09:12 --> Router Class Initialized
+DEBUG - 2013-12-10 18:09:12 --> Output Class Initialized
+DEBUG - 2013-12-10 18:09:12 --> Security Class Initialized
+DEBUG - 2013-12-10 18:09:12 --> Input Class Initialized
+DEBUG - 2013-12-10 18:09:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:09:12 --> Language Class Initialized
+DEBUG - 2013-12-10 18:09:12 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:09:12 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:09:13 --> Session Class Initialized
+DEBUG - 2013-12-10 18:09:13 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:09:13 --> Session routines successfully run
+DEBUG - 2013-12-10 18:09:13 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:09:13 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:09:13 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:09:13 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 18:10:11 --> Config Class Initialized
+DEBUG - 2013-12-10 18:10:11 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:10:11 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:10:11 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:10:11 --> URI Class Initialized
+DEBUG - 2013-12-10 18:10:11 --> Router Class Initialized
+DEBUG - 2013-12-10 18:10:11 --> Output Class Initialized
+DEBUG - 2013-12-10 18:10:11 --> Security Class Initialized
+DEBUG - 2013-12-10 18:10:11 --> Input Class Initialized
+DEBUG - 2013-12-10 18:10:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:10:12 --> Language Class Initialized
+DEBUG - 2013-12-10 18:10:12 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:10:12 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:10:12 --> Session Class Initialized
+DEBUG - 2013-12-10 18:10:12 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:10:12 --> Session routines successfully run
+DEBUG - 2013-12-10 18:10:12 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:10:12 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:10:12 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:10:12 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 18:10:12 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 18:10:12 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:10:12 --> Model Class Initialized
+DEBUG - 2013-12-10 18:10:12 --> Model Class Initialized
+DEBUG - 2013-12-10 18:10:12 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 18:10:13 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 18:10:13 --> Upload Class Initialized
+DEBUG - 2013-12-10 18:10:13 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:10:13 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 18:10:13 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-10 18:10:13 --> Final output sent to browser
+DEBUG - 2013-12-10 18:10:13 --> Total execution time: 2.0391
+DEBUG - 2013-12-10 18:10:13 --> Config Class Initialized
+DEBUG - 2013-12-10 18:10:13 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:10:13 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:10:14 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:10:14 --> URI Class Initialized
+DEBUG - 2013-12-10 18:10:14 --> Router Class Initialized
+DEBUG - 2013-12-10 18:10:14 --> Output Class Initialized
+DEBUG - 2013-12-10 18:10:14 --> Security Class Initialized
+DEBUG - 2013-12-10 18:10:14 --> Input Class Initialized
+DEBUG - 2013-12-10 18:10:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:10:14 --> Language Class Initialized
+DEBUG - 2013-12-10 18:10:14 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:10:14 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:10:14 --> Session Class Initialized
+DEBUG - 2013-12-10 18:10:14 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:10:14 --> Session routines successfully run
+DEBUG - 2013-12-10 18:10:15 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:10:15 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:10:15 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:10:15 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 18:10:15 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 18:10:15 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:10:15 --> Model Class Initialized
+DEBUG - 2013-12-10 18:10:15 --> Model Class Initialized
+DEBUG - 2013-12-10 18:10:15 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 18:10:15 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 18:10:15 --> Upload Class Initialized
+DEBUG - 2013-12-10 18:10:15 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:10:15 --> Language file loaded: language/english/tank_auth_lang.php
+ERROR - 2013-12-10 18:10:16 --> 404 Page Not Found --> errors/page_missing
+DEBUG - 2013-12-10 18:10:19 --> Config Class Initialized
+DEBUG - 2013-12-10 18:10:19 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:10:19 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:10:19 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:10:19 --> URI Class Initialized
+DEBUG - 2013-12-10 18:10:19 --> Router Class Initialized
+DEBUG - 2013-12-10 18:10:19 --> Output Class Initialized
+DEBUG - 2013-12-10 18:10:20 --> Security Class Initialized
+DEBUG - 2013-12-10 18:10:20 --> Input Class Initialized
+DEBUG - 2013-12-10 18:10:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:10:20 --> Language Class Initialized
+DEBUG - 2013-12-10 18:10:20 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:10:20 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:10:20 --> Session Class Initialized
+DEBUG - 2013-12-10 18:10:20 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:10:20 --> Session routines successfully run
+DEBUG - 2013-12-10 18:10:20 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:10:20 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:10:20 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:10:20 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 18:10:22 --> Config Class Initialized
+DEBUG - 2013-12-10 18:10:22 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:10:22 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:10:22 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:10:22 --> URI Class Initialized
+DEBUG - 2013-12-10 18:10:22 --> Router Class Initialized
+DEBUG - 2013-12-10 18:10:22 --> Output Class Initialized
+DEBUG - 2013-12-10 18:10:23 --> Security Class Initialized
+DEBUG - 2013-12-10 18:10:23 --> Input Class Initialized
+DEBUG - 2013-12-10 18:10:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:10:23 --> Language Class Initialized
+DEBUG - 2013-12-10 18:10:23 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:10:23 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:10:23 --> Session Class Initialized
+DEBUG - 2013-12-10 18:10:23 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:10:23 --> Session routines successfully run
+DEBUG - 2013-12-10 18:10:23 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:10:23 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:10:23 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:10:23 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 18:16:24 --> Config Class Initialized
+DEBUG - 2013-12-10 18:16:24 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:16:24 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:16:24 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:16:24 --> URI Class Initialized
+DEBUG - 2013-12-10 18:16:25 --> Router Class Initialized
+DEBUG - 2013-12-10 18:16:25 --> Output Class Initialized
+DEBUG - 2013-12-10 18:16:25 --> Security Class Initialized
+DEBUG - 2013-12-10 18:16:25 --> Input Class Initialized
+DEBUG - 2013-12-10 18:16:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:16:25 --> Language Class Initialized
+DEBUG - 2013-12-10 18:16:25 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:16:25 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:16:25 --> Session Class Initialized
+DEBUG - 2013-12-10 18:16:25 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:16:25 --> Session routines successfully run
+DEBUG - 2013-12-10 18:16:25 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:16:25 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:16:25 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:16:26 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 18:16:26 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 18:16:26 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:16:26 --> Model Class Initialized
+DEBUG - 2013-12-10 18:16:26 --> Model Class Initialized
+DEBUG - 2013-12-10 18:16:26 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 18:16:26 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 18:16:26 --> Upload Class Initialized
+DEBUG - 2013-12-10 18:16:26 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:16:26 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 18:16:26 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-10 18:16:27 --> Final output sent to browser
+DEBUG - 2013-12-10 18:16:27 --> Total execution time: 2.4381
+DEBUG - 2013-12-10 18:16:27 --> Config Class Initialized
+DEBUG - 2013-12-10 18:16:27 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:16:27 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:16:27 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:16:27 --> URI Class Initialized
+DEBUG - 2013-12-10 18:16:27 --> Router Class Initialized
+DEBUG - 2013-12-10 18:16:27 --> Output Class Initialized
+DEBUG - 2013-12-10 18:16:27 --> Security Class Initialized
+DEBUG - 2013-12-10 18:16:27 --> Input Class Initialized
+DEBUG - 2013-12-10 18:16:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:16:28 --> Language Class Initialized
+DEBUG - 2013-12-10 18:16:28 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:16:28 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:16:28 --> Session Class Initialized
+DEBUG - 2013-12-10 18:16:28 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:16:28 --> Session routines successfully run
+DEBUG - 2013-12-10 18:16:28 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:16:28 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:16:28 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:16:28 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 18:16:28 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 18:16:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:16:28 --> Model Class Initialized
+DEBUG - 2013-12-10 18:16:29 --> Model Class Initialized
+DEBUG - 2013-12-10 18:16:29 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 18:16:29 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 18:16:29 --> Upload Class Initialized
+DEBUG - 2013-12-10 18:16:29 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:16:29 --> Language file loaded: language/english/tank_auth_lang.php
+ERROR - 2013-12-10 18:16:29 --> 404 Page Not Found --> errors/page_missing
+DEBUG - 2013-12-10 18:16:33 --> Config Class Initialized
+DEBUG - 2013-12-10 18:16:33 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:16:33 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:16:33 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:16:33 --> URI Class Initialized
+DEBUG - 2013-12-10 18:16:33 --> Router Class Initialized
+DEBUG - 2013-12-10 18:16:33 --> Output Class Initialized
+DEBUG - 2013-12-10 18:16:33 --> Security Class Initialized
+DEBUG - 2013-12-10 18:16:33 --> Input Class Initialized
+DEBUG - 2013-12-10 18:16:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:16:33 --> Language Class Initialized
+DEBUG - 2013-12-10 18:16:33 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:16:34 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:16:34 --> Session Class Initialized
+DEBUG - 2013-12-10 18:16:34 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:16:34 --> Session routines successfully run
+DEBUG - 2013-12-10 18:16:34 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:16:34 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:16:34 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:16:34 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 18:16:34 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 18:16:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:16:34 --> Model Class Initialized
+DEBUG - 2013-12-10 18:16:34 --> Model Class Initialized
+DEBUG - 2013-12-10 18:16:34 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 18:16:34 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 18:16:34 --> Upload Class Initialized
+DEBUG - 2013-12-10 18:16:35 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:16:35 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 18:16:35 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-10 18:16:35 --> Final output sent to browser
+DEBUG - 2013-12-10 18:16:35 --> Total execution time: 2.1031
+DEBUG - 2013-12-10 18:16:35 --> Config Class Initialized
+DEBUG - 2013-12-10 18:16:35 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:16:35 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:16:35 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:16:35 --> URI Class Initialized
+DEBUG - 2013-12-10 18:16:35 --> Router Class Initialized
+DEBUG - 2013-12-10 18:16:35 --> Output Class Initialized
+DEBUG - 2013-12-10 18:16:36 --> Security Class Initialized
+DEBUG - 2013-12-10 18:16:36 --> Input Class Initialized
+DEBUG - 2013-12-10 18:16:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:16:36 --> Language Class Initialized
+DEBUG - 2013-12-10 18:16:36 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:16:36 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:16:36 --> Session Class Initialized
+DEBUG - 2013-12-10 18:16:36 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:16:36 --> Session routines successfully run
+DEBUG - 2013-12-10 18:16:36 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:16:36 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:16:36 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:16:36 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 18:16:37 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 18:16:37 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:16:37 --> Model Class Initialized
+DEBUG - 2013-12-10 18:16:37 --> Model Class Initialized
+DEBUG - 2013-12-10 18:16:37 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 18:16:37 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 18:16:37 --> Upload Class Initialized
+DEBUG - 2013-12-10 18:16:37 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:16:37 --> Language file loaded: language/english/tank_auth_lang.php
+ERROR - 2013-12-10 18:16:37 --> 404 Page Not Found --> errors/page_missing
+DEBUG - 2013-12-10 18:16:40 --> Config Class Initialized
+DEBUG - 2013-12-10 18:16:40 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:16:40 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:16:40 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:16:41 --> URI Class Initialized
+DEBUG - 2013-12-10 18:16:41 --> Router Class Initialized
+DEBUG - 2013-12-10 18:16:41 --> Output Class Initialized
+DEBUG - 2013-12-10 18:16:41 --> Security Class Initialized
+DEBUG - 2013-12-10 18:16:41 --> Input Class Initialized
+DEBUG - 2013-12-10 18:16:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:16:41 --> Language Class Initialized
+DEBUG - 2013-12-10 18:16:41 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:16:41 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:16:41 --> Session Class Initialized
+DEBUG - 2013-12-10 18:16:41 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:16:41 --> Session routines successfully run
+DEBUG - 2013-12-10 18:16:41 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:16:41 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:16:41 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:16:41 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 18:16:43 --> Config Class Initialized
+DEBUG - 2013-12-10 18:16:43 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:16:43 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:16:43 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:16:43 --> URI Class Initialized
+DEBUG - 2013-12-10 18:16:43 --> Router Class Initialized
+DEBUG - 2013-12-10 18:16:43 --> Output Class Initialized
+DEBUG - 2013-12-10 18:16:43 --> Security Class Initialized
+DEBUG - 2013-12-10 18:16:43 --> Input Class Initialized
+DEBUG - 2013-12-10 18:16:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:16:44 --> Language Class Initialized
+DEBUG - 2013-12-10 18:16:44 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:16:44 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:16:44 --> Session Class Initialized
+DEBUG - 2013-12-10 18:16:44 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:16:44 --> Session routines successfully run
+DEBUG - 2013-12-10 18:16:44 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:16:44 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:16:44 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:16:44 --> Helper loaded: security_helper
+DEBUG - 2013-12-10 18:17:23 --> Config Class Initialized
+DEBUG - 2013-12-10 18:17:23 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:17:23 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:17:23 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:17:23 --> URI Class Initialized
+DEBUG - 2013-12-10 18:17:23 --> Router Class Initialized
+DEBUG - 2013-12-10 18:17:23 --> Output Class Initialized
+DEBUG - 2013-12-10 18:17:23 --> Security Class Initialized
+DEBUG - 2013-12-10 18:17:23 --> Input Class Initialized
+DEBUG - 2013-12-10 18:17:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:17:24 --> Language Class Initialized
+DEBUG - 2013-12-10 18:17:24 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:17:24 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:17:24 --> Session Class Initialized
+DEBUG - 2013-12-10 18:17:24 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:17:24 --> Session routines successfully run
+DEBUG - 2013-12-10 18:17:24 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:17:24 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:17:24 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:17:24 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 18:17:24 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 18:17:24 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:17:24 --> Model Class Initialized
+DEBUG - 2013-12-10 18:17:24 --> Model Class Initialized
+DEBUG - 2013-12-10 18:17:24 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 18:17:25 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 18:17:25 --> Upload Class Initialized
+DEBUG - 2013-12-10 18:17:25 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:17:25 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2013-12-10 18:17:25 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2013-12-10 18:17:25 --> Final output sent to browser
+DEBUG - 2013-12-10 18:17:25 --> Total execution time: 2.0611
+DEBUG - 2013-12-10 18:17:25 --> Config Class Initialized
+DEBUG - 2013-12-10 18:17:25 --> Hooks Class Initialized
+DEBUG - 2013-12-10 18:17:25 --> Utf8 Class Initialized
+DEBUG - 2013-12-10 18:17:25 --> UTF-8 Support Enabled
+DEBUG - 2013-12-10 18:17:26 --> URI Class Initialized
+DEBUG - 2013-12-10 18:17:26 --> Router Class Initialized
+DEBUG - 2013-12-10 18:17:26 --> Output Class Initialized
+DEBUG - 2013-12-10 18:17:26 --> Security Class Initialized
+DEBUG - 2013-12-10 18:17:26 --> Input Class Initialized
+DEBUG - 2013-12-10 18:17:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-12-10 18:17:26 --> Language Class Initialized
+DEBUG - 2013-12-10 18:17:26 --> Loader Class Initialized
+DEBUG - 2013-12-10 18:17:26 --> Database Driver Class Initialized
+DEBUG - 2013-12-10 18:17:26 --> Session Class Initialized
+DEBUG - 2013-12-10 18:17:26 --> Helper loaded: string_helper
+DEBUG - 2013-12-10 18:17:26 --> Session routines successfully run
+DEBUG - 2013-12-10 18:17:26 --> Controller Class Initialized
+DEBUG - 2013-12-10 18:17:27 --> Helper loaded: form_helper
+DEBUG - 2013-12-10 18:17:27 --> Helper loaded: url_helper
+DEBUG - 2013-12-10 18:17:27 --> Form Validation Class Initialized
+DEBUG - 2013-12-10 18:17:27 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-12-10 18:17:27 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:17:27 --> Model Class Initialized
+DEBUG - 2013-12-10 18:17:27 --> Model Class Initialized
+DEBUG - 2013-12-10 18:17:27 --> Image Lib Class Initialized
+DEBUG - 2013-12-10 18:17:27 --> Helper loaded: cookie_helper
+DEBUG - 2013-12-10 18:17:27 --> Upload Class Initialized
+DEBUG - 2013-12-10 18:17:27 --> Image_lib class already loaded. Second attempt ignored.
+DEBUG - 2013-12-10 18:17:27 --> Language file loaded: language/english/tank_auth_lang.php
+ERROR - 2013-12-10 18:17:28 --> 404 Page Not Found --> errors/page_missing

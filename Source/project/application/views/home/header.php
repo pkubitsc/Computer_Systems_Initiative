@@ -21,7 +21,6 @@ foreach ($_GET AS $key => $value) {
 <script type="text/javascript">
 $(document).ready(function() {
         $.ajaxSetup({ cache: false }); // This part addresses an IE bug.  without it, IE will only load the first number and will never refresh
-
                 (function get_posts() {
                     $('#posts').load('<?php echo $base_url;?>index.php/jquery_scripts/get_posts/<?php echo $function."/".$id."/".$current_page."/".$type_page."?".$get_adder; ?>');
                     setTimeout(get_posts, 300000);

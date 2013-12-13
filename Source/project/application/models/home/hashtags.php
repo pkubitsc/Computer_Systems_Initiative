@@ -16,13 +16,16 @@ class Hashtags extends CI_Model
         private $post_hashtags_table_name	= 'Post_Hashtags';	// user profiles
         private $following_table_name	= 'Following';	// Following
         private $ci;
+        private $logged_user_id;
 
 	function __construct()
 	{
 		parent::__construct();
 
 		$this->ci =& get_instance();
+                
                 $this->ci->load->library('haloc');
+                $this->logged_user_id = $this->ci->session->userdata('user_id');
                 
 		$this->table_name			= $this->ci->config->item('db_table_prefix', 'tank_auth').$this->table_name;
 		$this->post_hashtags_table_name	= $this->ci->config->item('db_table_prefix', 'tank_auth').$this->post_hashtags_table_name;
@@ -48,6 +51,19 @@ class Hashtags extends CI_Model
                 }
 		return NULL;
 	}
+        
+        function is_hashtag_followed_by_id($hashtag_id, $user_id) {
+                
+                $this->db->select('hashtag_id');
+		$this->db->where('hashtag_id', $hashtag_id);
+                $this->db->where('user_id', $user_id);
+
+		$query = $this->db->get('Following');
+		if ($query->num_rows() == 1) {
+                    return true;
+                }
+		return false;
+        }
         
         function get_hashtag_name($hashtag_id)
 	{
@@ -84,8 +100,10 @@ class Hashtags extends CI_Model
                 return NULL;
         }
         
-        function get_all_hashtags($page = 1, $order_by = 'hashtag', $order = 'DESC') {
-                $str = "SELECT * FROM Hashtags
+        function get_all_hashtags($page = 1, $order_by = 'Hashtags.hashtag', $order = 'DESC') {
+                $str = "SELECT Hashtags.*,
+                        (SELECT COUNT(*) FROM Following WHERE Following.user_id=".$this->logged_user_id." AND Following.hashtag_id=Hashtags.hashtag_id) AS is_followed
+                        FROM Hashtags
                         ORDER BY ".$order_by." ".$order."
                         LIMIT ".(($page-1)*10).",10";
 		$query = $this->db->query($str);
@@ -114,7 +132,10 @@ class Hashtags extends CI_Model
                             JOIN users ON Posts.user_id = users.id
                             JOIN user_profiles ON Posts.user_id = user_profiles.user_id
                             WHERE soundex(Hashtags.hashtag) = soundex('".$str1."')";*/
-                $stmt = "SELECT Hashtags.* FROM Hashtags WHERE soundex(Hashtags.hashtag) = soundex('".$str1."')
+                $stmt = "SELECT Hashtags.*,
+                        (SELECT COUNT(*) FROM Following WHERE Following.user_id=".$this->logged_user_id." AND Following.hashtag_id=Hashtags.hashtag_id) AS is_followed
+                        FROM Hashtags 
+                        WHERE soundex(Hashtags.hashtag) = soundex('".$str1."')
                         ORDER BY ".$order_by." ".$order."
                         LIMIT ".(($page-1)*10).",10";
                 $query = $this->db->query($stmt);
@@ -165,19 +186,19 @@ class Hashtags extends CI_Model
                 return FALSE;	
        }
        
-       function get_followed_hashtags($follower_id, $page) {
+       function get_followed_hashtags($follower_id, $page, $order_by = 'Hashtags.hashtag_id', $order = 'DESC') {
                 $stmt = "SELECT Hashtags.hashtag, Hashtags.hashtag_id, Hashtags.created
                         FROM Following
                         JOIN Hashtags ON Following.hashtag_id = Hashtags.hashtag_id
                         WHERE Following.user_id=".$follower_id."
-                        ORDER BY Hashtags.hashtag_id DESC
+                        ORDER BY ".$order_by." ".$order."
                         LIMIT ".(($page-1)*10).",10";
                 $query = $this->db->query($stmt);
 		$results = $query->result_array();
                 return $results;
        }
        
-       public function get_followed_hashtags_count($user_id) {
+       public function get_number_followed_hashtags($user_id) {
                 // for each argument passed...
                 // 1 argument = just un, or just fn, or just ln
                 // 2 arguments = fn/ln, ln/fn, un/fn, fn/un, un/ln, ln/un
