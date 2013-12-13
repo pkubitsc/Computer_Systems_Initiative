@@ -82,16 +82,6 @@ class Posts extends CI_Model
                 return $result['num_posts'];
         }
         
-        function get_number_posts_by_hashtag_id($hashtag_id) {
-                $query = "SELECT COUNT(*) AS num_posts FROM Posts 
-                            JOIN Post_Hashtags ON Posts.post_id = Post_Hashtags.post_id
-                            JOIN Hashtags ON Hashtags.hashtag_id = Post_Hashtags.hashtag_id
-                            WHERE Hashtags.hashtag_id=".$hashtag_id;
-                $get = $this->db->query($query);
-                $result = $get->row_array();
-                return $result['num_posts'];
-        }
-        
         function get_replies_by_post_id($parent_id, $page = 1, $order_by = 'Posts.created', $order = 'DESC') {
                 
                 $query = "SELECT Posts.*, users.username, user_profiles.profile_image,
@@ -202,6 +192,16 @@ class Posts extends CI_Model
                 //$query = $this->db->query("SELECT * FROM ".$this->table_name." WHERE user_id=".$user_id);
 		return $get->result_array();
                     
+        }
+        
+        function get_number_posts_by_hashtag_id($hashtag_id) {
+                $query = "SELECT COUNT(*) AS num_posts FROM Posts 
+                            JOIN Post_Hashtags ON Posts.post_id = Post_Hashtags.post_id
+                            JOIN Hashtags ON Hashtags.hashtag_id = Post_Hashtags.hashtag_id
+                            WHERE Hashtags.hashtag_id=".$hashtag_id;
+                $get = $this->db->query($query);
+                $result = $get->row_array();
+                return $result['num_posts'];
         }
         
         function get_parent_post($post_id, $page = null) {
@@ -355,6 +355,7 @@ class Posts extends CI_Model
                 $result = $get->row_array();
                 return $result['num_posts'];
         }
+
 }
 
 /* End of file users.php */

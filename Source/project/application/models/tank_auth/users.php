@@ -15,14 +15,18 @@ class Users extends CI_Model
 	private $table_name			= 'users';			// user accounts
 	private $profile_table_name	= 'user_profiles';	// user profiles
         private $following_table_name = 'Following';
+        private $logged_user_id;
 
 	function __construct()
 	{
 		parent::__construct();
 
 		$ci =& get_instance();
+                //$ci->load->library('tank_auth');
+                //$this->logged_user_id = $ci->tank_auth->get_user_id();
 		$this->table_name			= $ci->config->item('db_table_prefix', 'tank_auth').$this->table_name;
 		$this->profile_table_name	= $ci->config->item('db_table_prefix', 'tank_auth').$this->profile_table_name;
+                
 	}
 
 	/**
@@ -471,7 +475,8 @@ class Users extends CI_Model
                     $in_str = $in_str1.",".$in_str2.",".$in_str3;
                 }
                 
-                $stmt = "SELECT users.username, users.id, user_profiles.first_name, user_profiles.last_name, users.created, user_profiles.profile_image
+                $stmt = "SELECT users.username, users.id, user_profiles.first_name, user_profiles.last_name, users.created, user_profiles.profile_image,
+                        (SELECT COUNT(*) FROM Following WHERE Following.user_id=".$this->logged_user_id." AND Following.following_id=users.id) AS is_followed
                         FROM users
                         JOIN user_profiles ON user_profiles.user_id = users.id
                         WHERE soundex(users.username) IN (".$in_str.")

@@ -189,6 +189,16 @@ class Hashtags extends CI_Model
 		$results = $query->row_array();
                 return $results['num_results'];
         }
+        
+        function get_number_posts_by_hashtag_id($hashtag_id) {
+                $query = "SELECT COUNT(*) AS num_posts FROM Posts 
+                            JOIN Post_Hashtags ON Posts.post_id = Post_Hashtags.post_id
+                            JOIN Hashtags ON Hashtags.hashtag_id = Post_Hashtags.hashtag_id
+                            WHERE Hashtags.hashtag_id=".$hashtag_id;
+                $get = $this->db->query($query);
+                $result = $get->row_array();
+                return $result['num_posts'];
+        }
 }
 
 /* End of file users.php */

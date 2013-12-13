@@ -513,7 +513,11 @@ class Home extends CI_Controller
                         // it's a hashtag, get its ID
                         $clean_hashtag = $this->haloc->clean_hashtags($hashtag[0]);
                         $db_hashtag = $this->hashtags->get_hashtag_id($clean_hashtag[0]);
-                        $hashtag_id = $db_hashtag['hashtag_id'];
+                        if (is_null($db_hashtag)) {
+                                $hashtag_id = null;
+                        } else {
+                                $hashtag_id = $db_hashtag['hashtag_id'];
+                        }
                         
                 } else {
                         $hashtag_id = intval($element);
@@ -533,15 +537,22 @@ class Home extends CI_Controller
                         $data['errors'] = $errors;
                 }
                 
-                // get user information
-                $data['hashtag'] = $this->hashtags->get_hashtag_name($hashtag_id);
+                // get hashtag information
+                if (!is_null($hashtag_id)) {
+                        $data['hashtag'] = $this->hashtags->get_hashtag_name($hashtag_id);
+                        if (is_null($data['hashtag'])) {
+                                $data['errors'] = array('Hashtag Error' => 'Sorry, this hashtag does not exist');
+                        }
+                } else {
+                        $data['errors'] = array('Hashtag Error' => 'Sorry, this hashtag does not exist');
+                }
                 
                 $data['current_page'] = $page;
                 $data['base_url'] = $this->config->item('base_url');
                 $data['type_page'] = 'view_hashtag_profile';
-                $data['id'] = $user_id;
+                $data['id'] = $hashtag_id;
                 $data['function'] = "posts_by_hashtag_id";
-                $data['order_option'] = "hashtags";
+                $data['order_option'] = "posts";
 
                 $this->session->set_flashdata('redirect_url', '/home/view_hashtag_profile/'.$hashtag_id.'?page='.$page);
                 $this->session->set_userdata('redirect_url', '/home/view_hashtag_profile/'.$hashtag_id.'?page='.$page);

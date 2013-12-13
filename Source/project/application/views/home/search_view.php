@@ -79,7 +79,10 @@ if (isset($_GET['search'])) {
                     if ($user['id'] != $logged_in_user_id) { ?>
                             <table><tr>
                             <td><img src="http://localhost/project/images/user_images/<?php echo $user['profile_image']; ?>"></img></td>
-                            <td><?php echo $user['username']?> (ID: <?php echo $user['id']; ?>)- <a href="<?php echo $base_url;?>index.php/home/view_other_profile/<?php echo $user['id']; ?>">See Profile/Posts</a> - <a href="<?php echo $base_url."index.php/home/follow_user/".$user['id']; ?>">Follow</a><br />
+                            <td><?php echo $user['username']?> (ID: <?php echo $user['id']; ?>)- <a href="<?php echo $base_url;?>index.php/home/view_other_profile/<?php echo $user['id']; ?>">See Profile/Posts</a>
+                                <?php if ($user['is_followed'] > 0) { ?>
+                                    - <a href="<?php echo $base_url."index.php/home/follow_user/".$user['id']; ?>">Follow</a><br />
+                                <?php } ?>
                             <?php echo $user['first_name']; ?> <?php echo $user['last_name']; ?></td>
                             </tr></table><br />
             <?php } }
