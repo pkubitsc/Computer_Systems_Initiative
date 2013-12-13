@@ -16,8 +16,7 @@ class Jquery_Scripts extends CI_Controller
         
         function check_username() {
                 // just a simple check username
-                $this->load->model('users');
-                
+                $this->load->model('tank_auth/users');
                 if (isset($_POST['username'])) {
                     $username = xss_clean(trim($_POST['username']));
                         if (empty($username)) {
@@ -35,7 +34,7 @@ class Jquery_Scripts extends CI_Controller
         
         function check_email() {
                 // just a simple check username
-                $this->load->model('users');
+                $this->load->model('tank_auth/users');
                 
                 if (isset($_POST['email'])) {
                     $email = xss_clean(trim($_POST['email']));

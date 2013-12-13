@@ -67,6 +67,8 @@ $captcha = array(
 <!DOCTYPE html>
 <html>
 <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+        </script>
 	<title>Register</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -74,23 +76,12 @@ $captcha = array(
         <link rel="stylesheet" type="text/css" href="style.css" media="all" />
         <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>css/register/demo.php?url=<?php echo $base_url; ?>" media="all" />
         <link href="<?php echo $base_url; ?>css/register/style.php?url=<?php echo $base_url; ?>" rel="stylesheet" type="text/css" media="screen" />
-   <script src="<?php echo $base_url; ?>css/register/script.js"></script>
-   
-   	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script src="<?php echo $base_url; ?>script.js"></script>
-        
-        <!--script for checking username, email, password matching-->	
-        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-        <!-- <script type="text/javascript" src="js/jquery-ui-1.8.17.custom.min.js"></script> -->
         
        <script type="text/javascript">
- 
- 
- 
         //Script for checking username
          $(document).ready(function(){
             $("#username").change(function(){
-                 $("#message").html("<img src='<?php echo $base_url; ?>images/ajax-loader.gif' /> checking...");
+                 $("#message").html("<img src='<?php echo $base_url; ?>images/register/ajax_loader.gif' /> checking...");
              
  
             var username=$("#username").val();
@@ -100,13 +91,17 @@ $captcha = array(
                     url:"<?php echo $base_url; ?>index.php/jquery_scripts/check_username/",
                     data:"username="+username,
                         success:function(data){
+                            
                         if(data==0){
                             $("#message").html("<img src='<?php echo $base_url; ?>images/register/tick.png' /> Username available");
                         }
                         else{
                             $("#message").html("<img src='<?php echo $base_url; ?>images/register/cross.png' /> Username already taken");
                         }
-                    }
+                    },
+                    error: function(error) {
+                            $("#message").html(error);
+                        }
                  });
  
             });
@@ -132,7 +127,7 @@ $captcha = array(
          //function checking email	
          $(document).ready(function(){
             $("#email").change(function(){
-                 $("#message_email").html("<img src='<?php echo $base_url; ?>images/register/ajax-loader.gif' /> checking...");
+                 $("#message_email").html("<img src='<?php echo $base_url; ?>images/register/ajax_loader.gif' /> checking...");
              
  
             var email=$("#email").val();
@@ -156,6 +151,7 @@ $captcha = array(
          });
  
        </script>
+        <script src="<?php echo $base_url; ?>css/register/script.js"></script>
         
     </head>
 <body>
