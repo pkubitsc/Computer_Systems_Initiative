@@ -50,7 +50,7 @@ Instructions For Use:
 2. Once downloaded, place the project folder in the correct folder on the server
 
 
-3. Create a new database titles 'haloc' and run the SQL script in the root folder titled 'setup.sql' on haloc
+3. Create a new database titles 'haloc' and run the SQL script in the root folder titled 'setup.sql' on haloc. Delete setup.sql or move it to an inaccessible area.
 
 
 4. Open the database.php file located at /project/applications/config/database.php and edit $config['hostname'], $config['username'], $config['password'] and $config['database'] with the values associated with your database.
