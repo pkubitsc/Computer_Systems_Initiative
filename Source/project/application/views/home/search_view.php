@@ -81,7 +81,7 @@ if (isset($_GET['search'])) {
                 foreach ($user_results as $user) {
                     if ($user['id'] != $logged_in_user_id) { ?>
                             <table><tr>
-                            <td><img src="http://localhost/project/images/user_images/<?php echo $user['profile_image']; ?>"></img></td>
+                            <td><img src="<?php echo $base_url."images/user_images/".$user['profile_image']; ?>"?>"></img></td>
                             <td><?php echo $user['username']?> (ID: <?php echo $user['id']; ?>)- <a href="<?php echo $base_url;?>index.php/home/view_other_profile/<?php echo $user['id']; ?>">See Profile/Posts</a>
                                 <?php if ($user['is_followed'] == 0) { ?>
                                     - <a href="<?php echo $base_url."index.php/home/follow_user/".$user['id']; ?>">Follow</a><br />

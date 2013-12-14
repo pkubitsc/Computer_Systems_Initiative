@@ -327,12 +327,23 @@ class Home extends CI_Controller
                                                 $data['function'] = "search_users";
                                                 $data['order_option'] = "users";
                                         } else {
-                                                if (!isset($terms[1])) {
-                                                        $data['user_results'] = $this->users->search_users($terms[0], null, null, $page, $sort_data['order_by'], $sort_data['order']);
-                                                } elseif (!isset($terms[2])) {
-                                                        $data['user_results'] = $this->users->search_users($terms[0], $terms[1], null, $page, $sort_data['order_by'], $sort_data['order']);
+                                                if (isset($_GET['sort']) || !empty($_GET['sort'])) {
+                                                    $sort_data = $this->haloc->clean_sort_by('users');
+                                                    if (!isset($terms[1])) {
+                                                            $data['user_results'] = $this->users->search_users($terms[0], null, null, $page, $sort_data['order_by'], $sort_data['order']);
+                                                    } elseif (!isset($terms[2])) {
+                                                            $data['user_results'] = $this->users->search_users($terms[0], $terms[1], null, $page, $sort_data['order_by'], $sort_data['order']);
+                                                    } else {
+                                                            $data['user_results'] = $this->users->search_users($terms[0], $terms[1], $terms[2], $page, $sort_data['order_by'], $sort_data['order']);
+                                                    }
                                                 } else {
-                                                        $data['user_results'] = $this->users->search_users($terms[0], $terms[1], $terms[2], $page, $sort_data['order_by'], $sort_data['order']);
+                                                    if (!isset($terms[1])) {
+                                                            $data['user_results'] = $this->users->search_users($terms[0], null, null, $page);
+                                                    } elseif (!isset($terms[2])) {
+                                                            $data['user_results'] = $this->users->search_users($terms[0], $terms[1], null, $page);
+                                                    } else {
+                                                            $data['user_results'] = $this->users->search_users($terms[0], $terms[1], $terms[2], $page);
+                                                    }
                                                 }
 
                                                 $data['current_page'] = $page;
